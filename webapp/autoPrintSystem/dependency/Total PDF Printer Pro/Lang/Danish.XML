@@ -1,0 +1,756 @@
+<!-- translated by: John W Hansen -->
+<!-- mailto: john62hansen@gmail.com -->
+<?xml version="1.0" encoding="windows-1252"?>
+  <Messages>
+    <Item Name="liCombineTo" value="Kombinér til: " />
+    <Item Name="liSplitTo" value="Opdel til: " />
+    <Item Name="miCmdParams" value="Kommando linie parametre" />
+    <Item Name="msgSomeFilesFiltered" value="&lt;nogle filer er filtréret, dobbelt klik for at se dem&gt;" />
+    <Item Name="attrName" value="Navn" />
+    <Item Name="attrSize" value="Str." />
+    <Item Name="attrType" value="Type" />
+    <Item Name="attrModified" value="Ændret" />
+    <Item Name="attrAttributes" value="Attributer" />
+    <Item Name="attrComment" value="Kommentar" />
+    <Item Name="attrCreated" value="Oprettet" />
+    <Item Name="attrAccessed" value="Åbnet" />
+    <Item Name="boxSelectDestination" value="Vælg destination" />
+    <Item Name="boxFinishConversion" value="Start konvertéring" />
+    <Item Name="errFileNameEmpty" value="Fil navn kan ikke være tomt" />
+    <Item Name="errSelectFile" value="Udpeg venligst fil navnet" />
+    <Item Name="errWriteCD" value="Kan ikke skrive filer til CD-ROM" />
+    <Item Name="errFolderReadOnly" value="Kan ikke oprette filer i denne mappe" />
+    <Item Name="errConvertItself" value="Kan ikke konvertére fil til sig selv" />
+    <Item Name="errFolderNameEmpty" value="Mappe navn kan ikke være tomt" />
+    <Item Name="Resize" value="Ændre str." />
+    <Item Name="Crop" value="Beskær" />
+    <Item Name="Rotate" value="Rotér" />
+    <Item Name="Transform" value="Omdan" />
+    <Item Name="Watermark" value="Vandmærke" />
+    <Item Name="Logo" value="Logo" />
+    <Item Name="Comments" value="Kommentar" />
+    <Item Name="Frame" value="Ramme" />
+    <Item Name="Colors" value="Farver" />
+    <Item Name="Icon colors" value="Ikon farver" />
+    <Item Name="Icon Sizes" value="Ikon Str." />
+    <Item Name="Transparency" value="Gennemsigtighed" />
+    <Item Name="JPEG2000 Compression" value="JPEG2000 Kompriméret" />
+    <Item Name="JPEG Quality" value="JPEG Kvalitet" />
+    <Item Name="Format" value="Format" />
+    <Item Name="RAW Format" value="RAW Format" />
+    <Item Name="TIFF Compression" value="TIFF Kompriméret" />
+    <Item Name="Color space" value="Farve plads" />
+    <Item Name="Compression" value="Kompression" />
+    <Item Name="Paper" value="Papir" />
+    <Item Name="Properties" value="Egenskaber" />
+    <Item Name="Orientation" value="Orientéring" />
+    <Item Name="Details" value="Detaljer" />
+    <Item Name="Thumbnails" value="Miniature" />
+    <Item Name="msgNoFileSelected" value="Ingen fil valgt" />
+    <Item Name="Document" value="Dokument" />
+    <Item Name="Render" value="Gengiv" />
+    <Item Name="Image format" value="Billed format" />
+    <Item Name="Background" value="Baggrund" />
+    <Item Name="Items" value="Emne" />
+    <Item Name="msgPart" value="Part" />
+    <Item Name="Encryption" value="Kryptéring" />
+    <Item Name="PDF Options" value="PDF Tilpasning" />
+    <Item Name="TXT Options" value="TXT Tilpasning" />
+    <Item Name="Page Break" value="Side skift" />
+    <Item Name="CSV Format" value="CSV Format" />
+    <Item Name="Page Processing" value="Side behandling" />
+    <Item Name="File name template" value="Fil navn skabelon" />
+    <Item Name="Image DPI" value="Billed DPI" />
+    <Item Name="Multipage TIFF" value="Flersidet TIFF" />
+    <Item Name="Extract pages" value="Udpak sider" />
+    <Item Name="Combine" value="Kombinér" />
+    <Item Name="attrTitle" value="Titel" />
+    <Item Name="attrDuration" value="Varighed" />
+    <Item Name="attrChannels" value="Spor" />
+    <Item Name="attrSampleRate" value="SampleRate" />
+    <Item Name="attrBitrate" value="Bitrate" />
+    <Item Name="attrAlbum" value="Album" />
+    <Item Name="attrArtist" value="Artist" />
+    <Item Name="attrYear" value="År" />
+    <Item Name="attrGenre" value="Genre" />
+    <Item Name="attrTrack" value="Nummer" />
+    <Item Name="infoUnknown" value="&lt;Ukendt&gt;" />
+    <Item Name="boxWavBits" value="Bits" />
+    <Item Name="boxSamplerate" value="Sample Rate" />
+    <Item Name="boxChannels" value="Spor" />
+    <Item Name="boxBitrate" value="Bitrate" />
+    <Item Name="boxQuality" value="Kvalitet" />
+    <Item Name="boxProfile" value="Profil" />
+    <Item Name="boxCompression" value="Kompression" />
+    <Item Name="boxCDTrackList" value="Nummer liste" />
+    <Item Name="boxSplittingFile" value="Opdeler fil" />
+    <Item Name="boxConvertTo" value="Konvertér Til" />
+    <Item Name="Stereo" value="Stereo" />
+    <Item Name="Joint Stereo" value="Joint stereo" />
+    <Item Name="Dual channels" value="Dobbelt Spor" />
+    <Item Name="Mono" value="Mono" />
+    <Item Name="mitbWrite_CD" value="Skriv CD" />
+    <Item Name="mitbRip_CD" value="Rip CD" />
+    <Item Name="descDestination" value="Destination" />
+    <Item Name="SampleRate" value="Sample Rate" />
+    <Item Name="Channels" value="Spor" />
+    <Item Name="Bitrate" value="Bitrate" />
+    <Item Name="descConvertTo" value="Konvertér til " />
+    <Item Name="descRipCD" value="Rip Audio CD" />
+    <Item Name="descOGGQuality" value="Kvalitét" />
+    <Item Name="attrAuthor" value="Forfatter" />
+    <Item Name="attrSubject" value="Emne" />
+    <Item Name="attrPageSize" value="SideStr." />
+    <Item Name="attrPageCount" value="SideAntal" />
+    <Item Name="attrOrderID" value="OrderID" />
+    <Item Name="liConvertTo" value="Konvertér til" />
+    <Item Name="Pixel format" value="Pixel format" />
+    <Item Name="Text Options" value="Tekst Valg" />
+    <Item Name="mitbUnicode_Text" value="Unicode Tekst" />
+    <Item Name="Paper preferences" value="Side præference" />
+    <Item Name="descWAV" value="Konvertér til wav fil" />
+    <Item Name="descMP3" value="Konvertér til mp3 fil" />
+    <Item Name="descWMA" value="Konvertér til Window Media Audio" />
+    <Item Name="descOGG" value="Konvertér til OGG Vorbis fil" />
+    <Item Name="descFLAC" value="Konvertér til FLAC fil" />
+    <Item Name="descMPC" value="Konvertér til Musepack (MPEG+) fil" />
+    <Item Name="descAAC" value="Konvertér til Avancéret Audio Kompriméret fil" />
+    <Item Name="descAPE" value="Konvertér til Monkeys Audio fil" />
+    <Item Name="descMP4" value="Konvertér til MPEG4 Audio fil" />
+    <Item Name="descDVD" value="Rip DVD" />
+    <Item Name="descAudioCD" value="Opret Audio CD" />
+    <Item Name="Codec" value="Codec" />
+    <Item Name="PartFile" value="Del af en fil" />
+    <Item Name="Dimensions" value="Størrelsen på filen er: " />
+    <Item Name="mitbConvert_to_HTML" value="Konvertér til HTML" />
+    <Item Name="boxCombine" value="Kombinér" />
+    <Item Name="Margin" value="Margin" />
+    <Item Name="Part of a file" value="Del af en fil" />
+    <Item Name="Rip CD" value="Rip CD" />
+    <Item Name="Write CD" value="Skriv CD" />
+    <Item Name="msgWizardCaption_TotalAudioConverter" value="Konvertér musik til [format]" />
+    <Item Name="msgWizardCaption_PDFCombine" value="Konvertér til PDF" />
+    <Item Name="msgWizardCaption_TotalHTMLConverter" value="Konvertér HTML dokument" />
+    <Item Name="msgWizardCaption_TotalPDFConverter" value="Konvertér PDF dokument" />
+  </Messages>
+  <Forms>
+    <Form name="MainForm" >
+      <Control Name="miFile" Caption="&amp;Fil" />
+      <Control Name="miSkins" Caption="Skins" />
+      <Control Name="miNoSkin" Caption="Intet skin" />
+      <Control Name="miRefresh" Caption="Opfrisk" />
+      <Control Name="miPrint" Caption="Udskriv" />
+      <Control Name="miExit" Caption="&amp;Afslut" />
+      <Control Name="miView" Caption="&amp;Vis" />
+      <Control Name="miEdit" Caption="&amp;Redigér" />
+      <Control Name="miConvert" Caption="&amp;Konvertér" />
+      <Control Name="miHelp" Caption="&amp;Hjælp" />
+      <Control Name="lbFilterCaption" Caption="Filter: " />
+      <Control Name="liConvertTo" Caption="Konvertér til: " />
+      <Control Name="mitbOther" Caption="Andet" />
+      <Control Name="miAbout" Caption="Om..." />
+    </Form>
+    <!-- Doc Converter -->
+    <Form name="DocBrowseFrame" source="ListBrowseFrame" section="DocConverter" />
+    <Form name="DocWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="DocWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="DocWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Converter -->
+    <Form name="PDFListFrame" source="ListBrowseFrame" section="PDFConverter" />
+    <Form name="PDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFConverter" />
+    <Form name="PDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFConverter" />
+    <Form name="PDFWizardForm" source="CustomWizard" section="PDFConverter" />
+    <!-- HTML Converter -->
+    <Form name="HTMListFrame" source="ListBrowseFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFileFrame" source="CommonWizardFileFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFolderFrame" source="CommonWizardFolderFrame" section="HTMLConverter" />
+    <Form name="HTMWizardForm" source="CustomWizard" section="HTMLConverter" />
+    <!-- Image Converter -->
+    <Form name="ImagesListFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImageWizardFileFrame" source="CommonWizardFileFrame" section="ImageConverter" />
+    <Form name="ImageWizardFolderFrame" source="CommonWizardFolderFrame" section="ImageConverter" />
+    <Form name="ImageWizardForm" source="CustomWizard" section="ImageConverter" />
+    <!-- AudioConverter -->
+    <Form name="MP3WizardFileFrame" source="CommonWizardFileFrame" />
+    <Form name="MP3WizardFolderFrame" source="CommonWizardFolderFrame" />
+    <Form name="Mp3WizardForm" source="CustomWizard" section="AudioConverter" />
+    <Form name="MP3ListFrame" source="ListBrowseFrame" section="AudioConverter" />
+    <!-- XLS Converter -->
+    <Form name="XLSListBrowseFrame" source="ListBrowseFrame" section="ExcelConverter" />
+    <Form name="XLSWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="XLSWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="XLSWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Combine -->
+    <Form name="ToPDFBrowseFrame" source="ListBrowseFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardForm" source="CustomWizard" section="PDFCombine" />
+    <!-- Mail Converter -->
+    <Form name="MailListBrowseFrame" source="ListBrowseFrame" section="MailConverter" />
+    <Form name="MailWizardFileFrame" source="CommonWizardFileFrame" section="MailConverter" />
+    <Form name="MailWizardFolderFrame" source="CommonWizardFolderFrame" section="MailConverter" />
+    <Form name="MailWizardForm" source="CustomWizard" section="MailConverter" />
+    <!-- Tiff Pagging -->
+    <Form name="ImageWizardFileTemplateFrame" source="PDFWizardFileTemplateFrame" section="ImageConverter" />
+    <!-- CAD Converter -->
+    <Form name="CADWizardRotateFrame" source="ImageWizardRotateFrame" />
+    <Form name="CADWizardForm" source="CustomWizard" />
+    <!-- Common Form -->
+    <Form name="DataModuleHelp" >
+      <Control Name="miHelp" Caption="Hjælp" />
+      <Control Name="miLang" Caption="Sprog" />
+      <Control Name="miRegister" Caption="Indtast Registrérings Kode..." />
+      <Control Name="miOrder" Caption="Hvordan køber man" />
+      <Control Name="miHotOffer" Caption="Varmt tilbud!" />
+      <Control Name="miBuyCoolUtils" Caption="Køb CoolUtils PRO - for kun $99!" />
+      <Control Name="miLearnCoolUtils" Caption="Lær mere..." />
+      <Control Name="miWriteUs" Caption="Skriv til os" />
+      <Control Name="miWebSite" Caption="Web Side" />
+      <Control Name="miAbout" Caption="Om..." />
+    </Form>
+    <Form name="CustomWizard" >
+      <Control Name="bnBack" Caption="&lt;&lt; &amp;Tilbage" />
+      <Control Name="bnNext" Caption="&amp;Næste &gt;&gt;" />
+      <Control Name="bnCancel" Caption="&amp;Annullér" />
+      <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form name="CommonWizardFolderFrame" >
+      <Control Name="Label1" Caption="Vælg destinations mappe" />
+      <Control Name="Label2" Caption="Mappe navn:" />
+      <Control Name="cbKeepStructure" Caption="Behold mappe strukturen" />
+      <Control Name="bnSetDefault" Caption="Sæt denne sti som standard" />
+    </Form>
+    <Form name="CommonWizardFileFrame" >
+      <Control Name="Label1" Caption="Sæt ny fil navn" />
+      <Control Name="Label2" Caption="Fil navn:" />
+      <Control Name="edFileName" AltButtonHint="Brug nuværende sti" DialogTitle="Gem fil som" />
+      <Control Name="bnSetDefault" Caption="Sæt denne sti som standard" />
+    </Form>
+    <Form name="ListBrowseFrame" >
+      <Control Name="miIncludeSubfolders" Caption="Inkludér undermapper" />
+      <Control Name="miCheck" Caption="Afmarkér" />
+      <Control Name="miUncheck" Caption="Demarkér" />
+      <Control Name="miCheckAll" Caption="Markér Alt" />
+      <Control Name="miUncheckAll" Caption="Demarkér Alt" />
+      <Control Name="miCheckByMask" Caption="Markér efter tegn..." />
+      <Control Name="miRestoreLast" Caption="Gendan sidste valg" />
+      <Control Name="miLanguage" Caption="Sprog" />
+    </Form>
+    <Form Name="HTMWizardPDFOriientationFrame" >
+      <Control Name="Label1" Caption="Angiv orientéringen af siderne i dokumentet" />
+      <Control Name="rgOrientation" Caption="Orientéring" >
+        <item>Lodret</item>
+        <item>Vandret</item>
+      </Control>
+    </Form>
+    <Form name="WizardFinishFrame" >
+      <Control Name="Label1" Caption="Alle informationer som guiden behøver til konvertére er blevet indsamlet" />
+      <Control Name="lbFinishCaption" Caption="Klik START for at konvertére" />
+      <Control Name="lbViewCaption" Caption="Du er nu klar til at konvertére med flg. valg:" />
+      <Control Name="cbOpenDestination" Caption="Åbn destinations mappen efter konvertéring" />
+      <Control Name="cbDeleteOriginals" Caption="Slet originaler" />
+      <Control Name="lbDiscount" Caption="&lt;a href=discount&gt;DISCOUNT!&lt;/a&gt;" />
+    </Form>
+    <Form Name="HTMWizardPDFRenderFrame" >
+      <Control Name="Label1" Caption="Vælg de elementer du vil inkludérer/n i det færdige dokument" />
+      <Control Name="cgItems" Caption="Angiv emner" >
+        <item>Tekst</item>
+        <item>Form</item>
+        <item>Billed</item>
+      </Control>
+      <Control Name="rgEncodeType" Caption="Indlejre brugte True Type fonte" >
+        <item>Ingen</item>
+        <item>Fuld</item>
+        <item>Delmængde</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardImageFormatFrame" >
+      <Control Name="Label1" Caption="Vælg output billed format/n der skal gengives i HTML billeder" />
+      <Control Name="Label2" Caption="Kilde DPI:" />
+      <Control Name="rgImageFormat" Caption="Output billed format" >
+        <item>BMP - Dårlig kompression</item>
+        <item>JPEG - Bedste til foto</item>
+        <item>CCITT3 - Fax kompression, b/w</item>
+        <item>CCITT4 - Fax kompression, b/w</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardJpegQualityFrame" >
+      <Control Name="Label1" Caption="For JPEG billeder kan du angive kvaliteten" />
+      <Control Name="ElGroupBox1" Caption="Kvalitét" />
+      <Control Name="Label5" Caption="Bedre (maximum str.)" />
+      <Control Name="Label6" Caption="Dårlig (minimum str.)" />
+    </Form>
+    <Form Name="HTMWizardBmpPixelFormatFrame" >
+      <Control Name="Label1" Caption="Indikér bit formatet af bitmap billede, /n angiver hvordan billedet skal vises/n " />
+      <Control Name="rgPixelFormat" Caption="Billed pixel format" >
+        <item>1 bit - En bit pr. pixel (sort og hvid palet)</item>
+        <item>4 bit - 16-farver palet.</item>
+        <item>8 bit - 256-farver palet.</item>
+        <item>15 bit - True-color bitmap, RGB kompression</item>
+        <item>16 bit - True-color bitmap, bitfield kompression</item>
+        <item>24 bit - True-color bitmap, 24 bits pr. pixel.</item>
+        <item>32 bit - True-color bitmap, 32 bits pr. pixel</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardBkgndFrame" >
+      <Control Name="Label1" Caption="Du kan vælge baggrunds billed/n eller bruge tilpasset baggrunds farve" />
+      <Control Name="rbColor" Caption="Brug baggrunds farve" />
+    </Form>
+    <Form Name="HTMWizardPDFWatermarkFrame" >
+      <Control Name="Label1" Caption="Vælg vandmærke egenskaber/n i slut dokumentet" />
+      <Control Name="lbComment" Caption="Tekst vandmærke:" />
+      <Control Name="Label2" Caption="Side antal (1-5,10)" />
+      <Control Name="gbFont" Caption="Font" />
+      <Control Name="Label3" Caption="Navn:" />
+      <Control Name="Label4" Caption="Str.:" />
+      <Control Name="Label5" Caption="Farve:" />
+      <Control Name="gbPos" Caption="Position" />
+    </Form>
+    <Form Name="HTMWizardPdfDocInfoFrame" >
+      <Control Name="Label1" Caption="Dokument information" />
+      <Control Name="Label2" Caption="Forfatter:" />
+      <Control Name="Label3" Caption="Skaber:" />
+      <Control Name="Label4" Caption="Nøgleord:" />
+      <Control Name="Label5" Caption="Emne:" />
+      <Control Name="Label6" Caption="Titel:" />
+    </Form>
+    <Form Name="HTMWizardPDFCompressionFrame" >
+      <Control Name="Label1" Caption="Vælg dokument komprimérings niveau" />
+      <Control Name="rgCompression" Caption="Komprimérings niveau" >
+        <item>Hurtigst</item>
+        <item>Normal</item>
+        <item>Maksimum</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardPDFEncyptionFrame" >
+      <Control Name="Label1" Caption="Du kan beskytte PDF dokumentet" />
+      <Control Name="gbEncryption" Caption="Kryptér dokumentet" />
+      <Control Name="Label2" Caption="Ejer password:" />
+      <Control Name="Label3" Caption="Bekræft:" />
+      <Control Name="Label4" Caption="Bruger password:" />
+      <Control Name="Label5" Caption="Bekræft:" />
+      <Control Name="cgPermissions" Caption="Bruger tilladelser" >
+        <item>Kopiér</item>
+        <item>Ændre</item>
+        <item>Udskriv</item>
+        <item>Udfyld Formular</item>
+        <item>Kommentar</item>
+        <item>Tilgængelighed</item>
+        <item>Dokument Samling</item>
+        <item>Høj Opløsselig Udskrift</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardRenderFrame" >
+      <Control Name="Label1" Caption="Vælg de elementer du vil inkludére/n i slut dokumentet" />
+      <Control Name="cgItems" Caption="Angiv emner" >
+        <item>Tekst</item>
+        <item>Form</item>
+        <item>Billed</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardTiffCompressionFrame" >
+      <Control Name="Label1" Caption="Vælg kompriméring af TIFF dokumenter" />
+      <Control Name="rgCompression" Caption="Komprimérings type" >
+        <item>Ukompriméret</item>
+        <item>LZW Kompriméring</item>
+        <item>RLE Kompriméring (pakkebits)</item>
+        <item>JPEG Kompriméring</item>
+        <item>Bilevel Huffman Kompriméring (CCITT1D)</item>
+        <item>Bilevel Gruppe 3 CCITT Kompriméring, monodimensionel (G3FAX1D)</item>
+        <item>Bilevel Gruppe 3 CCITT Kompriméring, bidimensionel (G3FAX2D)</item>
+        <item>Bilevel Gruppe 4 CCITT Kompriméring, bidimensionel (G4FAX)</item>
+      </Control>
+    </Form>
+    <Form Name="XLSWizardPDFPropFrame" >
+      <Control Name="Label1" Caption="Vælg PDF tilpasning" />
+      <Control Name="cbIncludeTrueType" Caption="Indlejret True Type font" />
+    </Form>
+    <Form Name="XLSWizardTextPropFrame" >
+      <Control Name="Label1" Caption="Vælg Tekst tilpasning" />
+      <Control Name="rgTextDelimiter" Caption="Tekst Afgrænsning" >
+        <item>Ingen</item>
+        <item>Tab</item>
+        <item>Mellemrum</item>
+        <item>CSV</item>
+      </Control>
+    </Form>
+    <Form Name="DocPDFPropWizardFrame" Caption="Egenskaber" >
+      <Control Name="Label1" Caption="Dokument information" />
+      <Control Name="Label2" Caption="Forfatter:" />
+      <Control Name="Label3" Caption="Skaber:" />
+      <Control Name="Label4" Caption="Nøgleord:" />
+      <Control Name="Label5" Caption="Emne:" />
+      <Control Name="Label6" Caption="Titel:" />
+    </Form>
+    <Form Name="DocTxtPropFrame" >
+      <Control Name="Label1" Caption="Papir præferencer" />
+      <Control Name="rgPageOrientation" Caption="Papir Retning" >
+        <item>Lodret</item>
+        <item>Vandret</item>
+      </Control>
+    </Form>
+    <Form Name="DocWizardTiffCompressionFrame" Caption="TIFF Kompriméring" >
+      <Control Name="Label1" Caption="Vælg kompriméring af TIFF dokumenter" />
+      <Control Name="rgCompression" Caption="Komprimérings type" >
+        <item>Ingen</item>
+        <item>G4Fax</item>
+        <item>LZW</item>
+        <item>JPeg</item>
+        <item>Pakke Bits</item>
+        <item>Zip</item>
+      </Control>
+    </Form>
+    <Form Name="ImageInfoFrame" >
+      <Control Name="ElLabel2" Caption="Str.:" />
+      <Control Name="ElLabel1" Caption="Bredde:" />
+      <Control Name="ElLabel3" Caption="Højde:" />
+      <Control Name="ElLabel4" Caption="Farver:" />
+      <Control Name="ElLabel5" Caption="Rammer:" />
+      <Control Name="ElLabel6" Caption="Dato:" />
+      <Control Name="ElLabel7" Caption="Retning:" />
+      <Control Name="ElLabel8" Caption="Model:" />
+      <Control Name="ElLabel9" Caption="Fil type:" />
+      <Control Name="miLanguage" Caption="Sprog" />
+    </Form>
+    <Form Name="ImageWizardCropFrame" >
+      <Control Name="Label1" Caption="Du kan beskære dit billede for at fjerne unødvendige dele" />
+      <Control Name="Label2" Caption="Beskær Venstre:" />
+      <Control Name="Label3" Caption="Beskær Bund:" />
+      <Control Name="Label4" Caption="Beskær Højre:" />
+      <Control Name="Label5" Caption="Beskær Top:" />
+      <Control Name="bnSelect" Caption="Vælg..." />
+    </Form>
+    <Form Name="ImageWizardRotateFrame" >
+      <Control Name="Label1" Caption="Rotér billede for bedre visning" />
+      <Control Name="gbOrientation" Caption="Nuværende billed retning" />
+      <Control Name="ElRadioButton1" Caption="Top / Venstre side" />
+      <Control Name="ElRadioButton2" Caption="Top / Højre side" />
+      <Control Name="ElRadioButton3" Caption="Bund / Højre side" />
+      <Control Name="ElRadioButton4" Caption="Bund / Venstre side" />
+      <Control Name="ElRadioButton5" Caption="Venstre side / Top" />
+      <Control Name="ElRadioButton6" Caption="Højre side / Top" />
+      <Control Name="ElRadioButton7" Caption="Højre side / Bund" />
+      <Control Name="ElRadioButton8" Caption="Venstre side / Bund" />
+      <Control Name="ElRadioButton9" Caption="Hent orientation fra EXIF tag'et" />
+    </Form>
+    <Form Name="ImageWizardColorsFrame" >
+      <Control Name="Label1" Caption="Vælg farve antal i destinations billede" />
+      <Control Name="rgColors" Caption="Farver" >
+        <item>Sort &amp;&amp; Hvid</item>
+        <item>Gråskaléring</item>
+        <item>16 Farver</item>
+        <item>256 Farver</item>
+        <item>Ægte Farver (24bit)</item>
+      </Control>
+    </Form>
+    <Form name="ImageWizardWatermarkFrame" >
+      <Control Name="Label1" Caption="Tilføj dit transperente logo til billedet" />
+      <Control Name="Label2" Caption="Logo:" />
+      <Control Name="gbTransparency" Caption="Gennemsigtighed:" />
+      <Control Name="Label4" Caption="Nej" />
+      <Control Name="Label3" Caption="Fuld" />
+      <Control Name="bnEffects" Caption="Effekter &gt;" />
+      <Control Name="ElGroupBox2" Caption="Position" />
+      <Control Name="Label6" Caption="Plads:" />
+    </Form>
+    <Form name="ImageWizardMaskFrame" >
+      <Control Name="Label1" Caption="Tilføj en ramme til dine fotos" />
+      <Control Name="Label2" Caption="Ramme:" />
+      <Control Name="lbSpace" Caption="Plads:" />
+      <Control Name="rbNoFrame" Caption="Ingen Ramme" />
+      <Control Name="rbFrameIndex" Caption="Ramme indeks:" />
+      <Control Name="rbFrameFile" Caption="Ramme fra fil:" />
+      <Control Name="cbInsideImage" Caption="Indeni billede" />
+    </Form>
+    <Form Name="ImageWizardCommentFrame" >
+      <Control Name="Label1" Caption="Du kan tilføje en beskrivelse til dine fotos/n baséret på billed egenskaberne" />
+      <Control Name="lbComment" Caption="Kommentar:" />
+      <Control Name="gbPos" Caption="Position" />
+      <Control Name="Label6" Caption="Plads:" />
+      <Control Name="gbFont" Caption="Font" />
+      <Control Name="Label3" Caption="Navn:" />
+      <Control Name="Label4" Caption="Str.:" />
+      <Control Name="Label5" Caption="Farve:" />
+      <Control Name="cbSoftShadow" Caption="Tilføj blød skygge" />
+      <Control Name="gbExample" Caption="Eksempel" />
+      <Control Name="cbAddComment" Caption="Tilføj kommentar til billedet" />
+    </Form>
+    <Form Name="ImageWizardJpegQualityFrame" >
+      <Control Name="Label1" Caption="Med JPEG billeder kan du definére kvalitet og blødgøring" />
+      <Control Name="gbQuality" Caption="Kvalitét" />
+      <Control Name="Label5" Caption="Bedre (maksimum str.)" />
+      <Control Name="Label6" Caption="Mindre (minimum str.)" />
+      <Control Name="gbSmoothing" Caption="Blødgøring" />
+      <Control Name="cbLossless" Caption="Med JPEG billeder benyt informationen fra kilde filen/n transformations tab, hvis muligt" />
+    </Form>
+    <Form name="ImageWizardJP2KRateFrame" >
+      <Control Name="Label1" Caption="Med JPEG 2000 formatet kan du angive komprimérings niveau'et" />
+      <Control Name="ElGroupBox1" Caption="Niveau" />
+      <Control Name="Label5" Caption="Bedre (maksimum str.)" />
+      <Control Name="Label6" Caption="Mindre (minimum str.)" />
+    </Form>
+    <Form name="ImageWizardIcoSizeFrame" >
+      <Control Name="Label1" Caption="Vælg billed str. du vil inkludérer som ikon" />
+      <Control Name="cbSelectBest" Caption="Vælg bedste opløsning" />
+    </Form>
+    <Form Name="ImageWizardIcoColorsFrame" >
+      <Control Name="Label1" Caption="ICO formatet understøtter nogle farve billeder i en fil./n Vælg de farver du vil inkludérer" />
+      <Control Name="cgColors" >
+        <item>16 Farver</item>
+        <item>256 Farver</item>
+        <item>Ægte Farver</item>
+        <item>WindowsXP  ikon</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardTransparencyFrame" >
+      <Control Name="Label1" Caption="Vælg farve gennemsigtighed" />
+      <Control Name="ElGroupBox1" Caption="Gennemsigtig farve" />
+      <Control Name="lbBkgnd" Caption="Baggrund:" />
+      <Control Name="bnSelectColors" Caption="Vælg farver..." />
+      <Control Name="rbNoTransparency" Caption="Ingen gennemsigtighed" />
+      <Control Name="rbSourceFile" Caption="Brug gennemsigtighed fra kilde fil" />
+      <Control Name="rbUseColors" Caption="Brug gennemsigtige farver" />
+      <Control Name="cbTransparencyMethod" >
+        <item>Alpha kanal</item>
+        <item>Top Vanstre pixel</item>
+        <item>Bund Venstre pixel</item>
+        <item>Top Højre pixel</item>
+        <item>Bund Højre pixel</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardResizeFrame" >
+      <Control Name="Label1" Caption="Du kan ændre billed str. under konvertéring" />
+      <Control Name="lbWidth" Caption="Bredde:" />
+      <Control Name="lbHeight" Caption="Højde:" />
+      <Control Name="cbConstrain" Caption="Begræns dimensioner" />
+      <Control Name="rbNoResize" Caption="Ændre ikke billed str." />
+      <Control Name="rbResize" Caption="Ændre billede til en angivet str." />
+    </Form>
+    <Form Name="ImageWizardPDFCompressionFrame" >
+      <Control Name="Label1" Caption="Angiv kompressions filter for en Adobe PDF fil." />
+      <Control Name="rgCompression" Caption="Kompriméring" >
+        <item>UKOMPRIMÈRET : Ingen Kompriméring</item>
+        <item>RLE : Kør Længde Kompriméring</item>
+        <item>G4FAX : G4Fax (kun sort/hvid billeder)</item>
+        <item>G3FAX2D : G3Fax (kun sort/hvid billeder)</item>
+        <item>JPEG : DCT-jpeg (kun farve billeder)</item>
+        <item>LZW : LZW Kompriméring (for farve og sort/hvid billeder)</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardPDFPaperFrame" >
+      <Control Name="Label1" Caption="Angiv papir str. for en Adobe PDF fil" />
+      <Control Name="lbWidth" Caption="Bredde:" />
+      <Control Name="lbHeight" Caption="Højde:" />
+      <Control Name="lbWInch" Caption="inch" />
+      <Control Name="lbHInch" Caption="inch" />
+      <Control Name="rbCommon" Caption="Almindelig" />
+      <Control Name="rbCustom" Caption="Tilpasset" />
+    </Form>
+    <Form Name="ImageWizardPaperOrientationFrame" >
+      <Control Name="Label1" Caption="Indikérer retningen af sider i et dokument" />
+      <Control Name="rgOrientation" Caption="Retning" >
+        <item>Lodret</item>
+        <item>Vandret</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardPDFPropertiesFrame" >
+      <Control Name="Label1" Caption="Sæt Adobe PDF dokument egenskaber" />
+      <Control Name="Label2" Caption="Titel:" />
+      <Control Name="Label3" Caption="Emne:" />
+      <Control Name="Label5" Caption="Forfatter:" />
+      <Control Name="Label6" Caption="Nøgleord:" />
+    </Form>
+    <Form Name="ImageWizardPXMFrame" >
+      <Control Name="Label1" Caption="Transportable bitmaps understøtter tre underformater/n sort-og-hvid, gråskaléring og ægte farver./n Vælg det format du behøver" />
+      <Control Name="rgFormat" Caption="Transportable bitmap format" >
+        <item>PBM (Transportabel Bitmap) - sort og hvid billed</item>
+        <item>PGM (Transportabel Graymap) - grå skaléret billed</item>
+        <item>PPM (Transportabel Pixmap) - ægte farve billed</item>
+      </Control>
+    </Form>
+    <Form name="MP3InfoFrame" section="AudioConverter" >
+      <Control Name="lbTitleCap" Caption="Titel:" />
+      <Control Name="lbArtistCap" Caption="Artist:" />
+      <Control Name="lbAlbumCap" Caption="Album:" />
+      <Control Name="lbYearCap" Caption="År:" />
+      <Control Name="lbGenreCap" Caption="Genre:" />
+      <Control Name="lbCommentCap" Caption="Kommentar:" />
+      <Control Name="lbInfoCap" Caption="Info:" />
+      <Control Name="lbCaption" Caption="Nuværende sang information" />
+      <Control Name="miLanguage" Caption="Sprog" />
+    </Form>
+    <Form name="MP3BrowseToolbarFrame" >
+      <Control name="liSendTo" caption="Send Til" />
+      <Control name="miBluetooth" caption="Bluetooth" />
+      <Control name="miEMail" caption="Email" />
+      <Control name="miPocketPC" caption="Lomme PC" />
+      <Control name="miFlashPlayer" caption="Flash Player" />
+    </Form>
+    <Form name="MP3WizardCDFrame" >
+      <Control Name="Label1" Caption="Vælg drev og numre der skal rippes" />
+      <Control Name="Label2" Caption="Drev:" />
+      <Control Name="lbName" Caption="Ukendt album" />
+      <Control Name="bnCheckAll" Caption="&amp;Markér alle" />
+      <Control Name="bnUncheckAll" Caption="&amp;Demarkér alle" />
+      <Control Name="bnFreeDB" Caption="Find Nummer Navne" />
+    </Form>
+    <Form name="MP3WizardFormatFrame" >
+      <Control Name="rbWAV" Caption="WAV - ingen kompriméring, meget stor" />
+      <Control Name="rbMP3" Caption="MP3 - mest almindelig brugt musik format" />
+      <Control Name="rbWMA" Caption="WMA - Microsoft Musik format" />
+      <Control Name="rbOGG" Caption="OGG - Ogg Vorbis Audio format" />
+      <Control Name="rbFLAC" Caption="FLAC - Free Lossless Audio Codec" />
+      <Control Name="rbMPC" Caption="MPC - Musepack Audio format" />
+      <Control Name="rbAPE" Caption="APE - Monkey's Audio format" />
+    </Form>
+    <Form name="MP3WizardSamplerateFrame" >
+      <Control Name="Label1" Caption="Jo højere samplerate - desto bedre kvalitet og større fil str." />
+      <Control Name="rgSampleRate" Caption="Samplerate" >
+        <item>8 000 Hz</item>
+        <item>32 000 Hz</item>
+        <item>44 100 Hz</item>
+        <item>48 000 Hz</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardChannelsFrame" >
+      <Control Name="Label1" Caption="Stereo filer er dobbelt så store som Mono filer" />
+      <Control Name="rgChannels" Caption="Kanaler" >
+        <item>Stereo</item>
+        <item>Joint stereo</item>
+        <item>Dual kanaler</item>
+        <item>Mono</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardBitrateFrame" >
+      <Control Name="Label1" Caption="Definér hvor meget fysisk plads eet sekund af en audio eller video optager i bits" />
+      <Control Name="Label2" Caption="Minimum bitrate:" />
+      <Control Name="gbBitrate" Caption="VBR aktiveret" />
+      <Control Name="Label3" Caption="Maksimum bitrate:" />
+      <Control Name="Label4" Caption="Kvalitét:" />
+    </Form>
+    <Form name="MP3WizardBitrateFrameWMA" >
+      <Control Name="Label1" Caption="Definér hvor meget fysisk plads eet sekund af en audio eller video optager i bits" />
+      <Control Name="rbCBR" Caption="Konstant Bitrate" />
+      <Control Name="rbVBR" Caption="Variable Bitrate (kvalitéts indstillinger)" />
+    </Form>
+    <Form name="MP3WizardOggCompressionFrame" >
+      <Control Name="Label1" Caption="Kvalitét 0 er ca. lig med 64kbps i gennemsnit, 5 er ca. 160kbps og 10 giver omkring 400kbps. Meget-nær-CD-kvalitét audio er kodet med en kvalitét på 5" />
+      <Control Name="gbQuality" Caption="Kvalitét" />
+      <Control Name="Label5" Caption="Bedre (maksimum str.)" />
+      <Control Name="Label6" Caption="Mindre (minimum str.)" />
+    </Form>
+    <Form name="MP3WizardWAVBitsFrame" >
+      <Control Name="Label1" Caption="Windows WAV filer kan være 16 eller 8 bits" />
+      <Control Name="rgBits" Caption="Wav bits" >
+        <item>8 bit</item>
+        <item>16 bit</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardMPCProfileFrame" >
+      <Control Name="Label1" Caption="Vælg forvalgt kvalitét" />
+      <Control Name="rgPreset" Caption="Kvalitéts valg" >
+        <item>Telefon - lavest kvalitét, (typ.  32...48 kbps)</item>
+        <item>Miniature  - lav kvalitét/internet, (typ.  58...86 kbps)</item>
+        <item>Radio - mellem (MP3) kvalitét, (typ. 112...152 kbps)</item>
+        <item>Standard - høj kvalitét (dflt),  (typ. 142...184 kbps)</item>
+        <item>Xtreme - ekstreme høj kvalitét, (typ. 168...212 kbps)</item>
+        <item>Vanvittig - ekstreme høj kvalitét, (typ. 232...268 kbps)</item>
+        <item>Hjernedød - ekstreme høj kvalitét, (typ. 232...278 kbps)</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardAACQualityFrame" >
+      <Control Name="Label1" Caption="Sæt standard variabel bitrate (VBR) størrelses kvalitét i procent./n Jeg formoder, en brugbar kvalitét er på 33%-130%" />
+      <Control Name="gbQuality" Caption="Kvalitét" />
+      <Control Name="Label5" Caption="Bedre (maksimum str.)" />
+      <Control Name="Label6" Caption="Mindre (minimum str.)" />
+      <Control Name="cbAACFromSource" Caption="For AAC filer sæt kvalitét som kilde" />
+    </Form>
+    <Form Name="PDFWizardRenderFrame" >
+      <Control Name="Label1" Caption="Vælg de elementer du vil inkludére" />
+      <Control Name="cgItems" Caption="Angiv emner" >
+        <item>Tekst</item>
+        <item>Form</item>
+        <item>Billed</item>
+      </Control>
+    </Form>
+    <Form Name="PDFWizardDPIFrame" >
+      <Control Name="Label1" Caption="Vælg kvalitét og str. på det færdige billede" />
+      <Control Name="Label2" Caption="Side Str." />
+      <Control Name="rb75" Caption="75 DPI (Skærm opløsning)" />
+      <Control Name="rb150" Caption="150 DPI (Udkast udskrifts opløsning)" />
+      <Control Name="rb300" Caption="300 DPI (Kvalitét udskrifts opløsning)" />
+      <Control Name="rbCustom" Caption="Tilpasset" />
+      <Control Name="cbOriginal" Caption="Original" />
+    </Form>
+    <Form Name="PDFWizardTiffCompressionFrame" >
+      <Control Name="Label1" Caption="Vælg kompriméring af et TIFF dokument" />
+      <Control Name="rgCompression" >
+        <item>Ukompriméret</item>
+        <item>LZW Kompriméring</item>
+        <item>RLE Kompriméring (pakkebits)</item>
+        <item>JPEG Kompriméring</item>
+        <item>Bilevel Huffman Kompriméring (CCITT1D)</item>
+        <item>Bilevel Gruppe 3 CCITT Kompriméring, monodimensionel (G3FAX1D)</item>
+        <item>Bilevel Gruppe 3 CCITT Kompriméring, bidimensionel (G3FAX2D)</item>
+        <item>Bilevel Gruppe 4 CCITT Kompriméring, bidimensionel (G4FAX)</item>
+      </Control>
+    </Form>
+    <Form Name="PDFWizardTiffCombineFrame" >
+      <Control Name="Label1" Caption="Tiff fil formatet understøtter multi-side filer./n Vil du gerne opdele en pdf til seperate filer eller kombinére til en multiside tiff?" />
+      <Control Name="cbSeparatePages" Caption="Every page into separate file" />
+    </Form>
+    <Form Name="PDFWizardFileTemplateFrame" >
+      <Control Name="Label1" Caption="Indtast skabelon for at oprette filer for hver side./n Tegnet # vil blive erstattet med et side nummer" />
+      <Control Name="Label2" Caption="Skabelon" />
+      <Control Name="Label3" Caption="Start nummeréring fra:" />
+      <Control Name="edTemplate" >
+        <item>[Name].Side#.txt</item>
+      </Control>
+    </Form>
+    <Form Name="PDFWizardExtractPagesFrame" >
+      <Control Name="Label1" Caption="Udtræk valgte sider fra pdf dokument" />
+      <Control Name="Label2" Caption="f.eks. 10,15,18-20,25-35" />
+      <Control Name="lbBookmarkCaption" Caption="Ny fil for hvér bogmærke fra niveau:" />
+      <Control Name="rbAllPages" Caption="Hent &amp;alle sider" />
+      <Control Name="rbSelectedPages" Caption="&amp;Udtræk kun valgte sider" />
+      <Control Name="rbBookmarks" Caption="Opdel efter bogmærke" />
+    </Form>
+    <Form Name="PDFWizardUniteFrame" >
+      <Control Name="Label1" Caption="Du kan kombinére opdelte sider til nye dokumenter" />
+      <Control Name="gbCombine" Caption="Kombinér sider" />
+      <Control Name="Label2" Caption="Opret nyt dokument hver" />
+      <Control Name="Label3" Caption="side(r)" />
+    </Form>
+    <Form Name="PDFWizardPDFOptionsFrame" >
+      <Control Name="Label1" Caption="Du kan indstille avancérede valg for din PDF./n " />
+      <Control Name="Label2" Caption="PDF Version:" />
+      <Control Name="lbCompressionLevel" Caption="Komprimérings niveau:" />
+      <Control Name="cbCompression" Caption="Tilvælg kompriméring" />
+    </Form>
+    <Form Name="PDFWizardPageBreakFrame" >
+      <Control Name="Label1" Caption="Vælg symboler for side skift" />
+      <Control Name="Label2" Caption="Som symbol kode, brug &quot;$&quot;, f.eks. $0D$0A" />
+      <Control Name="rbLineBreak" Caption="slutning af linie ( 0D0A )" />
+      <Control Name="rbPageBreak" Caption="Side skift ( 0C )" />
+      <Control Name="rbOther" Caption="Andet:" />
+      <Control Name="rbSeparateFiles" Caption="Hver side til seperate filer" />
+    </Form>
+    <Form Name="UniAboutDlg" Caption="Om...">
+      <Control Name="Label1" Caption="Har du nogle rigtigt gode ideer til dette produkt?" />
+      <Control Name="Label2" Caption="Mangler du nogle features?" />
+      <Control Name="Label3" Caption="Vil du snakke med nogle venlige mennesker?" />
+      <Control Name="Label4" Caption="Skriv til os!" />
+      <Control Name="lbVersion" Caption="lbVersion" />
+      <Control Name="bnNow" Caption="Bestil NU!" />
+      <Control Name="bnClose" Caption="Luk" />
+    </Form>
+    <Form Name="MP3WizardPartFrame" >
+      <Control Name="lblError" Caption="Desværre. Den valgte del er ikke tilgængelig" />
+      <Control Name="bnSetStart" Caption="Sæt Start" />
+      <Control Name="bnSetEnd" Caption="Sæt Slut" />
+      <Control Name="Label1" Caption="Vælg Start og Slut position hvis du vil konvertére en del af filen" />
+    </Form>
+    <Form name="MaskDialog" caption="Fil Maske" >
+      <Control name="Label1" caption="Maske" />
+    </Form>
+  </Forms>

@@ -1,0 +1,29 @@
+  <key name="pc" property="PDF.Compression" desc="PDF file compression">
+    <subkey name="(F)astest" value="hcFastest" desc="Fastest compression" />
+    <subkey name="(N)ormal" value="hcNormal" desc="Normal compression" />
+    <subkey name="(M)aximum" value="hcMaximum" desc="Maximum compression" />
+  </key>
+  <key name="mp" property="PDF.Encrypt.OwnerPassword" desc="PDF master (owner) password" />
+  <key name="up" property="PDF.Encrypt.UserPassword" desc="PDF user password" />
+   <key name="perm" property="PDF.Encrypt.UserPermissions" desc="PDF user permissions">
+    <subkey name="Print" value="eupPrint" />
+    <subkey name="Copy" value="eupCopy" />
+    <subkey name="Modify" value="eupModify" />
+    <subkey name="Annotation" value="eupAnnotation" />
+    <subkey name="FormFill" value="eupFormFill" />
+    <subkey name="Accessibility" value="eupAccessibility" />
+    <subkey name="DocAssembly" value="eupDocAssembly" />
+    <subkey name="HighResPrint" value="eupHighResPrint" />
+  </key>
+  <key name="PFXFile" property="PDF.Sign.PFXFile" desc="PFX File for sign document" />
+  <key name="PFXPass" property="PDF.Sign.PFXPassword" desc="The password to open the PFX file" />
+  <key name="SignName" property="PDF.Sign.SignName" desc="The name of the signature field to sign" />
+  <key name="SignLoc" property="PDF.Sign.Location" desc="The location that the signing was done" />
+  <key name="SignCon" property="PDF.Sign.Contact" desc="The contact information of the signer" />
+  <key name="SignRes" property="PDF.Sign.Reason" desc="The reason for signing document" />
+  <key name="PDFAuthor" property="PDF.Info.Author" desc="PDF document author" />
+  <key name="PDFSubject" property="PDF.Info.Subject" desc="PDF document subject" />
+  <key name="PDFTitle" property="PDF.Info.Title" desc="PDF document title" />
+  <key name="PDFProducer" property="PDF.Info.Producer" desc="PDF document Producer" />
+  <key name="-pdfa" property="PDF.PDFA" desc="PDF/A compatibility mode" />
+  <key name="pdfver"  property="PDF.Version" desc="PDF document format version 1.2 - 1.6" />

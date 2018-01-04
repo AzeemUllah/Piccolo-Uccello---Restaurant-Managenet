@@ -1,0 +1,22 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+#getting-started,
+#getting-started2,
+#getting-started3,
+#getting-started4,
+#getting-started5,
+#getting-started6{
+    font-size: 40px;
+}
+.order_id{
+    font-size: 18px;
+}
+.order_qty, .extras{
+    font-size: 20px;
+}
+.border{
+    border: 1px solid black;
+    padding: 10px 0px;
+}

@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Messages>
+        <Item Name="Header" value="Záhlaví" />
+        <Item Name="Footer" value="Zápatí" />
+        <Item Name="Font" value="Písmo" />
+        <Item Name="Margin" value="Okraj" />
+        <Item Name="liCombineTo" value="Spojit do:" />
+        <Item Name="liSplitTo" value="Rozdìlit do:" />
+        <Item Name="miCmdParams" value="Parametry pøíkazového øádku" />
+        <Item Name="msgSomeFilesFiltered" value="&lt;nìkteré soubory jsou filtrovány, poklepejte k jejich zobrazení&gt;" />
+        <Item Name="attrName" value="Název" />
+        <Item Name="attrSize" value="Velikost" />
+        <Item Name="attrType" value="Typ" />
+        <Item Name="attrModified" value="Zmìnìn" />
+        <Item Name="attrAttributes" value="Atributy" />
+        <Item Name="Resize" value="Zmìnit velikost" />
+        <Item Name="Crop" value="Oøíznout" />
+        <Item Name="Rotate" value="Otoèit" />
+        <Item Name="Transform" value="Transformovat" />
+        <Item Name="Watermark" value="Vodoznak" />
+        <Item Name="Logo" value="Logo" />
+        <Item Name="Comments" value="Poznámky" />
+        <Item Name="Frame" value="Rámeèek" />
+        <Item Name="Colors" value="Barvy" />
+        <Item Name="Icon colors" value="Barvy ikon" />
+        <Item Name="Icon Sizes" value="Rozmìry ikon" />
+        <Item Name="Transparency" value="Prùhlednost" />
+        <Item Name="JPEG2000 Compression" value="Komprese JPEG2000" />
+        <Item Name="JPEG Quality" value="Kvalita JPEG" />
+        <Item Name="Format" value="Formát" />
+        <Item Name="RAW Format" value="Formát RAW" />
+        <Item Name="Color space" value="Škála barev" />
+        <Item Name="Compression" value="Komprese" />
+        <Item Name="Paper" value="Papír" />
+        <Item Name="Properties" value="Vlastnosti" />
+        <Item Name="Details" value="Podrobnosti" />
+        <Item Name="Template" value="Šablona" />
+        <Item Name="Thumbnails" value="Náhledy" />
+        <Item Name="msgNoFileSelected" value="není vybrán žádný soubor" />
+        <Item Name="Document" value="Dokument" />
+        <Item Name="Render" value="Generovat" />
+        <Item Name="Image format" value="Formát obrázku" />
+        <Item Name="Background" value="Pozadí" />
+        <Item Name="Items" value="Položky" />
+        <Item Name="Encryption" value="Šifrování" />
+        <Item Name="PDF Options" value="Možnosti PDF" />
+        <Item Name="Page Processing" value="Zpracování stránky" />
+        <Item Name="File name template" value="Šablona názvu souboru" />
+        <Item Name="Image DPI" value="DPI obrázku" />
+        <Item Name="Extract pages" value="Extrahovat stránky" />
+        <Item Name="Combine" value="Spojit" />
+        <Item Name="attrTitle" value="Oznaèení" />
+        <Item Name="descDestination" value="Místo urèení" />
+        <Item Name="liConvertTo" value="liConvertTo" />
+        <Item Name="attrOrderID" value="OrderID" />
+        <Item Name="attrAuthor" value="Autor" />
+        <Item Name="attrSubject" value="Pøedmìt" />
+        <Item Name="attrPageSize" value="PageSize" />
+        <Item Name="attrPageCount" value="PageCount" />
+        <Item Name="Pixel format" value="Formát pixelu" />
+        <Item Name="mitbDevice" value="Zaøízení" />
+        <Item Name="msgWizardCaption_TiffPaging" value="Konvertovat obrázky" />
+        <Item Name="Photometric" value="Fotometrie" />
+        <Item Name="Rip CD" value="Ripovat CD" />
+        <Item Name="YouTube" value="YouTube" />
+        <Item Name="Write CD" value="Zapsat CD" />
+        <Item Name="attrDuration" value="Trvání" />
+        <Item Name="attrChannels" value="Kanály" />
+        <Item Name="attrSampleRate" value="SampleRate" />
+        <Item Name="attrBitrate" value="Bitrate" />
+        <Item Name="attrAlbum" value="Album" />
+        <Item Name="attrArtist" value="Interpret" />
+        <Item Name="attrYear" value="Rok" />
+        <Item Name="attrGenre" value="Žánr" />
+        <Item Name="attrComment" value="Poznámka" />
+        <Item Name="attrTrack" value="skladba" />
+        <Item Name="infoUnknown" value="&lt;Neznámý&gt;" />
+        <Item Name="miCoolUtils" value="CoolUtils" />
+        <Item Name="msgWizardCaption_TotalAudioConverter" value="Konvertovat hudbu" />
+        <Item Name="to" value="do" />
+        <Item Name="boxSelectDestination" value="Vybrat cílové umístìní" />
+        <Item Name="boxCombine" value="Spojit" />
+        <Item Name="boxSamplerate" value="Vzorkovací frekvence" />
+        <Item Name="boxChannels" value="Kanály" />
+        <Item Name="boxBitrate" value="Bitrate" />
+        <Item Name="boxFinishConversion" value="Spustit konverzi" />
+        <Item Name="boxConvertTo" value="Konvertovat do" />
+        <Item Name="msgWizardCaption_TotalImageConverter" value="Konvertovat obrázky" />
+        <Item Name="msgWizardCaption_TotalMailConverter" value="Konvertovat poštovní zprávy" />
+        <Item Name="boxMailFields" value="Pole" />
+        <Item Name="Appearance" value="Vzhled" />
+        <Item Name="boxMailAttachments" value="Pøílohy" />
+        <Item Name="Display" value="Zobrazit" />
+        <Item Name="msgWizardCaption_TotalCADConverter" value="Konvertovat" />
+        <Item Name="Orientation" value="Orientace" />
+        <Item Name="TIFF Compression" value="Komprese TIFF" />
+        <Item Name="msgWizardCaption_TotalExcelConverter" value="Konvertovat XLS" />
+        <Item Name="Text Options" value="Možnosti textu" />
+        <Item Name="msgWizardCaption_TotalPDFConverter" value="Konvertovat PDF dokument" />
+        <Item Name="msgWizardCaption_PDFCombine" value="Konvertovat do PDF" />
+        <Item Name="Range" value="Rozsah" />
+        <Item Name="Unicode Text" value="Text Unicode" />
+    </Messages>
+  <Forms>
+    <Form Name="MainForm" >
+        <Control Name="miFile" Caption="&amp;Soubor" />
+        <Control Name="miRefresh" Caption="Obnovit" />
+        <Control Name="miPrint" Caption="Tisknout" />
+        <Control Name="miExit" Caption="&amp;Konec" />
+        <Control Name="miView" Caption="&amp;Zobrazit" />
+        <Control Name="miEdit" Caption="&amp;Upravit" />
+        <Control Name="miConvert" Caption="K&amp;onvertovat" />
+        <Control Name="miHelp" Caption="Nápo&amp;vìda" />
+        <Control Name="miWantMore" Caption="&amp;Chci více" />
+        <Control Name="lbFilterCaption" Caption="Filtr:" />
+        <Control Name="bnDefineAction" Caption="Definovat akci" />
+        <Control Name="liConvertTo" Caption="Konvertovat do:" />
+        <Control Name="miSkins" Caption="Skiny" />
+        <Control Name="mitbOther" Caption="Další" />
+    </Form>
+    <!-- Doc Converter -->
+    <Form name="DocBrowseFrame" source="ListBrowseFrame" section="DocConverter" />
+    <Form name="DocWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="DocWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="DocWizardForm" source="CustomWizard" section="DocConverter" />
+    <Form name="DocWizardPDFMarginFrame" source="HTMWizardPDFMarginFrame" section="DocConverter" />
+    <!-- PDF Converter -->
+    <Form name="PDFListFrame" source="ListBrowseFrame" section="PDFConverter" />
+    <Form name="PDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFConverter" />
+    <Form name="PDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFConverter" />
+    <Form name="PDFWizardForm" source="CustomWizard" section="PDFConverter" />
+    <!-- HTML Converter -->
+    <Form name="HTMListFrame" source="ListBrowseFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFileFrame" source="CommonWizardFileFrame" section="HTMLConverter" >
+      <Control Name="cbSingleImage" Caption="?????????????? ? ???? ????" />
+    </Form>
+    <Form name="HTMWizardFolderFrame" source="CommonWizardFolderFrame" section="HTMLConverter" />
+    <Form name="HTMWizardForm" source="CustomWizard" section="HTMLConverter" >
+      <Control Name="lbDiscount" Caption="&lt;a href=discount&gt;??????!&lt;/a&gt;" />
+    </Form>
+    <!-- Image Converter -->
+    <Form name="ImagesListFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImagesThumbnailFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImageWizardFileFrame" source="CommonWizardFileFrame" section="ImageConverter" />
+    <Form name="ImageWizardFolderFrame" source="CommonWizardFolderFrame" section="ImageConverter" />
+    <Form name="ImageWizardForm" source="CustomWizard" section="ImageConverter" />
+    <!-- AudioConverter -->
+    <Form name="MP3WizardFileFrame" source="CommonWizardFileFrame" />
+    <Form name="MP3WizardFolderFrame" source="CommonWizardFolderFrame" />
+    <Form name="Mp3WizardForm" source="CustomWizard" section="AudioConverter" />
+    <Form name="MP3ListFrame" source="ListBrowseFrame" section="AudioConverter" />
+    <!-- XLS Converter -->
+    <Form name="XLSListBrowseFrame" source="ListBrowseFrame" section="ExcelConverter" />
+    <Form name="XLSWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="XLSWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="XLSWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Combine -->
+    <Form name="ToPDFBrowseFrame" source="ListBrowseFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardForm" source="CustomWizard" section="PDFCombine" />
+    <!-- Mail Converter -->
+    <Form name="MailListBrowseFrame" source="ListBrowseFrame" section="MailConverter" />
+    <Form name="MailWizardFileFrame" source="CommonWizardFileFrame" section="MailConverter" />
+    <Form name="MailWizardFolderFrame" source="CommonWizardFolderFrame" section="MailConverter" />
+    <Form name="MailWizardForm" source="CustomWizard" section="MailConverter" />
+    <!-- Tiff Pagging -->
+    <Form name="ImageWizardFileTemplateFrame" source="PDFWizardFileTemplateFrame" section="ImageConverter" />
+    <!-- CAD Converter -->
+    <Form name="CADWizardRotateFrame" source="ImageWizardRotateFrame" />
+    <Form name="CADWizardForm" source="CustomWizard" />
+    <Form Name="ListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Zahrnout podsložky" />
+        <Control Name="miCheck" Caption="Zatrhnout" />
+        <Control Name="miUncheck" Caption="Zrušit zatržení" />
+        <Control Name="miCheckAll" Caption="Zatrhnout vše" />
+        <Control Name="miUncheckAll" Caption="Zrušit zatržení všeho" />
+        <Control Name="miCheckByMask" Caption="Zatrhnout podle masky..." />
+        <Control Name="miRestoreLast" Caption="Obnovit pøedchozí výbìr" />
+        <Control Name="miMoveUp" Caption="Pøesunout nahoru" />
+        <Control Name="miMoveDown" Caption="Pøesunout dolù" />
+    </Form>
+    <Form Name="DocViewFrame" >
+        <Control Name="miLanguage" Caption="Jazyk" />
+    </Form>
+    <Form Name="DataModuleHelp" >
+        <Control Name="miHelp" Caption="Nápovìda" />
+        <Control Name="miLang" Caption="Jazyk" />
+        <Control Name="miRegister" Caption="Vložit registraèní kód..." />
+        <Control Name="miOrder" Caption="Jak nakoupit" />
+        <Control Name="miHotOffer" Caption="Žhavá nabídka!" />
+        <Control Name="miBuyCoolUtils" Caption="Koupit CoolUtils PRO - jen za $99!" />
+        <Control Name="miLearnCoolUtils" Caption="Dovìdìt se více..." />
+        <Control Name="miWriteUs" Caption="Kontaktujte nás" />
+        <Control Name="miWebSite" Caption="Webová stránka" />
+        <Control Name="miAbout" Caption="O programu" />
+    </Form>
+    <Form Name="CustomWizard" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Zpìt" />
+        <Control Name="bnNext" Caption="&amp;Další &gt;&gt;" />
+        <Control Name="bnCancel" Caption="Z&amp;rušit" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="CommonWizardFileFrame" >
+        <Control Name="Label1" Caption="Nastavit nový název souboru" />
+        <Control Name="Label2" Caption="Název souboru:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Nastavit tuto cestu jako výchozí" />
+    </Form>
+    <Form Name="FontDocWizardFrame" >
+        <Control Name="Label1" Caption="Nastavit výchozí písmo pro textové soubory" />
+        <Control Name="lbl2" Caption="Velikost písma" />
+        <Control Name="lbl1" Caption="Název písma" />
+        <Control Name="cbBold" Caption="Tuèné" />
+        <Control Name="cbWordWrap" Caption="WordWrap" />
+        <Control Name="cbEnable" Caption="Zapnout" />
+    </Form>
+    <Form Name="WizardFinishFrame" >
+        <Control Name="Label1" Caption="Všechny informace, které prùvodce potøebuje ke konverzi, byly shromáždìny" />
+        <Control Name="lbFinishCaption" Caption="Kliknìte na START ke spuštìní konverze" />
+        <Control Name="lbViewCaption" Caption="Bude se konvertovat s tìmito volbami:" />
+        <Control Name="cbOpenDestination" Caption="Po dokonèení konverze otevøít cílovou složku" />
+        <Control Name="cbDeleteOriginals" Caption="Vymazat originály" />
+        <Control Name="lbDiscount" Caption="&lt;a href=discount&gt;SLEVA!&lt;/a&gt;" />
+    </Form>
+    <Form Name="DocWizardPaperFrame" >
+        <Control Name="Label1" Caption="Urèete orientaci papíru" />
+        <Control Name="lblWidth" Caption="Šíøka:" />
+        <Control Name="lblWInch" Caption="palcù" />
+        <Control Name="lblHInch" Caption="palcù" />
+        <Control Name="lbl1" Caption="Velikost papíru" />
+        <Control Name="lblHeight" Caption="Výška:" />
+        <Control Name="rgOrientation" Caption="Orientace papíru" >
+            <Item>na vysku</Item>
+            <Item>na sioku</Item>
+        </Control>
+        <Control Name="cbSeparate" Caption="Každou stránku do samostatného souboru" />
+        <Control Name="rbCommon" Caption="Bìžný" />
+        <Control Name="rbCustom" Caption="Vlastní" />
+    </Form>
+    <Form Name="DocWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="Urèete okraj pro PDF soubor (mm)" />
+        <Control Name="Label2" Caption="Nahoøe" />
+        <Control Name="Label3" Caption="Dole" />
+        <Control Name="Label4" Caption="Vlevo" />
+        <Control Name="lbRight" Caption="Vpravo" />
+    </Form>
+    <Form Name="DocPDFPropWizardFrame" >
+        <Control Name="Label1" Caption="Informace o dokumentu" />
+        <Control Name="Label2" Caption="Autor:" />
+        <Control Name="Label3" Caption="Vytvoøil:" />
+        <Control Name="Label4" Caption="Klíèová slova:" />
+        <Control Name="Label5" Caption="Pøedmìt:" />
+        <Control Name="Label6" Caption="Název:" />
+    </Form>
+    <Form Name="DocWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="Kvalita obrázkù vložených do PDF dokumentu" />
+        <Control Name="ElGroupBox1" Caption="Kvalita" />
+        <Control Name="Label5" Caption="Lepší (max. velikost)" />
+        <Control Name="Label6" Caption="Menší (min. velikost)" />
+    </Form>
+    <Form Name="ImagesThumbnailFrame" >
+        <Control Name="miCheck" Caption="Zatrhnout" />
+        <Control Name="miUncheck" Caption="Zrušit zatržení" />
+        <Control Name="miCheckAll" Caption="Zatrhnout vše" />
+        <Control Name="miUncheckAll" Caption="Zrušit zatržení všeho" />
+    </Form>
+    <Form Name="ImagesListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Zahrnout podsložky" />
+        <Control Name="miCheck" Caption="Zatrhnout" />
+        <Control Name="miUncheck" Caption="Zrušit zatržení" />
+        <Control Name="miCheckAll" Caption="Zatrhnout vše" />
+        <Control Name="miUncheckAll" Caption="Zrušit zatržení všeho" />
+        <Control Name="miCheckByMask" Caption="Zatrhnout podle masky..." />
+        <Control Name="miRestoreLast" Caption="Obnovit pøedchozí výbìr" />
+        <Control Name="miMoveUp" Caption="Pøesunout nahoru" />
+        <Control Name="miMoveDown" Caption="Pøesunout dolù" />
+    </Form>
+    <Form Name="ImageBrowseToolbarFrame" >
+        <Control Name="miRotate" Caption="Otoèit" />
+        <Control Name="miResize" Caption="Zmìnit rozmìr" />
+        <Control Name="miCrop" Caption="Oøíznout" />
+        <Control Name="miWatermark" Caption="Vodoznak" />
+        <Control Name="miFrame" Caption="Rámeèek" />
+        <Control Name="miEMail" Caption="Poslat e-mailem" />
+    </Form>
+    <Form Name="ImageInfoFrame" >
+        <Control Name="ElLabel2" Caption="Rozmìr:" />
+        <Control Name="ElLabel1" Caption="Šíøka:" />
+        <Control Name="ElLabel3" Caption="Výška:" />
+        <Control Name="ElLabel4" Caption="Barvy:" />
+        <Control Name="ElLabel5" Caption="Rámeèky:" />
+        <Control Name="ElLabel6" Caption="Datum:" />
+        <Control Name="ElLabel7" Caption="Orientace:" />
+        <Control Name="ElLabel8" Caption="Model:" />
+        <Control Name="ElLabel9" Caption="Typ souboru:" />
+        <Control Name="miRotateLeft" Caption="Otoèit doleva" />
+        <Control Name="miRotateRight" Caption="Otoèit doprava" />
+        <Control Name="miRotate180" Caption="Otoèit o 180 stupòù" />
+        <Control Name="miSetWallpaper" Caption="Nastavit tapetu" />
+        <Control Name="miLanguage" Caption="Jazyk" />
+    </Form>
+    <Form Name="ImageWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Zpìt" />
+        <Control Name="bnNext" Caption="&amp;Další &gt;&gt;" />
+        <Control Name="bnCancel" Caption="Z&amp;rušit" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="ImageWizardFileFrame" >
+        <Control Name="Label1" Caption="Nastavit nový název souboru" />
+        <Control Name="Label2" Caption="Název souboru:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Nastavit tuto cestu jako výchozí" />
+    </Form>
+    <Form Name="ImageWizardCropFrame" >
+        <Control Name="Label1" Caption="Oøíznutím obrázku mùžete odstranit nepotøebné èásti" />
+        <Control Name="Label2" Caption="Oøíznout vlevo:" />
+        <Control Name="Label3" Caption="Oøíznout dole:" />
+        <Control Name="Label4" Caption="Oøíznout vpravo:" />
+        <Control Name="Label5" Caption="Oøíznout nahoøe:" />
+        <Control Name="bnSelect" Caption="Vybrat..." />
+        <Control Name="lblWidthCap" Caption="Šíøka:" />
+        <Control Name="lblHeightCap" Caption="Výška:" />
+    </Form>
+    <Form Name="ImageWizardRotateFrame" >
+        <Control Name="Label1" Caption="Otoèit obrázky k pohodlnému prohlížení" />
+        <Control Name="gbOrientation" Caption="Aktuální orientace obrázku" />
+        <Control Name="ElRadioButton1" Caption="horní / levá strana" />
+        <Control Name="ElRadioButton2" Caption="horní / pravá strana &lt;ind width=110 pos=abs&gt; &lt;img src=3&gt; Pøevrátit vodorovnì" />
+        <Control Name="ElRadioButton3" Caption="dolní/ pravá strana &lt;ind width=110 pos=abs&gt; &lt;img src=2&gt; 180 st." />
+        <Control Name="ElRadioButton4" Caption="dolní / levá strana &lt;ind width=110 pos=abs&gt; &lt;img src=4&gt; Pøevrátit svisle" />
+        <Control Name="ElRadioButton5" Caption="levá strana / horní" />
+        <Control Name="ElRadioButton6" Caption="pravá strana / horní &lt;ind width=110 pos=abs&gt; &lt;img src=1&gt; 90 po smìru hodin" />
+        <Control Name="ElRadioButton7" Caption="pravá strana / spodní" />
+        <Control Name="ElRadioButton8" Caption="llevá strana / spodní &lt;ind width=110 pos=abs&gt; &lt;img src=0&gt; proti smìru hodin" />
+        <Control Name="ElRadioButton9" Caption="Získat orientaci z EXIF tagu" />
+    </Form>
+    <Form Name="ImageWizardResizeFrame" >
+        <Control Name="Label1" Caption="Bìhem konverze mùžete mìnit velikost obrázku" />
+        <Control Name="lbWidth" Caption="Šíøka:" />
+        <Control Name="lbHeight" Caption="Výška:" />
+        <Control Name="cbConstrain" Caption="Proporce roztažení" />
+        <Control Name="rbNoResize" Caption="Nemìnit velikost" />
+        <Control Name="rbResize" Caption="Zmìnit na požadovaný rozmìr" />
+    </Form>
+    <Form Name="ImageWizardRemoveTransparencyFrame" >
+        <Control Name="Label1" Caption="Vybrat barvu pozadí pro prùhledné obrázky" />
+        <Control Name="Label2" Caption="Pozadí:" />
+    </Form>
+    <Form Name="ImageWizardJPEGColorSpaceFrame" >
+        <Control Name="Label1" Caption="Urèí požadovanou škálu barev pro Jpeg" />
+    </Form>
+    <Form Name="ImageWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="U obrázkù JPEG mùžete definovat kvalitu a vyhlazení" />
+        <Control Name="gbQuality" Caption="Kvalita" />
+        <Control Name="Label5" Caption="Lepší (max. velikost)" />
+        <Control Name="Label6" Caption="Menší (min. velikost)" />
+        <Control Name="gbSmoothing" Caption="Vyhlazení" />
+        <Control Name="cbLossless" Caption="U obrázkù JPEG použít informace ze zdrojového souboru/n Bezztrátová transformace, pokud je možná" />
+    </Form>
+    <Form Name="ImageWizardWatermarkFrame" >
+        <Control Name="Label1" Caption="Použít vaše prùhledné logo na obrázek" />
+        <Control Name="Label2" Caption="Logo:" />
+        <Control Name="gbTransparency" Caption="Prùhlednost:" />
+        <Control Name="Label4" Caption="ne" />
+        <Control Name="Label3" Caption="plná" />
+        <Control Name="bnEffects" Caption="Efekty &gt;" />
+        <Control Name="ElGroupBox2" Caption="Pozice" />
+        <Control Name="Label6" Caption="Prostor:" />
+        <Control Name="cbAddLogo" Caption="Pøidat logo k obrázku" />
+    </Form>
+    <Form Name="ImageWizardMaskFrame" >
+        <Control Name="Label1" Caption="Pøidat rámeèek k fotkám" />
+        <Control Name="Label2" Caption="Rámeèek:" />
+        <Control Name="lbSpace" Caption="Prostor:" />
+        <Control Name="rbNoFrame" Caption="Bez rámeèku" />
+        <Control Name="rbFrameIndex" Caption="Index rámeèku:" />
+        <Control Name="rbFrameFile" Caption="Rámeèek ze souboru:" />
+        <Control Name="cbInsideImage" Caption="Vnitøní obrázek" />
+    </Form>
+    <Form Name="ImageWizardCommentFrame" >
+        <Control Name="Label1" Caption="Mùžete k fotkám pøidat popisky/n v závislosti na vlastnostech obrázku" />
+        <Control Name="lbComment" Caption="Poznámka:" />
+        <Control Name="gbPos" Caption="Pozice" />
+        <Control Name="Label6" Caption="Prostor:" />
+        <Control Name="gbFont" Caption="Písmo" />
+        <Control Name="Label3" Caption="Název:" />
+        <Control Name="Label4" Caption="Velikost:" />
+        <Control Name="Label5" Caption="Barva:" />
+        <Control Name="cbSoftShadow" Caption="Pøidat jemný stín" />
+        <Control Name="gbExample" Caption="Pøíklad" />
+        <Control Name="cbAddLogo" Caption="Pøidat poznámku k obrázku" />
+    </Form>
+    <Form Name="PDFListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Zahrnout podsložky" />
+        <Control Name="miCheck" Caption="Zatrhnout" />
+        <Control Name="miUncheck" Caption="Zrušit zatržení" />
+        <Control Name="miCheckAll" Caption="Zatrhnout vše" />
+        <Control Name="miUncheckAll" Caption="Zrušit zatržení všeho" />
+        <Control Name="miCheckByMask" Caption="Zatrhnout podle masky..." />
+        <Control Name="miRestoreLast" Caption="Obnovit pøedchozí výbìr" />
+        <Control Name="miMoveUp" Caption="Pøesunout nahoru" />
+        <Control Name="miMoveDown" Caption="Pøesunout dolù" />
+        <Control Name="miLanguage" Caption="Jazyk" />
+    </Form>
+    <Form Name="PDFWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Zpìt" />
+        <Control Name="bnNext" Caption="&amp;Další &gt;&gt;" />
+        <Control Name="bnCancel" Caption="Z&amp;rušit" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="PDFWizardFileFrame" >
+        <Control Name="Label1" Caption="Nastavit nový název souboru" />
+        <Control Name="Label2" Caption="Název souboru:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Nastavit tuto cestu jako výchozí" />
+    </Form>
+    <Form Name="PDFWizardExtractPagesFrame" >
+        <Control Name="Label1" Caption="Extrahovat vybrané obrázky z PDF dokumentu" />
+        <Control Name="Label2" Caption="napø. 10,15,18-20,25-35" />
+        <Control Name="lbBookmarkCaption" Caption="Nový soubor s každou záložkou na úrovni:" />
+        <Control Name="rbAllPages" Caption="Získat &amp;všechny stránky" />
+        <Control Name="rbSelectedPages" Caption="&amp;Extrahovat pouze vybrané stránky" />
+        <Control Name="rbBookmarks" Caption="Rozdìlit podle záložek" />
+        <Control Name="rbBlanks" Caption="Rozdìlit podle prázdných stránek" />
+    </Form>
+    <Form Name="PDFWizardBlankToleranceFrame" />
+    <Form Name="PDFWizardUniteFrame" >
+        <Control Name="Label1" Caption="Mùžete spojit rozdìlené stránky do nových dokumentù" />
+        <Control Name="gbCombine" Caption="Spojit stránky" />
+        <Control Name="Label2" Caption="Vytvoøit nový dokument každých" />
+        <Control Name="Label3" Caption="stránek" />
+    </Form>
+    <Form Name="PDFWizardFileTemplateFrame" >
+        <Control Name="rbFileCount" Caption="Podle poètu souborù v cílové složce" />
+        <Control Name="rbCounter" Caption="Zaèít èíslování od:" />
+        <Control Name="Label1" Caption="Vložit šablonu k vytvoøení souboru pro každou stránku./n Znak # bude nahrazen èíslem stránky" />
+        <Control Name="Label2" Caption="Šablona" />
+        <Control Name="edTemplate" Caption="" />
+        <Control Name="[Name].Page#.txt|" Caption="" />
+    </Form>
+    <Form Name="PDFWizardPDFOptionsFrame" >
+        <Control Name="Label1" Caption="Mùžete nastavit pokroèilé volby pro PDF./n" />
+        <Control Name="Label2" Caption="verze PDF:" />
+        <Control Name="lbCompressionLevel" Caption="Úroveò komprese:" />
+        <Control Name="cbCompression" Caption="Zapnout kompresi" />
+    </Form>
+    <Form Name="PDFWizardHeaderFrame" >
+        <Control Name="cbNumber" Caption="Pokraèovat od pøedchozího dokumentu" />
+        <Control Name="lbl1" Caption="[page] - Strana èíslo/n [date] - Aktuální datum" />
+        <Control Name="elgr" Caption="Zaèít od:" />
+        <Control Name="Label2" Caption="Délka:" />
+        <Control Name="cbComment" Caption="Záhlaví" />
+        <Control Name="grPosition" Caption="Pozice" />
+        <Control Name="btnPosLeft" Caption="Vlevo" />
+        <Control Name="btnPosCenter" Caption="Uprostøed" />
+        <Control Name="btnPosRight" Caption="Vpravo" />
+        <Control Name="Label1" Caption="Vyladit záhlaví strany" />
+    </Form>
+    <Form Name="PDFWizardFooterFrame" >
+        <Control Name="btnPosRight" Caption="Vpravo" />
+        <Control Name="cbNumber" Caption="Pokraèovat od pøedchozího dokumentu" />
+        <Control Name="Label1" Caption="Vyladit zápatí strany" />
+        <Control Name="lbl1" Caption="[page] - Strana èíslo/n [date] - Aktuální datum" />
+        <Control Name="elgr" Caption="Zaèít od:" />
+        <Control Name="Label2" Caption="Délka:" />
+        <Control Name="cbComment" Caption="Zápatí:" />
+    </Form>
+    <Form Name="ToPDFBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Zahrnout podsložky" />
+        <Control Name="miCheck" Caption="Zatrhnout" />
+        <Control Name="miUncheck" Caption="Zrušit zatržení" />
+        <Control Name="miCheckAll" Caption="Zatrhnout vše" />
+        <Control Name="miUncheckAll" Caption="Zrušit zatržení všeho" />
+        <Control Name="miCheckByMask" Caption="Zatrhnout podle masky..." />
+        <Control Name="miRestoreLast" Caption="Obnovit pøedchozí výbìr" />
+        <Control Name="miMoveUp" Caption="Pøesunout nahoru" />
+        <Control Name="miMoveDown" Caption="Pøesunout dolù" />
+        <Control Name="miLanguage" Caption="Jazyk" />
+    </Form>
+    <Form Name="ToPDFWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Zpìt" />
+        <Control Name="bnNext" Caption="&amp;Další &gt;&gt;" />
+        <Control Name="bnCancel" Caption="Z&amp;rušit" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="ToPDFWizardCombiDestinationFrame" >
+        <Control Name="rbCombine" Caption="Spojit vše do jednoho dokumentu" />
+        <Control Name="rbSeparateFolder" Caption="Rozdìlit soubory podle složek" />
+        <Control Name="rbSeparateNamePart" Caption="Rozdìlit podle spoleèné èásti názvu" />
+    </Form>
+    <Form Name="ToPDFWizardNamePartFrame" />
+    <Form Name="ToPDFWizardHeaderFrame" >
+        <Control Name="Label1" Caption="Vyladit záhlaví strany" />
+        <Control Name="Label2" Caption="Délka:" />
+        <Control Name="lbl1" Caption="[page] - Strana èíslo/n [date] - Aktuální datum" />
+        <Control Name="elgr" Caption="Zaèít od:" />
+        <Control Name="cbComment" Caption="Záhlaví" />
+        <Control Name="cbNumber" Caption="Pokraèovat od pøedchozího dokumentu" />
+    </Form>
+    <Form Name="ToPDFWizardFooterFrame" >
+        <Control Name="Label1" Caption="Vyladit zápatí strany" />
+        <Control Name="cbNumber" Caption="Pokraèovat od pøedchozího dokumentu" />
+        <Control Name="Label2" Caption="Délka:" />
+        <Control Name="lbl1" Caption="[page] - Strana èíslo/n [date] - Aktuální datum" />
+        <Control Name="elgr" Caption="Zaèít od:" />
+        <Control Name="cbComment" Caption="Zápatí:" />
+    </Form>
+    <Form Name="MailListBrowseFrame" >
+        <Control Name="miLanguage" Caption="Jazyk" />
+        <Control Name="miIncludeSubfolders" Caption="Zahrnout podsložky" />
+        <Control Name="miCheck" Caption="Zatrhnout" />
+        <Control Name="miUncheck" Caption="Zrušit zatržení" />
+        <Control Name="miCheckAll" Caption="Zatrhnout vše" />
+        <Control Name="miUncheckAll" Caption="Zrušit zatržení všeho" />
+        <Control Name="miCheckByMask" Caption="Zatrhnout podle masky..." />
+        <Control Name="miRestoreLast" Caption="Obnovit pøedchozí výbìr" />
+        <Control Name="miMoveUp" Caption="Pøesunout nahoru" />
+        <Control Name="miMoveDown" Caption="Pøesunout dolù" />
+    </Form>
+    <Form Name="MailWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Zpìt" />
+        <Control Name="bnNext" Caption="&amp;Další &gt;&gt;" />
+        <Control Name="bnCancel" Caption="Z&amp;rušit" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="MailWizardFileFrame" >
+        <Control Name="Label1" Caption="Nastavit nový název souboru" />
+        <Control Name="Label2" Caption="Název souboru:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Nastavit tuto cestu jako výchozí" />
+    </Form>
+    <Form Name="MailWizardTemplateFrame" >
+        <Control Name="Label1" Caption="Nastavit šablonu nového názvu souboru" />
+        <Control Name="lblHelp" Caption="Dostupmé makro:/n /n    [name] - název zdrojového souboru/n    [subject] - pøedmìt zprávy/n    [sender] - odesílatel zprávy/n    [recipient] - první pøíjemce zprávy/n    [date:&lt;format&gt;] - datum zprávy" />
+        <Control Name="lblTemplate" Caption="Šablona:" />
+    </Form>
+    <Form Name="MailWizardItemsFrame" >
+        <Control Name="Label1" Caption="Vyberte pole, která chcete exportovat" />
+        <Control Name="cgItems" Caption="Pole k exportu" >
+            <Item>Odsilatel</Item>
+            <Item>Poijemce</Item>
+            <Item>CC (Kopie)</Item>
+            <Item>BCC (Skryta kopie)</Item>
+            <Item>Datum</Item>
+            <Item>Poedmit</Item>
+            <Item>Tilo</Item>
+        </Control>
+        <Control Name="cbDisableInet" Caption="Nepøistupovat k internetu ke stažení obrázkù" />
+        <Control Name="cbDateUTC" Caption="Ukázat datum v UTC" />
+    </Form>
+    <Form Name="MailWizardCSSFrame" >
+        <Control Name="rbInternal" Caption="Použít vnitøní schéma" />
+        <Control Name="rbExternal" Caption="Použít externí CSS soubor" />
+        <Control Name="Label1" Caption="Vyladit vzhled výstupního dokumentu" />
+        <Control Name="bnTune" Caption="Ladit" />
+    </Form>
+    <Form Name="MailWizardAttachmentsFrame" >
+        <Control Name="Label1" Caption="Co chcete dìlat s pøílohami?" />
+        <Control Name="grAttach" Caption="Pøílohy" />
+        <Control Name="cbSaveAttachments" Caption="info o pøílohách" />
+        <Control Name="cbAttachUnpack" Caption="Rozbalit zazipované pøílohy" />
+        <Control Name="cbSeparateAttachMsg" Caption="Uložit do oddìleného souboru" />
+        <Control Name="cbIncludeImages" Caption="Zahrnout do dokumentu pøiložené obrázky" />
+        <Control Name="cbMsgConvert" Caption="Konvertovat pøipojené zprávy" />
+        <Control Name="cbSeparateAttach" Caption="Pøílohy v oddìlených složkách" />
+    </Form>
+    <Form Name="HTMWizardPdfDocInfoFrame" >
+        <Control Name="Label1" Caption="Informace o dokumentu" />
+        <Control Name="Label2" Caption="Autor:" />
+        <Control Name="Label3" Caption="Vytvoøil:" />
+        <Control Name="Label4" Caption="Klíèová slova:" />
+        <Control Name="Label5" Caption="Pøedmìt:" />
+        <Control Name="Label6" Caption="Název:" />
+    </Form>
+    <Form Name="HTMWizardPDFCompressionFrame" >
+        <Control Name="Label1" Caption="Vybrat úroveò komprese dokumentu" />
+        <Control Name="rgCompression" Caption="Úroveò komprese" >
+            <Item>Nejrychlejsi</Item>
+            <Item>Normalni</Item>
+            <Item>Maximalni</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardPDFEncyptionFrame" >
+        <Control Name="Label1" Caption="Mùžete nastavit ochranu PDF dokumentu" />
+        <Control Name="gbEncryption" Caption="Šifrovat dokument" />
+        <Control Name="Label2" Caption="Heslo vlastníka:" />
+        <Control Name="Label3" Caption="Potvrdit:" />
+        <Control Name="Label4" Caption="Heslo uživatele:" />
+        <Control Name="Label5" Caption="Potvrdit:" />
+        <Control Name="cgPermissions" Caption="Práva uživatele" >
+            <Item>Kopirovat</Item>
+            <Item>Minit</Item>
+            <Item>Tisknout</Item>
+            <Item>Vyploovat formulao</Item>
+            <Item>Anotace</Item>
+            <Item>Usnadniny poistup</Item>
+            <Item>Slozeni dokumentu</Item>
+            <Item>Tisk ve vysokem rozliseni</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMPaperSizeFrame" >
+        <Control Name="Label1" Caption="Urèete velikost papíru pro PDF soubor" />
+        <Control Name="rbCommon" Caption="Bìžný" />
+        <Control Name="rbCustom" Caption="Vlastní" />
+        <Control Name="rgOrientation" Caption="Orientace papíru" >
+            <Item>na vysku</Item>
+            <Item>na sioku</Item>
+        </Control>
+        <Control Name="lbWidth" Caption="Šíøka:" />
+        <Control Name="lbWInch" Caption="palcù" />
+        <Control Name="lbHInch" Caption="palcù" />
+        <Control Name="lbHeight" Caption="Výška:" />
+        <Control Name="Label2" Caption="Velikost papíru" />
+        <Control Name="cbFitPage" Caption="Na velikost stránky" />
+    </Form>
+    <Form Name="HTMWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="Urèí okraj pro výstupní soubor" />
+        <Control Name="Label2" Caption="Nahoøe" />
+        <Control Name="Label3" Caption="Dole" />
+        <Control Name="Label4" Caption="Vlevo" />
+        <Control Name="lbRight" Caption="Vpravo" />
+    </Form>
+    <Form Name="MailWizardCombiDestinationFrame" >
+        <Control Name="Label1" Caption="Umístit výsledné soubory do jednoho dokumentu nebo každý e-mailový soubor do oddìleného dokumentu?" />
+        <Control Name="lbFileName" Caption="Název souboru:" />
+        <Control Name="lbFolderName" Caption="Název složky:" />
+        <Control Name="rbCombine" Caption="Spojit všechny e-mailové dokumenty do jednoho souboru" />
+        <Control Name="rbSeparate" Caption="každý e-mailový dokument do oddìleného souboru" />
+    </Form>
+    <Form Name="MailWizardFolderFrame" >
+        <Control Name="Label1" Caption="Vybrat cílovou složku" />
+        <Control Name="Label2" Caption="Název složky:" />
+        <Control Name="cbKeepStructure" Caption="Zachovat strukturu složek" />
+        <Control Name="bnSetDefault" Caption="Nastavit tuto cestu jako výchozí" />
+    </Form>
+    <Form Name="HTMListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Zahrnout podsložky" />
+        <Control Name="miCheck" Caption="Zatrhnout" />
+        <Control Name="miUncheck" Caption="Zrušit zatržení" />
+        <Control Name="miCheckAll" Caption="Zatrhnout vše" />
+        <Control Name="miUncheckAll" Caption="Zrušit zatržení všeho" />
+        <Control Name="miCheckByMask" Caption="Zatrhnout podle masky..." />
+        <Control Name="miRestoreLast" Caption="Obnovit pøedchozí výbìr" />
+        <Control Name="miMoveUp" Caption="Pøesunout nahoru" />
+        <Control Name="miMoveDown" Caption="Pøesunout dolù" />
+    </Form>
+    <Form Name="HTMViewFrame" >
+        <Control Name="miLanguage" Caption="Jazyk" />
+    </Form>
+    <Form Name="HTMWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Zpìt" />
+        <Control Name="bnNext" Caption="&amp;Další &gt;&gt;" />
+        <Control Name="bnCancel" Caption="Z&amp;rušit" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="HTMWizardFileFrame" >
+        <Control Name="Label1" Caption="Nastavit nový název souboru" />
+        <Control Name="Label2" Caption="Název souboru:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Nastavit tuto cestu jako výchozí" />
+        <Control Name="cbSingleImage" Caption="Konvertovat do jednoho obrázku" />
+    </Form>
+    <Form Name="HTMWizardHeaderFrame" >
+        <Control Name="Label1" Caption="Nastavit záhlaví a zápatí pro výstupní dokument" />
+        <Control Name="gbHeader" Caption="Záhlaví" />
+        <Control Name="Label4" Caption=" Jsou podporována záhlaví a zápatí IE./n Pøíklad:  (&amp;&amp;w&amp;&amp;bPage &amp;&amp;p of &amp;&amp;P) /n   pøidá èísla stránek (&quot;Strana 1 z 10&quot;)" />
+        <Control Name="Label2" Caption="HTML soubor záhlaví:" />
+    </Form>
+    <Form Name="HTMWizardFooterFrame" >
+        <Control Name="Label1" Caption="Nastavit zápatí pro výstupní dokument" />
+        <Control Name="gbFooter" Caption="Zápatí" />
+        <Control Name="Label4" Caption=" Jsou podporována záhlaví a zápatí IE./n Pøíklad:  (&amp;&amp;u&amp;&amp;b&amp;&amp;d)/n  pøidá název souboru a datum (&quot;Strana 1 z 10&quot;)" />
+        <Control Name="Label2" Caption="HTML soubor zápatí:" />
+    </Form>
+    <Form Name="HTMWizardPDFWatermarkFrame" >
+        <Control Name="Label1" Caption="Vybrat vlastnosti vodoznaku/n pro výsledný dokument" />
+        <Control Name="lbComment" Caption="Textový vodoznak:" />
+        <Control Name="Label2" Caption="Rozsah stran (1-5,10)" />
+        <Control Name="gbFont" Caption="Písmo" />
+        <Control Name="Label3" Caption="Název:" />
+        <Control Name="Label4" Caption="Velikost:" />
+        <Control Name="Label5" Caption="Barva:" />
+        <Control Name="gbPos" Caption="Pozice" />
+    </Form>
+    <Form Name="HTMWizardPDFRenderFrame" >
+        <Control Name="Label1" Caption="Vybrat prvky, které chcete zahrnout/n do výsledného dokumentu" />
+        <Control Name="cgItems" Caption="Položky k zahrnutí" >
+            <Item>Text</Item>
+            <Item>Tvar</Item>
+            <Item>Obrazek</Item>
+        </Control>
+        <Control Name="rgEncodeType" Caption="Vložit použitá True Type písma" >
+            <Item>Nic</Item>
+            <Item>Vsechna</Item>
+            <Item>Jen pouzite znaky</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardImageFormatFrame" >
+        <Control Name="Label1" Caption="Vybrat výstupní formát/n pro generované HTML obrázky" />
+        <Control Name="Label2" Caption="Zdrojové DPI:" />
+        <Control Name="rgImageFormat" Caption="Výstupní formát obrázku" >
+            <Item>BMP - slaba komprese</Item>
+            <Item>JPEG - nejlepsi pro fotky</Item>
+            <Item>CCITT3 - komprese pro fax, eernobile</Item>
+            <Item>komprese pro fax, eernobile</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="U obrázkù JPEG mùžete definovat kvalitu" />
+        <Control Name="ElGroupBox1" Caption="Kvalita" />
+        <Control Name="Label5" Caption="Lepší (max. velikost)" />
+        <Control Name="Label6" Caption="Menší (min. velikost)" />
+    </Form>
+    <Form Name="HTMWizardBmpPixelFormatFrame" >
+        <Control Name="Label1" Caption="Pøedstavuje formát bitu u bitmapového obrázku /n  a tím urèuje, jak je obrázek zobrazen/n" />
+        <Control Name="rgPixelFormat" Caption="Formát obrázkového pixelu" >
+            <Item>1 bit - jeden bit na pixel (eernobila paleta)</Item>
+            <Item>4 bit - 16-barevna paleta.</Item>
+            <Item>8 bit - 256-barevna paleta.</Item>
+            <Item>15 bit - true-color bitmapa, RGB komprese</Item>
+            <Item>16 bit - true-color bitmapa, komprese podle bitoveho pole</Item>
+            <Item>24 bit - true-color bitmapa, 24 bitu na pixel.</Item>
+            <Item>32 bit - true-color bitmapa, 32 bitu na pixel</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardBkgndFrame" >
+        <Control Name="Label1" Caption="Mùžete vybrat obrázek na pozadí/n nebo použít vlastní barvu pozadí" />
+        <Control Name="rbColor" Caption="Použít barvu pozadí" />
+    </Form>
+    <Form Name="HTMWizardPdfSignInfoFrame" >
+        <Control Name="Label1" Caption="K výstupnímu PDF dokumentu mùžete pøidat digitální podpis." />
+        <Control Name="Label2" Caption="Umístìní:" />
+        <Control Name="Label5" Caption="Kontakt:" />
+        <Control Name="Label6" Caption="Dùvod:" />
+        <Control Name="Label3" Caption="Soubor PFX:" />
+        <Control Name="Label4" Caption="Heslo:" />
+    </Form>
+    <Form Name="ImageWizardJP2KRateFrame" >
+        <Control Name="Label1" Caption="U obrázkù JPEG 200 mùžete definovat pomìr komprese" />
+        <Control Name="ElGroupBox1" Caption="Pomìr" />
+        <Control Name="Label5" Caption="Lepší (max. velikost)" />
+        <Control Name="Label6" Caption="Menší (min. velikost)" />
+    </Form>
+    <Form Name="CADViewFrame" >
+        <Control Name="miLanguage" Caption="Jazyk" />
+    </Form>
+    <Form Name="ImageWizardIcoSizeFrame" >
+        <Control Name="Label1" Caption="Zkontrolujte velikost ikon, které chcete zahrnout ve výsledném obrázku (jedna ikona mùže obsahovat nìkolik obrázkù rùzných rozmìrù)" />
+        <Control Name="cbSelectBest" Caption="Vybrat nejlepší rozlišení" />
+        <Control Name="cbStandard" Caption="Všechna standardní rozlišení" />
+    </Form>
+    <Form Name="ImageWizardIcoColorsFrame" >
+        <Control Name="Label1" Caption="Formát ICO podporuje nìkteré barevné obrázky v souboru./n Vyberte barvy, které chcete zahrnout." />
+        <Control Name="cgColors" Caption="" >
+            <Item>16 barev</Item>
+            <Item>256 barev</Item>
+            <Item>True color</Item>
+            <Item>Ikona WindowsXP</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTransparencyFrame" >
+        <Control Name="Label1" Caption="Vybrat barvy pro prùhlednost" />
+        <Control Name="ElGroupBox1" Caption="Prùhledná barva" />
+        <Control Name="lbBkgnd" Caption="Pozadí:" />
+        <Control Name="bnSelectColors" Caption="Vybrat barvy..." />
+        <Control Name="rbNoTransparency" Caption="Bez prùhlednosti" />
+        <Control Name="rbSourceFile" Caption="Použít prùhlednost ze zdrojového souboru" />
+        <Control Name="rbUseColors" Caption="Nastavit tuto barvu jako prùhlednou" />
+        <Control Name="cbTransparencyMethod" Caption="" >
+            <Item>Alfa kanal</Item>
+            <Item>Horni levy pixel</Item>
+            <Item>Dolni levy pixel</Item>
+            <Item>Horni pravy pixel</Item>
+            <Item>Dolni pravy pixel</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTiffCompressionFrame" >
+        <Control Name="Label1" Caption="Vybrat kompresi výsledného TIFF dokumentu" />
+        <Control Name="rgCompression" Caption="" >
+            <Item>Nekomprimovany</Item>
+            <Item>LZW komprese</Item>
+            <Item>RLE komprese (packbity)</Item>
+            <Item>JPEG komprese</Item>
+            <Item>Bilevel Huffmanova komprese (CCITT1D)</Item>
+            <Item>Bilevel Group 3 CCITT komprese, jednorozmirna (G3FAX1D)</Item>
+            <Item>Bilevel Group 3 CCITT komprese, dvourozmirna (G3FAX2D)</Item>
+            <Item>Bilevel Group 4 CCITT komprese, dvourozmirna (G4FAX)</Item>
+            <Item>ZIP komprese (nestandardni)</Item>
+            <Item>Deflate (Adobe zip komprese, nestandardni)</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardPhotometInterpretFrame" >
+        <Control Name="rgColorSpace" Caption="" >
+            <Item>Bila je nula</Item>
+            <Item>Eerna je nula</Item>
+            <Item>RGB</Item>
+            <Item>RGB Paleta</Item>
+            <Item>Pruhlednost</Item>
+        </Control>
+        <Control Name="maska|CMYK|YCBCR|CIELAB|" Caption="" />
+    </Form>
+    <Form Name="ImageWizardTIFFColorSpaceFrame" >
+        <Control Name="Label1" Caption="Urèuje požadovanou škálu barev pro Jpeg zahrnutý v TIFF souboru" />
+        <Control Name="rgColorSpace" Caption="Škála barev JPEG" >
+            <Item>RGB</Item>
+            <Item>GRAYLEV</Item>
+            <Item>YCbCr</Item>
+            <Item>CMYK</Item>
+            <Item>YCbCrK</Item>
+        </Control>
+    </Form>
+    <Form Name="SimpleImageWizardForm" />
+    <Form Name="ImageWizardColorsFrame" >
+        <Control Name="Label1" Caption="Vybrat poèet barev v cílovém obrázku" />
+        <Control Name="rgColors" Caption="Barvy" >
+            <Item>Eerna &amp; Bila</Item>
+            <Item>Stupni sede</Item>
+            <Item>16 barev</Item>
+            <Item>256 barev</Item>
+            <Item>True color (24bit)</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardBWFrame" />
+    <Form Name="PDFWizardJpegQualityFrame" />
+    <Form Name="PDFWizardDPIFrame" >
+        <Control Name="Label1" Caption="Vybrat kvalitu a rozmìr vytvoøeného obrázku" />
+        <Control Name="Label2" Caption="Velikost stránky" />
+        <Control Name="rb75" Caption="75 DPI (Rozlišení obrazovky)" />
+        <Control Name="rb150" Caption="150 DPI (Rozlišení pro tisk náhledu)" />
+        <Control Name="rb300" Caption="300 DPI (Rozlišení pro kvalitní tisk)" />
+        <Control Name="rbCustom" Caption="Vlastní" />
+        <Control Name="cbOriginal" Caption="Pùvodní" />
+    </Form>
+    <Form Name="PDFWizardImageCombineFrame" >
+        <Control Name="Label1" Caption="Mùžete zapsat každou stránku do samostatného souboru/n nebo je spojit do jednoho velkého souboru" />
+        <Control Name="lbSet" Caption="Umístit" />
+        <Control Name="lbPages" Caption="stránky podle šíøky" />
+        <Control Name="Label3" Caption="Tuto volbu použijte, pokud je konverze PDF souboru neúspìšná" />
+        <Control Name="cbCombine" Caption="Spojit stránky do jednoho souboru" />
+        <Control Name="Label2" Caption="stránky podle výšky" />
+        <Control Name="rbAllPages" Caption="Všechny stránky do jednoho obrázku" />
+        <Control Name="rbPagesByHeight" Caption="Umístit" />
+        <Control Name="cbSedPDF" Caption="Použít alternativní výstupní metodu" />
+    </Form>
+    <Form Name="XLSListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Zahrnout podsložky" />
+        <Control Name="miCheck" Caption="Zatrhnout" />
+        <Control Name="miUncheck" Caption="Zrušit zatržení" />
+        <Control Name="miCheckAll" Caption="Zatrhnout vše" />
+        <Control Name="miUncheckAll" Caption="Zrušit zatržení všeho" />
+        <Control Name="miCheckByMask" Caption="Zatrhnout podle masky..." />
+        <Control Name="miRestoreLast" Caption="Obnovit pøedchozí výbìr" />
+        <Control Name="miMoveUp" Caption="Pøesunout nahoru" />
+        <Control Name="miMoveDown" Caption="Pøesunout dolù" />
+    </Form>
+    <Form Name="XLSViewFrame" >
+        <Control Name="miLanguage" Caption="Jazyk" />
+    </Form>
+    <Form Name="XLSWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Zpìt" />
+        <Control Name="bnNext" Caption="&amp;Další &gt;&gt;" />
+        <Control Name="bnCancel" Caption="Z&amp;rušit" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="XLSWizardFileFrame" >
+        <Control Name="Label1" Caption="Nastavit nový název souboru" />
+        <Control Name="Label2" Caption="Název souboru:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Nastavit tuto cestu jako výchozí" />
+    </Form>
+    <Form Name="XLSWizardPaperProp" />
+    <Form Name="XLSWizardTextPropFrame" >
+        <Control Name="Label1" Caption="Vybrat možnosti textu" />
+        <Control Name="rgTextDelimiter" Caption="Oddìlovaè textu" >
+            <Item>Zadny</Item>
+            <Item>Tabulator</Item>
+            <Item>Mezernik</Item>
+            <Item>CSV</Item>
+            <Item>Jiny</Item>
+        </Control>
+    </Form>
+  </Forms>

@@ -1,0 +1,1231 @@
+<?xml version="1.0"?>
+<!-- created by Frigate XML package -->
+  <Forms>
+    <Form name="MainForm" >
+      <Control name="miFile" Caption="Файл" />
+      <Control Name="miSkins" Caption="Скины" />
+      <Control Name="miNoSkin" Caption="Нет скина" />
+      <Control name="miRefresh" Caption="Обновить" />
+      <Control name="miPrint" Caption="Печать" />
+      <Control name="miExit" Caption="Выход" />
+      <Control name="miView" Caption="Просмотр" />
+      <Control name="miConvert" Caption="Конвертация" />
+      <Control name="miHelp" Caption="Помощь" />
+      <Control name="miEdit" Caption="Правка" />
+      <Control name="liConvertTo" Caption="Конвертировать в: " />
+      <Control name="lbFilterCaption" Caption="Фильтр: " />
+      <Control name="bnDefineAction" Caption="Задать действия" />
+      <Control name="miLanguage" caption="Язык" />
+      <Control name="mitbOther" caption="Другие" />
+      <Control Name="miAbout" Caption="О программе" />
+      <Control Name="miWantMore" Caption="Хочу добавки" />
+    </Form>
+    <Form name="HelpForm" >
+      <Control Name="cbStartup" Caption="Показывать при старте" />
+      <Control Name="btnBuy" Caption="Купить" />
+      <Control Name="btnHome" Caption="Главная" />
+      <Control Name="btnBack" Caption="Назад" />
+    </Form>
+    <Form name="MP3BrowseToolbarFrame" >
+      <Control name="liSendTo" caption="Послать" />
+    </Form>
+    <Form name="ImageBrowseToolbarFrame" >
+      <Control name="miRotate" caption="Повернуть" />
+      <Control name="miResize" caption="Размер" />
+      <Control name="miCrop" caption="Обрезать" />
+      <Control name="miWatermark" caption="Водные знаки" />
+      <Control name="miFrame" caption="Рамка" />
+      <Control name="miEMail" caption="Послать по EMail" />
+    </Form>
+    <!-- Doc Converter -->
+    <Form name="DocBrowseFrame" source="ListBrowseFrame" section="DocConverter" />
+    <Form name="DocWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="DocWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="DocWizardForm" source="CustomWizard" section="DocConverter" />
+    <Form name="DocWizardPDFMarginFrame" source="HTMWizardPDFMarginFrame" section="DocConverter" />
+    <!-- PDF Converter -->
+    <Form name="PDFListFrame" source="ListBrowseFrame" section="PDFConverter" />
+    <Form name="PDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFConverter" />
+    <Form name="PDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFConverter" />
+    <Form name="PDFWizardForm" source="CustomWizard" section="PDFConverter" />
+    <!-- HTML Converter -->
+    <Form name="HTMListFrame" source="ListBrowseFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFileFrame" source="CommonWizardFileFrame" section="HTMLConverter" >
+      <Control Name="cbSingleImage" Caption="Конвертировать в один файл" />
+    </Form>
+    <Form name="HTMWizardFolderFrame" source="CommonWizardFolderFrame" section="HTMLConverter" />
+    <Form name="HTMWizardForm" source="CustomWizard" section="HTMLConverter" >
+      <Control Name="lbDiscount" Caption="&lt;a href=discount&gt;Скидка!&lt;/a&gt;" />
+    </Form>
+    <!-- Image Converter -->
+    <Form name="ImagesListFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImagesThumbnailFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImageWizardFileFrame" source="CommonWizardFileFrame" section="ImageConverter" />
+    <Form name="ImageWizardFolderFrame" source="CommonWizardFolderFrame" section="ImageConverter" />
+    <Form name="ImageWizardForm" source="CustomWizard" section="ImageConverter" />
+    <!-- AudioConverter -->
+    <Form name="MP3WizardFileFrame" source="CommonWizardFileFrame" />
+    <Form name="MP3WizardFolderFrame" source="CommonWizardFolderFrame" />
+    <Form name="Mp3WizardForm" source="CustomWizard" section="AudioConverter" />
+    <Form name="MP3ListFrame" source="ListBrowseFrame" section="AudioConverter" />
+    <!-- XLS Converter -->
+    <Form name="XLSListBrowseFrame" source="ListBrowseFrame" section="ExcelConverter" />
+    <Form name="XLSWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="XLSWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="XLSWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Combine -->
+    <Form name="ToPDFBrowseFrame" source="ListBrowseFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardForm" source="CustomWizard" section="PDFCombine" />
+    <!-- Mail Converter -->
+    <Form name="MailListBrowseFrame" source="ListBrowseFrame" section="MailConverter" />
+    <Form name="MailWizardFileFrame" source="CommonWizardFileFrame" section="MailConverter" />
+    <Form name="MailWizardFolderFrame" source="CommonWizardFolderFrame" section="MailConverter" />
+    <Form name="MailWizardForm" source="CustomWizard" section="MailConverter" />
+    <!-- Tiff Pagging -->
+    <Form name="ImageWizardFileTemplateFrame" source="PDFWizardFileTemplateFrame" section="ImageConverter" />
+    <!-- CAD Converter -->
+    <Form name="CADWizardRotateFrame" source="ImageWizardRotateFrame" />
+    <Form name="CADWizardForm" source="CustomWizard" />
+    <!-- Common Form -->
+    <Form name="DataModuleHelp" >
+      <Control name="miLang" caption="Язык" />
+      <Control name="miHelp" caption="Помощь" />
+      <Control name="miRegister" caption="Ввести регистрационный номер" />
+      <Control name="miOrder" caption="Как купить?" />
+      <Control name="miHotOffer" caption="Специальное предложение" />
+      <Control name="miWriteUs" caption="Напишите нам" />
+      <Control name="miWebSite" caption="Интернет страница" />
+      <Control name="miAbout" caption="О программе" />
+      <Control name="miBuyCoolutils" caption="Купить CoolUtils PRO со скидкой!" />
+      <Control name="miLearnCoolUtils" caption="Узнайте больше..." />
+    </Form>
+    <Form name="MaskDialog" caption="Маска файла" >
+      <Control name="Label1" caption="Маска" />
+    </Form>
+    <Form name="RegisterDialog" caption="Зарегистрировать " >
+      <Control name="lbChooseFile" caption="Выберите файл регистрации и нажмите кнопку Регистрация" />
+      <Control name="lbEither" caption="ИЛИ" />
+      <Control name="lbCopyKey" caption="Введите ключ здесь" />
+      <Control name="bnOK" caption="Регистрация" />
+      <Control Name="ElHTMLLabel1" Caption="После покупки вы получили письмо с регистрационным ключом. Скопируйте ключ (ctrl+ins) и вставьте его (shift+ins) в это окно. Нажмите кнопку Регистрация.  &lt;P&gt; &lt;P&gt;&lt;a href=&quot;http://www.coolutils.com/ru/support.php#HowRegister&quot;&gt;Подробнее о регистрации&lt;/a&gt;  &lt;P&gt; &lt;P&gt;Если у вас возникли вопросы, пишите нам support@coolutils.com  " />
+    </Form>
+    <Form name="ListBrowseFrame" >
+      <Control name="miIncludeSubfolders" Caption="Включая поддиректории" />
+      <Control name="miCheck" Caption="Отметить" />
+      <Control name="miUncheck" Caption="Снять" />
+      <Control name="miCheckAll" Caption="Отметить все" />
+      <Control name="miUncheckAll" Caption="Снять все" />
+      <Control name="miCheckByMask" Caption="Отметить по маске..." />
+      <Control name="miRestoreLast" caption="Восстановить выделение" />
+      <Control name="miMoveUp" Caption="Поднять" />
+      <Control name="miMoveDown" Caption="Опустить" />
+    </Form>
+    <Form name="CustomWizard" >
+      <Control name="bnBack" caption="&lt;&lt; Назад" />
+      <Control name="bnNext" caption="Вперед &gt;&gt;" />
+      <Control name="bnFinish" caption="Начать" />
+      <Control name="bnCancel" caption="Отмена" />
+    </Form>
+    <Form name="CommonWizardFileFrame" >
+      <Control name="Label1" caption="Укажите, куда сохранять преобразованные файлы" />
+      <Control name="Label2" caption="Имя файла:" />
+      <Control name="bnSetDefault" caption="Запомнить путь по умолчанию" />
+      <Control name="edFileName" AltButtonHint="Использовать текущий путь" DialogTitle="Сохранить файл как" />
+    </Form>
+    <Form name="CommonWizardFolderFrame" >
+      <Control name="Label1" caption="Укажите, куда сохранять преобразованные файлы" />
+      <Control name="Label2" caption="Имя директории:" />
+      <Control name="cbKeepStructure" caption="Сохранять структуру директорий" />
+      <Control name="bnSetDefault" caption="Запомнить путь по умолчанию" />
+    </Form>
+    <Form name="WizardFinishFrame" >
+      <Control name="Label1" caption="Вся необходимая для конвертации информация успешно собрана" />
+      <Control name="lbViewCaption" caption="Конверация будет произведена со следующими настройками:" />
+      <Control name="cbDeleteOriginals" Caption="Удалить исходный файл" />
+      <Control name="cbOpenDestination" caption="Открыть папку с файлами после конвертации" />
+      <Control name="lbFinishCaption" caption="Нажмите НАЧАТЬ" />
+    </Form>
+    <!-- AudioConverter -->
+    <Form name="MP3InfoFrame" section="AudioConverter" >
+      <Control name="lbCaption" caption="Информация о текущей композиции" />
+      <Control name="lbTitleCap" caption="Название:" />
+      <Control name="lbArtistCap" caption="Артист:" />
+      <Control name="lbCommentCap" caption="Коментарий:" />
+      <Control name="lbAlbumCap" caption="Альбом:" />
+      <Control name="lbYearCap" caption="Год:" />
+      <Control name="lbGenreCap" caption="Жанр:" />
+      <Control name="lbInfoCap" caption="Инфо:" />
+    </Form>
+    <Form name="MP3WizardBitrateFrame" >
+      <Control name="Label1" caption="Определяет, как много места занимает одна секунда звучания" />
+      <Control name="Label2" caption="Мин. битрейт:" />
+      <Control name="gbBitrate" caption="VBR включен" />
+      <Control name="Label3" caption="Макс. битрейт:" />
+      <Control name="Label4" caption="Качество:" />
+    </Form>
+    <Form name="MP3WizardWAVBitsFrame" >
+      <Control name="rgBits" caption="Бит" />
+      <Control name="Label1" caption="WAV файлы в Windows могут быть 8 или 16 бит" />
+    </Form>
+    <Form name="MP3WizardSamplerateFrame" >
+      <Control name="rgSamplerate" caption="Частота" />
+      <Control name="Label1" caption="Чем выше частота, там выше качество и больше размер файла" />
+    </Form>
+    <Form name="MP3WizardChannelsFrame" >
+      <Control name="rgChannels" caption="Каналы" />
+      <Control name="Label1" caption="Стерео файл вдвое больше моно" />
+    </Form>
+    <Form name="MP3WizardBitrateFrameWMA" >
+      <Control name="Label1" caption="Определяет, как много места занимает одна секунда звучания" />
+      <Control name="rbCBR" caption="Постоянный поток" />
+      <Control name="rbVBR" caption="Переменный поток (качество)" />
+    </Form>
+    <Form name="MP3WizardOggCompressionFrame" >
+      <Control name="Label1" caption="Качество 0 примерно соответсвует потоку в 64kbps, 5 - 160kbps, 10 - около 400kbps/nПримерно качество CD - 5" />
+      <Control name="gbQuality" caption="Качество" />
+      <Control name="Label6" caption="Хуже (мин. размер)" />
+      <Control name="Label5" caption="Лучше (макс. размер)" />
+    </Form>
+    <Form name="MP3WizardMPCProfileFrame" >
+      <Control name="Label1" caption="Выберите профиль качество сжатия" />
+      <Control name="rgPreset" caption="Профиль" >
+        <item>Телефон - худшее качество, (32..48kbps)</item>
+        <item>Отпечаток - низкое качество, (58..86kbps)</item>
+        <item>Радио - среднее (mp3) качество, (112..152kbps)</item>
+        <item>Стандартное - высокое качество, (142..184kbps)</item>
+        <item>Экстремальное - очень высокое качество (168..212kbps)</item>
+        <item>Безумное - очень высокое качество (232..268kbps)</item>
+        <item>Невероятное - очень высокое качество (232..278kbps)</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardAACQualityFrame" >
+      <Control name="Label1" caption="Установить качество потока (VBR) в процентах\nРазумные пределы - 33%-130%" />
+      <Control name="gbQuality" caption="Качество" />
+      <Control name="Label6" caption="Хуже (мин. размер)" />
+      <Control name="Label5" caption="Лучше (макс. размер)" />
+      <Control name="cbAACFromSource" caption="Для AAC файлов брать настройки из источника" />
+    </Form>
+    <Form name="MP3WizardAPECompressionFrame" >
+      <Control name="Label1" caption="Все режимы без потери качества\nНо чем выше компрессия, тем больше нагрузка на CPU" />
+      <Control name="rgCompression" caption="Компрессия" >
+        <item>Быстрая</item>
+        <item>Нормальная</item>
+        <item>Высокая</item>
+        <item>Очень высокая</item>
+        <item>Безумная</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardCDFrame" >
+      <Control name="Label1" caption="Выберите диск и дорожки для захвата" />
+      <Control name="Label2" caption="Диск:" />
+      <Control name="lbName" caption="Неизвестный альбом" />
+      <Control name="bnCheckAll" caption="Отметить все" />
+      <Control name="bnUncheckAll" caption="Снять отметки" />
+      <Control name="bnFreeDB" caption="Найти в FreeDB" />
+    </Form>
+    <Form name="MP3WizardCueSplitFrame" >
+      <Control name="Label1" caption="CUE файл содержит информацию о диске, такую как название, артист, время и т.д." />
+      <Control name="cbSplit" caption="Разрезать файл, использую информацию из CUE-файла" />
+      <Control name="lbTemplate" caption="Шаблон для имени файлов" />
+    </Form>
+    <Form name="MP3WizardFormatFrame" >
+      <control name="rbWav" caption="WAV - без компресии, очень большой файл" />
+      <control name="rbMP3" caption="MP3 - самый распространенный формат" />
+      <control name="rbWMA" caption="WMA - формат музыки от Microsoft" />
+      <control name="rbOGG" caption="OGG - формат музыки Ogg Vorbis" />
+      <control name="rbMPC" caption="MPC - формат музыки Musepack" />
+      <control name="rbAPE" caption="APE - сжатие музыки без потери качества" />
+      <control name="rbFLAC" caption="FLAC - бесплатный формат без потери качества" />
+    </Form>
+    <!-- ImageConverter -->
+    <Form Name="ImageInfoFrame" >
+      <Control Name="miRotateLeft" Caption="Повернуть влево" />
+      <Control Name="miRotateRight" Caption="Повернуть вправо" />
+      <Control Name="miRotate180" Caption="Повернуть на 180" />
+      <Control Name="miSetWallpaper" Caption="На рабочий стол" />
+      <Control Name="ElLabel8" Caption="Модель:" />
+      <Control Name="ElLabel4" Caption="Цвета:" />
+      <Control Name="ElLabel2" Caption="Размер:" />
+      <Control Name="ElLabel1" Caption="Ширина:" />
+      <Control Name="ElLabel3" Caption="Высота:" />
+      <Control Name="ElLabel9" Caption="Тип файла:" />
+      <Control Name="ElLabel7" Caption="Ориентация:" />
+      <Control Name="ElLabel6" Caption="Дата:" />
+      <Control Name="ElLabel5" Caption="Кадры:" />
+    </Form>
+    <Form Name="ImageWizardCropFrame" >
+      <Control Name="Label2" Caption="Слева:" />
+      <Control Name="Label1" Caption="Вы можете уменьшить размер картинки, удалив лишние границы" />
+      <Control Name="bnSelect" Caption="Выбор..." />
+      <Control Name="Label3" Caption="Снизу:" />
+      <Control Name="Label4" Caption="Справа:" />
+      <Control Name="Label5" Caption="Сверху:" />
+      <Control Name="lblHeightCap" Caption="Высота:" />
+      <Control Name="lblWidthCap" Caption="Ширина:" />
+    </Form>
+    <Form Name="ImageWizardResizeFrame" >
+      <Control Name="lbWidth" Caption="Высота:" />
+      <Control Name="lbHeight" Caption="Ширина:" />
+      <Control Name="Label1" Caption="Вы можете изменить размер картинки в процессе конвертации" />
+      <Control Name="cbConstrain" Caption="Соблюдая пропорции" />
+      <Control Name="rbNoResize" Caption="Не менять размер" />
+      <Control Name="rbResize" Caption="Изменить размер" />
+    </Form>
+    <Form Name="ImageWizardCommentFrame" >
+      <Control Name="Label1" Caption="Вы можете добавить комментарий к фотографии, основываясь на свойствах картинки" />
+      <Control Name="cbAddComment" Caption="Добавить коментарий к картинке" />
+      <Control Name="lbComment" Caption="Текст:" />
+      <Control Name="gbPos" Caption="Положение" />
+      <Control Name="gbFont" Caption="Шрифт" />
+      <Control Name="Label3" Caption="Имя:" />
+      <Control Name="Label4" Caption="Размер:" />
+      <Control Name="Label5" Caption="Цвет" />
+      <Control Name="cbSoftShadow" Caption="Добавить мягкую тень" />
+      <Control Name="Label6" Caption="Отступ:" />
+      <Control Name="gbExample" Caption="Пример:" />
+    </Form>
+    <Form Name="ImageWizardColorsFrame" >
+      <Control Name="Label1" Caption="Выберите количество цветов" />
+      <Control Name="rgColors" Caption="Цвета" >
+        <Item>Черно-белый</Item>
+        <item>Серый</item>
+        <item>16 цветов</item>
+        <item>256 цветов</item>
+        <item>Натуральный цвет (24bit)</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardRotateFrame" >
+      <Control Name="Label1" Caption="Поворот изображения для нормального просмотра" />
+      <Control Name="ElRadioButton1" Caption="верх / левая сторона" />
+      <Control Name="ElRadioButton2" Caption="верх / правая сторона" />
+      <Control Name="ElRadioButton3" Caption="низ / правая сторона" />
+      <Control Name="ElRadioButton4" Caption="низ / левая сторона" />
+      <Control Name="ElRadioButton5" Caption="левая сторона / верх" />
+      <Control Name="ElRadioButton6" Caption="правая сторона / верх" />
+      <Control Name="ElRadioButton7" Caption="правая сторона / низ" />
+      <Control Name="ElRadioButton8" Caption="левая сторона / низ" />
+      <Control Name="ElRadioButton9" Caption="Использовать информацию из EXIF" />
+      <Control Name="gbOrientation" Caption="Текущее положение картинки" />
+    </Form>
+    <Form name="ImageWizardWatermarkFrame" >
+      <Control Name="Label1" Caption="Добавьте прозрачный логотип на картинку" />
+      <Control Name="Label2" Caption="Лого:" />
+      <Control Name="gbTransparency" Caption="Прозрачность" />
+      <Control Name="Label4" Caption="нет" />
+      <Control Name="Label3" Caption="полная" />
+      <Control Name="ElGroupBox2" Caption="Положение" />
+      <Control Name="Label6" Caption="Отступ:" />
+      <Control Name="bnEffects" Caption="Эффекты &gt;" />
+      <Control Name="cbAddLogo" Caption="Добавить лого на картинку" />
+    </Form>
+    <Form name="ImageWizardMaskFrame" >
+      <Control Name="Label1" Caption="Добавьте рамку к вашим фотографиям" />
+      <Control Name="Label2" Caption="Рамка:" />
+      <Control Name="rbNoFrame" Caption="Без рамки" />
+      <Control Name="rbFrameIndex" Caption="Номер рамки" />
+      <Control Name="rbFrameFile" Caption="Рамка из файла" />
+      <Control Name="cbInsideImage" Caption="Внутри картинки" />
+      <Control Name="lbSpace" Caption="Отступ:" />
+    </Form>
+    <Form Name="ImageWizardJpegQualityFrame" >
+      <Control Name="Label1" Caption="Для JPEG изображений вы можете задать качество и сглаживание" />
+      <Control Name="cbLossless" Caption="Использовать информацию из исходного файла\nЕсли возможно, ипользовать трансформацию без потерь" />
+      <Control Name="gbQuality" Caption="Качество" />
+      <Control Name="Label6" Caption="Хуже (размер меньше)" />
+      <Control Name="Label5" Caption="Лучше (размер больше)" />
+      <Control Name="gbSmoothing" Caption="Сглаживание" />
+    </Form>
+    <Form name="ImageWizardJP2KRateFrame" >
+      <Control Name="Label1" Caption="Для изображений в формате JPEG 2000 можно задать степень сжатия" />
+      <Control Name="ElGroupBox1" Caption="Степень сжатия" />
+      <Control Name="Label6" Caption="Хуже (размер меньше)" />
+      <Control Name="Label5" Caption="Лучше (размер больше)" />
+    </Form>
+    <Form name="ImageWizardIcoSizeFrame" >
+      <Control Name="Label1" Caption="Выберите размеры иконки" />
+      <Control Name="cbSelectBest" Caption="Выбрать лучшее разрешение" />
+      <Control Name="cbStandard" Caption="Все стандартные разрешения" />
+    </Form>
+    <Form Name="ImageWizardIcoColorsFrame" >
+      <Control Name="Label1" Caption="ICO формат поддерживает наличие нескольких изображений в одном файле. Укажите цвета, которые вы хотите включить" />
+      <Control Name="cgColors" >
+        <item>16 цветов</item>
+        <item>256 цветов</item>
+        <item>Натуральный цвет (TrueColor)</item>
+        <item>Иконка WindowsXP</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardTransparencyFrame" >
+      <Control Name="Label1" Caption="Выберете цвета прозрачности" />
+      <Control Name="ElGroupBox1" Caption="Прозрачность" />
+      <Control Name="rbSourceFile" Caption="Использовать прозрачность из источника" />
+      <Control Name="rbNoTransparency" Caption="Непрозрачный" />
+      <Control Name="lbBkgnd" Caption="Фон:" />
+      <Control Name="rbUseColors" Caption="Прозрачные цвета" />
+      <Control Name="bnSelectColors" Caption="Выбор цветов..." />
+      <Control Name="cbTransparencyMethod" >
+        <item>Альфа канал</item>
+        <item>Верхняя левая точка</item>
+        <item>Нижняя левая точка</item>
+        <item>Верхняя правая точка</item>
+        <item>Нижняя правая точка</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardPXMFrame" >
+      <Control Name="Label1" Caption="Этот формат поддерживает три подформата - черно-белый, серый и многоцветный.\nВыберете нужный" />
+      <Control Name="rgFormat" Caption="Формат" >
+        <item>PBM (Portable Bitmap) - черно-белое изображение</item>
+        <item>PGM (Portable Graymap) - в серых тонах</item>
+        <item>PPM (Portable Pixmap) - многоцветное (TrueColor)</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardRAWFrame" >
+      <Control Name="Label1" Caption="Этот НЕ RAW формат фотокамеры. Используется для технических приложений. Вы можете задать все параметры изображения" />
+      <Control Name="Label2" Caption="Размер заголовка:" />
+      <Control Name="rgChannelOrder" Caption="Порядок каналов" />
+      <Control Name="rgColorPlanes" Caption="Цветовые планы" />
+      <Control Name="Label3" Caption="Выравнивание строки:" />
+    </Form>
+    <Form Name="ImageWizardTiffCompressionFrame" >
+      <Control Name="Label1" Caption="Выберете тип сжатия TIFF файла" />
+      <Control Name="rgCompression" >
+        <item>Без сжатия</item>
+        <item>LZW компрессия</item>
+        <item>RLE компрессия (packbits)</item>
+        <item>JPEG компрессия</item>
+        <item>Bilevel Huffman компрессия (CCITT1D)</item>
+        <item>Bilevel Group 3 CCITT, monodimensional (G3FAX1D)</item>
+        <item>Bilevel Group 3 CCITT, bidimensional (G3FAX2D)</item>
+        <item>Bilevel Group 4 CCITT, bidimensional (G4FAX)</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardTIFFColorSpaceFrame" >
+      <Control Name="Label1" Caption="Укажите цветовое пространство" />
+      <Control Name="rgColorSpace" Caption="Цветовое пространство JPEG" />
+    </Form>
+    <Form Name="ImageWizardPDFCompressionFrame" >
+      <Control Name="Label1" Caption="Укажите метод сжатия для Adobe PDF" />
+      <Control Name="rgCompression" Caption="Компрессия" >
+        <item>Без сжатия</item>
+        <item>RLE компрессия</item>
+        <item>G4FAX (только черно-белые картинки)</item>
+        <item>G3FAX2D (только черно-белые картинки)</item>
+        <item>JPEG (полноцветные картинки)</item>
+        <item>LZW (как для цветных, так и для черно-белых)</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardPDFPaperFrame" >
+      <Control Name="Label1" Caption="Укажите размер печатного листа" />
+      <Control Name="rbCommon" Caption="Стандартные" />
+      <Control Name="rbCustom" Caption="Нестандартный" />
+      <Control Name="lbWidth" Caption="Ширина" />
+      <Control Name="lbHeight" Caption="Высота" />
+      <Control Name="lbWInch" Caption="дюймов" />
+      <Control Name="lbHInch" Caption="дюймов" />
+    </Form>
+    <Form Name="ImageWizardPaperOrientationFrame" >
+      <Control Name="Label1" Caption="Укажите положение листов в документе" />
+      <Control Name="rgOrientation" Caption="Ориентация" >
+        <item>Портрет (вертикально)</item>
+        <item>Ландшафт (горизонтально)</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardPDFPropertiesFrame" >
+      <Control Name="Label1" Caption="Установите свойства документа" />
+      <Control Name="Label2" Caption="Название:" />
+      <Control Name="Label3" Caption="Тема:" />
+      <Control Name="Label5" Caption="Автор:" />
+      <Control Name="Label6" Caption="Ключевые слова:" />
+    </Form>
+    <Form Name="HTMWizardPDFOriientationFrame" >
+      <Control Name="Label1" Caption="Укажите положение листов в документе" />
+      <Control Name="rgOrientation" Caption="Ориентация" >
+        <item>Вертикально</item>
+        <item>Горизонтально</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardJpegQualityFrame" >
+      <Control Name="Label1" Caption="Для JPEG изображений вы можете задать качество" />
+      <Control Name="Label6" Caption="Хуже (размер меньше)" />
+      <Control Name="Label5" Caption="Лучше (размер больше)" />
+      <Control Name="ElGroupBox1" Caption="Качество" />
+    </Form>
+    <Form Name="HTMWizardPDFCompressionFrame" >
+      <Control Name="Label1" Caption="Выберите уровень сжатия документа" />
+      <Control Name="rgCompression" Caption="Уровень сжатия" >
+        <item>Быстрый</item>
+        <item>Нормальный</item>
+        <item>Максимальный</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardPdfDocInfoFrame" >
+      <Control Name="Label1" Caption="Установите свойства документа" />
+      <Control Name="Label6" Caption="Название:" />
+      <Control Name="Label5" Caption="Тема:" />
+      <Control Name="Label2" Caption="Автор:" />
+      <Control Name="Label3" Caption="Создатель:" />
+      <Control Name="Label4" Caption="Ключевые слова:" />
+    </Form>
+    <Form Name="HTMWizardPDFEncyptionFrame" >
+      <Control Name="cgPermissions" Caption="Права пользователя" />
+      <Control Caption="Доступность" />
+      <Control Name="gbEncryption" Caption="Шифрование документа" />
+      <Control Name="Label5" Caption="Подтвердить:" />
+      <Control Name="Label3" Caption="Подтвердить:" />
+      <Control Name="Label4" Caption="Пароль пользователя:" />
+      <Control Name="Label2" Caption="Пароль владельца:" />
+      <Control Name="Label1" Caption="Защита PDF документа" />
+    </Form>
+    <Form Name="HTMWizardPDFRenderFrame" >
+      <Control Caption="Текст" />
+      <Control Name="cgItems" Caption="Что включить" >
+        <item>Текст</item>
+        <item>Формы</item>
+        <item>Картинки</item>
+      </Control>
+      <Control Name="rgEncodeType" Caption="Похватить True Type шрифты (если есть)" />
+      <Control Name="Label1" Caption="Отметьте элементы, которые вы хотите включить в конечный документ " />
+    </Form>
+    <Form Name="HTMWizardTiffCompressionFrame" >
+      <Control Name="Label1" Caption="Выберите тип сжатия TIFF файла" />
+      <Control Name="rgCompression" Caption="Тип сжатия" >
+        <item>Без сжатия</item>
+        <item>LZW компрессия</item>
+        <item>RLE компресия (packbits)</item>
+        <item>JPEG компрессия</item>
+        <item>Bilevel Huffman compression (CCITT1D)</item>
+        <item>Bilevel Group 3 CCITT compression, monodimensional (G3FAX1D)</item>
+        <item>Bilevel Group 3 CCITT compression, bidimensional (G3FAX2D)</item>
+        <item>Bilevel Group 4 CCITT compression, bidimensional (G4FAX)</item>
+      </Control>
+    </Form>
+    <Form Name="DocPDFPropWizardFrame" Caption="Свойства" >
+      <Control Name="Label4" Caption="Ключевые слова:" />
+      <Control Name="Label2" Caption="Автор:" />
+      <Control Name="Label1" Caption="Свойства PDF документа" />
+      <Control Name="Label6" Caption="Название:" />
+      <Control Name="Label5" Caption="Тема:" />
+      <Control Name="Label3" Caption="Создатель:" />
+    </Form>
+    <Form Name="DocWizardTiffCompressionFrame" Caption="TIFF сжатие" >
+      <Control Name="Label1" Caption="Выберите тип сжатия TIFF файла" />
+      <Control Name="rgCompression" Caption="Тип сжатия" >
+        <item>Без сжатия</item>
+        <item>G4Fax</item>
+        <item>LZW</item>
+        <item>JPeg</item>
+        <item>Pack Bits</item>
+        <item>Zip</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardBkgndFrame" >
+      <Control Name="edBkgndImage" Caption="Выберите фоновую картинку" />
+      <Control Caption="Использовать эту картинку для фона" />
+      <Control Name="rbColor" Caption="Использовать этот цвет для фона" />
+      <Control Name="Label1" Caption="Вы можете выбрать фоновый рисунок или использовать фоновый цвет" />
+    </Form>
+    <Form Name="HTMWizardImageFormatFrame" >
+      <Control Name="rgImageFormat" Caption="Формат картинки" >
+        <item>BMP - будет большой размер картинки</item>
+        <item>JPEG - рекомендуем для фотографий</item>
+        <item>CCITT3 - Fax компрессия, b/w</item>
+        <item>CCITT4 - Fax компрессия, b/w</item>
+      </Control>
+      <Control Name="Label1" Caption="Выберите формат для преобразования изображения (если HTML файл содержит картинку)" />
+      <Control Name="Label2" Caption="Исходный DPI:" />
+    </Form>
+    <Form Name="HTMWizardPDFWatermarkFrame" >
+      <Control Name="Label5" Caption="Цвет:" />
+      <Control Name="Label4" Caption="Размер:" />
+      <Control Name="Label3" Caption="Имя:" />
+      <Control Name="gbFont" Caption="Шрифт" />
+      <Control Name="Label1" Caption="Вы можете добавить надпись  " />
+      <Control Name="lbComment" Caption="Текст надписи:" />
+      <Control Name="gbPos" Caption="Расположение" />
+      <Control Name="Label2" Caption="Страницы (1-5,10)" />
+    </Form>
+    <Form Name="HTMWizardBmpPixelFormatFrame" >
+      <Control Name="rgPixelFormat" Caption="Формат пикселов" >
+        <item>1 bit - 1 бит в пикселе (черно-белая палитра)</item>
+        <item>4 bit - палитра в 16 цветов</item>
+        <item>8 bit - палитра в 256 цветов</item>
+        <item>15 bit - true-color bitmap, RGB сжатие</item>
+        <item>16 bit - true-color bitmap, bitfield сжатие</item>
+        <item>24 bit - true-color bitmap, 24 бита в пикселе.</item>
+        <item>32 bit - true-color bitmap, 32 бита в пикселе</item>
+      </Control>
+      <Control Name="Label1" Caption="Формат битов bitmap изображения, определяет отображение картинки." />
+    </Form>
+    <Form Name="HTMWizardRenderFrame" >
+      <Control Caption="Текст" />
+      <Control Name="Label1" Caption="Выберете элементы, которые вы хотите включить в конечный файл" />
+      <Control Name="cgItems" Caption="Элементы" >
+        <item>Текст</item>
+        <item>Формы</item>
+        <item>Картинки</item>
+      </Control>
+    </Form>
+    <Form Name="DocTxtPropFrame" >
+      <Control Name="rgPageOrientation" Caption="Положение листа" >
+        <item>Вертикально</item>
+        <item>Горизонтально</item>
+      </Control>
+      <Control Name="Label1" Caption="Выберите положение листа бумаги" />
+    </Form>
+    <Form Name="CmdHelpDialog" >
+      <Control Name="View" Caption="&lt;b&gt;Командная строка:&lt;/b&gt; DocConverter.exe &amp;lt;source&amp;gt; &amp;lt;destination&amp;gt; &amp;lt;options&amp;gt;&lt;BR&gt;&lt;font color=maroon&gt;If you have path with spaces, use quotation marks.&lt;/font&gt;  &lt;P&gt;&amp;nbsp;&lt;P&gt;&lt;b&gt;Параметры:&lt;/b&gt;  &lt;UL&gt;  &lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -log  &amp;lt;FileName&amp;gt;&lt;/b&gt;&lt;/font&gt; - Don`t show errors. Write them to the log file  &lt;br&gt;&lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -list&lt;/b&gt;&lt;/font&gt; - File with files mask to convert  &lt;br&gt;&lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -Recurse&lt;/b&gt;&lt;/font&gt; - Include subfolders  &lt;br&gt;&lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -do&lt;/b&gt;&lt;/font&gt; - Delete originals  &lt;br&gt;&lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -kfs&lt;/b&gt;&lt;/font&gt; - Keep Folder Structure  &lt;br&gt;&lt;li&gt;&lt;a href=prop17754612&gt;&lt;img src=plus&gt;&lt;/a&gt;&lt;font color=clNavy&gt;&lt;b&gt; -c&lt;/b&gt;&lt;/font&gt; - Convert action  &lt;br&gt;&lt;li&gt;&lt;a href=prop17755628&gt;&lt;img src=plus&gt;&lt;/a&gt;&lt;font color=clNavy&gt;&lt;b&gt; -tc&lt;/b&gt;&lt;/font&gt; - TIFF image compression  &lt;br&gt;&lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -TM&lt;/b&gt;&lt;/font&gt; - Top Margin  &lt;br&gt;&lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -LM&lt;/b&gt;&lt;/font&gt; - Left Margin  &lt;br&gt;&lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -BM&lt;/b&gt;&lt;/font&gt; - Bottom Margin  &lt;br&gt;&lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -RM&lt;/b&gt;&lt;/font&gt; - Right Margin  &lt;br&gt;&lt;li&gt;&lt;a href=prop17750292&gt;&lt;img src=plus&gt;&lt;/a&gt;&lt;font color=clNavy&gt;&lt;b&gt; -po&lt;/b&gt;&lt;/font&gt; - Paper Orientation  &lt;br&gt;&lt;li&gt;&lt;a href=prop17740592&gt;&lt;img src=plus&gt;&lt;/a&gt;&lt;font color=clNavy&gt;&lt;b&gt; -ps&lt;/b&gt;&lt;/font&gt; - PaperSize  &lt;br&gt;&lt;li&gt;&lt;font color=clNavy&gt;&lt;b&gt; -pd&lt;/b&gt;&lt;/font&gt; - Custom paper size dimensions &amp;lt;width&amp;gt;x&amp;lt;height&amp;gt;  &lt;br&gt;&lt;/UL&gt;  &lt;p&gt;&lt;b&gt;Examples:&lt;/b&gt;&lt;UL&gt;&lt;li&gt;DocConverter.exe C:\DOC\*.DOC C:\PDF\ -cPDF &lt;br&gt;&lt;font color=clGray&gt;Convert all Doc files from this folder C:\DOD to PDF format and place the converted files to folder c:\PDF &lt;/font&gt; &lt;br&gt;  &lt;li&gt;DocConverter.exe -list c:\List.txt C:\PDF\ -cPDF &lt;br&gt;&lt;font color=clGray&gt;Convert all files from file list c:\List.txt to PDF and place them to c:\PDF&lt;/font&gt; &lt;br&gt;  &lt;/UL&gt;" />
+    </Form>
+    <Form>
+      <Control Name="Message" Caption="Неправильный ключ" />
+    </Form>
+    <Form Name="XLSWizardPDFPropFrame" >
+      <Control Name="Label1" Caption="Выберите параметры PDF" />
+      <Control Name="cbIncludeTrueType" Caption="Подхватывать True Type шрифты" />
+    </Form>
+    <Form Name="XLSWizardTextPropFrame" >
+      <Control Name="Label1" Caption="Выберите параметры файла TXT" />
+      <Control Name="rgTextDelimiter" Caption="Разделитель" >
+        <item>Никакой</item>
+        <item>Tab</item>
+        <item>Пробел</item>
+        <item>CSV</item>
+      </Control>
+    </Form>
+    <Form Name="PDFWizardRenderFrame" >
+      <Control Name="Label1" Caption="Выберите элементы, которые вы  хотите включить в конечный файл." />
+      <Control Caption="Текст" />
+      <Control Name="cgItems" Caption="Включить" >
+        <item>Текст</item>
+        <item>Формы</item>
+        <item>Картинки</item>
+      </Control>
+    </Form>
+    <Form Name="PDFWizardPageBreakFrame" >
+      <Control Name="rbSeparateFiles" Caption="Каждая страница в отдельный файл" />
+      <Control Name="rbOther" Caption="Другое:" />
+      <Control Name="rbPageBreak" Caption="Конец страницы ( 0C )" />
+      <Control Name="rbLineBreak" Caption="Конец строки ( 0D0A )" />
+      <Control Name="Label1" Caption="Выберите символ для обозначения  конца страницы." />
+      <Control Name="Label2" Caption="Для символьного кода используйте &quot;$&quot;.  Пример: $0D$0A." />
+    </Form>
+    <Form Name="PDFWizardFileTemplateFrame" >
+      <Control Name="edTemplate" Caption="[Имя].страница#.bmp" />
+      <Control Name="Label1" Caption="Введите шаблон для создания  файлов из каждой страницы.  Знак # будет заменен номером страницы." />
+      <Control Name="Label3" Caption="Начать нумерацию с:" />
+      <Control Name="Label2" Caption="Шаблон" />
+      <Control Name="rbFileCount" Caption="Отталкиваться от кол-ва файлов в папке назначения" />
+      <Control Name="rbCounter" Caption="Начать нумерацию с:" />
+    </Form>
+    <Form Name="PDFWizardCSVFormatFrame" >
+      <Control Name="Label1" Caption="Выберите формат CSV файла" />
+      <Control Name="rbMethod0" Caption="Возвращать строку CSV, только данные." />
+      <Control Name="rbMethod1" Caption="Возвращать строку CSV, включая шрифт, цвет,  размер и /nрасположение каждого отрезка  текста на странице." />
+      <Control Name="rbMethod2" Caption="Возращать строку CSV для каждого отрезка/nтекста на странице в таком формате: /nШрифт, Цвет Текста, Размер Текста,  /nX1, Y1, X2, Y2, X3, Y3, X4, Y4, Текст" />
+    </Form>
+    <Form Name="PDFWizardImageCombineFrame" >
+      <Control Name="rbPagesByHeight" Caption="Разместить" />
+      <Control Name="rbAllPages" Caption="Все страницы в один файл" />
+      <Control Name="Label2" Caption="страницы по высоте" />
+      <Control Name="cbSedPDF" Caption="Использовать альтернативный метод" />
+      <Control Name="cbCombine" Caption="Склеить страницы в один файл" />
+      <Control Name="Label1" Caption="Вы можете записать каждую страницу в  отдельный файл или объединить их все  в один большой файл." />
+      <Control Name="Label3" Caption="Используйте эту опцию, если конвертация в PDF была неуспешной." />
+      <Control Name="lbPages" Caption="страницы по ширине" />
+      <Control Name="lbSet" Caption="Разместить" />
+    </Form>
+    <Form Name="PDFWizardDPIFrame" >
+      <Control Name="Label1" Caption="Вы можете установить качество и размер  конечного изображения." />
+      <Control Name="Label2" Caption="Размер страницы" />
+      <Control Name="rb75" Caption="75 DPI (разрешение монитора) 621 x 877" />
+      <Control Name="rb300" Caption="300 DPI (печатное разрешение) 2483 x 3508" />
+      <Control Name="rbCustom" Caption="Индивидуальный 621 x 877" />
+      <Control Name="cbOriginal" Caption="Исходный" />
+      <Control Name="rb150" Caption="150 DPI (среднее качество) 1242 x 1754" />
+    </Form>
+    <Form Name="PDFWizardTiffCompressionFrame" >
+      <Control Name="rgCompression" >
+        <item>Без сжатия</item>
+        <item>LZW cжатие</item>
+        <item>RLE сжатие (packbits)</item>
+        <item>JPEG сжатие</item>
+        <item>Bilevel Huffman сжатие (CCITT1D)</item>
+        <item>Bilevel Group 3 CCITT сжатие, monodimensional (G3FAX1D)</item>
+        <item>Bilevel Group 3 CCITT сжатие, bidimensional (G3FAX2D)</item>
+        <item>Bilevel Group 4 CCITT сжатие, bidimensional (G4FAX)</item>
+      </Control>
+      <Control Name="Label1" Caption="Устанвите сжатие для TIFF файла" />
+    </Form>
+    <Form Name="PDFWizardTiffCombineFrame" >
+      <Control Name="cbSeparatePages" Caption="Каждую страницу в отдельный файл" />
+      <Control Name="Label1" Caption="Вы можете расклеить PDF на отдельные  Tiff файлы или объединить их в один  многостраничный Tiff файл." />
+    </Form>
+    <Form Name="PDFWizardPDFOptionsFrame" >
+      <Control Name="cbCompression" Caption="Включить сжатие" />
+      <Control Name="Label1" Caption="Вы можете устанвить расширенные  параметры PDF файла.  " />
+      <Control Name="lbCompressionLevel" Caption="Уровень сжатия:" />
+      <Control Name="Label2" Caption="Версия PDF:" />
+    </Form>
+    <Form Name="PDFWizardExtractPagesFrame" >
+      <Control Name="rbBookmarks" Caption="Разделить по закладкам" />
+      <Control Name="rbSelectedPages" Caption="&amp;Извлечь перечисленные страницы" />
+      <Control Name="rbAllPages" Caption="Все страницы" />
+      <Control Name="Label1" Caption="Извлечь указанные страницы из PDF документа" />
+      <Control Name="lbBookmarkCaption" Caption="Новый файл каждые:" />
+      <Control Name="Label2" Caption="пример: 10,15,18-20,25-35" />
+      <Control Name="rbBlanks" Caption="Разделить по пустым страницам" />
+    </Form>
+    <Form Name="PDFWizardUniteFrame" >
+      <Control Name="Label2" Caption="Создавать новый файл каждые" />
+      <Control Name="gbCombine" Caption="Объединить страницы" />
+      <Control Name="Label1" Caption="Вы можете объединить разделенные страницы  в новые документы." />
+      <Control Name="Label3" Caption="страницы" />
+    </Form>
+    <Form Name="VideoWizardCodecFrame" >
+      <Control Name="Label2" Caption="Видео кодек:" />
+      <Control Name="Label1" Caption="Выберите параметры конечного файла." />
+      <Control Name="Label4" Caption="Кадр/сек:" />
+      <Control Name="Label3" Caption="Битрейт:" />
+    </Form>
+    <Form Name="VideoWizardResizeFrame" >
+      <Control Name="Label1" Caption="Вы можете ресайзить видео, чтобы  уменьшить размер файла." />
+      <Control Name="lbDimCap" Caption="Параметры файла: " />
+      <Control Name="rbResize" Caption="Ресайзить видео до указанного размера" />
+      <Control Name="rbNoResize" Caption="Не ресайзить" />
+      <Control Name="cbConstrain" Caption="Поддерживать пропорции" />
+      <Control Name="lbHeight" Caption="Высота:" />
+      <Control Name="lbWidth" Caption="Ширина:" />
+    </Form>
+    <Form Name="VideoWizardPointsFrame" >
+      <Control Name="edStart" Caption="чч:мм:сс" />
+      <Control Name="bnSetEnd" Caption="Конец" />
+      <Control Name="bnSetStart" Caption="Начало" />
+      <Control Name="Label1" Caption="Вы можете конвертировать только часть  видео файла. Укажите начало и конец  этой части." />
+      <Control Name="bnForward" Caption="+1 сек" />
+      <Control Name="bnBack" Caption="-1 сек" />
+    </Form>
+    <Form Name="VideoInfoFrame" >
+      <Control Name="Label1" Caption="Не удается воспроизвести файл.    Файл поврежден, либо плеер не поддерживает этот формат.    P.S. Возможно, этот файл удастся конвертировать в бругой формат." />
+      <Control Name="Label18" Caption="Битрейт:" />
+      <Control Name="Label16" Caption="Канал:" />
+      <Control Name="Label12" Caption="Сжатие:" />
+      <Control Name="lbAudio" Caption="Звук - нет звука" />
+      <Control Name="Label3" Caption="Длина:" />
+      <Control Name="Label2" Caption="Сжатие:" />
+      <Control Name="lbVideo" Caption="Видео - нет видео" />
+      <Control Name="Label5" Caption="Разрешение:" />
+      <Control Name="Label7" Caption="Битрейт:" />
+      <Control Name="Label9" Caption="Кадр/сек:" />
+      <Control Name="Label14" Caption="Частота:" />
+    </Form>
+    <Form Name="UniAboutDlg" Caption="О Программе" >
+      <Control Name="bnNow" Caption="Купить!" />
+      <Control Name="Label4" Caption="Напишите нам!" />
+      <Control Name="lbVersion" Caption="Версия 1.0" />
+      <Control Name="Label3" Caption=" " />
+      <Control Name="Label2" Caption="Пожелания, жалобы, вопросы?" />
+      <Control Name="Label1" Caption="Вам есть, что сказать разработчикам?" />
+      <Control Name="bnClose" Caption="Закрыть" />
+    </Form>
+    <Form Name="HTMViewFrame" />
+    <Form Name="HTMWizardPDFMarginFrame" >
+      <Control Name="Label1" Caption="Укажите отступы для PDF файла" />
+      <Control Name="lbRight" Caption="Право" />
+      <Control Name="Label4" Caption="Лево" />
+      <Control Name="Label3" Caption="Низ" />
+      <Control Name="Label2" Caption="Верх" />
+    </Form>
+    <Form Name="MP3BrowseToolbarFrame" />
+    <Form Name="MP3WizardPartFrame" >
+      <Control Name="bnSetStart" Caption="Начало" />
+      <Control Name="bnSetEnd" Caption="Конец" />
+      <Control Name="lblError" Caption="Извините. Выбраная часть недоступна" />
+      <Control Name="Label1" Caption="Выберите начало и конец той части файла, которую хотите конвертировать." />
+    </Form>
+    <Form Name="MP3WizardWAVChannelsFrame" />
+    <Form Name="ImageBrowseToolbarFrame" />
+    <Form Name="ImagesThumbnailFrame" />
+    <Form Name="XLSViewFrame" />
+    <Form Name="MailListBrowseFrame" />
+    <Form Name="ImageWizardTiffOrientationFrame" />
+    <Form Name="ImageWizardPhotometInterpretFrame" >
+      <Control Name="rgColorSpace" >
+        <item>Белый ноль</item>
+        <item>Черный ноль</item>
+        <item>RGB</item>
+        <item>RGB палитра</item>
+        <item>Маска прозрачности</item>
+        <item>CMYK</item>
+        <item>YCBCR</item>
+        <item>CIELAB</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardCombiDestinationFrame" >
+      <Control Name="rbSeparateBlank" Caption="Объединить по пустой странице" />
+      <Control Name="rbSeparateNamePart" Caption="Объединить по общей части в имени" />
+      <Control Name="rbSeparateFolder" Caption="Объединить файлы по папкам" />
+      <Control Name="rbSeparateFile" Caption="Каждый рисунок в отдельный файл" />
+      <Control Name="rbSeparate" Caption="Каждый рисунок в отдельный файл" />
+      <Control Name="lbFolderName" Caption="Имя папки:" />
+      <Control Name="lbFileName" Caption="Имя файла:" />
+      <Control Name="Label1" Caption="Вы можете объединить ваши файлы разными способами." />
+      <Control Name="cbKeepStructure" Caption="Сохранять структуру папок" />
+      <Control Name="rbCombine" Caption="Объединить рисунки в один документ" />
+      <Control Name="lblMacro" Caption="&lt;font color=clGrayText&gt;(Вы можете использовать &lt;a href=macro&gt;макро&lt;/a&gt;)" />
+    </Form>
+    <Form Name="ImageWizardNamePartFrame" />
+    <Form Name="ImageWizardSeparateBlankFrame" />
+    <Form Name="CombiMacroDialog" >
+      <Control Name="lblExample" Caption="&lt;b&gt;Пример: &lt;/b&gt; &amp;lt;pages&amp;gt;_MyTifFile.tiff" />
+    </Form>
+    <Form Name="DocViewFrame" />
+    <Form Name="DocWizardPaperFrame" >
+      <Control Name="rgOrientation" Caption="Ориентация бумаги" >
+        <item>Портрет (вертикально)</item>
+        <item>Ландшафт (горизонтально)</item>
+      </Control>
+      <Control Name="cbSeparate" Caption="Каждую страницу в отдельный файл" />
+      <Control Name="Label1" Caption="Укажите ориентацию листов в документе" />
+      <Control Name="lblHeight" Caption="Высота:" />
+      <Control Name="lbl1" Caption="Размер бумаги" />
+      <Control Name="rbCommon" Caption="Стандартный" />
+      <Control Name="rbCustom" Caption="Нестандартный" />
+      <Control Name="lblWidth" Caption="Ширина:" />
+      <Control Name="lblHInch" Caption="дюймов" />
+      <Control Name="lblWInch" Caption="дюймов" />
+    </Form>
+    <Form Name="HTMPaperSizeFrame" source="DocWizardPaperFrame" >
+      <Control Name="cbFitPage" Caption="Уместить на странице" />
+      <Control Name="Label2" Caption="Размер бумаги" />
+      <Control Name="lbHeight" Caption="Высота:" />
+      <Control Name="lbWInch" Caption="дюйм" />
+      <Control Name="lbHInch" Caption="дюйм" />
+      <Control Name="lbWidth" Caption="Ширина:" />
+    </Form>
+    <Form Name="FontDocWizardFrame" >
+      <Control Name="cbBold" Caption="Жирный шрифт" />
+      <Control Name="Label1" Caption="Свойства шрифта для текстовых файлов" />
+      <Control Name="lbl1" Caption="Имя шрифта" />
+      <Control Name="lbl2" Caption="Размер шрифта" />
+      <Control Name="cbWordWrap" Caption="Перенос слов" />
+      <Control Name="cbEnable" Caption="Включить" />
+    </Form>
+    <Form Name="DocWizardCombiDestinationFrame" >
+      <Control Name="lbFolderName" Caption="Имя папки:" />
+      <Control Name="lbFileName" Caption="Имя файла:" />
+      <Control Name="rbCombine" Caption="Объединить сконвертированные документы в один файл" />
+      <Control Name="rbSeparate" Caption="Каждый документ в отдельный файл" />
+      <Control Name="Label1" Caption="Выберите папку, куда следует положить сконвертрованные файлы." />
+    </Form>
+    <Form Name="MP3WizardYouTubeFrame" >
+      <Control Name="Label1" Caption="Введите адрес ролика с YouTube" />
+    </Form>
+    <Form Name="HTMWizardHeaderFrame" >
+      <Control Name="Label2" Caption="Взять верхний колонтитул из файла:" />
+      <Control Name="Label4" Caption="Поддерживаются колонтитулы IE\nПример:  (&amp;&amp;w&amp;&amp;bPage &amp;&amp;p of &amp;&amp;P)\n  Добавляет номер страниц (&quot;Page 1 of 10&quot;)" />
+      <Control Name="Label1" Caption="Вы можете добавить верхний колонтитул к конечному документу" />
+      <Control Name="gbHeader" Caption="Верхний колонтитул" />
+    </Form>
+    <Form Name="HTMWizardFooterFrame" >
+      <Control Name="Label2" Caption="Взять нижний колонтитул из файла:" />
+      <Control Name="Label1" Caption="Вы можете добавить нижний колонтитул к конечному документу" />
+      <Control Name="Label4" Caption="Поддерживаются колонтитулы IE\nПример:  (&amp;&amp;u&amp;&amp;b&amp;&amp;d)\n  Добавляет имя файла и дату" />
+      <Control Name="gbFooter" Caption="Нижний колонтитул" />
+    </Form>
+    <Form Name="HTMWizardPdfSignInfoFrame" >
+      <Control Name="Label4" Caption="Пароль:" />
+      <Control Name="Label1" Caption="Вы можете добавить цифровую подпись к конечному PDF документу" />
+      <Control Name="Label6" Caption="Обоснование:" />
+      <Control Name="Label5" Caption="Контакт:" />
+      <Control Name="Label2" Caption="Местонахождение:" />
+      <Control Name="Label3" Caption="PFX файл:" />
+    </Form>
+    <Form Name="ToPDFWizardCombiDestinationFrame" >
+      <Control Name="rbCombine" Caption="Объединить в один документ" />
+      <Control Name="rbSeparateFolder" Caption="Разделить файлы по папкам" />
+      <Control Name="rbSeparateNamePart" Caption="Разделить по общей части имени" />
+    </Form>
+    <Form Name="ToPDFWizardNamePartFrame" />
+    <Form Name="CADViewFrame" />
+    <Form Name="CADWizardColorFrame" >
+      <Control Name="rgColorMode" >
+        <item>Цветной</item>
+        <item>Черный &amp;&amp; Белый</item>
+        <item>Отключить</item>
+      </Control>
+      <Control Name="Label1" Caption="Выберите цветовой режим" />
+    </Form>
+    <Form Name="ImageWizardRemoveTransparencyFrame" >
+      <Control Name="Label2" Caption="Фон:" />
+      <Control Name="Label1" Caption="Выберите фоновый цвет для изображений с прозрачным фоном" />
+    </Form>
+    <Form Name="ImageWizardJPEGColorSpaceFrame" >
+      <Control Name="Label1" Caption="Выберите цветовое пространство" />
+      <Control Name="rgColorSpace" Caption="Цветовое пространство" >
+        <item>RGB каналы</item>
+        <item>GRAYLEV - уровни серого</item>
+        <item>YCbCr - три канала (рекомендовано CCIR 601-1)</item>
+        <item>CMYK - четыре канала (Cyan Magenta Yellow Black)</item>
+        <item>YCbCrK - четыре канала (YCbCr и черный)</item>
+      </Control>
+    </Form>
+    <Form Name="ToPDFWizardHeaderFrame" >
+      <Control Name="cbNumber" Caption="Продолжать с предыдущего документа" />
+      <Control Name="cbComment" Caption="Заголовок" />
+      <Control Name="Label2" Caption="Длина:" />
+      <Control Name="elgr" Caption="Начать с:" />
+      <Control Name="lbl1" Caption="[page] - Номер страницы/n[date] - Текущая дата" />
+      <Control Name="Label1" Caption="Настроить заголовок страницы" />
+    </Form>
+    <Form Name="ToPDFWizardFooterFrame" >
+      <Control Name="cbNumber" Caption="Продолжать с предыдущего документа" />
+      <Control Name="cbComment" Caption="Подвал" />
+      <Control Name="Label2" Caption="Длина:" />
+      <Control Name="elgr" Caption="Начать с:" />
+      <Control Name="lbl1" Caption="[page] - Номер страницы/n[date] - Текущая дата" />
+      <Control Name="Label1" Caption="Настроить подвал страницы" />
+    </Form>
+    <Form Name="PDFWizardHeaderFrame" >
+      <Control Name="cbNumber" Caption="Продолжать с предыдущего документа" />
+      <Control Name="cbComment" Caption="Заголовок" />
+      <Control Name="Label2" Caption="Длина:" />
+      <Control Name="elgr" Caption="Начать с:" />
+      <Control Name="lbl1" Caption="[page] - Номер страницы/n[date] - Текущая дата" />
+      <Control Name="Label1" Caption="Настроить заголовок страницы" />
+    </Form>
+    <Form Name="PDFWizardFooterFrame" >
+      <Control Name="cbNumber" Caption="Продолжать с предыдущего документа" />
+      <Control Name="cbComment" Caption="Подвал" />
+      <Control Name="Label2" Caption="Длина:" />
+      <Control Name="elgr" Caption="Начать с:" />
+      <Control Name="lbl1" Caption="[page] - Номер страницы/n[date] - Текущая дата" />
+      <Control Name="Label1" Caption="Настроить подвал страницы" />
+    </Form>
+    <Form Name="DocWizardJpegQualityFrame" >
+      <Control Name="Label1" Caption="Качество изображений добавляемых в PDF документ" />
+      <Control Name="ElGroupBox1" Caption="Качество" />
+      <Control Name="Label6" Caption="Меньше (мин. размер)" />
+      <Control Name="Label5" Caption="Больше (макс. размер)" />
+    </Form>
+    <Form Name="MailWizardTemplateFrame" >
+      <Control Name="Label1" Caption="Выберите шаблон имени конечного файла" />
+      <Control Name="lblHelp" Caption="Можно использовать эти макросы:/n     [name] - имя исходного файла/n     [subject] - тема письма/n     [sender] - отправитель/n     [recipient] - получатель/n     [date:&lt;format&gt;] - дата" />
+      <Control Name="lblTemplate" Caption="Шаблон:" />
+    </Form>
+    <Form Name="MailWizardItemsFrame" >
+      <Control Name="cbDisableInet" Caption="Не закачивать изображения с интернета" />
+      <Control Name="cbDateUTC" Caption="Показывать дату в формате UTC" />
+      <Control Name="cgItems" Caption="Поля для экспорта" >
+        <item>Отправитель</item>
+        <item>Получатель</item>
+        <item>CC (Копия)</item>
+        <item>BCC (Слепая копия)</item>
+        <item>Дата</item>
+        <item>Тема</item>
+        <item>Содержание письма</item>
+      </Control>
+      <Control Name="Label1" Caption="Выберите поля, которые вы хотите включить в конечный документ" />
+    </Form>
+    <Form Name="MailWizardCSSFrame" >
+      <Control Name="rbExternal" Caption="Использовать внешний CSS файл" />
+      <Control Name="rbInternal" Caption="Использовать внутреннюю схему" />
+      <Control Name="bnTune" Caption="Настроить" />
+      <Control Name="Label1" Caption="Настроить внешний вид документа" />
+    </Form>
+    <Form Name="MailWizardAttachmentsFrame" >
+      <Control Name="Label1" Caption="Варианты обработки прикрепленных файлов" />
+      <Control Name="grAttach" Caption="Вложения" />
+      <Control Name="cbSaveAttachments" Caption="Сохранять вложения" />
+      <Control Name="cbAttachUnpack" Caption="Распаковывать архивированные вложения" />
+      <Control Name="cbSeparateAttachMsg" Caption="Сохранить в отдельном файле" />
+      <Control Name="cbMsgConvert" Caption="Конвертировать вложенные сообщения" />
+      <Control Name="cbIncludeImages" Caption="Включать прикрепленные изображения в файл" />
+      <Control Name="cbSeparateAttach" Caption="Вложения в отдельные папки" />
+    </Form>
+    <Form Name="MailWizardCombiDestinationFrame" >
+      <Control Name="lbFileName" Caption="Имя файла:" />
+      <Control Name="lbFolderName" Caption="Имя папки:" />
+      <Control Name="rbCombine" Caption="Объединить все письма в один файл" />
+      <Control Name="Label1" Caption="Вы можете объединить все письма в один документ или сохранить каждое письмо как отдельный файл" />
+      <Control Name="rbSeparate" Caption="Каждое письмо в отдельный документ" />
+    </Form>
+    <Form Name="SimpleImageWizardForm" />
+  </Forms>
+  <Messages>
+    <Item Name="Display" value="Добавить" />
+    <Item Name="Header" value="Колонтитул верхний" />
+    <Item Name="Footer" value="Колонтитул нижний" />
+    <Item name="Font" value="Шрифт" />
+    <Item name="Margin" value="Отступы" />
+    <Item Name="WantMore" value="Хочу добавки" />
+    <Item Name="Want More?" value="Еще?" />
+    <Item Name="Template" value="Шаблон" />
+    <Item Name="Appearance" value="Внешний вид" />
+    <Item name="msgSomeFilesFiltered" value="&lt;Некоторые файлы отфильтрованы, дважды кликнете, чтобы их показать&gt;" />
+    <Item name="liCombineTo" value="Склеить в: " />
+    <Item name="liSplitTo" value="Расшить в: " />
+    <Item name="miCmdParams" value="Параметры командной строки" />
+    <!-- Common attributes -->
+    <Item name="attrName" value="Имя" />
+    <Item name="attrSize" value="Размер" />
+    <Item name="attrType" value="Тип" />
+    <Item name="attrModified" value="Изменен" />
+    <Item name="attrAttributes" value="Атрибуты" />
+    <Item name="attrComment" value="Коментарий" />
+    <Item name="attrCreated" value="Создан" />
+    <Item name="attrAccessed" value="Просмотрен" />
+    <Item name="boxSelectDestination" value="Выбор пути" />
+    <Item name="boxFinishConversion" value="Начать конвертацию" />
+    <!-- ~Common attributes -->
+    <!-- Errors -->
+    <Item name="errFileNameEmpty" value="Имя файла не может быть пустым" />
+    <Item name="errSelectFile" value="Пожалуйста, укажите имя файла" />
+    <Item name="errWriteCD" value="Невозможно сохранить файлы на CD-ROM" />
+    <Item name="errFolderReadOnly" value="Невозможно создать файл в этой директории" />
+    <Item name="errConvertItself" value="Невозможно преобразовать файл в самого себя" />
+    <Item name="errFolderNameEmpty" value="Имя директории не может быть пустым" />
+    <!-- Image Converter -->
+    <Item name="Resize" value="Размер" />
+    <Item name="Crop" value="Резать" />
+    <Item name="Background" value="Фон" />
+    <Item name="Rotate" value="Поворот" />
+    <Item name="Transform" value="Преобразовать" />
+    <Item name="Watermark" value="Водяные знаки" />
+    <Item name="Logo" value="Логотип" />
+    <Item name="Comments" value="Комментарий" />
+    <Item name="Frame" value="Рамка" />
+    <Item name="Colors" value="Цвета" />
+    <Item name="Icon colors" value="Цвета" />
+    <Item name="Icon Sizes" value="Размеры" />
+    <Item name="Transparency" value="Прозрачность" />
+    <Item name="JPEG2000 Compression" value="JPEG2000 Сжатие" />
+    <Item name="JPEG Quality" value="JPEG Качество" />
+    <Item name="Format" value="Формат" />
+    <Item name="RAW Format" value="RAW Формат" />
+    <Item name="TIFF Compression" value="TIFF сжатие" />
+    <Item name="Color space" value="Цвета" />
+    <Item name="Compression" value="Сжатие" />
+    <Item name="Paper" value="Бумага" />
+    <Item name="Properties" value="Свойства" />
+    <Item name="Orientation" value="Орентация" />
+    <Item name="Details" value="Список" />
+    <Item name="Template" value="Шаблон" />
+    <Item name="Thumbnails" value="Картинки" />
+    <Item name="msgNoFileSelected" value="файл не выбран" />
+    <!-- HTML Converter -->
+    <Item name="Document" value="Документ" />
+    <Item name="Render" value="Включить" />
+    <Item name="Image format" value="Формат картинки" />
+    <Item name="Background" value="Фон" />
+    <Item name="Items" value="Элементы" />
+    <Item name="Encryption" value="Шифрование" />
+    <!-- XLS Converter -->
+    <Item name="PDF Options" value="Параметры PDF" />
+    <Item name="TXT Options" value="Параметры TXT" />
+    <!-- PDF Converter -->
+    <Item name="Page Break" value="Конец страницы" />
+    <Item name="CSV Format" value="Формат CSV" />
+    <Item name="Page Processing" value="Страницы" />
+    <Item name="File name template" value="Шаблон имени" />
+    <Item name="Image DPI" value="Изображение" />
+    <Item name="Multipage TIFF" value="Многостраничный TIFF" />
+    <Item name="Extract pages" value="Извлечь" />
+    <Item name="Combine" value="Объединить" />
+    <Item name="Codec" value="Кодек" />
+    <Item Name="PartFile" value="Часть файла" />
+    <Item Name="Dimensions" value="Параметры файла: " />
+    <!-- Common attributes -->
+    <Item name="attrTitle" value="Название" />
+    <Item name="attrDuration" value="Продолжительность" />
+    <Item name="attrChannels" value="Каналы" />
+    <Item name="attrSampleRate" value="Частота" />
+    <Item name="attrBitrate" value="Поток" />
+    <Item name="attrAlbum" value="Альбом" />
+    <Item name="attrArtist" value="Исполнитель" />
+    <Item name="attrYear" value="Год" />
+    <Item name="attrGenre" value="Жанр" />
+    <Item name="attrTrack" value="Номер" />
+    <Item name="infoUnknown" value="&lt;неизвестно&gt;" />
+    <Item name="boxWavBits" value="Биты" />
+    <Item name="boxSamplerate" value="Частота" />
+    <Item name="boxChannels" value="Каналы" />
+    <Item name="boxBitrate" value="Поток" />
+    <Item name="boxQuality" value="Качество" />
+    <Item name="boxProfile" value="Профиль" />
+    <Item name="boxCompression" value="Сжатие" />
+    <Item name="boxCDTrackList" value="Список дорожек" />
+    <Item name="boxSplittingFile" value="Разрезать файл" />
+    <Item name="boxConvertTo" value="Сохранить как" />
+    <Item name="Stereo" value="Стерео" />
+    <Item name="Joint Stereo" value="Квазистерео (joint stereo)" />
+    <Item name="Dual channels" value="Два канала (dual channels)" />
+    <Item name="Mono" value="Моно" />
+    <Item name="mitbWrite_CD" value="Записать CD" />
+    <Item name="mitbRip_CD" value="Снять CD" />
+    <Item name="msgWizardCaption" value="Сохранить файл(ы) как [format]" />
+    <Item name="descDestination" value="Куда" />
+    <Item name="SampleRate" value="Частота" />
+    <Item name="Channels" value="Каналы" />
+    <Item name="Bitrate" value="Поток" />
+    <Item name="descConvertTo" value="Сохранить как " />
+    <Item name="descRipCD" value="Снять CD" />
+    <Item name="descOGGQuality" value="Качество" />
+    <Item name="PartFile" value="Часть файла" />
+    <Item Name="liConvertTo" value="liConvertTo" />
+    <Item Name="Codec" value="Codec" />
+    <Item Name="Dimensions" value="Dimensions of file is:" />
+    <Item Name="attrOrderID" value="OrderID" />
+    <Item Name="attrAuthor" value="Author" />
+    <Item Name="attrSubject" value="Subject" />
+    <Item Name="attrPageSize" value="PageSize" />
+    <Item Name="attrPageCount" value="PageCount" />
+    <Item Name="Pixel format" value="Pixel format" />
+    <Item Name="Margin" value="Margin" />
+    <Item Name="msgWizardCaption_PDFCombine" value="Convert to PDF" />
+    <Item Name="msgWizardCaption_TotalHTMLConverter" value="Convert HTML document" />
+    <Item Name="msgWizardCaption_TotalPDFConverter" value="Convert PDF document" />
+    <Item Name="msgWizardCaption_TotalAudioConverter" value="Конвертировать музыку в [format]" />
+    <Item Name="mitbAVI" value="AVI" />
+    <Item Name="mitbMPEG" value="MPEG" />
+    <Item Name="mitbWMV" value="WMV" />
+    <Item Name="mitbFLV" value="FLV" />
+    <Item Name="mitbRip_CD" value="qweweqRip CD" />
+    <Item Name="mitbDevice" value="Device" />
+    <Item Name="msgWizardCaption_TiffPaging" value="Convert images" />
+    <Item Name="Photometric" value="Photometric" />
+    <Item Name="msgWizardCaption_TotalPDFtoDXFConverter" value="Convert PDF document" />
+    <Item Name="msgWizardCaption_TotalAudioConverter" value="Convert music" />
+    <Item Name="msgPart" value="Часть" />
+    <Item Name="Rip CD" value="Скопировать CD" />
+    <Item Name="Write CD" value="Записать CD" />
+    <Item Name="PDF" value="PDF" />
+    <Item Name="WAV" value="WAV" />
+    <Item Name="MP3" value="MP3" />
+    <Item Name="WMA" value="WMA" />
+    <Item Name="OGG" value="OGG" />
+    <Item Name="MPC" value="MPC" />
+    <Item Name="AAC" value="AAC" />
+    <Item Name="MP4" value="MP4" />
+    <Item Name="FLAC" value="FLAC" />
+    <Item Name="APE" value="APE" />
+    <Item Name="BMP" value="BMP" />
+    <Item Name="JPEG" value="JPEG" />
+    <Item Name="JPEG 2000" value="JPEG 2000" />
+    <Item Name="ICO" value="ICO" />
+    <Item Name="PNG" value="PNG" />
+    <Item Name="GIF" value="GIF" />
+    <Item Name="PCX" value="PCX" />
+    <Item Name="TGA" value="TGA" />
+    <Item Name="PXM" value="PXM" />
+    <Item Name="RAW" value="RAW" />
+    <Item Name="TIFF" value="TIFF" />
+    <Item Name="AVS" value="AVS" />
+    <Item Name="Kodak Cineon" value="Kodak Cineon" />
+    <Item Name="Graphviz DOT" value="Graphviz DOT" />
+    <Item Name="SMTPE DPX" value="SMTPE DPX" />
+    <Item Name="FITS" value="FITS" />
+    <Item Name="HDF" value="HDF" />
+    <Item Name="MIFF" value="MIFF" />
+    <Item Name="MTV Raytracer" value="MTV Raytracer" />
+    <Item Name="Palm Pixmap" value="Palm Pixmap" />
+    <Item Name="HP PCL Printer" value="HP PCL Printer" />
+    <Item Name="Apple PICT" value="Apple PICT" />
+    <Item Name="Irix RGB (SGI)" value="Irix RGB (SGI)" />
+    <Item Name="SUN Rasterfile" value="SUN Rasterfile" />
+    <Item Name="VICAR" value="VICAR" />
+    <Item Name="Khoros VIFF" value="Khoros VIFF" />
+    <Item Name="XBM" value="XBM" />
+    <Item Name="GUMP XCF" value="GUMP XCF" />
+    <Item Name="XPM" value="XPM" />
+    <Item Name="msgWizardCaption_TotalImageConverter" value="Конвертировать изображения" />
+    <Item Name="DXF" value="DXF" />
+    <Item Name="Doc" value="Doc" />
+    <Item Name="Excel" value="Excel" />
+    <Item Name="HTML" value="HTML" />
+    <Item Name="WMF" value="WMF" />
+    <Item Name="EMF" value="EMF" />
+    <Item Name="EPS" value="EPS" />
+    <Item Name="Text" value="Text" />
+    <Item Name="CSV" value="CSV" />
+    <Item Name="Want More" value="Want More" />
+    <Item Name="YouTube" value="YouTube" />
+    <Item Name="miCoolUtils" value="CoolUtils" />
+    <Item Name="descWAV" value="convert to wav file" />
+    <Item Name="descMP3" value="convert to mp3 file" />
+    <Item Name="descWMA" value="convert to Window Media Audio" />
+    <Item Name="descOGG" value="convert to OGG Vorbis file" />
+    <Item Name="descFLAC" value="convert to FLAC file" />
+    <Item Name="descMPC" value="convert to Musepack (MPEG+) file" />
+    <Item Name="descAAC" value="convert to Advanced Audio Compression file" />
+    <Item Name="descAPE" value="convert to Monkeys Audio file" />
+    <Item Name="descMP4" value="convert to MPEG4 Audio file" />
+    <Item Name="descDVD" value="rip DVD" />
+    <Item Name="descAudioCD" value="create audio cd" />
+    <Item Name="descOFR" value="convert to OFR" />
+    <Item Name="descWV" value="convert to WV" />
+    <Item Name="descLA" value="convert to LA" />
+    <Item Name="descSPX" value="convert to Speex" />
+    <Item Name="descAIFF" value="convert to AIFF" />
+    <Item Name="descAC3" value="convert to AC3" />
+    <Item Name="descYouTube" value="convert YouTube" />
+    <Item Name="msgWizardCaption_TotalCADConverter" value="Convert" />
+    <Item Name="boxColors" value="Colors" />
+    <Item Name="msgWizardCaption_TotalExcelConverter" value="Convert XLS" />
+    <Item Name="BWMethod" value="BW Algorithm" />
+    <Item Name="msgWizardCaption_iPodAudioBook" value="Make AudioBook" />
+    <Item Name="XLS" value="XLS" />
+    <Item Name="JPG" value="JPG" />
+    <Item Name="TXT" value="TXT" />
+    <Item Name="TXTW" value="TXTW" />
+    <Item Name="RTF" value="RTF" />
+    <Item Name="msgWizardCaption_TotalMailConverter" value="Convert mail messages" />
+    <Item Name="boxMailFields" value="Поля" />
+    <Item Name="boxMailAttachments" value="Вложения" />
+    <Item Name="msgWizardCaption_TiffCombine" value="Convert images" />
+    <Item Name="Range" value="Range" />
+    <Item Name="boxSeparateBlank" value="Blank analyze" />
+    <Item Name="Unicode Text" value="Unicode Text" />
+    <Item Name="msgWizardCaption_TotalDocConverter" value="Doc" />
+    <Item Name="Font" value="Font" />
+    <Item Name="ODT" value="ODT" />
+    <Item Name="ODS" value="ODS" />
+    <Item Name="XML" value="XML" />
+    <Item Name="SQL" value="SQL" />
+    <Item Name="DBF" value="DBF" />
+    <Item Name="DIFF" value="DIFF" />
+    <Item Name="SYLK" value="SYLK" />
+    <Item Name="LaTeX" value="LaTeX" />
+    <Item Name="Lotus" value="Lotus" />
+    <Item Name="Make AudioBook" value="Make AudioBook" />
+    <Item Name="CGM" value="CGM" />
+    <Item Name="HPGL" value="HPGL" />
+    <Item Name="SVG" value="SVG" />
+    <Item Name="Signature" value="Signature" />
+    <Item Name="PLT" value="PLT" />
+    <Item Name="Text Options" value="Text Options" />
+    <Item Name="Paper preferences" value="Paper preferences" />
+    <Item Name="XLSX" value="XLSX" />
+    <Item Name="msgWizardCaption_PDFSplitter" value="Convert PDF document" />
+    <Item Name="Detect blank" value="Detect blank" />
+    <Item Name="EML" value="EML" />
+    <Item Name="Show Attachment info" value="Добавить инфо о вложении" />
+    <Item Name="PS" value="PS" />
+    <Item Name=" to " value=" в " />
+    <Item Name="msgWizardCaption_TotalMailConverterPro" value="Convert mail messages" />
+    <Item Name="msgWizardCaption_TotalPDFConverterOCR" value="Convert PDF document" />
+    <Item Name="Language" value="Language" />
+    <Item Name="Bookmarks" value="Bookmarks" />
+    <Item Name="liConvert" value="Convert  to:" />
+  </Messages>
+  <Messages section="AudioConverter" />
+  <Common>
+    <Item name="Add" value="Добавить" />
+    <Item name="Cancel" value="Отмена" />
+    <Item Name="Header" value="Заголовок" />
+    <Item Name="Footer" value="Подвал" />
+    <Item Name="Position" value="Позиция" />
+    <Item Name="Left" value="Слева" />
+    <Item Name="Center" value="Центр" />
+    <Item Name="Right" value="Справа" />
+  </Common>

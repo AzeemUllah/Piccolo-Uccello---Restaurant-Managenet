@@ -1,0 +1,884 @@
+<?xml version="1.0"?>
+    <Messages>
+        <Item Name="Header " value=" Koptekst" />
+        <Item Name="Footer " value=" Voettekst" />
+        <Item Name="Font " value=" Font" />
+        <Item Name="Margin " value=" Marge" />
+        <Item Name="liCombineTo " value=" Combineer naar:" />
+        <Item Name="liSplitTo " value=" Split naar:" />
+        <Item Name="miCmdParams " value=" Parameters opdrachtregel" />
+        <Item Name="msgSomeFilesFiltered " value=" &lt;sommige bestanden zijn gefilterd, dubbelklik om deze te tonen&gt;" />
+        <Item Name="attrName " value=" Naam" />
+        <Item Name="attrSize " value=" Grootte" />
+        <Item Name="attrType " value=" Type" />
+        <Item Name="attrModified " value=" Gewijzigd" />
+        <Item Name="attrAttributes " value=" Attributen" />
+        <Item Name="Resize " value=" Grootte wijzigen" />
+        <Item Name="Crop " value=" Bijsnijden" />
+        <Item Name="Rotate " value=" Draaien" />
+        <Item Name="Transform " value=" Transformeren" />
+        <Item Name="Watermark " value=" Watermerk" />
+        <Item Name="Logo " value=" Logo" />
+        <Item Name="Comments " value=" Reacties" />
+        <Item Name="Frame " value=" Frame" />
+        <Item Name="Colors " value=" Kleuren" />
+        <Item Name="Icon colors " value=" Icoonkleuren" />
+        <Item Name="Icon Sizes " value=" Icoonmaten" />
+        <Item Name="Transparency " value=" Transparantie" />
+        <Item Name="JPEG2000 Compression " value=" JPEG2000 Compressie" />
+        <Item Name="JPEG Quality " value=" JPEG-kwaliteit" />
+        <Item Name="Format " value=" Indeling" />
+        <Item Name="RAW Format " value=" RAW-indeling" />
+        <Item Name="Color space " value=" Kleurruimte" />
+        <Item Name="Compression " value=" Compressie" />
+        <Item Name="Paper " value=" Papier" />
+        <Item Name="Properties " value=" Eigenschappen" />
+        <Item Name="Details " value=" Details" />
+        <Item Name="Template " value=" Template" />
+        <Item Name="Thumbnails " value=" Thumbnails" />
+        <Item Name="msgNoFileSelected " value=" Geen bestand geselecteerd" />
+        <Item Name="Document " value=" Document" />
+        <Item Name="Render " value=" Weergeven" />
+        <Item Name="Image Format " value=" Opmaak afbeelding" />
+        <Item Name="Background " value=" Achtergrond" />
+        <Item Name="Items " value=" Items" />
+        <Item Name="Encryption " value=" Encryptie" />
+        <Item Name="PDF Options " value=" PDF-opties" />
+        <Item Name="Page Processing " value=" Paginaverwerking" />
+        <Item Name="File name template " value=" Bestandsnaam template" />
+        <Item Name="Image DPI " value=" Afbeelding DPI" />
+        <Item Name="Extract pages " value=" Extraheer pagina's" />
+        <Item Name="Combine " value=" Combineer" />
+        <Item Name="attrTitle " value=" Titel" />
+        <Item Name="descDestination " value=" Bestemming" />
+        <Item Name="liConvertTo " value=" liConvertTo" />
+        <Item Name="attrOrderID " value=" OrderID" />
+        <Item Name="attrAuthor " value=" Auteur" />
+        <Item Name="attrSubject " value=" Onderwerp" />
+        <Item Name="attrPageSize " value=" Paginagrootte" />
+        <Item Name="attrPageCount " value=" Pagina-aantal" />
+        <Item Name="Pixel format " value=" Pixelformaat" />
+        <Item Name="mitbDevice " value=" Toestel" />
+        <Item Name="msgWizardCaption_TiffPaging " value=" Zet beelden om" />
+        <Item Name="Photometric " value=" Fotometrisch" />
+        <Item Name="Rip CD " value=" CD kopieren" />
+        <Item Name="YouTube " value=" YouTube" />
+        <Item Name="Write CD " value=" CD schrijven" />
+        <Item Name="attrDuration " value=" Duur" />
+        <Item Name="attrChannels " value=" Kanalen" />
+        <Item Name="attrSampleRate " value=" SampleRate" />
+        <Item Name="attrBitrate " value=" Bitrate" />
+        <Item Name="attrAlbum " value=" Album" />
+        <Item Name="attrArtist " value=" Artiest" />
+        <Item Name="attrYear " value=" Jaar" />
+        <Item Name="attrGenre " value=" Genre" />
+        <Item Name="attrComment " value=" Commentaar" />
+        <Item Name="attrTrack " value=" Track" />
+        <Item Name="infoUnknown " value=" &lt;Onbekend&gt;" />
+        <Item Name="miCoolUtils " value=" CoolUtils" />
+        <Item Name="msgWizardCaption_TotalAudioConverter " value=" Zet muziek om" />
+        <Item Name="to " value=" naar" />
+        <Item Name="boxSelectDestination " value=" Selecteer bestemming" />
+        <Item Name="boxCombine " value=" Combineer" />
+        <Item Name="boxSamplerate " value=" Bemonsteringsfrequentie" />
+        <Item Name="boxChannels " value=" Kanalen" />
+        <Item Name="boxBitrate " value=" Bitrate" />
+        <Item Name="boxFinishConversion " value=" Start converteren" />
+        <Item Name="boxConvertTo " value=" Converteren naar" />
+        <Item Name="msgWizardCaption_TotalImageConverter " value=" Zet beelden om" />
+        <Item Name="msgWizardCaption_TotalMailConverter " value=" Zet mailberichten om" />
+        <Item Name="boxMailFields " value=" Velden" />
+        <Item Name="Appearance " value=" Voorkomen" />
+        <Item Name="boxMailAttachments " value=" Bijlagen" />
+        <Item Name="Display " value=" Weergeven" />
+        <Item Name="msgWizardCaption_TotalCADConverter " value=" Omzetten" />
+        <Item Name="Orientation " value=" Afdrukstand" />
+        <Item Name="TIFF Compression " value=" TIFF compressie" />
+        <Item Name="msgWizardCaption_TotalExcelConverter " value=" XLS omzetten" />
+        <Item Name="Text Options " value=" Tekstopties" />
+        <Item Name="msgWizardCaption_TotalPDFConverter " value=" Zet PDF-document om" />
+        <Item Name="msgWizardCaption_PDFCombine " value=" Converteren naar PDF" />
+        <Item Name="Range " value=" Bereik" />
+        <Item Name="Unicode Text " value=" Unicodetekst" />
+    </Messages>
+  <Forms>
+    <!-- Doc Converter -->
+    <Form name="DocBrowseFrame" source="ListBrowseFrame" section="DocConverter" />
+    <Form name="DocWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="DocWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="DocWizardForm" source="CustomWizard" section="DocConverter" />
+    <Form name="DocWizardPDFMarginFrame" source="HTMWizardPDFMarginFrame" section="DocConverter" />
+    <!-- PDF Converter -->
+    <Form name="PDFListFrame" source="ListBrowseFrame" section="PDFConverter" />
+    <Form name="PDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFConverter" />
+    <Form name="PDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFConverter" />
+    <Form name="PDFWizardForm" source="CustomWizard" section="PDFConverter" />
+    <!-- HTML Converter -->
+    <Form name="HTMListFrame" source="ListBrowseFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFileFrame" source="CommonWizardFileFrame" section="HTMLConverter" >
+      <Control Name="cbSingleImage" Caption="Конвертировать в один файл" />
+    </Form>
+    <Form name="HTMWizardFolderFrame" source="CommonWizardFolderFrame" section="HTMLConverter" />
+    <Form name="HTMWizardForm" source="CustomWizard" section="HTMLConverter" >
+      <Control Name="lbDiscount" Caption="&lt;a href=discount&gt;Скидка!&lt;/a&gt;" />
+    </Form>
+    <!-- Image Converter -->
+    <Form name="ImagesListFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImagesThumbnailFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImageWizardFileFrame" source="CommonWizardFileFrame" section="ImageConverter" />
+    <Form name="ImageWizardFolderFrame" source="CommonWizardFolderFrame" section="ImageConverter" />
+    <Form name="ImageWizardForm" source="CustomWizard" section="ImageConverter" />
+    <!-- AudioConverter -->
+    <Form name="MP3WizardFileFrame" source="CommonWizardFileFrame" />
+    <Form name="MP3WizardFolderFrame" source="CommonWizardFolderFrame" />
+    <Form name="Mp3WizardForm" source="CustomWizard" section="AudioConverter" />
+    <Form name="MP3ListFrame" source="ListBrowseFrame" section="AudioConverter" />
+    <!-- XLS Converter -->
+    <Form name="XLSListBrowseFrame" source="ListBrowseFrame" section="ExcelConverter" />
+    <Form name="XLSWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="XLSWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="XLSWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Combine -->
+    <Form name="ToPDFBrowseFrame" source="ListBrowseFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardForm" source="CustomWizard" section="PDFCombine" />
+    <!-- Mail Converter -->
+    <Form name="MailListBrowseFrame" source="ListBrowseFrame" section="MailConverter" />
+    <Form name="MailWizardFileFrame" source="CommonWizardFileFrame" section="MailConverter" />
+    <Form name="MailWizardFolderFrame" source="CommonWizardFolderFrame" section="MailConverter" />
+    <Form name="MailWizardForm" source="CustomWizard" section="MailConverter" />
+    <!-- Tiff Pagging -->
+    <Form name="ImageWizardFileTemplateFrame" source="PDFWizardFileTemplateFrame" section="ImageConverter" />
+    <!-- CAD Converter -->
+    <Form name="CADWizardRotateFrame" source="ImageWizardRotateFrame" />
+    <Form name="CADWizardForm" source="CustomWizard" />
+    <!-- Common Form -->
+   <Form Name="MainForm" >
+        <Control Name="miFile" Caption="&amp;Bestand" />
+        <Control Name="miRefresh" Caption="Vernieuwen" />
+        <Control Name="miPrint" Caption="Print" />
+        <Control Name="miExit" Caption="E&amp;xit" />
+        <Control Name="miView" Caption="&amp;Bekijk" />
+        <Control Name="miEdit" Caption="B&amp;ewerken" />
+        <Control Name="miConvert" Caption="&amp;Converteren" />
+        <Control Name="miHelp" Caption="&amp;Help" />
+        <Control Name="miWantMore" Caption="&amp;Wil meer" />
+        <Control Name="lbFilterCaption" Caption="Filter:" />
+        <Control Name="bnDefineAction" Caption="Definieer actie" />
+        <Control Name="liConvertTo" Caption="Converteren naar:" />
+        <Control Name="miSkins" Caption="Skins" />
+        <Control Name="mitbOther" Caption="Andere" />
+    </Form>
+    <Form Name="ListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inclusief submappen" />
+        <Control Name="miCheck" Caption="Controleer" />
+        <Control Name="miUncheck" Caption="Deselecteer" />
+        <Control Name="miCheckAll" Caption="Controleer alles" />
+        <Control Name="miUncheckAll" Caption="Deselecteer alles" />
+        <Control Name="miCheckByMask" Caption="Controleer door masker ..." />
+        <Control Name="miRestoreLast" Caption="Laatste selectie herstellen " />
+        <Control Name="miMoveUp" Caption="Omhoog" />
+        <Control Name="miMoveDown" Caption="Omlaag" />
+    </Form>
+    <Form Name="DocViewFrame" >
+        <Control Name="miLanguage" Caption="Taal" />
+    </Form>
+    <Form Name="DataModuleHelp" >
+        <Control Name="miHelp" Caption="Help" />
+        <Control Name="miLang" Caption="Taal" />
+        <Control Name="miRegister" Caption="Voer registratiecode in ..." />
+        <Control Name="miOrder" Caption="Hoe te kopen" />
+        <Control Name="miHotOffer" Caption="Hete aanbieding!" />
+        <Control Name="miBuyCoolUtils" Caption="Koop CoolUtils PRO - slechts $99!" />
+        <Control Name="miLearnCoolUtils" Caption="Lees verder ..." />
+        <Control Name="miWriteUs" Caption="Contact" />
+        <Control Name="miWebSite" Caption="Website" />
+        <Control Name="miAbout" Caption="Over" />
+    </Form>
+    <Form Name="CustomWizard" >
+        <Control Name="bnBack" Caption="&lt;&lt;&amp;Terug" />
+        <Control Name="bnNext" Caption="&amp;Volgende&gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Annuleren" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="CommonWizardFileFrame" >
+        <Control Name="Label1" Caption="Stel nieuwe bestandsnaam in" />
+        <Control Name="Label2" Caption="Bestandsnaam:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Stel dit pad in als standaard" />
+    </Form>
+    <Form Name="FontDocWizardFrame" >
+        <Control Name="Label1" Caption="Stel standaardlettertype voor tekstbestanden in" />
+        <Control Name="lbl2" Caption="Lettergrootte" />
+        <Control Name="lbl1" Caption="Lettertype" />
+        <Control Name="cbBold" Caption="Vet" />
+        <Control Name="cbWordWrap" Caption="WordWrap" />
+        <Control Name="cbEnable" Caption="Inschakelen" />
+    </Form>
+    <Form Name="WizardFinishFrame" >
+        <Control Name="Label1" Caption="Alle informatie die de wizard nodig heeft om te converteren is verzameld " />
+        <Control Name="lbFinishCaption" Caption="Druk op START om te converteren" />
+        <Control Name="lbViewCaption" Caption="Je bent klaar om te converteren met de volgende opties:" />
+        <Control Name="cbOpenDestination" Caption="Open doelmap na het omzetten" />
+        <Control Name="cbDeleteOriginals" Caption="Verwijder originelen" />
+        <Control Name="lbDiscount" Caption="&lt;a href=discount&gt; KORTING!&lt;/ a&gt;" />
+    </Form>
+    <Form Name="DocWizardPaperFrame" >
+        <Control Name="Label1" Caption="Geef de afdrukstand" />
+        <Control Name="lblWidth" Caption="Breedte:" />
+        <Control Name="lblWInch" Caption="inch" />
+        <Control Name="lblHInch" Caption="inch" />
+        <Control Name="lbl1" Caption="Papierformaat" />
+        <Control Name="lblHeight" Caption="Hoogte:" />
+        <Control Name="rgOrientation" Caption="Afdrukstand" >
+            <Item>Portret</Item>
+            <Item>Landschap</Item>
+        </Control>
+        <Control Name="cbSeparate" Caption="Elke pagina naar apart bestand" />
+        <Control Name="rbCommon" Caption="Normaal" />
+        <Control Name="rbCustom" Caption="Aangepast" />
+    </Form>
+    <Form Name="DocWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="Geef de marge voor Adobe PDF-bestand (mm)" />
+        <Control Name="Label2" Caption="Boven" />
+        <Control Name="Label3" Caption="Onder" />
+        <Control Name="Label4" Caption="Links" />
+        <Control Name="lbRight" Caption="Rechts" />
+    </Form>
+    <Form Name="DocPDFPropWizardFrame" >
+        <Control Name="Label1" Caption="Documentinformatie" />
+        <Control Name="Label2" Caption="Auteur:" />
+        <Control Name="Label3" Caption="Ontwerper:" />
+        <Control Name="Label4" Caption="Trefwoorden:" />
+        <Control Name="Label5" Caption="Onderwerp:" />
+        <Control Name="Label6" Caption="Titel:" />
+    </Form>
+    <Form Name="DocWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="Kwaliteit van de beelden toegevoegd aan PDF-document" />
+        <Control Name="ElGroupBox1" Caption="Kwaliteit" />
+        <Control Name="Label5" Caption="Beter (maximale grootte)" />
+        <Control Name="Label6" Caption="Minder (minimale grootte)" />
+    </Form>
+    <Form Name="ImagesThumbnailFrame" >
+        <Control Name="miCheck" Caption="Controleer" />
+        <Control Name="miUncheck" Caption="Deselecteer" />
+        <Control Name="miCheckAll" Caption="Selecteer alles" />
+        <Control Name="miUncheckAll" Caption="Deselecteer alles" />
+    </Form>
+    <Form Name="ImagesListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inclusief submappen" />
+        <Control Name="miCheck" Caption="Controleer" />
+        <Control Name="miUncheck" Caption="Deselecteer" />
+        <Control Name="miCheckAll" Caption="Selecteer alles" />
+        <Control Name="miUncheckAll" Caption="Deselecteer alles" />
+        <Control Name="miCheckByMask" Caption="Controleer door masker ..." />
+        <Control Name="miRestoreLast" Caption="Laatste selectie herstellen " />
+        <Control Name="miMoveUp" Caption="Omhoog" />
+        <Control Name="miMoveDown" Caption="Omlaag" />
+    </Form>
+    <Form Name="ImageBrowseToolbarFrame" >
+        <Control Name="miRotate" Caption="Draaien" />
+        <Control Name="miResize" Caption="Grootte wijzigen" />
+        <Control Name="microP" Caption="Bijsnijden" />
+        <Control Name="miWatermark" Caption="Watermerk" />
+        <Control Name="miFrame" Caption="Frame" />
+        <Control Name="miEMail" Caption="Per e-mail" />
+    </Form>
+    <Form Name="ImageInfoFrame" >
+        <Control Name="ElLabel2" Caption="Maat:" />
+        <Control Name="ElLabel1" Caption="Breedte:" />
+        <Control Name="ElLabel3" Caption="Hoogte:" />
+        <Control Name="ElLabel4" Caption="Kleuren:" />
+        <Control Name="ElLabel5" Caption="Frames:" />
+        <Control Name="ElLabel6" Caption="Datum:" />
+        <Control Name="ElLabel7" Caption="Orientatie:" />
+        <Control Name="ElLabel8" Caption="Model:" />
+        <Control Name="ElLabel9" Caption="Bestandstype:" />
+        <Control Name="miRotateLeft" Caption="Linksom draaien" />
+        <Control Name="miRotateRight" Caption="Rechtsom draaien" />
+        <Control Name="miRotate180" Caption="180 roteren" />
+        <Control Name="miSetWallpaper" Caption="Wallpaper instellen" />
+        <Control Name="miLanguage" Caption="Taal" />
+    </Form>
+    <Form Name="ImageWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt;&amp;Terug" />
+        <Control Name="bnNext" Caption="&amp;Volgende&gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Annuleren" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="ImageWizardFileFrame" >
+        <Control Name="Label1" Caption="Nieuwe bestandsnaam instellen" />
+        <Control Name="Label2" Caption="Bestandsnaam:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Stel dit pad in als standaard" />
+    </Form>
+    <Form Name="ImageWizardCropFrame" >
+        <Control Name="Label1" Caption="U kunt door bijsnijden onnodige onderdelen weghalen" />
+        <Control Name="Label2" Caption="Links bijsnijden:" />
+        <Control Name="Label3" Caption="Onder bijsnijden:" />
+        <Control Name="Label4" Caption="Rechts bijsnijden:" />
+        <Control Name="Label5" Caption="Bovenaan bijsnijden:" />
+        <Control Name="bnSelect" Caption="Selecteer ..." />
+        <Control Name="lblWidthCap" Caption="Breedte:" />
+        <Control Name="lbHeight" Caption="Hoogte:" />
+    </Form>
+    <Form Name="ImageWizardRotateFrame" >
+        <Control Name="Label1" Caption="Draaien beelden voor comfortabele weergave" />
+        <Control Name="gbOrientation" Caption="Huidige beeldorientatie" />
+        <Control Name="ElRadioButton1" Caption="boven/links boven" />
+        <Control Name="ElRadioButton2" Caption="boven / rechts boven &lt;ind width=110 pos=abs&gt; &lt;img src=3&gt; Horizontaal spiegelen" />
+        <Control Name="ElRadioButton3" Caption="onderaan/rechts &lt;ind width=110 pos=abs&gt; &lt;img src=2&gt; 180" />
+        <Control Name="ElRadioButton4" Caption="onderaan / links &lt;ind width=110 pos=abs&gt; &lt;img src=4&gt; Verticaal spiegelen" />
+        <Control Name="ElRadioButton5" Caption="links / boven" />
+        <Control Name="ElRadioButton6" Caption="rechts / boven &lt;ind width=110 pos=abs&gt; &lt;img src=1&gt; 90 CW" />
+        <Control Name="ElRadioButton7" Caption="rechts / onder" />
+        <Control Name="ElRadioButton8" Caption="links / onderaan &lt;ind width=110 pos=abs&gt; &lt;img src=0&gt; 90 CCW" />
+        <Control Name="ElRadioButton9" Caption="Haal orientatie op van de EXIF-tag" />
+    </Form>
+    <Form Name="ImageWizardResizeFrame" >
+        <Control Name="Label1" Caption="U kunt de afbeelding tijdens de conversie wijzigen" />
+        <Control Name="lbWidth" Caption="Breedte:" />
+        <Control Name="lbHeight" Caption="Hoogte:" />
+        <Control Name="cbConstrain" Caption="Beperk verhoudingen" />
+        <Control Name="rbNoResize" Caption="Afbeelding niet bijwerken" />
+        <Control Name="rbResize" Caption="Werk de afbeelding bij tot bepaalde grootte" />
+    </Form>
+    <Form Name="ImageWizardRemoveTransparencyFrame" >
+        <Control Name="Label1" Caption="Selecteer achtergrondkleur voor transparante afbeeldingen" />
+        <Control Name="Label2" Caption="Achtergrond:" />
+    </Form>
+    <Form Name="ImageWizardJPEGColorSpaceFrame" >
+        <Control Name="Label1" Caption="Geeft de gewenste kleurruimte voor de Jpeg" />
+    </Form>
+    <Form Name="ImageWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="Voor JPEG-beelden u kunt kwaliteit en soepelheid definieren " />
+        <Control Name="gbQuality" Caption="Kwaliteit" />
+        <Control Name="Label5" Caption="Beter (maximale grootte)" />
+        <Control Name="Label6" Caption="Minder (minimale grootte)" />
+        <Control Name="gbSmoothing" Caption="Vloeiend" />
+        <Control Name="cbLossless" Caption="Voor JPEG-afbeeldingen informatie gebruiken uit het bronbestand /n verliesloze transformatie, indien mogelijk" />
+    </Form>
+    <Form Name="ImageWizardWatermarkFrame" >
+        <Control Name="Label1" Caption="Pas uw transparant logo toe op de afbeelding" />
+        <Control Name="Label2" Caption="Logo:" />
+        <Control Name="gbTransparency" Caption="Transparantie:" />
+        <Control Name="Label4" Caption="nee" />
+        <Control Name="Label3" Caption="volledig" />
+        <Control Name="bnEffects" Caption="Effecten&gt;" />
+        <Control Name="ElGroupBox2" Caption="Positie" />
+        <Control Name="Label6" Caption="Ruimte:" />
+        <Control Name="cbAddLogo" Caption="Voeg logo aan de afbeelding toe" />
+    </Form>
+    <Form Name="ImageWizardMaskFrame" >
+        <Control Name="Label1" Caption="Voeg een frame aan je foto's toe" />
+        <Control Name="Label2" Caption="Frame:" />
+        <Control Name="lbSpace" Caption="Ruimte:" />
+        <Control Name="rbNoFrame" Caption="Geen frame" />
+        <Control Name="rbFrameIndex" Caption="Frame-index:" />
+        <Control Name="rbFrameFile" Caption="Frame van het bestand:" />
+        <Control Name="cbInsideImage" Caption="Binnen afbeelding" />
+    </Form>
+    <Form Name="ImageWizardCommentFrame" >
+        <Control Name="Label1" Caption="U kunt de beschrijving van uw foto's toevoegen /n gebaseerd op beeldeigenschappen" />
+        <Control Name="lbComment" Caption="Commentaar:" />
+        <Control Name="gbPos" Caption="Positie" />
+        <Control Name="Label6" Caption="Ruimte:" />
+        <Control Name="gbFont" Caption="Lettertype" />
+        <Control Name="Label3" Caption="Naam:" />
+        <Control Name="Label4" Caption="Maat:" />
+        <Control Name="Label5" Caption="Kleur:" />
+        <Control Name="cbSoftShadow" Caption="Zachte schaduw toevoegen" />
+        <Control Name="gbExample" Caption="Voorbeeld" />
+        <Control Name="cbAddComment" Caption="Commentaar toevoegen aan de afbeelding" />
+    </Form>
+    <Form Name="PDFListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inclusief submappen" />
+        <Control Name="miCheck" Caption="Controleer" />
+        <Control Name="miUncheck" Caption="Deselecteer" />
+        <Control Name="miCheckAll" Caption="Selecteer alles" />
+        <Control Name="miUncheckAll" Caption="Deselecteer alles" />
+        <Control Name="miCheckByMask" Caption="Controleer door masker ..." />
+        <Control Name="miRestoreLast" Caption="Laatste actie herstellen" />
+        <Control Name="miMoveUp" Caption="Omhoog" />
+        <Control Name="miMoveDown" Caption="Omlaag" />
+        <Control Name="miLanguage" Caption="Taal" />
+    </Form>
+    <Form Name="PDFWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt;&amp;Terug" />
+        <Control Name="bnNext" Caption="&amp;Volgende&gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Annuleren" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="PDFWizardFileFrame" >
+        <Control Name="Label1" Caption="Stel nieuwe bestandsnaam in" />
+        <Control Name="Label2" Caption="Bestandsnaam:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Stel dit pad in als standaard" />
+    </Form>
+    <Form Name="PDFWizardExtractPagesFrame" >
+        <Control Name="Label1" Caption="Uittreksel geselecteerde pagina's uit pdf-document" />
+        <Control Name="Label2" Caption="bijv. 10,15,18-20,25-35" />
+        <Control Name="lbBookmarkCaption" Caption="Nieuw bestand elke bookmark op niveau:" />
+        <Control Name="rbAllPages" Caption="&amp;Haal alle pagina's op" />
+        <Control Name="rbSelectedPages" Caption="&amp;Uitpakken van geselecteerde pagina's" />
+        <Control Name="rbBookmarks" Caption="Split op bladwijzers" />
+        <Control Name="rbBlanks" Caption="Split op blanco pagina's" />
+    </Form>
+    <Form Name="PDFWizardBlankToleranceFrame" />
+    <Form Name="PDFWizardUniteFrame" >
+        <Control Name="Label1" Caption="U kunt opgesplitste pagina's combineren in nieuwe documenten" />
+        <Control Name="gbCombine" Caption="Combineer pagina's" />
+        <Control Name="Label2" Caption="Maak elke keer een nieuw document " />
+        <Control Name="Label3" Caption="pagina's" />
+    </Form>
+    <Form Name="PDFWizardFileTemplateFrame" >
+        <Control Name="rbFileCount" Caption="Baseeer op aantal doelmapbestanden" />
+        <Control Name="rbCounter" Caption="Start nummering vanaf:" />
+        <Control Name="Label1" Caption="Geef het sjabloon om bestanden te maken voor elke pagina. /n Het teken # wordt vervangen door paginanummer" />
+        <Control Name="Label2" Caption="Template" />
+        <Control Name="edTemplate" Caption="" />
+        <Control Name="Naam:" Caption="Pagina # txt |" />
+    </Form>
+    <Form Name="PDFWizardPDFOptionsFrame" >
+        <Control Name="Label1" Caption="U kunt geavanceerde opties voor uw PDF selecteren./n" />
+        <Control Name="Label2" Caption="PDF versie:" />
+        <Control Name="lbCompressionLevel" Caption="Compressie niveau:" />
+        <Control Name="cbCompression" Caption="Inschakelen compressie" />
+    </Form>
+    <Form Name="PDFWizardHeaderFrame" >
+        <Control Name="cbNumber" Caption="Vervolg van vorige document" />
+        <Control Name="lbl1" Caption="[pagina] - Paginanummer /n [datum] - Huidige datum" />
+        <Control Name="elgr" Caption="Start uit:" />
+        <Control Name="Label2" Caption="Lengte:" />
+        <Control Name="cbComment" Caption="Koptekst" />
+        <Control Name="grPosition" Caption="Positie" />
+        <Control Name="btnPosLeft" Caption="Links" />
+        <Control Name="btnPosCenter" Caption="Midden" />
+        <Control Name="btnPosRight" Caption="Rechts" />
+        <Control Name="Label1" Caption="Pas koptekst pagina aan" />
+    </Form>
+    <Form Name="PDFWizardFooterFrame" >
+        <Control Name="btnPosRight" Caption="Rechts" />
+        <Control Name="cbNumber" Caption="Vervolg van vorige document" />
+        <Control Name="Label1" Caption="Pas voettekst pagina aan" />
+        <Control Name="lbl1" Caption="[pagina] - Paginanummer /n [datum] - Huidige datum" />
+        <Control Name="elgr" Caption="Start uit:" />
+        <Control Name="Label2" Caption="Lengte:" />
+        <Control Name="cbComment" Caption="Voettekst" />
+    </Form>
+    <Form Name="ToPDFBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inclusief submappen" />
+        <Control Name="miCheck" Caption="Controleer" />
+        <Control Name="miUncheck" Caption="Deselecteer" />
+        <Control Name="miCheckAll" Caption="Selecteer alles" />
+        <Control Name="miUncheckAll" Caption="Deselecteer alles" />
+        <Control Name="miCheckByMask" Caption="Controleer door masker ..." />
+        <Control Name="miRestoreLast" Caption="Laatste actie herstellen" />
+        <Control Name="miMoveUp" Caption="Omhoog" />
+        <Control Name="miMoveDown" Caption="Omlaag" />
+        <Control Name="miLanguage" Caption="Taal" />
+    </Form>
+    <Form Name="ToPDFWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt;&amp;Terug" />
+        <Control Name="bnNext" Caption="&amp;Volgende&gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Annuleren" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="ToPDFWizardCombiDestinationFrame" >
+        <Control Name="rbCombine" Caption="Combineer alles in een document" />
+        <Control Name="rbSeparateFolder" Caption="Afzonderlijke bestanden in mappen" />
+        <Control Name="rbSeparateNamePart" Caption="gescheiden door een gemeenschappelijke naamdeel" />
+    </Form>
+    <Form Name="ToPDFWizardNamePartFrames" />
+    <Form Name="ToPDFWizardHeaderFrame" >
+        <Control Name="Label1" Caption="Pas koptekst pagina aan" />
+        <Control Name="Label2" Caption="Lengte:" />
+        <Control Name="lbl1" Caption="[pagina] - Paginanummer /n [datum] - Huidige datum" />
+        <Control Name="elgr" Caption="Start uit:" />
+        <Control Name="cbComment" Caption="Koptekst" />
+        <Control Name="cbNumber" Caption="Vervolg van vorige document" />
+    </Form>
+    <Form Name="ToPDFWizardFooterFrame" >
+        <Control Name="Label1" Caption="Pas voettekst pagina aan" />
+        <Control Name="cbNumber" Caption="Vervolg van vorige document" />
+        <Control Name="Label2" Caption="Lengte:" />
+        <Control Name="lbl1" Caption="[pagina] - Paginanummer /n [datum] - Huidige datum" />
+        <Control Name="elgr" Caption="Start uit:" />
+        <Control Name="cbComment" Caption="Voettekst" />
+    </Form>
+    <Form Name="MailListBrowseFrame" >
+        <Control Name="miLanguage" Caption="Taal" />
+        <Control Name="miIncludeSubfolders" Caption="Inclusief submappen" />
+        <Control Name="miCheck" Caption="Controleer" />
+        <Control Name="miUncheck" Caption="Deselecteer" />
+        <Control Name="miCheckAll" Caption="Selecteer alles" />
+        <Control Name="miUncheckAll" Caption="Deselecteer alles" />
+        <Control Name="miCheckByMask" Caption="Controleer door masker ..." />
+        <Control Name="miRestoreLast" Caption="Laatste actie herstellen" />
+        <Control Name="miMoveUp" Caption="Omhoog" />
+        <Control Name="miMoveDown" Caption="Omlaag" />
+    </Form>
+    <Form Name="MailWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt;&amp;Terug" />
+        <Control Name="bnNext" Caption="&amp;Volgende&gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Annuleren" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="MailWizardFileFrame" >
+        <Control Name="Label1" Caption="Stel nieuwe bestandsnaam in" />
+        <Control Name="Label2" Caption="Bestandsnaam:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Stel dit pad in als standaard" />
+    </Form>
+    <Form Name="MailWizardTemplateFrame" >
+        <Control Name="Label1" Caption="Stel de bestemming bestandsnaam sjabloon" />
+        <Control Name="lblHelp" Caption="Beschikbaar macro: / n / n [naam] - bronbestand naam / n [onderwerp] - mail onderwerp / n [afzender] - mail afzender / n [ontvanger] - eerste e-mail ontvanger / n [datum: &lt;opmaak&gt;] - mail datum" />
+        <Control Name="lblTemplate" Caption="Sjabloon:" />
+    </Form>
+    <Form Name="MailWizardItemsFrame" >
+        <Control Name="Label1" Caption="Selecteer de velden die u wilt exporteren" />
+        <Control Name="cgItems" Caption="Velden te exporteren" >
+            <Item>Afzender</Item>
+            <Item>Ontvanger</Item>
+            <Item>CC (Carbon Copy)</Item>
+            <Item>BCC (Blind Carbon Copy)</Item>
+            <Item>Datum</Item>
+            <Item>Onderwerp</Item>
+            <Item>Lichaam</Item>
+        </Control>
+        <Control Name="cbDisableInet" Caption="Geen toegang tot internet voor afbeeldingen" />
+        <Control Name="cbDateUTC" Caption="Toon datum in UTC" />
+    </Form>
+    <Form Name="MailWizardCSSFrame" >
+        <Control Name="rbInternal" Caption="Gebruik interne regeling" />
+        <Control Name="rbExternal" Caption="Gebruik een externe CSS-bestand" />
+        <Control Name="Label1" Caption="Stem de output document verschijnen" />
+        <Control Name="bnTune" Caption="Tune" />
+    </Form>
+    <Form Name="MailWizardAttachmentsFrame" >
+        <Control Name="Label1" Caption="Wat wil je doen met de bijlagen?" />
+        <Control Name="grAttach" Caption="Bijlagen" />
+        <Control Name="cbSaveAttachments" Caption="Bijlage info" />
+        <Control Name="cbAttachUnpack" Caption="Upack gecomprimeerde bijlagen" />
+        <Control Name="cbSeparateAttachMsg" Caption="Bewaar in gescheiden bestand" />
+        <Control Name="cbIncludeImages" Caption="Inclusief bijgevoegde afbeeldingen in het document" />
+        <Control Name="cbMsgConvert" Caption="Zet bijgevoegde berichten om" />
+        <Control Name="cbSeparateAttach" Caption="Bijlagen in aparte mappen" />
+    </Form>
+    <Form Name="HTMWizardPdfDocInfoFrame" >
+        <Control Name="Label1" Caption="Document informatie" />
+        <Control Name="Label2" Caption="Auteur:" />
+        <Control Name="Label3" Caption="Ontwerper:" />
+        <Control Name="Label4" Caption="Trefwoorden:" />
+        <Control Name="Label5" Caption="Onderwerp:" />
+        <Control Name="Label6" Caption="Titel:" />
+    </Form>
+    <Form Name="HTMWizardPDFCompressionFrame" >
+        <Control Name="Label1" Caption="Selecteer document compressieniveau" />
+        <Control Name="rgCompression" Caption="Compressie niveau" >
+            <Item>Snelste</Item>
+            <Item>Normaal</Item>
+            <Item>Maximaal</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardPDFEncyptionFrame" >
+        <Control Name="Label1" Caption="U kunt het PDF-document beschermen" />
+        <Control Name="gbEncryption" Caption="Document versleutelen" />
+        <Control Name="Label2" Caption="Eigenaar wachtwoord:" />
+        <Control Name="Label3" Caption="Bevestig:" />
+        <Control Name="Label4" Caption="Gebruiker wachtwoord:" />
+        <Control Name="Label5" Caption="Bevestig:" />
+        <Control Name="cgPermissions" Caption="Gebruikersrechten" >
+            <Item>Kopieer</Item>
+            <Item>Aanpassen</Item>
+            <Item>Afdrukken</Item>
+            <Item>formulier in te vullen</Item>
+            <Item>Annotatie</Item>
+            <Item>Toegankelijkheid</Item>
+            <Item>Document Montage</Item>
+            <Item>High Resolution Afdrukken</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMPaperSizeFrame" >
+        <Control Name="Label1" Caption="Geeft het papierformaat voor Adobe PDF-bestand" />
+        <Control Name="rbCommon" Caption="Normaal" />
+        <Control Name="rbCustom" Caption="Aangepast" />
+        <Control Name="rgOrientation" Caption="Afdrukstand" >
+            <Item>Portret</Item>
+            <Item>Landschap</Item>
+        </Control>
+        <Control Name="lbWidth" Caption="Breedte:" />
+        <Control Name="lbWInch" Caption="inch" />
+        <Control Name="lbHInch" Caption="inch" />
+        <Control Name="lbHeight" Caption="Hoogte:" />
+        <Control Name="Label2" Caption="Papierformaat" />
+        <Control Name="cbFitPage" Caption="Aanpassen aan pagina" />
+    </Form>
+    <Form Name="HTMWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="Geeft de marge voor de output bestand" />
+        <Control Name="Label2" Caption="Boven:" />
+        <Control Name="Label3" Caption="Onder:" />
+        <Control Name="Label4" Caption="Links" />
+        <Control Name="lbRight" Caption="Rechts" />
+    </Form>
+    <Form Name="MailWizardCombiDestinationFrame" >
+        <Control Name="Label1" Caption="Resulterende bestanden in een document plaatsen of elke e-mail afzonderlijk document emailen? " />
+        <Control Name="lbFileName" Caption="Bestandsnaam:" />
+        <Control Name="lbFolderName" Caption="Mapnaam:" />
+        <Control Name="rbCombine" Caption="Combineer alle e-documenten in een dossier" />
+        <Control Name="rbSeparate" Caption="Elke e-mail document in een apart bestand" />
+    </Form>
+    <Form Name="CommonWizardFolderFrame" >
+        <Control Name="Label1" Caption="Selecteer doelmap" />
+        <Control Name="Label2" Caption="Mapnaam:" />
+        <Control Name="cbKeepStructure" Caption="Keep mappenstructuur" />
+        <Control Name="bnSetDefault" Caption="Stel dit pad in als standaard" />
+    </Form>
+    <Form Name="HTMListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inclusief submappen" />
+        <Control Name="miCheck" Caption="Controleer" />
+        <Control Name="miUncheck" Caption="Deselecteer" />
+        <Control Name="miCheckAll" Caption="Selecteer alles" />
+        <Control Name="miUncheckAll" Caption="Deselecteer alles" />
+        <Control Name="miCheckByMask" Caption="Controleer door masker ..." />
+        <Control Name="miRestoreLast" Caption="Laatste actie herstellen" />
+        <Control Name="miMoveUp" Caption="Omhoog" />
+        <Control Name="miMoveDown" Caption="Omlaag" />
+    </Form>
+    <Form Name="HTMViewFrame" >
+        <Control Name="miLanguage" Caption="Taal" />
+    </Form>
+    <Form Name="HTMWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt;&amp;Terug" />
+        <Control Name="bnNext" Caption="&amp;Volgende&gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Annuleren" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="HTMWizardFileFrame" >
+        <Control Name="Label1" Caption="Stel nieuwe bestandsnaam in" />
+        <Control Name="Label2" Caption="Bestandsnaam:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Stel dit pad in als standaard" />
+        <Control Name="cbSingleImage" Caption="Zet in een beeld" />
+    </Form>
+    <Form Name="HTMWizardHeaderFrame" >
+        <Control Name="Label1" Caption="Stel de kop-en voettekst voor de output document" />
+        <Control Name="gbHeader" Caption="Header" />
+        <Control Name="." Caption="Label4 = IE kop- en voetteksten worden ondersteund /n Voorbeeld: (&amp;&amp;u&amp;&amp;&amp;&amp;bd) /n voegt bestandsnaam en datum toe (&quot;Pagina 1 van 10&quot;)" />
+        <Control Name="Label2" Caption="Koptekst HTML-bestand:" />
+    </Form>
+    <Form Name="HTMWizardFooterFrame" >
+        <Control Name="Label1" Caption="Stel de voettekst voor de output document" />
+        <Control Name="gbFooter" Caption="Voettekst" />
+        <Control Name="." Caption="Label4 = IE kop- en voetteksten worden ondersteund /n Voorbeeld: (&amp;&amp;u&amp;&amp;&amp;&amp;bd) /n voegt bestandsnaam en datum toe (&quot;Pagina 1 van 10&quot;)" />
+        <Control Name="Label2" Caption="Voettekst HTML-bestand:" />
+    </Form>
+    <Form Name="HTMWizardPDFWatermarkFrame" >
+        <Control Name="Label1" Caption="Selecteer watermerk eigenschappen /n voor resulterende document" />
+        <Control Name="lbComment" Caption="Tekst als watermerk:" />
+        <Control Name="Label2" Caption="Page bereik (1-5,10)" />
+        <Control Name="gbFont" Caption="Lettertype" />
+        <Control Name="Label3" Caption="Naam:" />
+        <Control Name="Label4" Caption="Maat:" />
+        <Control Name="Label5" Caption="Kleur:" />
+        <Control Name="gbPos" Caption="Positie" />
+    </Form>
+    <Form Name="HTMWizardPDFRenderFrame" >
+        <Control Name="Label1" Caption="Selecteer elementen voor in het  /n resulterende document" />
+        <Control Name="cgItems" Caption="Items te maken" >
+            <Item>Tekst</Item>
+            <Item>Vorm</Item>
+            <Item>Afbeelding</Item>
+        </Control>
+        <Control Name="rgEncodeType" Caption="Insluiten gebruikt True Type lettertypes" >
+            <Item>Geen</Item>
+            <Item>Volledige</Item>
+            <Item>Subset</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardImageFormatFrame" >
+        <Control Name="Label1" Caption="Selecteer de uitgang van beeldformaat / n voor de render HTML-afbeeldingen" />
+        <Control Name="Label2" Caption="Bron DPI:" />
+        <Control Name="rgImageFormat" Caption="Output beeldformaat" >
+            <Item>BMP - Slechte compressie</Item>
+            <Item>JPEG - Best voor foto-</Item>
+            <Item>CCITT3 - Fax compressie, b / w</Item>
+            <Item>CCITT4 - Fax compressie, b / w</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="Voor JPEG-beelden u kunt kwaliteit en soepelheid definieren" />
+        <Control Name="ElGroupBox1" Caption="Kwaliteit" />
+        <Control Name="Label5" Caption="Beter (maximale grootte)" />
+        <Control Name="Label6" Caption="Minder (minimale grootte)" />
+    </Form>
+    <Form Name="HTMWizardBmpPixelFormatFrame" >
+        <Control Name="Label1" Caption="Geeft de bit formaat van de bitmapafbeelding, /n geeft aan hoe de afbeelding is /n weergegeven" />
+        <Control Name="rgPixelFormat" Caption="Afbeelding pixelformaat" >
+            <Item>1 bit - een bit per pixel (zwart en wit palet)</Item>
+            <Item>4 bit - 16-kleurenpalet</Item>
+            <Item>8 bit - 256-kleurenpalet</Item>
+            <Item>. 15 bit - true-kleuren bitmap, RGB compressie</Item>
+            <Item>. 16 bit - true-kleuren bitmap , bitfield compressie</Item>
+            <Item>24 bit - true-kleuren bitmap, 24 bits per pixel</Item>
+            <Item>32 bit - true-kleuren bitmap, 32 bits per pixel.</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardBkgndFrame" >
+        <Control Name="Label1" Caption="U kunt een achtergrondafbeelding kiezen /n of de gebruikte achtergrondkleur aanpassen" />
+        <Control Name="rbColor" Caption="Gebruik achtergrondkleur" />
+    </Form>
+    <Form Name="HTMWizardPdfSignInfoFrame" >
+        <Control Name="Label1" Caption="U kunt een digitale handtekening aan de output PDF-document toevoegen." />
+        <Control Name="Label2" Caption="Locatie:" />
+        <Control Name="Label5" Caption="Contact:" />
+        <Control Name="Label6" Caption="Reden:" />
+        <Control Name="Label3" Caption="PFX bestand:" />
+        <Control Name="Label4" Caption="Wachtwoord:" />
+    </Form>
+    <Form Name="ImageWizardJP2KRateFrame" >
+        <Control Name="Label1" Caption="Voor JPEG 2000-indeling kunt u compressieverhouding bepalen" />
+        <Control Name="ElGroupBox1" Caption="Rate" />
+        <Control Name="Label5" Caption="Beter (maximale grootte)" />
+        <Control Name="Label6" Caption="Minder (minimale grootte)" />
+    </Form>
+    <Form Name="CADViewFrame" >
+        <Control Name="miLanguage" Caption="Taal" />
+    </Form>
+    <Form Name="ImageWizardIcoSizeFrame" >
+        <Control Name="Label1" Caption="Controleer de pictogrammaten die u wilt opnemen in uw uiteindelijke afbeelding (een symbool kan meerdere afbeeldingen van verschillende formaten hebben)" />
+        <Control Name="cbSelectBest" Caption="Selecteer de beste resolutie" />
+        <Control Name="cbStandard" Caption="Alle standaard resoluties" />
+    </Form>
+    <Form Name="ImageWizardIcoColorsFrame" >
+        <Control Name="Label1" Caption="ICO-formaat ondersteunt een aantal kleurenfoto's in een bestand. /n Kies de kleuren die u wilt opnemen" />
+        <Control Name="cgColors" Caption="" >
+            <Item>16 kleuren</Item>
+            <Item>256 kleuren</Item>
+            <Item>Ware kleur</Item>
+            <Item>WindowsXP icoon</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTransparencyFrame" >
+        <Control Name="Label1" Caption="Kies kleuren voor transparantie" />
+        <Control Name="ElGroupBox1" Caption="transparante kleur" />
+        <Control Name="lbBkgnd" Caption="Achtergrond:" />
+        <Control Name="bnSelectColors" Caption="Selecteer kleuren ..." />
+        <Control Name="rbNoTransparency" Caption="Geen transparantie" />
+        <Control Name="rbSourceFile" Caption="Gebruik transparantie van bronbestand" />
+        <Control Name="rbUseColors" Caption="Stel deze kleur in voor transparantie" />
+        <Control Name="cbTransparencyMethod" Caption="" >
+            <Item>Alfakanaal</Item>
+            <Item>Linksboven pixel</Item>
+            <Item>Linksonder pixels</Item>
+            <Item>Top juiste pixel</Item>
+            <Item>Rechtsonder pixel</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTiffCompressionFrame" >
+        <Control Name="Label1" Caption="Selecteer de compressie van de definitieve TIFF document" />
+        <Control Name="rgCompression" Caption="" >
+            <Item>Ongecomprimeerde</Item>
+            <Item>LZW compressie</Item>
+            <Item>RLE compressie (Packbits)</Item>
+            <Item>JPEG-compressie</Item>
+            <Item>Bilevel Huffman compressie (CCITT1D)</Item>
+            <Item>Bilevel Groep 3 CCITT compressie, monodimensional (G3FAX1D)</Item>
+            <Item>Bilevel Groep 3 CCITT compressie, tweedimensionale (G3FAX2D)</Item>
+            <Item>Bilevel CCITT Groep 4-compressie, tweedimensionale (G4FAX)</Item>
+            <Item>ZIP-compressie (niet standaard)</Item>
+            <Item>Deflate (Adobe ZIP-compressie, niet standaard)</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardPhotometInterpretFrame" >
+        <Control Name="rgColorSpace" Caption="" >
+            <Item>Wit is nul</Item>
+            <Item>Zwart is nul</Item>
+            <Item>RGB</Item>
+            <Item>RGB Palet</Item>
+            <Item>Transparantie</Item>
+        </Control>
+        <Control Name="mask" Caption="| CMYK | YCBCR | CIELAB |" />
+    </Form>
+    <Form Name="ImageWizardTIFFColorSpaceFrame" >
+        <Control Name="Label1" Caption="Geeft de gewenste kleur ruimte voor de Jpeg opgenomen in een TIFF-bestand" />
+        <Control Name="rgColorSpace" Caption="JPEG-kleurruimte" >
+            <Item>RGB</Item>
+            <Item>GRAYLEV</Item>
+            <Item>YCbCr</Item>
+            <Item>CMYK</Item>
+            <Item>YCbCrK</Item>
+        </Control>
+    </Form>
+    <Form Name="SimpleImageWizardForm" />
+    <Form Name="ImageWizardColorsFrame" >
+        <Control Name="Label1" Caption="Selecteer kleuren in de doelafbeelding" />
+        <Control Name="rgColorSpace" Caption="Kleuren" >
+            <Item>Zwart  Wit</Item>
+            <Item>Grijswaarden</Item>
+            <Item>16 kleuren</Item>
+            <Item>256 kleuren</Item>
+            <Item>Ware kleuren (24bit)</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardBWFrame" />
+    <Form Name="PDFWizardJpegQualityFrame" />
+    <Form Name="PDFWizardDPIFrame" >
+        <Control Name="Label1" Caption="Selecteer de kwaliteit en de grootte van de geproduceerde afbeelding" />
+        <Control Name="Label2" Caption="Paginaformaat" />
+        <Control Name="rb75" Caption="75 DPI (schermresolutie)" />
+        <Control Name="rb75" Caption="150 DPI (Ontwerp schermresolutie)" />
+        <Control Name="RB300" Caption="300 DPI (Hoge afdrukresolutie)" />
+        <Control Name="rbCustom" Caption="Aangepast" />
+        <Control Name="cbOriginal" Caption="Origineel" />
+    </Form>
+    <Form Name="PDFWizardImageCombineFrame" >
+        <Control Name="Label1" Caption="U kunt elke pagina in een apart bestand schrijven /n of combineer ze met een groot bestand" />
+        <Control Name="lbSet" Caption="Plaats" />
+        <Control Name="lbPages" Caption="pagina's door de breedte" />
+        <Control Name="Label3" Caption="Gebruik deze optie als de omzetting van het pdf-bestand is mislukt" />
+        <Control Name="cbCombine" Caption="Combineer pagina's in een bestand" />
+        <Control Name="Label2" Caption="pagina's door de hoogte" />
+        <Control Name="rbAllPages" Caption="Alle pagina's in een beeld" />
+        <Control Name="rbPagesByHeight" Caption="Plaats" />
+        <Control Name="cbSedPDF" Caption="Gebruik alternatieve methode voor de uitgang" />
+    </Form>
+    <Form Name="XLSListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inclusief submappen" />
+        <Control Name="miCheck" Caption="Controleer" />
+        <Control Name="miUncheck" Caption="Deselecteer" />
+        <Control Name="miCheckAll" Caption="Selecteer alles" />
+        <Control Name="miUncheckAll" Caption="Deselecteer alles" />
+        <Control Name="miCheckByMask" Caption="Controleer door masker ..." />
+        <Control Name="miRestoreLast" Caption="Laatste actie herstellen" />
+        <Control Name="miMoveUp" Caption="Omhoog" />
+        <Control Name="miMoveDown" Caption="Omlaag" />
+    </Form>
+    <Form Name="XLSViewFrame" >
+        <Control Name="miLanguage" Caption="Taal" />
+    </Form>
+    <Form Name="XLSWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt;&amp;Terug" />
+        <Control Name="bnNext" Caption="&amp;Volgende&gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Annuleren" />
+        <Control Name="bnFinish" Caption="&amp;Start!" />
+    </Form>
+    <Form Name="XLSWizardFileFrame" >
+        <Control Name="Label1" Caption="Stel nieuwe bestandsnaam in" />
+        <Control Name="Label2" Caption="Bestandsnaam:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Stel dit pad in als standaard" />
+    </Form>
+    <Form Name="XLSWizardPaperProp" />
+    <Form Name="XLSWizardTextPropFrame" >
+        <Control Name="Label1" Caption="Selecteer tekstopties" />
+        <Control Name="rgTextDelimiter" Caption="Tekstdelimiter" >
+            <Item>Geen</Item>
+            <Item>Tab</Item>
+            <Item>Ruimte</Item>
+            <Item>CSV</Item>
+            <Item>Overig</Item>
+        </Control>
+    </Form>
+</Forms>

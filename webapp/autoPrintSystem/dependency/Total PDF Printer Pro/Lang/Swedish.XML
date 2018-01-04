@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="windows-1252"?>
+    <Messages>
+        <Item Name="Header" value="Sidhuvud" />
+        <Item Name="Footer" value="Sidfot" />
+        <Item Name="Font" value="Teckensnitt" />
+        <Item Name="Margin" value="Marginal" />
+        <Item Name="liCombineTo" value="Kombinera till:" />
+        <Item Name="liSplitTo" value="Dela till:" />
+        <Item Name="miCmdParams" value="Kommandoradsparametrar" />
+        <Item Name="msgSomeFilesFiltered" value="&lt;vissa filer är filtrerade, dubbelklicka för att visa dem&gt;" />
+        <Item Name="attrName" value="Namn" />
+        <Item Name="attrSize" value="Storlek" />
+        <Item Name="attrType" value="Typ" />
+        <Item Name="attrModified" value="Modifierad" />
+        <Item Name="attrAttributes" value="Attribut" />
+        <Item Name="Resize" value="Ändra storlek" />
+        <Item Name="Crop" value="Beskär" />
+        <Item Name="Rotate" value="Rotera" />
+        <Item Name="Transform" value="Omvandla" />
+        <Item Name="Watermark" value="Vattenstämpel" />
+        <Item Name="Logo" value="Logotyp" />
+        <Item Name="Comments" value="Kommentarer" />
+        <Item Name="Frame" value="Ram" />
+        <Item Name="Colors" value="Färger" />
+        <Item Name="Icon colors" value="Ikonfärger" />
+        <Item Name="Icon Sizes" value="Ikonstorlekar" />
+        <Item Name="Transparency" value="Transparens" />
+        <Item Name="JPEG2000 Compression" value="JPEG2000-komprimering" />
+        <Item Name="JPEG Quality" value="JPEG-kvalitet" />
+        <Item Name="Format" value="Format" />
+        <Item Name="RAW Format" value="RAW-format" />
+        <Item Name="Color space" value="Färgrymd" />
+        <Item Name="Compression" value="Komprimering" />
+        <Item Name="Paper" value="Papper" />
+        <Item Name="Properties" value="Egenskaper" />
+        <Item Name="Details" value="Detaljer" />
+        <Item Name="Template" value="Mall" />
+        <Item Name="Thumbnails" value="Miniatyrer" />
+        <Item Name="msgNoFileSelected" value="ingen fil vald" />
+        <Item Name="Document" value="Dokument" />
+        <Item Name="Render" value="Rendera" />
+        <Item Name="Image format" value="Bildformat" />
+        <Item Name="Background" value="Bakgrund" />
+        <Item Name="Items" value="Artiklar" />
+        <Item Name="Encryption" value="Kryptering" />
+        <Item Name="PDF Options" value="PDF-alternativ" />
+        <Item Name="Page Processing" value="Sidbehandling" />
+        <Item Name="File name template" value="Filnamnsmall" />
+        <Item Name="Image DPI" value="Bildens DPI" />
+        <Item Name="Extract pages" value="Extrahera sidor" />
+        <Item Name="Combine" value="Kombinera" />
+        <Item Name="attrTitle" value="Titel" />
+        <Item Name="descDestination" value="Mål" />
+        <Item Name="liConvertTo" value="Konvertera till" />
+        <Item Name="attrOrderID" value="Order-ID" />
+        <Item Name="attrAuthor" value="Upphovsmakare" />
+        <Item Name="attrSubject" value="Ämne" />
+        <Item Name="attrPageSize" value="Sidstorlek" />
+        <Item Name="attrPageCount" value="Sidräkning" />
+        <Item Name="Pixel format" value="Pixelformat" />
+        <Item Name="mitbDevice" value="Enhet" />
+        <Item Name="msgWizardCaption_TiffPaging" value="Konvertera bilder" />
+        <Item Name="Photometric" value="Fotometrisk" />
+        <Item Name="Rip CD" value="Rippa CD" />
+        <Item Name="YouTube" value="YouTube" />
+        <Item Name="Write CD" value="Bränn CD" />
+        <Item Name="attrDuration" value="Varaktighet" />
+        <Item Name="attrChannels" value="Kanaler" />
+        <Item Name="attrSampleRate" value="SampleRate" />
+        <Item Name="attrBitrate" value="Bitrate" />
+        <Item Name="attrAlbum" value="Album" />
+        <Item Name="attrArtist" value="Artist" />
+        <Item Name="attrYear" value="År" />
+        <Item Name="attrGenre" value="Genre" />
+        <Item Name="attrComment" value="Kommentera" />
+        <Item Name="attrTrack" value="Spår" />
+        <Item Name="infoUnknown" value="&lt;Okänd&gt;" />
+        <Item Name="miCoolUtils" value="CoolUtils" />
+        <Item Name="msgWizardCaption_TotalAudioConverter" value="Konvertera musik" />
+        <Item Name="to" value="till" />
+        <Item Name="boxSelectDestination" value="Välj destination" />
+        <Item Name="boxCombine" value="Kombinera" />
+        <Item Name="boxSamplerate" value="Samplerate" />
+        <Item Name="boxChannels" value="Kanaler" />
+        <Item Name="boxBitrate" value="Bitrate" />
+        <Item Name="boxFinishConversion" value="Starta konvertering" />
+        <Item Name="boxConvertTo" value="Konvertera till" />
+        <Item Name="msgWizardCaption_TotalImageConverter" value="Konvertera bilder" />
+        <Item Name="msgWizardCaption_TotalMailConverter" value="Konvertera e-postmeddelanden" />
+        <Item Name="boxMailFields" value="Fält" />
+        <Item Name="Appearance" value="Utseende" />
+        <Item Name="boxMailAttachments" value="Bilagor" />
+        <Item Name="Display" value="Visa" />
+        <Item Name="msgWizardCaption_TotalCADConverter" value="Konvertera" />
+        <Item Name="Orientation" value="Riktning" />
+        <Item Name="TIFF Compression" value="TIFF-komprimering" />
+        <Item Name="msgWizardCaption_TotalExcelConverter" value="Konvertera XLS" />
+        <Item Name="Text Options" value="Textalternativ" />
+        <Item Name="msgWizardCaption_TotalPDFConverter" value="Konvertera PDF-dokument" />
+        <Item Name="msgWizardCaption_PDFCombine" value="Konvertera till PDF" />
+        <Item Name="Range" value="Omfång" />
+        <Item Name="Unicode Text" value="Unicode-text" />
+    </Messages>
+<Forms>
+    <Form Name="Mainform" >
+        <Control Name="miFile" Caption="&amp;Fil" />
+        <Control Name="miRefresh" Caption="Uppdatera" />
+        <Control Name="miPrint" Caption="Skriv ut" />
+        <Control Name="miExit" Caption="&amp;Avsluta" />
+        <Control Name="miView" Caption="&amp;Visa" />
+        <Control Name="miEdit" Caption="&amp;Redigera" />
+        <Control Name="miConvert" Caption="&amp;Konvertera" />
+        <Control Name="miHelp" Caption="&amp;Hjälp" />
+        <Control Name="miWantMore" Caption="&amp;Vill ha mer" />
+        <Control Name="lbFilterCaption" Caption="Filtrera:" />
+        <Control Name="bnDefineAction" Caption="Definiera åtgärder" />
+        <Control Name="liConvertTo" Caption="Konvertera till:" />
+        <Control Name="miSkins" Caption="Skal" />
+        <Control Name="mitbOther" Caption="Annat" />
+    </Form>
+    <!-- Doc Converter -->
+    <Form name="DocBrowseFrame" source="ListBrowseFrame" section="DocConverter" />
+    <Form name="DocWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="DocWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="DocWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Converter -->
+    <Form name="PDFListFrame" source="ListBrowseFrame" section="PDFConverter" />
+    <Form name="PDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFConverter" />
+    <Form name="PDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFConverter" />
+    <Form name="PDFWizardForm" source="CustomWizard" section="PDFConverter" />
+    <!-- HTML Converter -->
+    <Form name="HTMListFrame" source="ListBrowseFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFileFrame" source="CommonWizardFileFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFolderFrame" source="CommonWizardFolderFrame" section="HTMLConverter" />
+    <Form name="HTMWizardForm" source="CustomWizard" section="HTMLConverter" />
+    <!-- Image Converter -->
+    <Form name="ImagesListFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImagesThumbnailFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImageWizardFileFrame" source="CommonWizardFileFrame" section="ImageConverter" />
+    <Form name="ImageWizardFolderFrame" source="CommonWizardFolderFrame" section="ImageConverter" />
+    <Form name="ImageWizardForm" source="CustomWizard" section="ImageConverter" />
+    <!-- AudioConverter -->
+    <Form name="MP3WizardFileFrame" source="CommonWizardFileFrame" />
+    <Form name="MP3WizardFolderFrame" source="CommonWizardFolderFrame" />
+    <Form name="Mp3WizardForm" source="CustomWizard" section="AudioConverter" />
+    <Form name="MP3ListFrame" source="ListBrowseFrame" section="AudioConverter" />
+    <!-- XLS Converter -->
+    <Form name="XLSListBrowseFrame" source="ListBrowseFrame" section="ExcelConverter" />
+    <Form name="XLSWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="XLSWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="XLSWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Combine -->
+    <Form name="ToPDFBrowseFrame" source="ListBrowseFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardForm" source="CustomWizard" section="PDFCombine" />
+    <!-- Mail Converter -->
+    <Form name="MailListBrowseFrame" source="ListBrowseFrame" section="MailConverter" />
+    <Form name="MailWizardFileFrame" source="CommonWizardFileFrame" section="MailConverter" />
+    <Form name="MailWizardFolderFrame" source="CommonWizardFolderFrame" section="MailConverter" />
+    <Form name="MailWizardForm" source="CustomWizard" section="MailConverter" />
+    <!-- Tiff Pagging -->
+    <Form name="ImageWizardFileTemplateFrame" source="PDFWizardFileTemplateFrame" section="ImageConverter" />
+    <!-- CAD Converter -->
+    <Form name="CADWizardRotateFrame" source="ImageWizardRotateFrame" />
+    <Form name="CADWizardForm" source="CustomWizard" />
+    <!-- Common Form -->
+    <Form Name="ListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inkludera undermappar" />
+        <Control Name="miCheck" Caption="Markera" />
+        <Control Name="miUncheck" Caption="Avmarkera" />
+        <Control Name="miCheckAll" Caption="Markera allt" />
+        <Control Name="miUncheckAll" Caption="Avmarkera allt" />
+        <Control Name="miCheckByMask" Caption="Markera via mask..." />
+        <Control Name="miRestoreLast" Caption="Återställ senaste val" />
+        <Control Name="miMoveUp" Caption="Flytta upp" />
+        <Control Name="miMoveDown" Caption="Flytta ned" />
+    </Form>
+    <Form Name="DocViewFrame" >
+        <Control Name="miLanguage" Caption="Språk" />
+    </Form>
+    <Form Name="DataModuleHelp" >
+        <Control Name="miHelp" Caption="Hjälp" />
+        <Control Name="miLang" Caption="Språk" />
+        <Control Name="miRegister" Caption="Ange registreringskoden..." />
+        <Control Name="miOrder" Caption="Hur man köper" />
+        <Control Name="miHotOffer" Caption="Hett erbjudande!" />
+        <Control Name="miBuyCoolUtils" Caption="Köp CoolUtils PRO - endast $99!" />
+        <Control Name="miLearnCoolUtils" Caption="Lär dig mer..." />
+        <Control Name="miWriteUs" Caption="Kontakta oss" />
+        <Control Name="miWebSite" Caption="Webbsida" />
+        <Control Name="miAbout" Caption="Om" />
+    </Form>
+    <Form Name="CustomWizard" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Bakåt" />
+        <Control Name="bnNext" Caption="&amp;Nästa &gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Avbryt" />
+        <Control Name="bnFinish" Caption="&amp;Starta!" />
+    </Form>
+    <Form Name="CommonWizardFileFrame" >
+        <Control Name="Label1" Caption="Ange nytt filnamn" />
+        <Control Name="Label2" Caption="Filnamn:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Ange denna sökväg som standard" />
+    </Form>
+    <Form Name="FontDocWizardFrame" >
+        <Control Name="Label1" Caption="Ställ in standardteckensnittet för textfiler" />
+        <Control Name="lbl2" Caption="Teckenstorlek" />
+        <Control Name="lbl1" Caption="Teckensnittsnamn" />
+        <Control Name="cbBold" Caption="Fet" />
+        <Control Name="cbWordWrap" Caption="Radbrytning" />
+        <Control Name="cbEnable" Caption="Aktivera" />
+    </Form>
+    <Form Name="WizardFinishFrame" >
+        <Control Name="Label1" Caption="All information guiden behöver för att konvertera har samlats in" />
+        <Control Name="lbFinishCaption" Caption="Tryck STARTA för att konvertera" />
+        <Control Name="lbViewCaption" Caption="Du är redo att konvertera med följande inställningar:" />
+        <Control Name="cbOpenDestination" Caption="Öppna målmapp efter konvertering" />
+        <Control Name="cbDeleteOriginals" Caption="Radera original" />
+        <Control Name="lbDiscount" Caption="&lt;a href=discount&gt;RABATT!&lt;/a&gt;" />
+    </Form>
+    <Form Name="DocWizardPaperFrame" >
+        <Control Name="Label1" Caption="Ange pappersorientering" />
+        <Control Name="lblWidth" Caption="Bredd:" />
+        <Control Name="lblWInch" Caption="tum" />
+        <Control Name="lblHInch" Caption="tum" />
+        <Control Name="lbl1" Caption="Pappersstorlek" />
+        <Control Name="lblHeight" Caption="Höjd:" />
+        <Control Name="rgOrientation" Caption="Pappersorientering" >
+            <Item>Portratt</Item>
+            <Item>Landskap</Item>
+        </Control>
+        <Control Name="cbSeparate" Caption="Varje sida till separat fil" />
+        <Control Name="rbCommon" Caption="Vanlig" />
+        <Control Name="rbCustom" Caption="Anpassad" />
+    </Form>
+    <Form Name="DocWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="Ange marginalen för Adobe PDF-fil (mm)" />
+        <Control Name="Label2" Caption="Sidtopp" />
+        <Control Name="Label3" Caption="Sidslut" />
+        <Control Name="Label4" Caption="Vänster" />
+        <Control Name="lbRight" Caption="Höger" />
+    </Form>
+    <Form Name="DocPDFPropWizardFrame" >
+        <Control Name="Label1" Caption="Dokumentinformation" />
+        <Control Name="Label2" Caption="Upphovsman:" />
+        <Control Name="Label3" Caption="Skapare:" />
+        <Control Name="Label4" Caption="Nyckelord:" />
+        <Control Name="Label5" Caption="Ämne:" />
+        <Control Name="Label6" Caption="Titel:" />
+    </Form>
+    <Form Name="DocWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="Kvalitet på bilder som bifogas i PDF-dokument" />
+        <Control Name="ElGroupBox1" Caption="Kvalitet" />
+        <Control Name="Label5" Caption="Bättre (maximal storlek)" />
+        <Control Name="Label6" Caption="Mindre (minimal storlek)" />
+    </Form>
+    <Form Name="ImagesThumbnailFrame" >
+        <Control Name="miCheck" Caption="Markera" />
+        <Control Name="miUncheck" Caption="Avmarkera" />
+        <Control Name="miCheckAll" Caption="Markera allt" />
+        <Control Name="miUncheckAll" Caption="Avmarkera allt" />
+    </Form>
+    <Form Name="ImagesListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inkludera undermappar" />
+        <Control Name="miCheck" Caption="Markera" />
+        <Control Name="miUncheck" Caption="Avmarkera" />
+        <Control Name="miCheckAll" Caption="Markera allt" />
+        <Control Name="miUncheckAll" Caption="Avmarkera allt" />
+        <Control Name="miCheckByMask" Caption="Markera via mask..." />
+        <Control Name="miRestoreLast" Caption="Återställ senaste val" />
+        <Control Name="miMoveUp" Caption="Flytta upp" />
+        <Control Name="miMoveDown" Caption="Flytta ned" />
+    </Form>
+    <Form Name="ImageBrowseToolbarFrame" >
+        <Control Name="miRotate" Caption="Rotera" />
+        <Control Name="miResize" Caption="Ändra storlek" />
+        <Control Name="miCrop" Caption="Beskär" />
+        <Control Name="miWatermark" Caption="Vattenstämpel" />
+        <Control Name="miFrame" Caption="Ram" />
+        <Control Name="miEMail" Caption="Skicka med e-post" />
+    </Form>
+    <Form Name="ImageInfoFrame" >
+        <Control Name="ElLabel2" Caption="Storlek:" />
+        <Control Name="ElLabel1" Caption="Bredd:" />
+        <Control Name="ElLabel3" Caption="Höjd:" />
+        <Control Name="ElLabel4" Caption="Färger:" />
+        <Control Name="ElLabel5" Caption="Ramar:" />
+        <Control Name="ElLabel6" Caption="Datum:" />
+        <Control Name="ElLabel7" Caption="Riktning:" />
+        <Control Name="ElLabel8" Caption="Modell:" />
+        <Control Name="ElLabel9" Caption="Filtyp:" />
+        <Control Name="miRotateLeft" Caption="Rotera vänster" />
+        <Control Name="miRotateRight" Caption="Rotera höger" />
+        <Control Name="miRotate180" Caption="Rotera 180" />
+        <Control Name="miSetWallpaper" Caption="Ställ in bakgrundsbild" />
+        <Control Name="miLanguage" Caption="Språk" />
+    </Form>
+    <Form Name="ImageWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Bakåt" />
+        <Control Name="bnNext" Caption="&amp;Nästa &gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Avbryt" />
+        <Control Name="bnFinish" Caption="&amp;Starta!" />
+    </Form>
+    <Form Name="ImageWizardFileFrame" >
+        <Control Name="Label1" Caption="Ange nytt filnamn" />
+        <Control Name="Label2" Caption="Filnamn:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Ange denna sökväg som standard" />
+    </Form>
+    <Form Name="ImageWizardCropFrame" >
+        <Control Name="Label1" Caption="Du kan beskära bilden och ta bort onödiga delar" />
+        <Control Name="Label2" Caption="Beskär vänster:" />
+        <Control Name="Label3" Caption="Beskär botten:" />
+        <Control Name="Label4" Caption="Beskär höger:" />
+        <Control Name="Label5" Caption="Beskär topp:" />
+        <Control Name="bnSelect" Caption="Välj..." />
+        <Control Name="lblWidthCap" Caption="Bredd:" />
+        <Control Name="lblHeightCap" Caption="Höjd:" />
+    </Form>
+    <Form Name="ImageWizardRotateFrame" >
+        <Control Name="Label1" Caption="Rotera bilderna för en bekväm visning" />
+        <Control Name="gbOrientation" Caption="Nuvarande bildriktning" />
+        <Control Name="ElRadioButton1" Caption="övre / vänster sida" />
+        <Control Name="ElRadioButton2" Caption="övre / höger sida  &lt;ind width=110 pos=abs&gt; &lt;img src=3&gt; Rotera horisontellt" />
+        <Control Name="ElRadioButton3" Caption="bottom / höger sida &lt;ind width=110 pos=abs&gt; &lt;img src=2&gt; 180" />
+        <Control Name="ElRadioButton4" Caption="bottom / vänster sida  &lt;ind width=110 pos=abs&gt; &lt;img src=4&gt; Rotera vertikalt" />
+        <Control Name="ElRadioButton5" Caption="vänster sida / topp" />
+        <Control Name="ElRadioButton6" Caption="höger sida / topp &lt;ind width=110 pos=abs&gt; &lt;img src=1&gt; 90 CW" />
+        <Control Name="ElRadioButton7" Caption="höger sida / botten" />
+        <Control Name="ElRadioButton8" Caption="vänster sida / botten &lt;ind width=110 pos=abs&gt; &lt;img src=0&gt; 90 CCW" />
+        <Control Name="ElRadioButton9" Caption="Ta riktning från EXIF-tag" />
+    </Form>
+    <Form Name="ImageWizardResizeFrame" >
+        <Control Name="Label1" Caption="Du kan ändra bildstorlek under konverteringen" />
+        <Control Name="lbWidth" Caption="Bredd:" />
+        <Control Name="lbHeight" Caption="Höjd:" />
+        <Control Name="cbConstrain" Caption="Behåll proportioner" />
+        <Control Name="rbNoResize" Caption="Ändra inte storlek på bilden" />
+        <Control Name="rbResize" Caption="Ändra bildstorlek till angiven storlek" />
+    </Form>
+    <Form Name="ImageWizardRemoveTransparencyFrame" >
+        <Control Name="Label1" Caption="Välj bakgrundsfärg för transparenta bilder" />
+        <Control Name="Label2" Caption="Bakgrund:" />
+    </Form>
+    <Form Name="ImageWizardJPEGColorSpaceFrame" >
+        <Control Name="Label1" Caption="Anger den önskade färgrymden för Jpeg" />
+    </Form>
+    <Form Name="ImageWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="Du kan definiera kvalitet och utjämning för Jpeg-bilderna" />
+        <Control Name="gbQuality" Caption="Kvalitet" />
+        <Control Name="Label5" Caption="Bättre (maximal storlek)" />
+        <Control Name="Label6" Caption="Mindre (minimal storlek)" />
+        <Control Name="gbSmoothing" Caption="Utjämning" />
+        <Control Name="cbLossless" Caption="För JPEG-bilder att använda information från källfil/n Förlustfri förvandling, om möjligtform=ImageWizardWatermarkFrame" />
+        <Control Name="Label1" Caption="Applicera din transparenta logotyp på bilden" />
+        <Control Name="Label2" Caption="Logotyp:" />
+        <Control Name="gbTransparency" Caption="Transparens:" />
+        <Control Name="Label4" Caption="nej" />
+        <Control Name="Label3" Caption="full" />
+        <Control Name="bnEffects" Caption="Effekter &gt;" />
+        <Control Name="ElGroupBox2" Caption="Position" />
+        <Control Name="Label6" Caption="Rymd:" />
+        <Control Name="cbAddLogo" Caption="Lägg till logotyp på bilden" />
+    </Form>
+    <Form Name="ImageWizardMaskFrame" >
+        <Control Name="Label1" Caption="Lägg till en ram på dina foton" />
+        <Control Name="Label2" Caption="Ram:" />
+        <Control Name="lbSpace" Caption="Rymd:" />
+        <Control Name="rbNoFrame" Caption="Ingen ram" />
+        <Control Name="rbFrameIndex" Caption="Ramindex:" />
+        <Control Name="rbFrameFile" Caption="Ram från fil:" />
+        <Control Name="cbInsideImage" Caption="Inuti bild" />
+    </Form>
+    <Form Name="ImageWizardCommentFrame" >
+        <Control Name="Label1" Caption="You Du kan lägga till en beskrivning för dina bilder/n baserat på bildegenskaperna" />
+        <Control Name="lbComment" Caption="Kommentar:" />
+        <Control Name="gbPos" Caption="Position" />
+        <Control Name="Label6" Caption="Rymd:" />
+        <Control Name="gbFont" Caption="Teckensnitt" />
+        <Control Name="Label3" Caption="Namn:" />
+        <Control Name="Label4" Caption="Storlek:" />
+        <Control Name="Label5" Caption="Färg:" />
+        <Control Name="cbSoftShadow" Caption="Lägg till mjuk skugga" />
+        <Control Name="gbExample" Caption="Exempel" />
+        <Control Name="cbAddComment" Caption="Lägg till kommentar till bilden" />
+    </Form>
+    <Form Name="PDFListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inkludera undermappar" />
+        <Control Name="miCheck" Caption="Markera" />
+        <Control Name="miUncheck" Caption="Avmarkera" />
+        <Control Name="miCheckAll" Caption="Markera allt" />
+        <Control Name="miUncheckAll" Caption="Avmarkera allt" />
+        <Control Name="miCheckByMask" Caption="Markera via mask..." />
+        <Control Name="miRestoreLast" Caption="Återställ senaste val" />
+        <Control Name="miMoveUp" Caption="Flytta upp" />
+        <Control Name="miMoveDown" Caption="Flytta ner" />
+        <Control Name="miLanguage" Caption="Språk" />
+    </Form>
+    <Form Name="PDFWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Bakåt" />
+        <Control Name="bnNext" Caption="&amp;Nästa &gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Avbryt" />
+        <Control Name="bnFinish" Caption="&amp;Starta!" />
+    </Form>
+    <Form Name="PDFWizardFileFrame" >
+        <Control Name="Label1" Caption="Ange nytt filnamn" />
+        <Control Name="Label2" Caption="Filnamn:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Gör denna sökväg till standard" />
+    </Form>
+    <Form Name="PDFWizardExtractPagesFrame" >
+        <Control Name="Label1" Caption="Ta ut utvalda sidor från PDF-dokument" />
+        <Control Name="Label2" Caption="t.ex. 10,15,18-20,25-35" />
+        <Control Name="lbBookmarkCaption" Caption="Ny fil vid varje bokmärke på nivå:" />
+        <Control Name="rbAllPages" Caption="Hämta &amp;alla sidor" />
+        <Control Name="rbSelectedPages" Caption="&amp;Ta bara ut valda sidor" />
+        <Control Name="rbBookmarks" Caption="Dela enligt bokmärken" />
+        <Control Name="rbBlanks" Caption="Dela enligt blanksidor" />
+    </Form>
+    <Form Name="PDFWizardBlankToleranceFrame" />
+    <Form Name="PDFWizardUniteFrame" >
+        <Control Name="Label1" Caption="Du kan sammanfoga delade sidor till nya dokument" />
+        <Control Name="gbCombine" Caption="Sammanfoga sidor" />
+        <Control Name="Label2" Caption="Skapa nytt dokument varje" />
+        <Control Name="Label3" Caption="sidor" />
+    </Form>
+    <Form Name="PDFWizardFileTemplateFrame" >
+        <Control Name="rbFileCount" Caption="Basera på målmappens filräkning" />
+        <Control Name="rbCounter" Caption="Starta numrering från:" />
+        <Control Name="Label1" Caption="Ange mall för att skapa filer för varje sida./n #-tecknet kommer att ersättas av sidnummer" />
+        <Control Name="Label2" Caption="Mall" />
+        <Control Name="edTemplate" Caption="" />
+        <Control Name="[Name].Page#.txt|" Caption="" />
+    </Form>
+    <Form Name="PDFWizardPDFOptionsFrame" >
+        <Control Name="Label1" Caption="Du kan ställa in avancerade PDF-alternativ./n" />
+        <Control Name="Label2" Caption="PDF-version:" />
+        <Control Name="lbCompressionLevel" Caption="Komprimeringsnivå:" />
+        <Control Name="cbCompression" Caption="Aktivera komprimering" />
+    </Form>
+    <Form Name="PDFWizardHeaderFrame" >
+        <Control Name="cbNumber" Caption="Fortsätt från föregående dokument" />
+        <Control Name="lbl1" Caption="[page] - Sidantal/n [date] - Aktuellt datum" />
+        <Control Name="elgr" Caption="Starta från:" />
+        <Control Name="Label2" Caption="Längd:" />
+        <Control Name="cbComment" Caption="Sidhuvud" />
+        <Control Name="grPosition" Caption="Position" />
+        <Control Name="btnPosLeft" Caption="Vänster" />
+        <Control Name="btnPosCenter" Caption="Mitten" />
+        <Control Name="btnPosRight" Caption="Höger" />
+        <Control Name="Label1" Caption="Ställ in sidhuvud" />
+    </Form>
+    <Form Name="PDFWizardFooterFrame" >
+        <Control Name="btnPosRight" Caption="Höger" />
+        <Control Name="cbNumber" Caption="Fortsätt från föregående dokument" />
+        <Control Name="Label1" Caption=" Ställ in sidfot" />
+        <Control Name="lbl1" Caption="[page] - Sidnummer/n [date] - Aktuellt datum" />
+        <Control Name="elgr" Caption="Starta från:" />
+        <Control Name="Label2" Caption="Längd:" />
+        <Control Name="cbComment" Caption="Sidfot:" />
+    </Form>
+    <Form Name="ToPDFBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inkludera undermappar" />
+        <Control Name="miCheck" Caption="Markera" />
+        <Control Name="miUncheck" Caption="Avmarkera" />
+        <Control Name="miCheckAll" Caption="Markera allt" />
+        <Control Name="miUncheckAll" Caption="Avmarkera allt" />
+        <Control Name="miCheckByMask" Caption="Markera via mask..." />
+        <Control Name="miRestoreLast" Caption="Återställ senaste val" />
+        <Control Name="miMoveUp" Caption="Flytta upp" />
+        <Control Name="miMoveDown" Caption="Flytta ner" />
+        <Control Name="miLanguage" Caption="Språk" />
+    </Form>
+    <Form Name="ToPDFWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Bakåt" />
+        <Control Name="bnNext" Caption="&amp;Nästa &gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Avbryt" />
+        <Control Name="bnFinish" Caption="&amp;Starta!" />
+    </Form>
+    <Form Name="ToPDFWizardCombiDestinationFrame" >
+        <Control Name="rbCombine" Caption="Slå samman alla till ett dokument" />
+        <Control Name="rbSeparateFolder" Caption="Separera filer enligt mappar" />
+        <Control Name="rbSeparateNamePart" Caption="Separera enligt del med samma namn" />
+    </Form>
+    <Form Name="ToPDFWizardNamePartFrame" />
+    <Form Name="ToPDFWizardHeaderFrame" >
+        <Control Name="Label1" Caption="Ställ in sidhuvud" />
+        <Control Name="Label2" Caption="Längd:" />
+        <Control Name="lbl1" Caption="[page] - Sidnummer/n [date] - Aktuellt datum" />
+        <Control Name="elgr" Caption="Starta från:" />
+        <Control Name="cbComment" Caption="Sidhuvud" />
+        <Control Name="cbNumber" Caption="Fortsätt från föregående dokument" />
+    </Form>
+    <Form Name="ToPDFWizardFooterFrame" >
+        <Control Name="Label1" Caption="Ställ in sidfot" />
+        <Control Name="cbNumber" Caption="Fortsätt från föregående dokument" />
+        <Control Name="Label2" Caption="Längd:" />
+        <Control Name="lbl1" Caption="[page] - Sidnummer/n [date] - Aktuellt datum" />
+        <Control Name="elgr" Caption="Starta från:" />
+        <Control Name="cbComment" Caption="Sidfot:" />
+    </Form>
+    <Form Name="MailListBrowseFrame" >
+        <Control Name="miLanguage" Caption="Språk" />
+        <Control Name="miIncludeSubfolders" Caption="Inkludera undermappar" />
+        <Control Name="miCheck" Caption="Markera" />
+        <Control Name="miUncheck" Caption="Avmarkera" />
+        <Control Name="miCheckAll" Caption="Markera allt" />
+        <Control Name="miUncheckAll" Caption="Avmarkera allt" />
+        <Control Name="miCheckByMask" Caption="Markera via mask..." />
+        <Control Name="miRestoreLast" Caption="Återställ senaste val" />
+        <Control Name="miMoveUp" Caption="Flytta upp" />
+        <Control Name="miMoveDown" Caption="Flytta ner" />
+    </Form>
+    <Form Name="MailWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Bakåt" />
+        <Control Name="bnNext" Caption="&amp;Nästa &gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Avbryt" />
+        <Control Name="bnFinish" Caption="&amp;Starta!" />
+    </Form>
+    <Form Name="MailWizardFileFrame" >
+        <Control Name="Label1" Caption="Ange nytt filnamn" />
+        <Control Name="Label2" Caption="Filnamn:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Gör denna sökväg till standard" />
+    </Form>
+    <Form Name="MailWizardTemplateFrame" >
+        <Control Name="Label1" Caption="Ange målfilens namnmall" />
+        <Control Name="lblHelp" Caption="Tillgänglig makro:/n /n        [name] - källfilens namn/n        [subject] - ämne för e-post /n        [sender] - avsändare av e-post/n        [recipient] - första mottagare av e-post/n        [date:&lt;format&gt;] - datum för e-post" />
+        <Control Name="lblTemplate" Caption="Mall:" />
+    </Form>
+    <Form Name="MailWizardItemsFrame" >
+        <Control Name="Label1" Caption="Välj fälten du vill exportera" />
+        <Control Name="cgItems" Caption="Fält att exportera" >
+            <Item>Avsandare</Item>
+            <Item>Mottagare</Item>
+            <Item>KK (Karbonkopia)</Item>
+            <Item>DKK (Dold karbonkopia)</Item>
+            <Item>Datum</Item>
+            <Item>Amne</Item>
+            <Item>Inlaga</Item>
+        </Control>
+        <Control Name="cbDisableInet" Caption="Anslut inte till Internet för bilder" />
+        <Control Name="cbDateUTC" Caption="Visa datum i UTC" />
+    </Form>
+    <Form Name="MailWizardCSSFrame" >
+        <Control Name="rbInternal" Caption="Använd internt schema" />
+        <Control Name="rbExternal" Caption="Använd extern CSS-fil" />
+        <Control Name="Label1" Caption="Ställ in det utmatade dokumentets utseende" />
+        <Control Name="bnTune" Caption="Ställ in" />
+    </Form>
+    <Form Name="MailWizardAttachmentsFrame" >
+        <Control Name="Label1" Caption=" Vad vill du göra med bilagorna?" />
+        <Control Name="grAttach" Caption="Bilagor" />
+        <Control Name="cbSaveAttachments" Caption="Info om bilagor" />
+        <Control Name="cbAttachUnpack" Caption="Packa upp zippade bilagor" />
+        <Control Name="cbSeparateAttachMsg" Caption="Spara i separerad fil" />
+        <Control Name="cbIncludeImages" Caption="Inkludera bifogade bilder i dokument" />
+        <Control Name="cbMsgConvert" Caption="Konvertera bifogade meddelanden" />
+        <Control Name="cbSeparateAttach" Caption="Bifogade filer i separata mappar" />
+    </Form>
+    <Form Name="HTMWizardPdfDocInfoFrame" >
+        <Control Name="Label1" Caption="Dokumentinformation" />
+        <Control Name="Label2" Caption="Upphovsmakare:" />
+        <Control Name="Label3" Caption="Skapare:" />
+        <Control Name="Label4" Caption="Nyckelord:" />
+        <Control Name="Label5" Caption="Ämne:" />
+        <Control Name="Label6" Caption="Titel:" />
+    </Form>
+    <Form Name="HTMWizardPDFCompressionFrame" >
+        <Control Name="Label1" Caption="Välj dokumentets komprimeringsnivå" />
+        <Control Name="rgCompression" Caption="Komprimeringsnivå" >
+            <Item>Snabbast</Item>
+            <Item>Normal</Item>
+            <Item>Maximal</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardPDFEncyptionFrame" >
+        <Control Name="Label1" Caption="Du kan skydda PDF-dokument" />
+        <Control Name="gbEncryption" Caption="Kryptera dokument" />
+        <Control Name="Label2" Caption="Ägarens lösenord:" />
+        <Control Name="Label3" Caption="Bekräfta:" />
+        <Control Name="Label4" Caption="Användarens lösenord:" />
+        <Control Name="Label5" Caption="Bekräfta:" />
+        <Control Name="cgPermissions" Caption=" Användarbehörigheter" >
+            <Item>Kopiera</Item>
+            <Item>Modifiera</Item>
+            <Item>Utskrift</Item>
+            <Item>Fyll i formular</Item>
+            <Item>Anteckning</Item>
+            <Item>Tillganglighet</Item>
+            <Item>Dokumentsamling</Item>
+            <Item>Hogupplost utskrift</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMPaperSizeFrame" >
+        <Control Name="Label1" Caption="Anger pappersstorleken för Adobe PDF-fil" />
+        <Control Name="rbCommon" Caption="Vanlig" />
+        <Control Name="rbCustom" Caption="Anpassad" />
+        <Control Name="rgOrientation" Caption=" Pappersorientering" >
+            <Item>Portratt</Item>
+            <Item>Landskap</Item>
+        </Control>
+        <Control Name="lbWidth" Caption="Bredd:" />
+        <Control Name="lbWInch" Caption="tum" />
+        <Control Name="lbHInch" Caption="tum" />
+        <Control Name="lbHeight" Caption="Höjd:" />
+        <Control Name="Label2" Caption="Pappersstorlek" />
+        <Control Name="cbFitPage" Caption="Anpassa till sida" />
+    </Form>
+    <Form Name="HTMWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="Anger marginalen för utdatafilen" />
+        <Control Name="Label2" Caption="Sidtopp" />
+        <Control Name="Label3" Caption="Sidslut" />
+        <Control Name="Label4" Caption="Vänster" />
+        <Control Name="lbRight" Caption="Höger" />
+    </Form>
+    <Form Name="MailWizardCombiDestinationFrame" >
+        <Control Name="Label1" Caption="Placera de resulterande filerna i ett dokument eller varje e-postfil i ett separat dokument?" />
+        <Control Name="lbFileName" Caption="Filnamn:" />
+        <Control Name="lbFolderName" Caption="Mappnamn:" />
+        <Control Name="rbCombine" Caption=" Kombinera alla e-postdokument till en fil" />
+        <Control Name="rbSeparate" Caption=" Varje e-dokument till en separat fil" />
+    </Form>
+    <Form Name="CommonWizardFolderFrame" >
+        <Control Name="Label1" Caption="Välj målmapp" />
+        <Control Name="Label2" Caption="Mappnamn:" />
+        <Control Name="cbKeepStructure" Caption="Behåll mappstruktur" />
+        <Control Name="bnSetDefault" Caption="Gör denna sökväg till standard" />
+    </Form>
+    <Form Name="HTMListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inkludera undermappar" />
+        <Control Name="miCheck" Caption="Markera" />
+        <Control Name="miUncheck" Caption="Avmarkera" />
+        <Control Name="miCheckAll" Caption="Markera allt" />
+        <Control Name="miUncheckAll" Caption="Avmarkera allt" />
+        <Control Name="miCheckByMask" Caption="Markera via mask..." />
+        <Control Name="miRestoreLast" Caption="Återställ senaste val" />
+        <Control Name="miMoveUp" Caption="Flytta upp" />
+        <Control Name="miMoveDown" Caption="Flytta ner" />
+    </Form>
+    <Form Name="HTMViewFrame" >
+        <Control Name="miLanguage" Caption="Språk" />
+    </Form>
+    <Form Name="HTMWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Bakåt" />
+        <Control Name="bnNext" Caption="&amp;Nästa &gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Avbryt" />
+        <Control Name="bnFinish" Caption="&amp;Starta!" />
+    </Form>
+    <Form Name="HTMWizardFileFrame" >
+        <Control Name="Label1" Caption="Ange nytt filnamn" />
+        <Control Name="Label2" Caption="Filnamn:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Gör denna sökväg till standard" />
+        <Control Name="cbSingleImage" Caption="Konvertera till en bild" />
+    </Form>
+    <Form Name="HTMWizardHeaderFrame" >
+        <Control Name="Label1" Caption="Ställ in sidhuvud och sidfot för det utmatade dokumentet" />
+        <Control Name="gbHeader" Caption="Sidhuvud" />
+        <Control Name="Label4" Caption="Stöd för IE's sidhuvud och sidfot./n Exempel:  (&amp;&amp;w&amp;&amp;bPage &amp;&amp;p of &amp;&amp;P) /n   lägger till sidnummer (&quot;Sida 1 av 10&quot;)" />
+        <Control Name="Label2" Caption="Sidhuvudets html-fil:" />
+    </Form>
+    <Form Name="HTMWizardFooterFrame" >
+        <Control Name="Label1 Ställ in sidfot för det utmatade dokumentet" Caption="" />
+        <Control Name="gbFooter" Caption="Sidfot" />
+        <Control Name="Label4" Caption=" Stöd för IE's sidhuvud och sidfot./n Exempel:  (&amp;&amp;u&amp;&amp;b&amp;&amp;d)/n   lägger till filnamn och datum (&quot;Sida 1 av 10&quot;)" />
+        <Control Name="Label2" Caption="Sidfotens html-fil:" />
+    </Form>
+    <Form Name="HTMWizardPDFWatermarkFrame" >
+        <Control Name="Label1" Caption=" Välj vattenstämpelns egenskaper/n för det resulterande dokumentet" />
+        <Control Name="lbComment" Caption=" Vattenstämpelns text:" />
+        <Control Name="Label2" Caption=" Sidintervall (1-5,10)" />
+        <Control Name="gbFont" Caption="Teckensnitt" />
+        <Control Name="Label3" Caption="Namn:" />
+        <Control Name="Label4" Caption="Storlek:" />
+        <Control Name="Label5" Caption="Färg:" />
+        <Control Name="gbPos" Caption="Position" />
+    </Form>
+    <Form Name="HTMWizardPDFRenderFrame" >
+        <Control Name="Label1" Caption="Välj de element du vill inkludera/n i det resulterande dokumentet" />
+        <Control Name="cgItems" Caption=" Artiklar att rendera" >
+            <Item>Text</Item>
+            <Item>Form</Item>
+            <Item>Bild</Item>
+        </Control>
+        <Control Name="rgEncodeType" Caption="Bädda in de använda TrueType-teckensnitten" >
+            <Item>Ingen</Item>
+            <Item>Full</Item>
+            <Item>Delmangd</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardImageFormatFrame" >
+        <Control Name="Label1" Caption=" Välj utmatningens bildformat/n för att rendera HTML-bilder" />
+        <Control Name="Label2" Caption="Källans DPI:" />
+        <Control Name="rgImageFormat" Caption="Utmatningens bildformat" >
+            <Item>BMP - Dalig komprimering</Item>
+            <Item>JPEG - Bast for foto</Item>
+            <Item>CCITT3 - Faxkomprimering, s/v</Item>
+            <Item>CCITT4 - Faxkomprimering, s/v</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="Du kan definiera kvaliteten på JPEG-bilder" />
+        <Control Name="ElGroupBox1" Caption="Kvalitet" />
+        <Control Name="Label5" Caption="Bättre (maximal storlek)" />
+        <Control Name="Label6" Caption="Mindre (minimal storlek)" />
+    </Form>
+    <Form Name="HTMWizardBmpPixelFormatFrame" >
+        <Control Name="Label1" Caption="Anger bitmappsbildens bitformat/n anger hur bilden visas/n" />
+        <Control Name="rgPixelFormat" Caption="Bildens pixelformat" >
+            <Item>1 bit - en bit per pixel (svartvit palett)</Item>
+            <Item>4 bit - 16-fargspalett.</Item>
+            <Item>8 bit - 256-fargspalett.</Item>
+            <Item>15 bit - true-color bitmap, RGB-komprimering</Item>
+            <Item>16 bit - true-color bitmap, bitfield-komprimering</Item>
+            <Item>24 bit - true-color bitmap, 24 bitar per pixel.</Item>
+            <Item>32 bit - true-color bitmap, 32 bitar per pixel</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardBkgndFrame" >
+        <Control Name="Label1" Caption="Du kan välja en bakgrundsbild/n eller använda en anpassad bakgrundsfärg" />
+        <Control Name="rbColor" Caption="Använd bakgrundsfärg" />
+    </Form>
+    <Form Name="HTMWizardPdfSignInfoFrame" >
+        <Control Name="Label1" Caption="Du kan lägga till digitala signaturer till utmatningen av PDF-dokumentet." />
+        <Control Name="Label2" Caption="Plats:" />
+        <Control Name="Label5" Caption="Kontakt:" />
+        <Control Name="Label6" Caption="Orsak:" />
+        <Control Name="Label3" Caption="PFX-fil:" />
+        <Control Name="Label4" Caption="Lösenord:" />
+    </Form>
+    <Form Name="ImageWizardJP2KRateFrame" >
+        <Control Name="Label1" Caption="För JPEG 2000-format kan du definiera komprimeringen" />
+        <Control Name="ElGroupBox1" Caption="Värde" />
+        <Control Name="Label5" Caption="Bättre (maximal storlek)" />
+        <Control Name="Label6" Caption="Mindre (minimal storlek)" />
+    </Form>
+    <Form Name="CADViewFrame" >
+        <Control Name="miLanguage" Caption="Språk" />
+    </Form>
+    <Form Name="ImageWizardIcoSizeFrame" >
+        <Control Name="Label1" Caption="Markera ikonenstorleken som du vill inkludera i din slutgiltiga bild (en ikon kan innehålla flera bilder i olika storlekar)" />
+        <Control Name="cbSelectBest" Caption="Välj bästa upplösning" />
+        <Control Name="cbStandard " Caption=" Alla standardupplösningar" />
+    </Form>
+    <Form Name="ImageWizardIcoColorsFrame" >
+        <Control Name="Label1" Caption="ICO-formatet stöder vissa färgbilder i en fil./n Välj färgerna du vill inkludera" />
+        <Control Name="cgColors" Caption="" >
+            <Item>16-fargs</Item>
+            <Item>256-fargs</Item>
+            <Item>True color</Item>
+            <Item>WindowsXP  ikon</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTransparencyFrame" >
+        <Control Name="Label1" Caption="Välj färger för transparens" />
+        <Control Name="ElGroupBox1" Caption="Transparent färg" />
+        <Control Name="lbBkgnd" Caption="Bakgrund:" />
+        <Control Name="bnSelectColors" Caption=" Välj färger…" />
+        <Control Name="rbNoTransparency" Caption="Ingen transparens" />
+        <Control Name="rbSourceFile" Caption="Använd källfilens transparens" />
+        <Control Name="rbUseColors" Caption="Ange den här färgen för transparens" />
+        <Control Name="cbTransparencyMethod" Caption="" >
+            <Item>Alfakanal</Item>
+            <Item>Pixel vanster topp</Item>
+            <Item>Pixel vanster botten</Item>
+            <Item>Pixel hoger topp</Item>
+            <Item>Pixel hoger botten</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTiffCompressionFrame" >
+        <Control Name="Label1" Caption=" Välj komprimering för det slutgiltiga TIFF-dokumentet" />
+        <Control Name="rgCompression" Caption="" >
+            <Item>Okomprimerat</Item>
+            <Item>LZW-komprimering</Item>
+            <Item>RLE-komprimering(packbits)</Item>
+            <Item>JPEG-komprimering</Item>
+            <Item>Bilevel Huffman-komprimering(CCITT1D)</Item>
+            <Item>Bilevel Group 3 CCITT-komprimering, monodimensionell (G3FAX1D)</Item>
+            <Item>Bilevel Group 3 CCITT-komprimering, bidimensionell (G3FAX2D)</Item>
+            <Item>Bilevel Group 4 CCITT-komprimering, bidimensionell (G4FAX)</Item>
+            <Item>ZIP-komprimering (ej standard)</Item>
+            <Item>Deflate (Adobe zip-komprimering, ej standard)</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardPhotometInterpretFrame" >
+        <Control Name="rgColorSpace" Caption="" >
+            <Item>Vit ar noll</Item>
+            <Item>Svart ar noll</Item>
+            <Item>RGB</Item>
+            <Item>RGB-palett</Item>
+            <Item>Transparent</Item>
+        </Control>
+        <Control Name="mask|CMYK|YCBCR|CIELAB|" Caption="" />
+    </Form>
+    <Form Name="ImageWizardTIFFColorSpaceFrame" >
+        <Control Name="Label1" Caption=" Anger den önskade färgrymden för Jpeg inkluderat i en TIFF-fil" />
+        <Control Name="rgColorSpace" Caption="JPEG-färgrymd" >
+            <Item>RGB</Item>
+            <Item>GRAYLEV</Item>
+            <Item>YCbCr</Item>
+            <Item>CMYK</Item>
+            <Item>YCbCrK</Item>
+        </Control>
+    </Form>
+    <Form Name="SimpleImageWizardForm" />
+    <Form Name="ImageWizardColorsFrame" >
+        <Control Name="Label1" Caption=" Välj färger som räknas till målbilden" />
+        <Control Name="rgColors" Caption="Färger" >
+            <Item>Svartvitt</Item>
+            <Item>Graskala</Item>
+            <Item>16-fargs</Item>
+            <Item>256-fargs</Item>
+            <Item>True color (24bit)</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardBWFrame" />
+    <Form Name="PDFWizardJpegQualityFrame" />
+    <Form Name="PDFWizardDPIFrame" >
+        <Control Name="Label1" Caption=" Välj kvalitet och storlek på den producerade bilden" />
+        <Control Name="Label2" Caption="Sidstorlek" />
+        <Control Name="rb75" Caption="75 DPI (skärmupplösning)" />
+        <Control Name="rb150" Caption="150 DPI (Utkastsupplösning)" />
+        <Control Name="rb300" Caption="300 DPI (Kvalitetsupplösning)" />
+        <Control Name="rbCustom" Caption="Anpassad" />
+        <Control Name="cbOriginal" Caption="Original" />
+    </Form>
+    <Form Name="PDFWizardImageCombineFrame" >
+        <Control Name="Label1" Caption="Du kan skriva varje sida som en separat fil/n eller kombinera dem till en stor fil" />
+        <Control Name="lbSet" Caption="Placera" />
+        <Control Name="lbPages" Caption="sidor enligt bredd" />
+        <Control Name="Label3" Caption="Använd detta alternativ om konverteringen av PDF-filen misslyckas" />
+        <Control Name="cbCombine" Caption="Sammanfoga sidorna till en fil" />
+        <Control Name="Label2" Caption="sidor enligt höjd" />
+        <Control Name="rbAllPages" Caption="Alla sidor i en bild" />
+        <Control Name="rbPagesByHeight" Caption="Placera" />
+        <Control Name="cbSedPDF" Caption="Använd alternativ utmatningsmetod" />
+    </Form>
+    <Form Name="XLSListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="Inkludera undermappar" />
+        <Control Name="miCheck" Caption="Markera" />
+        <Control Name="miUncheck" Caption="Avmarkera" />
+        <Control Name="miCheckAll" Caption="Markera allt" />
+        <Control Name="miUncheckAll" Caption="Avmarkera allt" />
+        <Control Name="miCheckByMask" Caption="Markera via mask..." />
+        <Control Name="miRestoreLast" Caption="Återställ senaste val" />
+        <Control Name="miMoveUp" Caption="Flytta upp" />
+        <Control Name="miMoveDown" Caption="Flytta ner" />
+    </Form>
+    <Form Name="XLSViewFrame" >
+        <Control Name="miLanguage" Caption="Språk" />
+    </Form>
+    <Form Name="XLSWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; &amp;Bakåt" />
+        <Control Name="bnNext" Caption="&amp;Nästa &gt;&gt;" />
+        <Control Name="bnCancel" Caption="&amp;Avbryt" />
+        <Control Name="bnFinish" Caption="&amp;Starta!" />
+    </Form>
+    <Form Name="XLSWizardFileFrame" >
+        <Control Name="Label1" Caption="Ange nytt filnamn" />
+        <Control Name="Label2" Caption="Filnamn:" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="Gör denna sökväg till standard" />
+    </Form>
+    <Form Name="XLSWizardPaperProp" />
+    <Form Name="XLSWizardTextPropFrame" >
+        <Control Name="Label1" Caption="Välj textalternativ" />
+        <Control Name="rgTextDelimiter" Caption="Textavgränsare" >
+            <Item>Ingen</Item>
+            <Item>Tabb</Item>
+            <Item>Mellanslag</Item>
+            <Item>CSV</Item>
+            <Item>Annan</Item>
+        </Control>
+    </Form>
+</Forms>

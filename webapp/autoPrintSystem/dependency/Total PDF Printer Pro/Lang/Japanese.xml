@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="windows-932" ?>
+  <Messages>
+    <Item Name="liCombineTo" value="総合する：" />
+    <Item Name="liSplitTo" value="分ける " />
+    <Item Name="miCmdParams" value="コマンドラインのパラメータ" />
+    <Item Name="msgSomeFilesFiltered" value="&lt;いくつかのファイルがフィルターされました。表示させるにはダブルクリックをして下さい。&gt;" />
+    <Item Name="attrName" value="ファイル名" />
+    <Item Name="attrSize" value="サイズ" />
+    <Item Name="attrType" value="タイプ" />
+    <Item Name="attrModified" value="更新" />
+    <Item Name="attrAttributes" value="属性" />
+    <Item Name="attrComment" value="コメント" />
+    <Item Name="attrCreated" value="作成日時" />
+    <Item Name="attrAccessed" value="アクセス日時" />
+    <Item Name="boxSelectDestination" value="保存先を選択" />
+    <Item Name="boxFinishConversion" value="変換を開始" />
+    <Item Name="errFileNameEmpty" value="ファイル名を空にしてはいけません" />
+    <Item Name="errSelectFile" value="ファイル名を指定してください" />
+    <Item Name="errWriteCD" value="CD-ROMに書き込みできません" />
+    <Item Name="errFolderReadOnly" value="このフォルダにファイルを保存できません" />
+    <Item Name="errConvertItself" value="同じファイルに変換できません" />
+    <Item Name="errFolderNameEmpty" value="フォルダ名を空にしてはいけません" />
+    <Item Name="Resize" value="リサイズ" />
+    <Item Name="Crop" value="切る" />
+    <Item Name="Rotate" value="回転する" />
+    <Item Name="Transform" value="変換する" />
+    <Item Name="Watermark" value="ウォーターマーク" />
+    <Item Name="Logo" value="ロゴ" />
+    <Item Name="Comments" value="コメント" />
+    <Item Name="Frame" value="フレーム" />
+    <Item Name="Colors" value="色" />
+    <Item Name="Icon colors" value="アイコンの色" />
+    <Item Name="Icon Sizes" value="アイコンのサイズ" />
+    <Item Name="Transparency" value="透明性" />
+    <Item Name="JPEG2000 Compression" value="JPEG2000圧縮" />
+    <Item Name="JPEG Quality" value="JPEG品質" />
+    <Item Name="Format" value="フォーマット" />
+    <Item Name="RAW Format" value="RAWフォーマット" />
+    <Item Name="TIFF Compression" value="TIFF圧縮" />
+    <Item Name="Color space" value="色のスペース" />
+    <Item Name="Compression" value="圧縮" />
+    <Item Name="Paper" value="紙" />
+    <Item Name="Properties" value="プロパティ" />
+    <Item Name="Orientation" value="オリエンテーション" />
+    <Item Name="Details" value="詳細" />
+    <Item Name="Thumbnails" value="サンブネール" />
+    <Item Name="msgNoFileSelected" value="ファイルが指定されていません" />
+    <Item Name="Document" value="ドキュメント" />
+    <Item Name="Render" value="可視化" />
+    <Item Name="Image format" value="画像のフォーマット" />
+    <Item Name="Background" value="背景" />
+    <Item Name="Items" value="Items" />
+    <Item Name="Encryption" value="暗号化" />
+    <Item Name="PDF Options" value="PDF設定" />
+    <Item Name="TXT Options" value="TXT設定" />
+    <Item Name="Page Break" value="ページブレーク" />
+    <Item Name="CSV Format" value="CSVフォーマット" />
+    <Item Name="Page Processing" value="ページ処理" />
+    <Item Name="File name template" value="ファイル名のテンプレート" />
+    <Item Name="Image DPI" value="画像のDPI" />
+    <Item Name="Multipage TIFF" value="マルティページのTIFF" />
+    <Item Name="Extract pages" value="ページを抽出" />
+    <Item Name="Combine" value="組み合わせる" />
+    <Item Name="attrTitle" value="タイトル" />
+    <Item Name="attrDuration" value="再生時間" />
+    <Item Name="attrChannels" value="チャンネル" />
+    <Item Name="attrSampleRate" value="サンプルレート" />
+    <Item Name="attrBitrate" value="ビットレート" />
+    <Item Name="attrAlbum" value="アルバム" />
+    <Item Name="attrArtist" value="アーティスト" />
+    <Item Name="attrYear" value="年度" />
+    <Item Name="attrGenre" value="ジャンル" />
+    <Item Name="attrTrack" value="トラック" />
+    <Item Name="infoUnknown" value="&lt;不明&gt;" />
+    <Item Name="boxWavBits" value="ビット" />
+    <Item Name="boxSamplerate" value="サンプルレート" />
+    <Item Name="boxChannels" value="チャネル" />
+    <Item Name="boxBitrate" value="ビットレート" />
+    <Item Name="boxQuality" value="品質" />
+    <Item Name="boxProfile" value="プロフィール" />
+    <Item Name="boxCompression" value="圧縮" />
+    <Item Name="boxCDTrackList" value="トラックリスト" />
+    <Item Name="boxSplittingFile" value="ファイルのスプリット" />
+    <Item Name="boxConvertTo" value="変換先" />
+    <Item Name="Stereo" value="ステレオ" />
+    <Item Name="Joint Stereo" value="ジョイントステレオ" />
+    <Item Name="Dual channels" value="ヂュアルチャネル" />
+    <Item Name="Mono" value="モノ" />
+    <Item Name="mitbWrite_CD" value="CD書き込み" />
+    <Item Name="mitbRip_CD" value="CDリップ" />
+    <Item Name="descDestination" value="保存先" />
+    <Item Name="SampleRate" value="サンプルレート" />
+    <Item Name="Channels" value="チャネル" />
+    <Item Name="Bitrate" value="ビットレート" />
+    <Item Name="descConvertTo" value="変換先" />
+    <Item Name="descRipCD" value="オーディオCDのリップ" />
+    <Item Name="descOGGQuality" value="品質" />
+    <Item Name="attrAuthor" value="作成者" />
+    <Item Name="attrSubject" value="表題" />
+    <Item Name="attrPageSize" value="ページのサイズ" />
+    <Item Name="attrPageCount" value="ページの数" />
+    <Item Name="attrOrderID" value="オーダーID" />
+    <Item Name="liConvertTo" value="変換先" />
+    <Item Name="Pixel format" value="ピクセルフォーマット" />
+    <Item Name="Text Options" value="テキストのオプション" />
+    <Item Name="mitbUnicode_Text" value="ユニコードのテキスト" />
+    <Item Name="Paper preferences" value="紙の設定" />
+    <Item Name="descWAV" value="wavファイルに変換する" />
+    <Item Name="descMP3" value="mp3ファイルに変換する" />
+    <Item Name="descWMA" value="ウィンドウメディアオーディオのファイルに変換する" />
+    <Item Name="descOGG" value="OGG Vorbisに変換する" />
+    <Item Name="descFLAC" value="FLACファイルに変換する" />
+    <Item Name="descMPC" value="Musepack (MPEG+) ファイルに変換する" />
+    <Item Name="descAAC" value="Advanced Audio Compressionファイルに変換する" />
+    <Item Name="descAPE" value="Monkeys Audioファイルに変換する" />
+    <Item Name="descMP4" value="MPEG4オーディオファイルに変換する" />
+    <Item Name="descDVD" value="DVDリップ" />
+    <Item Name="descAudioCD" value="オーディオCDを作成する" />
+    <Item Name="Codec" value="コデック" />
+    <Item Name="PartFile" value="ファイルの部分" />
+    <Item Name="Dimensions" value="ファイルの次元: " />
+    <Item Name="mitbConvert_to_HTML" value="HTMLに変換する" />
+    <Item Name="boxCombine" value="組み合わせる" />
+    <Item Name="Margin" value="マージン" />
+    <Item Name="Part of a file" value="ファイルの部分" />
+    <Item Name="Rip CD" value="CD読み取り" />
+    <Item Name="Write CD" value="CD書き込み" />
+   <Item Name="msgPart" value="パート" />
+   <Item Name="msgWizardCaption_TotalAudioConverter" value="[format]に音楽を変換する" />
+  </Messages>
+</Main>
+  <Forms>
+    <Form name="MainForm" >
+      <Control Name="miFile" Caption="&amp;ファイル" />
+     <Control Name="miSkins" Caption="スキン" />
+     <Control Name="miNoSkin" Caption="無し" />
+      <Control Name="miRefresh" Caption="更新" />
+      <Control Name="miPrint" Caption="印刷" />
+      <Control Name="miExit" Caption="&amp;終了" />
+      <Control Name="miView" Caption="&amp;ビュー" />
+      <Control Name="miEdit" Caption="&amp;編集" />
+      <Control Name="miConvert" Caption="&amp;変換" />
+      <Control Name="miHelp" Caption="&amp;ヘルプ" />
+      <Control Name="lbFilterCaption" Caption="フィルター：" />
+      <Control Name="liConvertTo" Caption="変換先：" />
+      <Control Name="mitbOther" Caption="その他" />
+    </Form>
+   <Form name="MP3BrowseToolbarFrame" >
+     <Control name="liSendTo" caption="送信" />
+      <Control name="miBluetooth" caption="ブルートゥース" />
+      <Control name="miEMail" caption="Eメール" />
+      <Control name="miPocketPC" caption="ポケットPC" />
+      <Control name="miFlashPlayer" caption="フラッシュ" />
+   </Form>
+   <Form Name="MP3WizardPartFrame" >
+     <Control Name="lblError" Caption="このパーツは指定できません" />
+     <Control Name="bnSetStart" Caption="開始" />
+     <Control Name="bnSetEnd" Caption="終了" />
+     <Control Name="Label1" Caption="変換すべきパートの開始と終了をご指定ください" />
+   </Form>
+    <Form name="HTMListFrame" source="ListBrowseFrame" section="HTMLConverter" >
+      <Control Name="miIncludeSubfolders" Caption="サブフォルダを含めて" />
+      <Control Name="miCheck" Caption="指定チェック" />
+      <Control Name="miUncheck" Caption="未定" />
+      <Control Name="miCheckAll" Caption="全部指定" />
+      <Control Name="miUncheckAll" Caption="全部未定" />
+      <Control Name="miCheckByMask" Caption="マスクを使って指定..." />
+      <Control Name="miRestoreLast" Caption="前回の設定を復元" />
+      <Control Name="miLanguage" Caption="言語" />
+    </Form>
+    <Form name="DataModuleHelp" >
+      <Control Name="miHelp" Caption="ヘルプ" />
+      <Control Name="miLang" Caption="言語" />
+      <Control Name="miRegister" Caption="登録番号をご記入ください..." />
+      <Control Name="miOrder" Caption="購入の方法" />
+      <Control Name="miHotOffer" Caption="ホットオファー！" />
+      <Control Name="miBuyCoolUtils" Caption="CoolUtils PROを購入 - $99だけ！" />
+      <Control Name="miLearnCoolUtils" Caption="詳細..." />
+      <Control Name="miWriteUs" Caption="お問い合わせ" />
+      <Control Name="miWebSite" Caption="ウェブサイト" />
+      <Control Name="miAbout" Caption="製品情報" />
+    </Form>
+    <Form name="HTMWizardForm" source="CustomWizard" section="HTMLConverter" >
+      <Control Name="bnBack" Caption="&lt;&lt; &amp;前に" />
+      <Control Name="bnNext" Caption="&amp;次へ &gt;&gt;" />
+      <Control Name="bnCancel" Caption="&amp;キャンセル" />
+      <Control Name="bnFinish" Caption="&amp;開始！" />
+    </Form>
+    <Form name="HTMWizardFolderFrame" source="CommonWizardFolderFrame" section="HTMLConverter" >
+      <Control Name="Label1" Caption="フォルダの選択" />
+      <Control Name="Label2" Caption="フォルダ名：" />
+      <Control Name="cbKeepStructure" Caption="フォルダ構造を保持する" />
+      <Control Name="bnSetDefault" Caption="このパスをデフォルトとする" />
+    </Form>
+    <Form Name="HTMWizardPDFOriientationFrame" >
+      <Control Name="Label1" Caption="ドキュメントのページのオリエンテーションを示す" />
+      <Control Name="rgOrientation" Caption="オリエンテーション" >
+        <item>肖像</item>
+        <item>鳥瞰図</item>
+      </Control>
+    </Form>
+    <Form name="WizardFinishFrame" >
+      <Control Name="Label1" Caption="ウィザードによる変換用の情報が収集されました" />
+      <Control Name="lbFinishCaption" Caption="変換するには開始を押してください" />
+      <Control Name="lbViewCaption" Caption="次のオプションの変換を行います" />
+      <Control Name="cbOpenDestination" Caption="変換の終了後、保存先を開く" />
+      <Control Name="cbDeleteOriginals" Caption="オリジナルを削除する" />
+      <Control Name="lbDiscount" Caption="&lt;a href=discount&gt;割引！&lt;/a&gt;" />
+    </Form>
+    <Form name="HTMWizardFileFrame" source="CommonWizardFileFrame" section="HTMLConverter" >
+      <Control Name="Label1" Caption="新規のファイル名を指定する" />
+      <Control Name="Label2" Caption="ファイル名：" />
+      <Control Name="edFileName" AltButtonHint="Use current path" DialogTitle="Save file as" />
+      <Control Name="bnSetDefault" Caption="このパスをデフォルトとする" />
+    </Form>
+    <Form Name="HTMWizardPDFRenderFrame" >
+      <Control Name="Label1" Caption="結果としたドキュメントに/n 追加すべきの要素をお選びください" />
+      <Control Name="cgItems" Caption="可視化の対象" >
+        <item>テキスト</item>
+        <item>シェープ</item>
+        <item>画像</item>
+      </Control>
+      <Control Name="rgEncodeType" Caption="組み込みTrue Typeフォント" >
+        <item>無</item>
+        <item>全部</item>
+        <item>サブセット</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardImageFormatFrame" >
+      <Control Name="Label1" Caption="HTMLページの生成用の/n出力画像の形式をご指定ください/n" />
+      <Control Name="Label2" Caption="ソースのDPI：" />
+      <Control Name="rgImageFormat" Caption="出力画像の形式" >
+        <item>BMP - 低品質の圧縮</item>
+        <item>JPEG - 写真に一番</item>
+        <item>CCITT3 - Fax圧縮、b/w</item>
+        <item>CCITT4 - Fax圧縮、b/w</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardJpegQualityFrame" >
+      <Control Name="Label1" Caption="JPEG画像に品質を選択できます" />
+      <Control Name="ElGroupBox1" Caption="品質" />
+      <Control Name="Label5" Caption="高い (最大限のサイズ)" />
+      <Control Name="Label6" Caption="低い (最小限のサイズ)" />
+    </Form>
+    <Form Name="HTMWizardBmpPixelFormatFrame" >
+      <Control Name="Label1" Caption="画像の表示を指定する、/nビットマップ画像のビットフォーマットを示す" />
+      <Control Name="rgPixelFormat" Caption="画像ピクセルのフォーマット" >
+        <item>１ビット - ピクセル当たり一ビット（白黒パレット）</item>
+        <item>４ビット - １６色のパレット</item>
+        <item>８ビット - ２５６色のパレット</item>
+        <item>１５ビット - true-colorビットマップ、RGB圧縮</item>
+        <item>１６ビット - true-colorビットマップ, ビットフィールド圧縮</item>
+        <item>２４ビット - true-colorビットマップ、一ピクセルに当たり２４ビット</item>
+        <item>３２ビット - true-colorビットマップ、一ピクセルに当たり３２ビット</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardBkgndFrame" >
+      <Control Name="Label1" Caption="背景画像または背景色/n を選択できます" />
+      <Control Name="rbColor" Caption="背景色を使用する" />
+    </Form>
+    <Form Name="HTMWizardPDFWatermarkFrame" >
+      <Control Name="Label1" Caption="出力ドキュメント用のウォーターマーク/n プロパティを選択する" />
+      <Control Name="lbComment" Caption="テキストウォーターマーク：" />
+      <Control Name="Label2" Caption="ページ範囲 (1-5,10)" />
+      <Control Name="gbFont" Caption="フォント" />
+      <Control Name="Label3" Caption="名：" />
+      <Control Name="Label4" Caption="サイズ：" />
+      <Control Name="Label5" Caption="色：" />
+      <Control Name="gbPos" Caption="位置：" />
+    </Form>
+    <Form Name="HTMWizardPdfDocInfoFrame" >
+      <Control Name="Label1" Caption="ドキュメントの情報" />
+      <Control Name="Label2" Caption="著者：" />
+      <Control Name="Label3" Caption="作成者：" />
+      <Control Name="Label4" Caption="キーワード：" />
+      <Control Name="Label5" Caption="表題：" />
+      <Control Name="Label6" Caption="タイトル：" />
+    </Form>
+    <Form Name="HTMWizardPDFCompressionFrame" >
+      <Control Name="Label1" Caption="ドキュメントの圧縮レベルの選択" />
+      <Control Name="rgCompression" Caption="圧縮レベル" >
+        <item>一番速い</item>
+        <item>普通</item>
+        <item>最大限</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardPDFEncyptionFrame" >
+      <Control Name="Label1" Caption="PDFドキュメントの保護" />
+      <Control Name="gbEncryption" Caption="ドキュメントの暗号化" />
+      <Control Name="Label2" Caption="所有者のパスワード：" />
+      <Control Name="Label3" Caption="確認：" />
+      <Control Name="Label4" Caption="ユーザのパスワード" />
+      <Control Name="Label5" Caption="確認：" />
+      <Control Name="cgPermissions" Caption="ユーザの許可" >
+        <item>コピー</item>
+        <item>変更</item>
+        <item>印刷</item>
+        <item>フォーム記入</item>
+        <item>注解</item>
+        <item>アクセシビリティ</item>
+        <item>ドキュメントの生成</item>
+        <item>高解像度の印刷</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardRenderFrame" >
+      <Control Name="Label1" Caption="出力ドキュメント用の要素を/nお選びください" />
+      <Control Name="cgItems" Caption="可視化用の項目" >
+        <item>テキスト</item>
+        <item>シェープ</item>
+        <item>画像</item>
+      </Control>
+    </Form>
+    <Form Name="HTMWizardTiffCompressionFrame" >
+      <Control Name="Label1" Caption="TIFFドキュメントの圧縮の設定" />
+      <Control Name="rgCompression" Caption="圧縮の種類" >
+        <item>未圧縮</item>
+        <item>LZW圧縮</item>
+        <item>RLE圧縮（パックビット）</item>
+        <item>JPEG圧縮</item>
+        <item>Bilevel Huffman圧縮 (CCITT1D)</item>
+        <item>Bilevel Group 3 CCITT圧縮、一次元 (G3FAX1D)</item>
+        <item>Bilevel Group 3 CCITT圧縮、二次元 (G3FAX2D)</item>
+        <item>Bilevel Group 4 CCITT圧縮、二次元 (G4FAX)</item>
+      </Control>
+    </Form>
+    <Form name="XLSListBrowseFrame" source="ListBrowseFrame" section="ExcelConverter" >
+      <Control Name="miIncludeSubfolders" Caption="サブフォルダを含めて" />
+      <Control Name="miCheck" Caption="指定" />
+      <Control Name="miUncheck" Caption="未指定" />
+      <Control Name="miCheckAll" Caption="全部指定" />
+      <Control Name="miUncheckAll" Caption="全部未指定" />
+      <Control Name="miCheckByMask" Caption="マスクを使って指定する..." />
+      <Control Name="miRestoreLast" Caption="前回設定を復元する" />
+      <Control Name="miLanguage" Caption="言語" />
+    </Form>
+    <Form name="XLSWizardForm" source="CustomWizard" section="DocConverter" >
+      <Control Name="bnBack" Caption="&lt;&lt; &amp;前に" />
+      <Control Name="bnNext" Caption="&amp;次へ &gt;&gt;" />
+      <Control Name="bnCancel" Caption="&amp;キャンセル" />
+      <Control Name="bnFinish" Caption="&amp;開始！" />
+    </Form>
+    <Form name="XLSWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" >
+      <Control Name="Label1" Caption="新規のファイル名をご指定ください" />
+      <Control Name="Label2" Caption="ファイル名：" />
+      <Control Name="edFileName" AltButtonHint="今回のパスを使用する" DialogTitle="名前をつけて保存" />
+      <Control Name="bnSetDefault" Caption="このパスをデフォルトとする" />
+    </Form>
+    <Form Name="XLSWizardPDFPropFrame" >
+      <Control Name="Label1" Caption="PDFオプションの選択" />
+      <Control Name="cbIncludeTrueType" Caption="組み込みTrue Typeフォント" />
+    </Form>
+    <Form Name="XLSWizardTextPropFrame" >
+      <Control Name="Label1" Caption="テキストオプションの選択" />
+      <Control Name="rgTextDelimiter" Caption="テキストのデリミター" >
+        <item>無</item>
+        <item>タブ</item>
+        <item>スペース</item>
+        <item>CSV</item>
+      </Control>
+    </Form>
+    <Form name="DocBrowseFrame" source="ListBrowseFrame" section="DocConverter" >
+      <Control Name="miIncludeSubfolders" Caption="サブフォルダを含めて" />
+      <Control Name="miCheck" Caption="指定" />
+      <Control Name="miUncheck" Caption="未指定" />
+      <Control Name="miCheckAll" Caption="全部指定" />
+      <Control Name="miUncheckAll" Caption="全部未指定" />
+      <Control Name="miCheckByMask" Caption="マスクを使って指定..." />
+      <Control Name="miRestoreLast" Caption="前回の設定を復元" />
+      <Control Name="miLanguage" Caption="言語" />
+    </Form>
+    <Form name="DocWizardForm" source="CustomWizard" section="DocConverter" >
+      <Control Name="bnBack" Caption="&lt;&lt; &amp;前に" />
+      <Control Name="bnNext" Caption="&amp;次へ &gt;&gt;" />
+      <Control Name="bnCancel" Caption="&amp;キャンセル" />
+      <Control Name="bnFinish" Caption="&amp;開始！" />
+    </Form>
+    <Form name="DocWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" >
+      <Control Name="Label1" Caption="新規のファイル名を指定する" />
+      <Control Name="Label2" Caption="ファイル名：" />
+      <Control Name="edFileName" AltButtonHint="今回のパスを使用する" DialogTitle="名前をつけて保存" />
+      <Control Name="bnSetDefault" Caption="このフォルダをデフォルトとする" />
+    </Form>
+    <Form Name="DocPDFPropWizardFrame" Caption="プロパティ" >
+      <Control Name="Label1" Caption="ドキュメントの情報" />
+      <Control Name="Label2" Caption="著者：" />
+      <Control Name="Label3" Caption="作成者：" />
+      <Control Name="Label4" Caption="キーワード：" />
+      <Control Name="Label5" Caption="表題：" />
+      <Control Name="Label6" Caption="タイトル：" />
+    </Form>
+    <Form Name="DocTxtPropFrame" >
+      <Control Name="Label1" Caption="紙の設定" />
+      <Control Name="rgPageOrientation" Caption="紙のオリエンテーション" >
+        <item>肖像</item>
+        <item>鳥瞰図</item>
+      </Control>
+    </Form>
+    <Form Name="DocWizardTiffCompressionFrame" Caption="TIFF圧縮" >
+      <Control Name="Label1" Caption="TIFFドキュメント用の圧縮の選択" />
+      <Control Name="rgCompression" Caption="圧縮の種類" >
+        <item>無</item>
+        <item>G4Fax</item>
+        <item>LZW</item>
+        <item>JPeg</item>
+        <item>パックビット</item>
+        <item>Zip</item>
+      </Control>
+    </Form>
+    <Form name="ImagesListFrame" source="ListBrowseFrame" section="ImageConverter" >
+      <Control Name="miIncludeSubfolders" Caption="サブフォルダを含めて" />
+      <Control Name="miCheck" Caption="指定" />
+      <Control Name="miUncheck" Caption="未指定" />
+      <Control Name="miCheckAll" Caption="全部指定" />
+      <Control Name="miUncheckAll" Caption="全部未指定" />
+      <Control Name="miCheckByMask" Caption="マスクを使って指定..." />
+      <Control Name="miRestoreLast" Caption="前回の設定を復元" />
+    </Form>
+    <Form Name="ImageInfoFrame" >
+      <Control Name="ElLabel2" Caption="サイズ：" />
+      <Control Name="ElLabel1" Caption="幅：" />
+      <Control Name="ElLabel3" Caption="縦：" />
+      <Control Name="ElLabel4" Caption="色：" />
+      <Control Name="ElLabel5" Caption="フレーム：" />
+      <Control Name="ElLabel6" Caption="日付：" />
+      <Control Name="ElLabel7" Caption="オリエンテーション：" />
+      <Control Name="ElLabel8" Caption="モデル：" />
+      <Control Name="ElLabel9" Caption="ファイルの種類" />
+      <Control Name="miLanguage" Caption="言語" />
+    </Form>
+    <Form name="ImageWizardForm" source="CustomWizard" section="ImageConverter" >
+      <Control Name="bnBack" Caption="&lt;&lt; &amp;前に" />
+      <Control Name="bnNext" Caption="&amp;次へ &gt;&gt;" />
+      <Control Name="bnCancel" Caption="&amp;キャンセル" />
+      <Control Name="bnFinish" Caption="&amp;開始！" />
+    </Form>
+    <Form name="ImageWizardFolderFrame" source="CommonWizardFolderFrame" section="ImageConverter" >
+      <Control Name="Label1" Caption="出力先のフォルダ" />
+      <Control Name="Label2" Caption="フォルダ名：" />
+      <Control Name="cbKeepStructure" Caption="フォルダ構造を保持" />
+      <Control Name="bnSetDefault" Caption="このフォルダをデフォルトとする" />
+    </Form>
+    <Form Name="ImageWizardCropFrame" >
+      <Control Name="Label1" Caption="不要な部分をカットできます" />
+      <Control Name="Label2" Caption="左側のカット：" />
+      <Control Name="Label3" Caption="下側のカット：" />
+      <Control Name="Label4" Caption="右側のカット：" />
+      <Control Name="Label5" Caption="上側：" />
+      <Control Name="bnSelect" Caption="選択..." />
+    </Form>
+    <Form Name="ImageWizardRotateFrame" >
+      <Control Name="Label1" Caption="画像の取り回し" />
+      <Control Name="gbOrientation" Caption="今の画像オリエンテーション" />
+      <Control Name="ElRadioButton1" Caption="上側 / 左側" />
+      <Control Name="ElRadioButton2" Caption="上側 / 右側" />
+      <Control Name="ElRadioButton3" Caption="下側 / 右側" />
+      <Control Name="ElRadioButton4" Caption="下側 / 左側" />
+      <Control Name="ElRadioButton5" Caption="左側 / 上側" />
+      <Control Name="ElRadioButton6" Caption="右側 / 上側" />
+      <Control Name="ElRadioButton7" Caption="右側 / 下側" />
+      <Control Name="ElRadioButton8" Caption="左側 / 下側" />
+      <Control Name="ElRadioButton9" Caption="EXIFタグからオリエンテーションを取得する" />
+    </Form>
+    <Form Name="ImageWizardColorsFrame" >
+      <Control Name="Label1" Caption="出力画像の色数をご選択ください" />
+      <Control Name="rgColors" Caption="色" >
+        <item>白黒</item>
+        <item>グレースケール</item>
+        <item>16色</item>
+        <item>256色</item>
+        <item>True color（２４ビット）</item>
+      </Control>
+    </Form>
+    <Form name="ImageWizardWatermarkFrame" >
+      <Control Name="Label1" Caption="透明なロゴを画像につける" />
+      <Control Name="Label2" Caption="ロゴ：" />
+      <Control Name="gbTransparency" Caption="透明性：" />
+      <Control Name="Label4" Caption="無" />
+      <Control Name="Label3" Caption="全部" />
+      <Control Name="bnEffects" Caption="エフェクト &gt;" />
+      <Control Name="ElGroupBox2" Caption="位置" />
+      <Control Name="Label6" Caption="スペース：" />
+    </Form>
+    <Form name="ImageWizardMaskFrame" >
+      <Control Name="Label1" Caption="写真にフレームを追加する" />
+      <Control Name="Label2" Caption="フレーム：" />
+      <Control Name="lbSpace" Caption="スペース：" />
+      <Control Name="rbNoFrame" Caption="フレームなし" />
+      <Control Name="rbFrameIndex" Caption="フレームのインデックス：" />
+      <Control Name="rbFrameFile" Caption="ファイルからのフレーム：" />
+      <Control Name="cbInsideImage" Caption="内部のイメージ" />
+    </Form>
+    <Form Name="ImageWizardCommentFrame" >
+      <Control Name="Label1" Caption="画像プロパティに基づいた詳細/nを写真に追加できます" />
+      <Control Name="lbComment" Caption="コメント：" />
+      <Control Name="gbPos" Caption="位置" />
+      <Control Name="Label6" Caption="スペース：" />
+      <Control Name="gbFont" Caption="フォント" />
+      <Control Name="Label3" Caption="フォント名：" />
+      <Control Name="Label4" Caption="サイズ：" />
+      <Control Name="Label5" Caption="色：" />
+      <Control Name="cbSoftShadow" Caption="影を追加する" />
+      <Control Name="gbExample" Caption="例" />
+      <Control Name="cbAddComment" Caption="コメントを画像に追加する" />
+    </Form>
+    <Form Name="ImageWizardJpegQualityFrame" >
+      <Control Name="Label1" Caption="JPEG画像には品質度と円滑度を追加できます" />
+      <Control Name="gbQuality" Caption="品質" />
+      <Control Name="Label5" Caption="高い（最大限のサイズ）" />
+      <Control Name="Label6" Caption="低い（最小限のサイズ）" />
+      <Control Name="gbSmoothing" Caption="円滑性" />
+      <Control Name="cbLossless" Caption="JPEG画像にはソースファイルの情報を使用する/n 可能の限りロスレスデータ" />
+    </Form>
+    <Form name="ImageWizardJP2KRateFrame" >
+      <Control Name="Label1" Caption="JPEG 2000には圧縮率を指定できます" />
+      <Control Name="ElGroupBox1" Caption="レート" />
+      <Control Name="Label5" Caption="高い（最大限のサイズ）" />
+      <Control Name="Label6" Caption="低い（最小限のサイズ）" />
+    </Form>
+    <Form name="ImageWizardIcoSizeFrame" >
+      <Control Name="Label1" Caption="アイコンに追加される画像のサイズをご選択ください" />
+      <Control Name="cbSelectBest" Caption="解像度を選択する" />
+    </Form>
+    <Form Name="ImageWizardIcoColorsFrame" >
+      <Control Name="Label1" Caption="ICOフォーマットはいくつかのカラーイメージに対応する。/n 望ましい色をお選びください" />
+      <Control Name="cgColors" >
+        <item>１６色</item>
+        <item>２５６色</item>
+        <item>True color</item>
+        <item>WindowsXPアイコン</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardTransparencyFrame" >
+      <Control Name="Label1" Caption="透明性の設定" />
+      <Control Name="ElGroupBox1" Caption="透明の色" />
+      <Control Name="lbBkgnd" Caption="背景：" />
+      <Control Name="bnSelectColors" Caption="色を選択する..." />
+      <Control Name="rbNoTransparency" Caption="透明性なし" />
+      <Control Name="rbSourceFile" Caption="ソースファイルから透明性を使用する" />
+      <Control Name="rbUseColors" Caption="透明の色を使用する" />
+      <Control Name="cbTransparencyMethod" >
+        <item>アルファチャネル</item>
+        <item>上左ピクセル</item>
+        <item>下左ピクセル</item>
+        <item>上右ピクセル</item>
+        <item>下右ピクセル</item>
+      </Control>
+    </Form>
+    <Form name="ImageWizardFileFrame" source="CommonWizardFileFrame" section="ImageConverter" >
+      <Control Name="Label1" Caption="新規のファイル名を指定する" />
+      <Control Name="Label2" Caption="ファイル名：" />
+      <Control Name="edFileName" AltButtonHint="今回のパスを使用する" DialogTitle="名前をつけて保存" />
+      <Control Name="bnSetDefault" Caption="このフォルダをデフォルトとする" />
+    </Form>
+    <Form Name="ImageWizardResizeFrame" >
+      <Control Name="Label1" Caption="変換中に画像をリサイズできます" />
+      <Control Name="lbWidth" Caption="幅：" />
+      <Control Name="lbHeight" Caption="縦：" />
+      <Control Name="cbConstrain" Caption="割合の制約" />
+      <Control Name="rbNoResize" Caption="画像のリサイズなし" />
+      <Control Name="rbResize" Caption="指定されたサイズまでリサイズする" />
+    </Form>
+    <Form Name="ImageWizardPDFCompressionFrame" >
+      <Control Name="Label1" Caption="Adobe PDFファイル用の圧縮フィルターの指定" />
+      <Control Name="rgCompression" Caption="圧縮" >
+        <item>未圧縮：圧縮なし</item>
+        <item>RLE : 長さ圧縮を開始</item>
+        <item>G4FAX : G4Fax （黒白の画像のみ）</item>
+        <item>G3FAX2D : G3Fax （黒白の画像のみ）</item>
+        <item>JPEG : DCT-jpeg （色の画像のみ）</item>
+        <item>LZW : LZW compression （黒白か色の画像）</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardPDFPaperFrame" >
+      <Control Name="Label1" Caption="Adobe PDFファイル用の紙サイズの指定" />
+      <Control Name="lbWidth" Caption="幅" />
+      <Control Name="lbHeight" Caption="縦" />
+      <Control Name="lbWInch" Caption="インチ" />
+      <Control Name="lbHInch" Caption="インチ" />
+      <Control Name="rbCommon" Caption="普段" />
+      <Control Name="rbCustom" Caption="カスタム" />
+    </Form>
+    <Form Name="ImageWizardPaperOrientationFrame" >
+      <Control Name="Label1" Caption="ドキュメントのページのオリエンテーションの指定" />
+      <Control Name="rgOrientation" Caption="オリエンテーション" >
+        <item>肖像</item>
+        <item>鳥瞰図</item>
+      </Control>
+    </Form>
+    <Form Name="ImageWizardPDFPropertiesFrame" >
+      <Control Name="Label1" Caption="Adobe PDFドキュメントのプロパティ" />
+      <Control Name="Label2" Caption="タイトル：" />
+      <Control Name="Label3" Caption="表題：" />
+      <Control Name="Label5" Caption="著者：" />
+      <Control Name="Label6" Caption="キーワード：" />
+    </Form>
+    <Form Name="ImageWizardPXMFrame" >
+      <Control Name="Label1" Caption="ポータブルビットマップは三つの形式に対応する/n 黒白、グレースケールとtrue color。/n 必要な形式をご選択ください" />
+      <Control Name="rgFormat" Caption="ポータブルビットマップフォーマット" >
+        <item>PBM (Portable Bitmap) - 黒白の画像</item>
+        <item>PGM (Portable Graymap) - グレースケールの画像</item>
+        <item>PPM (Portable Pixmap) - true colorの画像</item>
+      </Control>
+    </Form>
+    <Form name="MP3ListFrame" source="ListBrowseFrame" section="AudioConverter" >
+      <Control Name="miIncludeSubfolders" Caption="サブフォルダを含めて" />
+      <Control Name="miCheck" Caption="指定" />
+      <Control Name="miUncheck" Caption="未指定" />
+      <Control Name="miCheckAll" Caption="全部指定" />
+      <Control Name="miUncheckAll" Caption="全部未指定" />
+      <Control Name="miCheckByMask" Caption="マスクを使って指定..." />
+      <Control Name="miRestoreLast" Caption="前回の設定を復元" />
+    </Form>
+    <Form name="MP3InfoFrame" section="AudioConverter" >
+      <Control Name="lbTitleCap" Caption="タイトル：" />
+      <Control Name="lbArtistCap" Caption="アーティスト：" />
+      <Control Name="lbAlbumCap" Caption="アルバム：" />
+      <Control Name="lbYearCap" Caption="年度：" />
+      <Control Name="lbGenreCap" Caption="ジャンル：" />
+      <Control Name="lbCommentCap" Caption="コメント：" />
+      <Control Name="lbInfoCap" Caption="詳細：" />
+      <Control Name="lbCaption" Caption="曲の情報" />
+      <Control Name="miLanguage" Caption="言語" />
+    </Form>
+    <Form name="Mp3WizardForm" source="CustomWizard" section="AudioConverter" >
+      <Control Name="bnBack" Caption="&lt;&lt; &amp;前に" />
+      <Control Name="bnNext" Caption="&amp;次へ &gt;&gt;" />
+      <Control Name="bnCancel" Caption="&amp;キャンセル" />
+      <Control Name="bnFinish" Caption="&amp;開始！" />
+    </Form>
+    <Form name="MP3WizardFolderFrame" source="CommonWizardFolderFrame" >
+      <Control Name="Label1" Caption="フォルダ" />
+      <Control Name="Label2" Caption="フォルダ名：" />
+      <Control Name="cbKeepStructure" Caption="フォルダ構造を保持する" />
+      <Control Name="bnSetDefault" Caption="このフォルダをデフォルトとする" />
+    </Form>
+    <Form name="MP3WizardCDFrame" >
+      <Control Name="Label1" Caption="ドライブとトラックをご選択ください" />
+      <Control Name="Label2" Caption="ドライブ：" />
+      <Control Name="lbName" Caption="不明なアルバム" />
+      <Control Name="bnCheckAll" Caption="&amp;全部指定" />
+      <Control Name="bnUncheckAll" Caption="&amp;全部未指定" />
+      <Control Name="bnFreeDB" Caption="トラック名を検索する" />
+    </Form>
+    <Form name="MP3WizardFormatFrame" >
+      <Control Name="rbWAV" Caption="WAV - 圧縮なし、とても大きい" />
+      <Control Name="rbMP3" Caption="MP3 - 普段のミュージックフォーマット" />
+      <Control Name="rbWMA" Caption="WMA - Microsoftのミュージックフォーマット" />
+      <Control Name="rbOGG" Caption="OGG - Ogg Vorbisオーディオフォーマット" />
+      <Control Name="rbFLAC" Caption="FLAC - 無料のロスレスオーディオコデック" />
+      <Control Name="rbMPC" Caption="MPC - Musepackオーディオフォーマット" />
+      <Control Name="rbAPE" Caption="APE - Monkey'sオーディオフォーマット" />
+    </Form>
+    <Form name="MP3WizardSamplerateFrame" >
+      <Control Name="Label1" Caption="高いサンプルレート  - 高品質と大きなファイルサイズ" />
+      <Control Name="rgSampleRate" Caption="サンプルレート" >
+        <item>8 000 Hz</item>
+        <item>32 000 Hz</item>
+        <item>44 100 Hz</item>
+        <item>48 000 Hz</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardChannelsFrame" >
+      <Control Name="Label1" Caption="ステレオファイルはモノファイルより2倍大きくなります" />
+      <Control Name="rgChannels" Caption="チャネル" >
+        <item>ステレオ</item>
+        <item>ジョイントステレオ</item>
+        <item>ヂュアルチャネル</item>
+        <item>モノ</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardBitrateFrame" >
+      <Control Name="Label1" Caption="オーディオかビデオの1秒がどれぐらい領域を占めるかの情報" />
+      <Control Name="Label2" Caption="最小限のレート：" />
+      <Control Name="gbBitrate" Caption="VBR可：" />
+      <Control Name="Label3" Caption="最大限のレート：" />
+      <Control Name="Label4" Caption="品質：" />
+    </Form>
+    <Form name="MP3WizardBitrateFrameWMA" >
+      <Control Name="Label1" Caption="オーディオかビデオの1秒がどれぐらい領域を占めるかの情報" />
+      <Control Name="rbCBR" Caption="コンスタントのビットレート" />
+      <Control Name="rbVBR" Caption="可変ビットレート（品質の設定）" />
+    </Form>
+    <Form name="MP3WizardOggCompressionFrame" >
+      <Control Name="Label1" Caption="品質０は６４kbpsに当たり、品質５は１６０kbpsに当たり、品質１０は400kbpsに当たります。CDに近い品質を提供する選択肢は品質５です" />
+      <Control Name="gbQuality" Caption="品質" />
+      <Control Name="Label5" Caption="高い（最大限のサイズ）" />
+      <Control Name="Label6" Caption="低い（最低限のサイズ）" />
+    </Form>
+    <Form name="MP3WizardFileFrame" source="CommonWizardFileFrame" >
+      <Control Name="Label1" Caption="新規のファイル名を指定する" />
+      <Control Name="Label2" Caption="ファイル名：" />
+      <Control Name="edFileName" AltButtonHint="このパスを使用する" DialogTitle="名前をつけて保存する" />
+      <Control Name="bnSetDefault" Caption="このフォルダをデフォルトとする" />
+    </Form>
+    <Form name="MP3WizardWAVBitsFrame" >
+      <Control Name="Label1" Caption="ウィンドウスWAVのファイルは16ビットか8ビットです" />
+      <Control Name="rgBits" Caption="Wavビット" >
+        <item>8ビット</item>
+        <item>16ビット</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardMPCProfileFrame" >
+      <Control Name="Label1" Caption="品質のプレセットをご選択ください" />
+      <Control Name="rgPreset" Caption="品質のプレセット" >
+        <item>Telephone - 最低、(typ.  32...48 kbps)</item>
+        <item>Thumb  - 低/インターネット、(typ.  58...86 kbps)</item>
+        <item>Radio - 中 (MP3)、(typ. 112...152 kbps)</item>
+        <item>Standard - 高 (dflt),  (typ. 142...184 kbps)</item>
+        <item>Xtreme - 最高、(typ. 168...212 kbps)</item>
+        <item>Insane - 最高、(typ. 232...268 kbps)</item>
+        <item>Braindead - 最高、(typ. 232...278 kbps)</item>
+      </Control>
+    </Form>
+    <Form name="MP3WizardAACQualityFrame" >
+      <Control Name="Label1" Caption="デフォルトの可変ビットレート(VBR)の量子化率の設定（パーセント）/n 適当な範囲：33%-130%" />
+      <Control Name="gbQuality" Caption="品質" />
+      <Control Name="Label5" Caption="高い（最大限のサイズ）" />
+      <Control Name="Label6" Caption="低い（最小限のサイズ）" />
+      <Control Name="cbAACFromSource" Caption="AACファイルには、品質をソースとする" />
+    </Form>
+    <Form name="VideoListFrame" source="ListBrowseFrame" section="MovieConverter" >
+      <Control Name="miIncludeSubfolders" Caption="サブフォルダを含めて" />
+      <Control Name="miCheck" Caption="指定" />
+      <Control Name="miUncheck" Caption="未指定" />
+      <Control Name="miCheckAll" Caption="全部指定" />
+      <Control Name="miUncheckAll" Caption="全部未定" />
+      <Control Name="miCheckByMask" Caption="マスクを使って指定..." />
+      <Control Name="miRestoreLast" Caption="前回の設定を復元" />
+      <Control Name="miLanguage" Caption="言語" />
+    </Form>
+    <Form name="VideoWizardForm" source="CustomWizard" section="MovieConverter" >
+      <Control Name="bnBack" Caption="&lt;&lt; &amp;前に" />
+      <Control Name="bnNext" Caption="&amp;次へ &gt;&gt;" />
+      <Control Name="bnCancel" Caption="&amp;キャンセル" />
+      <Control Name="bnFinish" Caption="&amp;開始！" />
+    </Form>
+    <Form name="VideoWizardFileFrame" source="CommonWizardFileFrame" section="MovieConverter" >
+      <Control Name="Label1" Caption="新規のファイル名の指定" />
+      <Control Name="Label2" Caption="ファイル名：" />
+      <Control Name="edFileName" AltButtonHint="このパスを使用する" DialogTitle="名前をつけて保存" />
+      <Control Name="bnSetDefault" Caption="このフォルダをデフォルトとする" />
+    </Form>
+    <Form name="PDFListFrame" source="ListBrowseFrame" section="PDFConverter" >
+      <Control Name="miIncludeSubfolders" Caption="サブフォルダを含めて" />
+      <Control Name="miCheck" Caption="指定" />
+      <Control Name="miUncheck" Caption="未指定" />
+      <Control Name="miCheckAll" Caption="全部指定" />
+      <Control Name="miUncheckAll" Caption="全部未定" />
+      <Control Name="miCheckByMask" Caption="マスクを使って指定..." />
+      <Control Name="miRestoreLast" Caption="前回の設定を復元" />
+      <Control Name="miLanguage" Caption="言語" />
+    </Form>
+    <Form name="PDFWizardForm" source="CustomWizard" section="PDFConverter" >
+      <Control Name="bnBack" Caption="&lt;&lt; &amp;前に" />
+      <Control Name="bnNext" Caption="&amp;次へ &gt;&gt;" />
+      <Control Name="bnCancel" Caption="&amp;キャンセル" />
+      <Control Name="bnFinish" Caption="&amp;開始！" />
+    </Form>
+    <Form name="PDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFConverter" >
+      <Control Name="Label1" Caption="新規のファイル名の指定" />
+      <Control Name="Label2" Caption="ファイル名：" />
+      <Control Name="edFileName" AltButtonHint="このパスを使用する" DialogTitle="名前をつけて保存" />
+      <Control Name="bnSetDefault" Caption="このフォルダをデフォルトとする" />
+    </Form>
+    <Form Name="PDFWizardRenderFrame" >
+      <Control Name="Label1" Caption="追加すべき要素をお選びください" />
+      <Control Name="cgItems" Caption="可視化用の項目" >
+        <item>テキスト</item>
+        <item>シェープ</item>
+        <item>画像</item>
+      </Control>
+    </Form>
+    <Form Name="PDFWizardDPIFrame" >
+      <Control Name="Label1" Caption="画像の品質とサイズをご指定ください" />
+      <Control Name="Label2" Caption="ページのサイズ" />
+      <Control Name="rb75" Caption="75 DPI （画面の解像度）" />
+      <Control Name="rb150" Caption="150 DPI（ドラフト印刷用の解像度）" />
+      <Control Name="rb300" Caption="300 DPI（高品質の印刷用の解像度）" />
+      <Control Name="rbCustom" Caption="カスタム" />
+      <Control Name="cbOriginal" Caption="オリジナル" />
+    </Form>
+    <Form Name="PDFWizardTiffCompressionFrame" >
+      <Control Name="Label1" Caption="TIFFドキュメントの圧縮" />
+      <Control Name="rgCompression" >
+        <item>未圧縮</item>
+        <item>LZW圧縮</item>
+        <item>RLE圧縮（パックビット）</item>
+        <item>JPEG圧縮</item>
+        <item>Bilevel Huffman圧縮(CCITT1D)</item>
+        <item>Bilevel Group 3 CCITT圧縮、一次元 (G3FAX1D)</item>
+        <item>Bilevel Group 3 CCITT圧縮、二次元 (G3FAX2D)</item>
+        <item>Bilevel Group 4 CCITT圧縮、二次元 (G4FAX)</item>
+      </Control>
+    </Form>
+    <Form Name="PDFWizardTiffCombineFrame" >
+      <Control Name="Label1" Caption="Tiffファイルはマルティページのファイルに対応できます。/n pdfを別なファイルに分ける、または総合なファイルに保存しますか？" />
+      <Control Name="cbSeparatePages" Caption="ページ毎に別なファイルに" />
+    </Form>
+    <Form Name="PDFWizardFileTemplateFrame" >
+      <Control Name="Label1" Caption="ページ毎にファイルを生成するには、テンプレートをご入力ください。/n #号にページ番号をつけます" />
+      <Control Name="Label2" Caption="テンプレート" />
+      <Control Name="Label3" Caption="最初の値：" />
+      <Control Name="edTemplate" >
+        <item>[Name].Page#.txt</item>
+      </Control>
+    </Form>
+    <Form Name="PDFWizardExtractPagesFrame" >
+      <Control Name="Label1" Caption="選択されたページをpdfドキュメントから抽出する" />
+      <Control Name="Label2" Caption="e.g. 10,15,18-20,25-35" />
+      <Control Name="lbBookmarkCaption" Caption="新規ファイルのブックマーク：" />
+      <Control Name="rbAllPages" Caption="全てのページを取得する" />
+      <Control Name="rbSelectedPages" Caption="&amp;選択されたファイルのみ抽出する" />
+      <Control Name="rbBookmarks" Caption="ブックマークでスプリットする" />
+    </Form>
+    <Form Name="PDFWizardUniteFrame" >
+      <Control Name="Label1" Caption="取り分けたページを新しいドキュメントに総合できます" />
+      <Control Name="gbCombine" Caption="ページを組み合わせる" />
+      <Control Name="Label2" Caption="毎" />
+      <Control Name="Label3" Caption="ページ毎に新規のドキュメントを生成する" />
+    </Form>
+    <Form Name="PDFWizardPDFOptionsFrame" >
+      <Control Name="Label1" Caption="PDFに高度設定を指定できます。/n " />
+      <Control Name="Label2" Caption="PDFバージョン：" />
+      <Control Name="lbCompressionLevel" Caption="圧縮のレベル：" />
+      <Control Name="cbCompression" Caption="圧縮入り" />
+    </Form>
+    <Form name="ToPDFBrowseFrame" source="ListBrowseFrame" section="PDFCombine" >
+      <Control Name="miIncludeSubfolders" Caption="サブフォルダを含めて" />
+      <Control Name="miCheck" Caption="指定" />
+      <Control Name="miUncheck" Caption="未指定" />
+      <Control Name="miCheckAll" Caption="全部指定" />
+      <Control Name="miUncheckAll" Caption="全部未定" />
+      <Control Name="miCheckByMask" Caption="マスクを使って指定..." />
+      <Control Name="miRestoreLast" Caption="前回の設定を復元" />
+      <Control Name="miLanguage" Caption="言語" />
+    </Form>
+    <Form Name="PDFWizardPageBreakFrame" >
+      <Control Name="Label1" Caption="ページブレークの記号をご選択ください" />
+      <Control Name="Label2" Caption="たとえば、記号として &quot;$&quot; $0D$0A をお使いください" />
+      <Control Name="rbLineBreak" Caption="行末 ( 0D0A )" />
+      <Control Name="rbPageBreak" Caption="ページブレーク ( 0C )" />
+      <Control Name="rbOther" Caption="その他：" />
+      <Control Name="rbSeparateFiles" Caption="毎ページを別なファイルに" />
+    </Form>
+    <Form Name="VideoInfoFrame" >
+      <Control Name="lbVideo" Caption="ビデオ - ビデオなし" />
+      <Control Name="Label2" Caption="圧縮：" />
+      <Control Name="Label3" Caption="再生時間：" />
+      <Control Name="Label5" Caption="解像度：" />
+      <Control Name="Label7" Caption="平均なビットレート：" />
+      <Control Name="Label9" Caption="フレームレート：" />
+      <Control Name="lbAudio" Caption="オーディオ - オーディオなし" />
+      <Control Name="Label12" Caption="圧縮：" />
+      <Control Name="Label14" Caption="サンプルレート：" />
+      <Control Name="Label16" Caption="チャネル：" />
+      <Control Name="Label18" Caption="平均なビットレート：" />
+      <Control Name="Label1" Caption="ファイルを再生できません。 /n /n ファイルが壊れた、またはプレイヤーはそのフォーマットに対応しません。/n /n 但し、他のフォーマットに変換できる可能性のあることもあります。" />
+      <Control Name="miLanguage" Caption="言語" />
+    </Form>
+    <Form Name="VideoWizardCodecFrame" >
+      <Control Name="Label1" Caption="出力ファイルのオプションをご選択ください" />
+      <Control Name="Label2" Caption="ビデオコデック：" />
+      <Control Name="Label3" Caption="ビットレート：" />
+      <Control Name="Label4" Caption="フレーム：" />
+    </Form>
+    <Form Name="VideoWizardResizeFrame" >
+      <Control Name="Label1" Caption="ファイルサイズを減少させるには、ビデオをリサイズできます" />
+      <Control Name="lbDimCap" Caption="ファイルの次元数：" />
+      <Control Name="lbWidth" Caption="幅：" />
+      <Control Name="lbHeight" Caption="縦：" />
+      <Control Name="cbConstrain" Caption="割合の制約" />
+      <Control Name="rbNoResize" Caption="ビデオリサイズなし" />
+      <Control Name="rbResize" Caption="指定されたサイズまでリサイズする" />
+    </Form>
+    <Form Name="VideoWizardPointsFrame" >
+      <Control Name="Label1" Caption="変換すべきファイルの部分の開始と終了パーツの指定" />
+      <Control Name="bnSetStart" Caption="開始" />
+      <Control Name="bnSetEnd" Caption="終了" />
+      <Control Name="bnBack" />
+      <Control Name="bnForward" />
+    </Form>
+    <Form Name="UniAboutDlg" Caption="製品について">
+      <Control Name="Label1" Caption="この製品に関する新しいアイディアを持っていますか？" />
+      <Control Name="Label2" Caption="何らかの機能が足りないと思いますか？" />
+      <Control Name="Label3" Caption="我々に交流したいですか？" />
+      <Control Name="Label4" Caption="我々までご連絡ください！" />
+      <Control Name="lbVersion" Caption="lbVersion" />
+      <Control Name="bnNow" Caption="いま注文する！" />
+      <Control Name="bnClose" Caption="閉じる" />
+    </Form>
+    <Form name="VideoWizardFolderFrame" source="CommonWizardFolderFrame" section="MovieConverter" >
+      <Control Name="Label1" Caption="フォルダをご選択ください" />
+      <Control Name="Label2" Caption="フォルダ名：" />
+      <Control Name="cbKeepStructure" Caption="フォルダ構造を保持する" />
+      <Control Name="bnSetDefault" Caption="このフォルダをデフォルトとする" />
+    </Form>
+    <Form name="MaskDialog" caption="ファイルマスク" >
+      <Control name="Label1" caption="マスク" />
+    </Form>
+  </Forms>
+

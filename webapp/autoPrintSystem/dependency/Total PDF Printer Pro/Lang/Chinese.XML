@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="windows-936" ?>
+    <Messages>
+        <Item Name="Header" value="页眉" />
+        <Item Name="Footer" value="页脚" />
+        <Item Name="Font" value="字体" />
+        <Item Name="Margin" value="页边距" />
+        <Item Name="liCombineTo" value="合并为：" />
+        <Item Name="liSplitTo" value="拆分为：" />
+        <Item Name="miCmdParams" value="命令行参数" />
+        <Item Name="msgSomeFilesFiltered" value="&lt;过滤出了一些文件，双击显示&gt;" />
+        <Item Name="attrName" value="名称" />
+        <Item Name="attrSize" value="大小" />
+        <Item Name="attrType" value="类型" />
+        <Item Name="attrModified" value="修改" />
+        <Item Name="attrAttributes" value="属性" />
+        <Item Name="Resize" value="调整大小" />
+        <Item Name="Crop" value="剪切" />
+        <Item Name="Rotate" value="旋转" />
+        <Item Name="Transform" value="变换" />
+        <Item Name="Watermark" value="水印" />
+        <Item Name="Logo" value="徽标" />
+        <Item Name="Comments" value="备注" />
+        <Item Name="Frame" value="帧" />
+        <Item Name="Colors" value="颜色" />
+        <Item Name="Icon colors" value="图标颜色" />
+        <Item Name="Icon Sizes" value="图标大小" />
+        <Item Name="Transparency" value="透明度" />
+        <Item Name="JPEG2000 Compression" value="JPEG2000 压缩" />
+        <Item Name="JPEG Quality" value="JPEG 质量" />
+        <Item Name="Format" value="格式" />
+        <Item Name="RAW Format" value="RAW 格式" />
+        <Item Name="Color space" value="颜色空间" />
+        <Item Name="Compression" value="压缩" />
+        <Item Name="Paper" value="纸张" />
+        <Item Name="Properties" value="属性" />
+        <Item Name="Details" value="详细信息" />
+        <Item Name="Template" value="模板" />
+        <Item Name="Thumbnails" value="缩略图" />
+        <Item Name="msgNoFileSelected" value="未选中文件" />
+        <Item Name="Document" value="文档" />
+        <Item Name="Render" value="呈现" />
+        <Item Name="Image format" value="图像格式" />
+        <Item Name="Background" value="背景" />
+        <Item Name="Items" value="项" />
+        <Item Name="Encryption" value="加密" />
+        <Item Name="PDF Options" value="PDF 选项" />
+        <Item Name="Page Processing" value="正在处理页面" />
+        <Item Name="File name template" value="文件名模板" />
+        <Item Name="Image DPI" value="图像 DPI" />
+        <Item Name="Extract pages" value="提取页面" />
+        <Item Name="Combine" value="合并" />
+        <Item Name="attrTitle" value="标题" />
+        <Item Name="descDestination" value="目标" />
+        <Item Name="liConvertTo" value="liConvertTo" />
+        <Item Name="attrOrderID" value="OrderID" />
+        <Item Name="attrAuthor" value="作者" />
+        <Item Name="attrSubject" value="主题" />
+        <Item Name="attrPageSize" value="PageSize" />
+        <Item Name="attrPageCount" value="PageCount" />
+        <Item Name="Pixel format" value="像素格式" />
+        <Item Name="mitbDevice" value="设备" />
+        <Item Name="msgWizardCaption_TiffPaging" value="转换图像" />
+        <Item Name="Photometric" value="Photometric" />
+        <Item Name="Rip CD" value="擦除 CD" />
+        <Item Name="YouTube" value="YouTube" />
+        <Item Name="Write CD" value="写入 CD" />
+        <Item Name="attrDuration" value="持续时间" />
+        <Item Name="attrChannels" value="通道" />
+        <Item Name="attrSampleRate" value="SampleRate" />
+        <Item Name="attrBitrate" value="比特率" />
+        <Item Name="attrAlbum" value="唱集" />
+        <Item Name="attrArtist" value="艺术家" />
+        <Item Name="attrYear" value="年份" />
+        <Item Name="attrGenre" value="流派" />
+        <Item Name="attrComment" value="评论" />
+        <Item Name="attrTrack" value="轨迹" />
+        <Item Name="infoUnknown" value="&lt;未知&gt;" />
+        <Item Name="miCoolUtils" value="CoolUtils" />
+        <Item Name="msgWizardCaption_TotalAudioConverter" value="转换音乐" />
+        <Item Name="to" value="至" />
+        <Item Name="boxSelectDestination" value="选择目的地" />
+        <Item Name="boxCombine" value="合并" />
+        <Item Name="boxSamplerate" value="Samplerate" />
+        <Item Name="boxChannels" value="通道" />
+        <Item Name="boxBitrate" value="比特率" />
+        <Item Name="boxFinishConversion" value="开始转换" />
+        <Item Name="boxConvertTo" value="转换为" />
+        <Item Name="msgWizardCaption_TotalImageConverter" value="转换图像" />
+        <Item Name="msgWizardCaption_TotalMailConverter" value="转换邮件信息" />
+        <Item Name="boxMailFields" value="字段" />
+        <Item Name="Appearance" value="外观" />
+        <Item Name="boxMailAttachments" value="附件" />
+        <Item Name="Display" value="显示" />
+        <Item Name="msgWizardCaption_TotalCADConverter" value="转换" />
+        <Item Name="Orientation" value="方向" />
+        <Item Name="TIFF Compression" value="TIFF 压缩" />
+        <Item Name="msgWizardCaption_TotalExcelConverter" value="转换 XLS" />
+        <Item Name="Text Options" value="文本选项" />
+        <Item Name="msgWizardCaption_TotalPDFConverter" value="转换 PDF 文档" />
+        <Item Name="msgWizardCaption_PDFCombine" value="转换为 PDF" />
+        <Item Name="Range" value="范围" />
+        <Item Name="Unicode Text" value="Unicode 文本" />
+    </Messages>
+<Forms>	
+    <Form Name="MainForm" >
+        <Control Name="miFile" Caption="文件" />
+        <Control Name="miRefresh" Caption="刷新" />
+        <Control Name="miPrint" Caption="打印" />
+        <Control Name="miExit" Caption="退出" />
+        <Control Name="miView" Caption="查看" />
+        <Control Name="miEdit" Caption="编辑" />
+        <Control Name="miConvert" Caption="转换" />
+        <Control Name="miHelp" Caption="帮助" />
+        <Control Name="miWantMore" Caption="获取更多" />
+        <Control Name="lbFilterCaption" Caption="过滤：" />
+        <Control Name="bnDefineAction" Caption="定义操作" />
+        <Control Name="liConvertTo" Caption="转换为：" />
+        <Control Name="miSkins" Caption="外观" />
+        <Control Name="mitbOther" Caption="其他" />
+    </Form>
+    <!-- Doc Converter -->
+    <Form name="DocBrowseFrame" source="ListBrowseFrame" section="DocConverter" />
+    <Form name="DocWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="DocWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="DocWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Converter -->
+    <Form name="PDFListFrame" source="ListBrowseFrame" section="PDFConverter" />
+    <Form name="PDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFConverter" />
+    <Form name="PDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFConverter" />
+    <Form name="PDFWizardForm" source="CustomWizard" section="PDFConverter" />
+    <!-- HTML Converter -->
+    <Form name="HTMListFrame" source="ListBrowseFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFileFrame" source="CommonWizardFileFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFolderFrame" source="CommonWizardFolderFrame" section="HTMLConverter" />
+    <Form name="HTMWizardForm" source="CustomWizard" section="HTMLConverter" />
+    <!-- Image Converter -->
+    <Form name="ImagesListFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImagesThumbnailFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImageWizardFileFrame" source="CommonWizardFileFrame" section="ImageConverter" />
+    <Form name="ImageWizardFolderFrame" source="CommonWizardFolderFrame" section="ImageConverter" />
+    <Form name="ImageWizardForm" source="CustomWizard" section="ImageConverter" />
+    <!-- AudioConverter -->
+    <Form name="MP3WizardFileFrame" source="CommonWizardFileFrame" />
+    <Form name="MP3WizardFolderFrame" source="CommonWizardFolderFrame" />
+    <Form name="Mp3WizardForm" source="CustomWizard" section="AudioConverter" />
+    <Form name="MP3ListFrame" source="ListBrowseFrame" section="AudioConverter" />
+    <!-- XLS Converter -->
+    <Form name="XLSListBrowseFrame" source="ListBrowseFrame" section="ExcelConverter" />
+    <Form name="XLSWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="XLSWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="XLSWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Combine -->
+    <Form name="ToPDFBrowseFrame" source="ListBrowseFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardForm" source="CustomWizard" section="PDFCombine" />
+    <!-- Mail Converter -->
+    <Form name="MailListBrowseFrame" source="ListBrowseFrame" section="MailConverter" />
+    <Form name="MailWizardFileFrame" source="CommonWizardFileFrame" section="MailConverter" />
+    <Form name="MailWizardFolderFrame" source="CommonWizardFolderFrame" section="MailConverter" />
+    <Form name="MailWizardForm" source="CustomWizard" section="MailConverter" />
+    <!-- Tiff Pagging -->
+    <Form name="ImageWizardFileTemplateFrame" source="PDFWizardFileTemplateFrame" section="ImageConverter" />
+    <!-- CAD Converter -->
+    <Form name="CADWizardRotateFrame" source="ImageWizardRotateFrame" />
+    <Form name="CADWizardForm" source="CustomWizard" />
+    <!-- Common Form -->
+    <Form Name="ListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="包含子文件夹" />
+        <Control Name="miCheck" Caption="选中" />
+        <Control Name="miUncheck" Caption="取消选中" />
+        <Control Name="miCheckAll" Caption="全部选中" />
+        <Control Name="miUncheckAll" Caption="全部取消选中" />
+        <Control Name="miCheckByMask" Caption="用掩码选中..." />
+        <Control Name="miRestoreLast" Caption="还原上一选择" />
+        <Control Name="miMoveUp" Caption="上移" />
+        <Control Name="miMoveDown" Caption="下移" />
+    </Form>
+    <Form Name="DocViewFrame" >
+        <Control Name="miLanguage" Caption="语言" />
+    </Form>
+    <Form Name="DataModuleHelp" >
+        <Control Name="miHelp" Caption="帮助" />
+        <Control Name="miLang" Caption="语言" />
+        <Control Name="miRegister" Caption="输入注册码..." />
+        <Control Name="miOrder" Caption="怎样购买" />
+        <Control Name="miHotOffer" Caption="热卖！" />
+        <Control Name="miBuyCoolUtils" Caption="购买 CoolUtils PRO - 仅需 $99！" />
+        <Control Name="miLearnCoolUtils" Caption="了解更多..." />
+        <Control Name="miWriteUs" Caption="联系我们" />
+        <Control Name="miWebSite" Caption="网站" />
+        <Control Name="miAbout" Caption="关于" />
+    </Form>
+    <Form Name="CustomWizard" >
+        <Control Name="bnBack" Caption="&lt;&lt; 后退" />
+        <Control Name="bnNext" Caption="前进 &gt;&gt;" />
+        <Control Name="bnCancel" Caption="取消" />
+        <Control Name="bnFinish" Caption="开始!" />
+    </Form>
+    <Form Name="CommonWizardFileFrame" >
+        <Control Name="Label1" Caption="新建文件名" />
+        <Control Name="Label2" Caption="文件名：" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="设为默认路径" />
+    </Form>
+    <Form Name="FontDocWizardFrame" >
+        <Control Name="Label1" Caption="设定文本文件的默认字体" />
+        <Control Name="lbl2" Caption="字体大小" />
+        <Control Name="lbl1" Caption="字体名称" />
+        <Control Name="cbBold" Caption="粗体" />
+        <Control Name="cbWordWrap" Caption="WordWrap" />
+        <Control Name="cbEnable" Caption="激活" />
+    </Form>
+    <Form Name="WizardFinishFrame" >
+        <Control Name="Label1" Caption="向导需要转换的所有信息均已收集" />
+        <Control Name="lbFinishCaption" Caption="按下开始进行转换" />
+        <Control Name="lbViewCaption" Caption="您现在可以采用以下选项进行转换了：" />
+        <Control Name="cbOpenDestination" Caption="转换完成后打开目标文件夹" />
+        <Control Name="cbDeleteOriginals" Caption="删除原件" />
+        <Control Name="lbDiscount" Caption="&lt;a href=discount&gt;折扣！&lt;/a&gt;" />
+    </Form>
+    <Form Name="DocWizardPaperFrame" >
+        <Control Name="Label1" Caption="指定纸张方向" />
+        <Control Name="lblWidth" Caption="宽度：" />
+        <Control Name="lblWInch" Caption="英寸" />
+        <Control Name="lblHInch" Caption="英寸" />
+        <Control Name="lbl1" Caption="纸张大小" />
+        <Control Name="lblHeight" Caption="高度：" />
+        <Control Name="rgOrientation" Caption="纸张方向" >
+            <Item>纵向</Item>
+            <Item>横向</Item>
+        </Control>
+        <Control Name="cbSeparate" Caption="将每一页分为独立文件" />
+        <Control Name="rbCommon" Caption="普通" />
+        <Control Name="rbCustom" Caption="自定义" />
+    </Form>
+    <Form Name="DocWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="指定 Adobe PDF 文件的页边距 (mm)" />
+        <Control Name="Label2" Caption="顶端" />
+        <Control Name="Label3" Caption="底端" />
+        <Control Name="Label4" Caption="左侧" />
+        <Control Name="lbRight" Caption="右侧" />
+    </Form>
+    <Form Name="DocPDFPropWizardFrame" >
+        <Control Name="Label1" Caption="文档信息" />
+        <Control Name="Label2" Caption="作者：" />
+        <Control Name="Label3" Caption="创建者：" />
+        <Control Name="Label4" Caption="关键字：" />
+        <Control Name="Label5" Caption="主题：" />
+        <Control Name="Label6" Caption="标题：" />
+    </Form>
+    <Form Name="DocWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="附加到 PDF 文档的图像质量" />
+        <Control Name="ElGroupBox1" Caption="质量" />
+        <Control Name="Label5" Caption="较好（最大大小）" />
+        <Control Name="Label6" Caption="较差（最小大小）" />
+    </Form>
+    <Form Name="ImagesThumbnailFrame" >
+        <Control Name="miCheck" Caption="选中" />
+        <Control Name="miUncheck" Caption="取消选中" />
+        <Control Name="miCheckAll" Caption="全部选中" />
+        <Control Name="miUncheckAll" Caption="全部取消选中" />
+    </Form>
+    <Form Name="ImagesListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="包含子文件" />
+        <Control Name="miCheck" Caption="选中" />
+        <Control Name="miUncheck" Caption="取消选中" />
+        <Control Name="miCheckAll" Caption="全部选中" />
+        <Control Name="miUncheckAll" Caption="全部取消选中" />
+        <Control Name="miCheckByMask" Caption="用掩码选中..." />
+        <Control Name="miRestoreLast" Caption="还原上一选择" />
+        <Control Name="miMoveUp" Caption="上移" />
+        <Control Name="miMoveDown" Caption="下移" />
+    </Form>
+    <Form Name="ImageBrowseToolbarFrame" >
+        <Control Name="miRotate" Caption="旋转" />
+        <Control Name="miResize" Caption="调整大小" />
+        <Control Name="miCrop" Caption="剪切" />
+        <Control Name="miWatermark" Caption="水印" />
+        <Control Name="miFrame" Caption="帧" />
+        <Control Name="miEMail" Caption="用邮件发送" />
+    </Form>
+    <Form Name="ImageInfoFrame" >
+        <Control Name="ElLabel2" Caption="大小：" />
+        <Control Name="ElLabel1" Caption="宽度：" />
+        <Control Name="ElLabel3" Caption="高度：" />
+        <Control Name="ElLabel4" Caption="颜色：" />
+        <Control Name="ElLabel5" Caption="帧：" />
+        <Control Name="ElLabel6" Caption="日期：" />
+        <Control Name="ElLabel7" Caption="方向：" />
+        <Control Name="ElLabel8" Caption="型号：" />
+        <Control Name="ElLabel9" Caption="文件类型：" />
+        <Control Name="miRotateLeft" Caption="向左旋转" />
+        <Control Name="miRotateRight" Caption="向右旋转" />
+        <Control Name="miRotate180" Caption="旋转 180" />
+        <Control Name="miSetWallpaper" Caption="设为壁纸" />
+        <Control Name="miLanguage" Caption="语言" />
+    </Form>
+    <Form Name="ImageWizardCropFrame" >
+        <Control Name="Label1" Caption="您可以剪切图像，去除不必要的部分" />
+        <Control Name="Label2" Caption="剪切左侧：" />
+        <Control Name="Label3" Caption="剪切底端：" />
+        <Control Name="Label4" Caption="剪切右侧：" />
+        <Control Name="Label5" Caption="剪切顶端：" />
+        <Control Name="bnSelect" Caption="选择..." />
+        <Control Name="lblWidthCap" Caption="宽度：" />
+        <Control Name="lblHeightCap" Caption="高度：" />
+    </Form>
+    <Form Name="ImageWizardRotateFrame" >
+        <Control Name="Label1" Caption="旋转图像，方便查看" />
+        <Control Name="gbOrientation" Caption="当前图像方向" />
+        <Control Name="ElRadioButton1" Caption="顶端/左侧" />
+        <Control Name="ElRadioButton2" Caption="顶端/右侧 &lt;ind width=110 pos=abs&gt; &lt;img src=3&gt; 水平翻转" />
+        <Control Name="ElRadioButton3" Caption="底端/右侧 &lt;ind width=110 pos=abs&gt; &lt;img src=2&gt; 180" />
+        <Control Name="ElRadioButton4" Caption="底端/左侧 &lt;ind width=110 pos=abs&gt; &lt;img src=4&gt; 垂直翻转" />
+        <Control Name="ElRadioButton5" Caption="左侧/顶端" />
+        <Control Name="ElRadioButton6" Caption="右侧/顶端 &lt;ind width=110 pos=abs&gt; &lt;img src=1&gt; 90 CW" />
+        <Control Name="ElRadioButton7" Caption="右侧/底端" />
+        <Control Name="ElRadioButton8" Caption="左侧/底端 &lt;ind width=110 pos=abs&gt; &lt;img src=0&gt; 90 CCW" />
+        <Control Name="ElRadioButton9" Caption="从 EXIF 标签中获知方向" />
+    </Form>
+    <Form Name="ImageWizardResizeFrame" >
+        <Control Name="Label1" Caption="您可以通过转换调整图像大小" />
+        <Control Name="lbWidth" Caption="宽度：" />
+        <Control Name="lbHeight" Caption="高度：" />
+        <Control Name="cbConstrain" Caption="限定比例" />
+        <Control Name="rbNoResize" Caption="不要调整图像大小" />
+        <Control Name="rbResize" Caption="将图像调整为指定大小" />
+    </Form>
+    <Form Name="ImageWizardRemoveTransparencyFrame" >
+        <Control Name="Label1" Caption="为透明图像选择背景色" />
+        <Control Name="Label2" Caption="背景：" />
+    </Form>
+    <Form Name="ImageWizardJPEGColorSpaceFrame" >
+        <Control Name="Label1" Caption="为 Jpeg 指定需要的颜色空间" />
+    </Form>
+    <Form Name="ImageWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="您可以定义 JPEG 图像的质量并进行修匀" />
+        <Control Name="gbQuality" Caption="质量" />
+        <Control Name="Label5" Caption="较好（最大大小）" />
+        <Control Name="Label6" Caption="较差（最小大小）" />
+        <Control Name="gbSmoothing" Caption="修匀" />
+        <Control Name="cbLossless" Caption="如果可能为 JEPG 文件使用源文件信息/n无损耗转换信息" />
+    </Form>
+    <Form Name="ImageWizardWatermarkFrame" >
+        <Control Name="Label1" Caption="在图像上应用透明徽标" />
+        <Control Name="Label2" Caption="徽标：" />
+        <Control Name="gbTransparency" Caption="透明度：" />
+        <Control Name="Label4" Caption="否" />
+        <Control Name="Label3" Caption="全" />
+        <Control Name="bnEffects" Caption="Effects &gt;" />
+        <Control Name="ElGroupBox2" Caption="位置" />
+        <Control Name="Label6" Caption="空间：" />
+        <Control Name="cbAddLogo" Caption="为图像添加徽标" />
+    </Form>
+    <Form Name="ImageWizardMaskFrame" >
+        <Control Name="Label1" Caption="为照片添加一帧" />
+        <Control Name="Label2" Caption="帧：" />
+        <Control Name="lbSpace" Caption="空间：" />
+        <Control Name="rbNoFrame" Caption="无帧" />
+        <Control Name="rbFrameIndex" Caption="帧索引：" />
+        <Control Name="rbFrameFile" Caption="文件中的帧：" />
+        <Control Name="cbInsideImage" Caption="内部图像" />
+    </Form>
+    <Form Name="ImageWizardCommentFrame" >
+        <Control Name="Label1" Caption="您可以基于图像属性为照片添加描述" />
+        <Control Name="lbComment" Caption="评论：" />
+        <Control Name="gbPos" Caption="位置" />
+        <Control Name="Label6" Caption="空间：" />
+        <Control Name="gbFont" Caption="字体" />
+        <Control Name="Label3" Caption="名称：" />
+        <Control Name="Label4" Caption="大小：" />
+        <Control Name="Label5" Caption="颜色：" />
+        <Control Name="cbSoftShadow" Caption="添加柔和阴影" />
+        <Control Name="gbExample" Caption="示例" />
+        <Control Name="cbAddComment" Caption="为图像添加评论" />
+    </Form>
+    <Form Name="PDFListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="包含子文件夹" />
+        <Control Name="miCheck" Caption="选中" />
+        <Control Name="miUncheck" Caption="取消选中" />
+        <Control Name="miCheckAll" Caption="全部选中" />
+        <Control Name="miUncheckAll" Caption="全部取消选中" />
+        <Control Name="miCheckByMask" Caption="用掩码选中..." />
+        <Control Name="miRestoreLast" Caption="还原上一选择" />
+        <Control Name="miMoveUp" Caption="上移" />
+        <Control Name="miMoveDown" Caption="下移" />
+        <Control Name="miLanguage" Caption="语言" />
+    </Form>
+    <Form Name="PDFWizardFileFrame" >
+        <Control Name="Label1" Caption="新建文件名" />
+        <Control Name="Label2" Caption="文件名：" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="设为默认路径" />
+    </Form>
+    <Form Name="PDFWizardExtractPagesFrame" >
+        <Control Name="Label1" Caption="从 pdf 文档中提取选定页面" />
+        <Control Name="Label2" Caption="例如 10、15、18-20、25-35" />
+        <Control Name="lbBookmarkCaption" Caption="根据每个书签级别新建文件：" />
+        <Control Name="rbAllPages" Caption="获取所有页面(&amp;A)" />
+        <Control Name="rbSelectedPages" Caption="仅提取选定的页面(&amp;E)" />
+        <Control Name="rbBookmarks" Caption="用书签拆分" />
+        <Control Name="rbBlanks" Caption="用空白页拆分" />
+    </Form>
+    <Form Name="PDFWizardBlankToleranceFrame" />
+    <Form Name="PDFWizardUniteFrame" >
+        <Control Name="Label1" Caption="您可以将拆分的页面合并为新文档" />
+        <Control Name="gbCombine" Caption="合并页面" />
+        <Control Name="Label2" Caption="每" />
+        <Control Name="Label3" Caption="页合为一个文档" />
+    </Form>
+    <Form Name="PDFWizardFileTemplateFrame" >
+        <Control Name="rbFileCount" Caption="基于目标文件夹文件数" />
+        <Control Name="rbCounter" Caption="开始计数起始：" />
+        <Control Name="Label1" Caption="输入模板为每页创建文件。/n 符号 # 将被页码取代" />
+        <Control Name="Label2" Caption="模板" />
+        <Control Name="edTemplate" Caption="" />
+        <Control Name="[Name].第#页.txt|" Caption="" />
+    </Form>
+    <Form Name="PDFWizardPDFOptionsFrame" >
+        <Control Name="Label1" Caption="您可以为 PDF 设置高级选项。/n" />
+        <Control Name="Label2" Caption="PDF 版本：" />
+        <Control Name="lbCompressionLevel" Caption="压缩级别：" />
+        <Control Name="cbCompression" Caption="允许压缩" />
+    </Form>
+    <Form Name="PDFWizardHeaderFrame" >
+        <Control Name="cbNumber" Caption="从前一文档继续" />
+        <Control Name="lbl1" Caption="[Page] - 页码/n [Date] - 当前日期" />
+        <Control Name="elgr" Caption="始自：" />
+        <Control Name="Label2" Caption="长度：" />
+        <Control Name="cbComment" Caption="页眉" />
+        <Control Name="grPosition" Caption="位置" />
+        <Control Name="btnPosLeft" Caption="左侧对齐" />
+        <Control Name="btnPosCenter" Caption="居中" />
+        <Control Name="btnPosRight" Caption="右侧对齐" />
+        <Control Name="Label1" Caption="微调页眉" />
+    </Form>
+    <Form Name="PDFWizardFooterFrame" >
+        <Control Name="btnPosRight" Caption="右侧" />
+        <Control Name="cbNumber" Caption="从前一文档继续" />
+        <Control Name="Label1" Caption="微调页脚" />
+        <Control Name="lbl1" Caption="[Page] - 页码/n [Date] - 当前日期" />
+        <Control Name="elgr" Caption="始自：" />
+        <Control Name="Label2" Caption="长度：" />
+        <Control Name="cbComment" Caption="页脚：" />
+    </Form>
+    <Form Name="ToPDFBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="包含子文件夹" />
+        <Control Name="miCheck" Caption="选中" />
+        <Control Name="miUncheck" Caption="取消选中" />
+        <Control Name="miCheckAll" Caption="全部选中" />
+        <Control Name="miUncheckAll" Caption="全部取消选中" />
+        <Control Name="miCheckByMask" Caption="用掩码选中..." />
+        <Control Name="miRestoreLast" Caption="还原上一选择" />
+        <Control Name="miMoveUp" Caption="上移" />
+        <Control Name="miMoveDown" Caption="下移" />
+        <Control Name="miLanguage" Caption="语言" />
+    </Form>
+    <Form Name="ToPDFWizardCombiDestinationFrame" >
+        <Control Name="rbCombine" Caption="全部合并至一个文档" />
+        <Control Name="rbSeparateFolder" Caption="按照文件夹分隔文件" />
+        <Control Name="rbSeparateNamePart" Caption="按照通用名称部分分隔" />
+    </Form>
+    <Form Name="ToPDFWizardNamePartFrame" />
+    <Form Name="ToPDFWizardHeaderFrame" >
+        <Control Name="Label1" Caption="微调页眉" />
+        <Control Name="Label2" Caption="长度：" />
+        <Control Name="lbl1" Caption="[Page] - 页码/n [Date] - 当前日期" />
+        <Control Name="elgr" Caption="始自：" />
+        <Control Name="cbComment" Caption="页眉" />
+        <Control Name="cbNumber" Caption="从上一文档继续" />
+    </Form>
+    <Form Name="ToPDFWizardFooterFrame" >
+        <Control Name="Label1" Caption="微调页脚" />
+        <Control Name="cbNumber" Caption="从上一文档继续" />
+        <Control Name="Label2" Caption="长度：" />
+        <Control Name="lbl1" Caption="[Page] - 页码/n [Date] - 当前日期" />
+        <Control Name="elgr" Caption="始自：" />
+        <Control Name="cbComment" Caption="页脚：" />
+    </Form>
+    <Form Name="MailListBrowseFrame" >
+        <Control Name="miLanguage" Caption="语言" />
+        <Control Name="miIncludeSubfolders" Caption="包含子文件夹" />
+        <Control Name="miCheck" Caption="选中" />
+        <Control Name="miUncheck" Caption="取消选中" />
+        <Control Name="miCheckAll" Caption="全部选中" />
+        <Control Name="miUncheckAll" Caption="全部取消选中" />
+        <Control Name="miCheckByMask" Caption="用掩码选中..." />
+        <Control Name="miRestoreLast" Caption="还原上一选择" />
+        <Control Name="miMoveUp" Caption="上移" />
+        <Control Name="miMoveDown" Caption="下移" />
+    </Form>
+    <Form Name="MailWizardFileFrame" >
+        <Control Name="Label1" Caption="新建文件名" />
+        <Control Name="Label2" Caption="文件名：" />
+        <Control Name="bnSetDefault" Caption="设为默认路径" />
+    </Form>
+    <Form Name="MailWizardTemplateFrame" >
+        <Control Name="Label1" Caption="设置目标文件名模板" />
+        <Control Name="lblHelp" Caption="可用宏：/n /n    [Name] - 源文件名/n    [Subject] - 邮件主题/n    [Sender] - 邮件发件人/n    [recipient] - 邮件第一收件人/n    [date:&lt;format&gt;] - 邮件日期" />
+        <Control Name="lblTemplate" Caption="模板：" />
+    </Form>
+    <Form Name="MailWizardItemsFrame" >
+        <Control Name="Label1" Caption="选择您想导出的域" />
+        <Control Name="cgItems" Caption="要导出的域" >
+            <Item>发件人</Item>
+            <Item>收件人</Item>
+            <Item>CC（抄送）</Item>
+            <Item>BCC（密件抄送）</Item>
+            <Item>日期</Item>
+            <Item>主题</Item>
+            <Item>正文</Item>
+        </Control>
+        <Control Name="cbDisableInet" Caption="不要访问互联网获取图像" />
+        <Control Name="cbDateUTC" Caption="显示世界时日期" />
+    </Form>
+    <Form Name="MailWizardCSSFrame" >
+        <Control Name="rbInternal" Caption="使用内部方案" />
+        <Control Name="rbExternal" Caption="使用外部 CSS 文件" />
+        <Control Name="Label1" Caption="微调输出文档外观" />
+        <Control Name="bnTune" Caption="微调" />
+    </Form>
+    <Form Name="MailWizardAttachmentsFrame" >
+        <Control Name="Label1" Caption="如何处理附件？" />
+        <Control Name="grAttach" Caption="附件" />
+        <Control Name="cbSaveAttachments" Caption="附件信息" />
+        <Control Name="cbAttachUnpack" Caption="解压缩附件" />
+        <Control Name="cbSeparateAttachMsg" Caption="保存到单独文件" />
+        <Control Name="cbIncludeImages" Caption="文档中包含附加的图像" />
+        <Control Name="cbMsgConvert" Caption="转换附加的消息" />
+        <Control Name="cbSeparateAttach" Caption="将附件保存到单独文件夹" />
+    </Form>
+    <Form Name="HTMWizardPdfDocInfoFrame" >
+        <Control Name="Label1" Caption="文档信息" />
+        <Control Name="Label2" Caption="作者：" />
+        <Control Name="Label3" Caption="创建者：" />
+        <Control Name="Label4" Caption="关键字：" />
+        <Control Name="Label5" Caption="主题：" />
+        <Control Name="Label6" Caption="标题：" />
+    </Form>
+    <Form Name="HTMWizardPDFCompressionFrame" >
+        <Control Name="Label1" Caption="选择文档压缩级别" />
+        <Control Name="rgCompression" Caption="压缩级别" >
+            <Item>最快</Item>
+            <Item>正常</Item>
+            <Item>最大</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardPDFEncyptionFrame" >
+        <Control Name="Label1" Caption="您可以保护 PDF 文档" />
+        <Control Name="gbEncryption" Caption="加密文档" />
+        <Control Name="Label2" Caption="所有者密码：" />
+        <Control Name="Label3" Caption="确认：" />
+        <Control Name="Label4" Caption="用户密码：" />
+        <Control Name="Label5" Caption="确认：" />
+        <Control Name="cgPermissions" Caption="用户权限" >
+            <Item>复制</Item>
+            <Item>修改</Item>
+            <Item>打印</Item>
+            <Item>填写表格</Item>
+            <Item>批注</Item>
+            <Item>辅助功能</Item>
+            <Item>文档汇编</Item>
+            <Item>高分辨率打印</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMPaperSizeFrame" >
+        <Control Name="Label1" Caption="指定 Adobe PDF 文件的纸张大小" />
+        <Control Name="rbCommon" Caption="普通" />
+        <Control Name="rbCustom" Caption="自定义" />
+        <Control Name="rgOrientation" Caption="纸张方向" >
+            <Item>纵向</Item>
+            <Item>横向</Item>
+        </Control>
+        <Control Name="lbWidth" Caption="宽度：" />
+        <Control Name="lbWInch" Caption="英寸" />
+        <Control Name="lbHInch" Caption="英寸" />
+        <Control Name="lbHeight" Caption="高度：" />
+        <Control Name="Label2" Caption="纸张大小" />
+        <Control Name="cbFitPage" Caption="调整到页面大小" />
+    </Form>
+    <Form Name="HTMWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="指定输出文件的页边距" />
+        <Control Name="Label2" Caption="顶端" />
+        <Control Name="Label3" Caption="底端" />
+        <Control Name="Label4" Caption="左侧" />
+        <Control Name="lbRight" Caption="右侧" />
+    </Form>
+    <Form Name="MailWizardCombiDestinationFrame" >
+        <Control Name="Label1" Caption="将所有结果文件放入一个文档还是每封邮件放入一个单独文档？" />
+        <Control Name="lbFileName" Caption="文件名：" />
+        <Control Name="lbFolderName" Caption="文件夹名：" />
+        <Control Name="rbCombine" Caption="将所有邮件文档合并入一个文件" />
+        <Control Name="rbSeparate" Caption="将每个邮件文档放入一个单独文件" />
+    </Form>
+    <Form Name="CommonWizardFolderFrame" >
+        <Control Name="Label1" Caption="设置目标文件夹" />
+        <Control Name="Label2" Caption="文件夹名：" />
+        <Control Name="cbKeepStructure" Caption="保持文件夹结构" />
+        <Control Name="bnSetDefault" Caption="设为默认路径" />
+    </Form>
+    <Form Name="HTMListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="包含子文件夹" />
+        <Control Name="miCheck" Caption="选中" />
+        <Control Name="miUncheck" Caption="取消选中" />
+        <Control Name="miCheckAll" Caption="全部选中" />
+        <Control Name="miUncheckAll" Caption="全部取消选中" />
+        <Control Name="miCheckByMask" Caption="用掩码选中..." />
+        <Control Name="miRestoreLast" Caption="还原上一选择" />
+        <Control Name="miMoveUp" Caption="上移" />
+        <Control Name="miMoveDown" Caption="下移" />
+    </Form>
+    <Form Name="HTMViewFrame" >
+        <Control Name="miLanguage" Caption="语言" />
+    </Form>
+    <Form Name="HTMWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; 后退(&amp;B)" />
+        <Control Name="bnNext" Caption="前进(&amp;N) &gt;&gt;" />
+        <Control Name="bnCancel" Caption="取消(&amp;C)" />
+        <Control Name="bnFinish" Caption="开始(&amp;S)！" />
+    </Form>
+    <Form Name="HTMWizardFileFrame" >
+        <Control Name="Label1" Caption="新建文件名" />
+        <Control Name="Label2" Caption="文件名：" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="设为默认路径" />
+        <Control Name="cbSingleImage" Caption="转换为一个图像" />
+    </Form>
+    <Form Name="HTMWizardHeaderFrame" >
+        <Control Name="Label1" Caption="设置输出文档的页眉和页脚" />
+        <Control Name="gbHeader" Caption="页眉" />
+        <Control Name="Label4" Caption="支持 IE 页眉和页脚。/n 如：(&amp;&amp;w&amp;&amp;bPage &amp;&amp;p of &amp;&amp;P) /n   添加页码 (&quot;第 1 页，共 10 页&quot;)" />
+        <Control Name="Label2" Caption="html 文件页眉：" />
+    </Form>
+    <Form Name="HTMWizardFooterFrame" >
+        <Control Name="Label1" Caption="设置输出文件的页脚" />
+        <Control Name="gbFooter" Caption="页脚" />
+        <Control Name="Label4" Caption="支持 IE 页眉和页脚。/n 如： (&amp;&amp;u&amp;&amp;b&amp;&amp;d)/n   添加文件名和日期 (&quot;第 1 页，共 10 页&quot;)" />
+        <Control Name="Label2" Caption="html 文件页脚：" />
+    </Form>
+    <Form Name="HTMWizardPDFWatermarkFrame" >
+        <Control Name="Label1" Caption="选择结果文档的水印属性/n" />
+        <Control Name="lbComment" Caption="文本水印：" />
+        <Control Name="Label2" Caption="页码范围 (1-5,10)" />
+        <Control Name="gbFont" Caption="字体" />
+        <Control Name="Label3" Caption="名称：" />
+        <Control Name="Label4" Caption="大小：" />
+        <Control Name="Label5" Caption="颜色：" />
+        <Control Name="gbPos" Caption="位置" />
+    </Form>
+    <Form Name="HTMWizardPDFRenderFrame" >
+        <Control Name="Label1" Caption="选择您想包含至结果文档的/n元素" />
+        <Control Name="cgItems" Caption="呈现的项" >
+            <Item>文本</Item>
+            <Item>形状</Item>
+            <Item>图像</Item>
+        </Control>
+        <Control Name="rgEncodeType" Caption="嵌入式 True Type 字体" >
+            <Item>无</Item>
+            <Item>全</Item>
+            <Item>子集</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardImageFormatFrame" >
+        <Control Name="Label1" Caption="选择用来呈现 HTML 图像的/n输出图像格式" />
+        <Control Name="Label2" Caption="源 DPI：" />
+        <Control Name="rgImageFormat" Caption="输出图像格式" >
+            <Item>BMP - 不足压缩</Item>
+            <Item>JPEG - 最适合照片</Item>
+            <Item>CCITT3 - 传真压缩，b/w</Item>
+            <Item>CCITT4 - 传真压缩，b/w</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="您可以定义 JPEG 图像的质量" />
+        <Control Name="ElGroupBox1" Caption="质量" />
+        <Control Name="Label5" Caption="较好（最大大小）" />
+        <Control Name="Label6" Caption="较差（最小大小）" />
+    </Form>
+    <Form Name="HTMWizardBmpPixelFormatFrame" >
+        <Control Name="Label1" Caption="表示 bitmap 图像的位格式，/n 指定图像如何显示/n" />
+        <Control Name="rgPixelFormat" Caption="图像像素格式" >
+            <Item>1 位 - 每像素一位（黑色和白色调色板）</Item>
+            <Item>4 位 - 16 色调色板</Item>
+            <Item>8 位 - 256 色调色板</Item>
+            <Item>15 位 - 真彩色 bitmap，RGB 压缩</Item>
+            <Item>16 位 - 真彩色 bitmap，位域压缩</Item>
+            <Item>24 位 - 真彩色 bitmap，每像素 24 位</Item>
+            <Item>32 位 - 真彩色 bitmap, ，每像素 32 位</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardBkgndFrame" >
+        <Control Name="Label1" Caption="您可以选择背景图像/n或使用自定义背景色" />
+        <Control Name="rbColor" Caption="使用背景色" />
+    </Form>
+    <Form Name="HTMWizardPdfSignInfoFrame" >
+        <Control Name="Label1" Caption="您可以为输出 PDF 文档添加数字签名。" />
+        <Control Name="Label2" Caption="位置：" />
+        <Control Name="Label5" Caption="联系：" />
+        <Control Name="Label6" Caption="原因：" />
+        <Control Name="Label3" Caption="PFX 文件：" />
+        <Control Name="Label4" Caption="密码：" />
+    </Form>
+    <Form Name="ImageWizardJP2KRateFrame" >
+        <Control Name="Label1" Caption="在 JPEG 2000 格式中您可以定义压缩率" />
+        <Control Name="ElGroupBox1" Caption="比率" />
+        <Control Name="Label5" Caption="较好（最大大小）" />
+        <Control Name="Label6" Caption="较差（最小大小）" />
+    </Form>
+    <Form Name="CADViewFrame" >
+        <Control Name="miLanguage" Caption="语言" />
+    </Form>
+    <Form Name="ImageWizardIcoSizeFrame" >
+        <Control Name="Label1" Caption="检查您想包含至最终图像的图标大小（一个图标可以包含多幅不同大小的图像） " />
+        <Control Name="cbSelectBest" Caption="选择最佳分辨率" />
+        <Control Name="cbStandard" Caption="所有标准分辨率" />
+    </Form>
+    <Form Name="ImageWizardIcoColorsFrame" >
+        <Control Name="Label1" Caption="ICO 格式支持一个文件中包含数幅彩色图像。/n选择您想包含的颜色" />
+        <Control Name="cgColors" Caption="" >
+            <Item>16 色</Item>
+            <Item>256 色</Item>
+            <Item>真彩色</Item>
+            <Item>WindowsXP 图标</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTransparencyFrame" >
+        <Control Name="Label1" Caption="选择透明度颜色" />
+        <Control Name="ElGroupBox1" Caption="透明色" />
+        <Control Name="lbBkgnd" Caption="背景：" />
+        <Control Name="bnSelectColors" Caption="选择颜色..." />
+        <Control Name="rbNoTransparency" Caption="无透明度" />
+        <Control Name="rbSourceFile" Caption="使用源文件的透明度" />
+        <Control Name="rbUseColors" Caption="设置透明度颜色" />
+        <Control Name="cbTransparencyMethod" Caption="" >
+            <Item>Alpha 频道</Item>
+            <Item>左上像素</Item>
+            <Item>左下像素</Item>
+            <Item>右上像素</Item>
+            <Item>右下像素</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTiffCompressionFrame" >
+        <Control Name="Label1" Caption="选择最终 TIFF 文档的压缩类型" />
+        <Control Name="rgCompression" Caption="" >
+            <Item>未压缩</Item>
+            <Item>LZW 压缩</Item>
+            <Item>RLE 压缩 (packbits)</Item>
+            <Item>JPEG 压缩</Item>
+            <Item>双层 Huffman 压缩 (CCITT1D)</Item>
+            <Item>双层 Group 3 CCITT 压缩，一维 (G3FAX1D)</Item>
+            <Item>双层 Group 3 CCITT 压缩，二维 (G3FAX2D)</Item>
+            <Item>双层 Group 4 CCITT 压缩，二维 (G4FAX)</Item>
+            <Item>ZIP 压缩（非标准）</Item>
+            <Item>紧缩（Adobe zip 压缩，非标准）</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardPhotometInterpretFrame" >
+        <Control Name="rgColorSpace" Caption="" >
+            <Item>白色为零</Item>
+            <Item>黑色为零</Item>
+            <Item>RGB</Item>
+            <Item>RGB 调色板</Item>
+            <Item>透明度 </Item>
+        </Control>
+        <Control Name="mask|CMYK|YCBCR|CIELAB|" Caption="" />
+    </Form>
+    <Form Name="ImageWizardTIFFColorSpaceFrame" >
+        <Control Name="Label1" Caption="指定包含在 TIFF 文件中的 Jpeg 需要的颜色空间" />
+        <Control Name="rgColorSpace" Caption="JPEG 颜色空间" >
+            <Item>RGB</Item>
+            <Item>GRAYLEV</Item>
+            <Item>YCbCr</Item>
+            <Item>CMYK</Item>
+            <Item>YCbCrK</Item>
+        </Control>
+    </Form>
+    <Form Name="SimpleImageWizardForm" />
+    <Form Name="ImageWizardColorsFrame" >
+        <Control Name="Label1" Caption="选择目标图像中的颜色数" />
+        <Control Name="rgColors" Caption="颜色" >
+            <Item>黑&amp;&amp;白</Item>
+            <Item>灰度</Item>
+            <Item>16 色</Item>
+            <Item>256 色</Item>
+            <Item>真彩色 (24bit)</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardBWFrame" />
+    <Form Name="PDFWizardJpegQualityFrame" />
+    <Form Name="PDFWizardDPIFrame" >
+        <Control Name="Label1" Caption="选择生成图像的质量和大小" />
+        <Control Name="Label2" Caption="页面大小" />
+        <Control Name="rb75" Caption="75 DPI（屏幕分辨率）" />
+        <Control Name="rb150" Caption="150 DPI（草图打印分辨率）" />
+        <Control Name="rb300" Caption="300 DPI（质量打印分辨率）" />
+        <Control Name="rbCustom" Caption="自定义" />
+        <Control Name="cbOriginal" Caption="原始" />
+    </Form>
+    <Form Name="PDFWizardImageCombineFrame" >
+        <Control Name="Label1" Caption="您可将每页写入单独文件/n或合并为一个大文件" />
+        <Control Name="lbSet" Caption="放置" />
+        <Control Name="lbPages" Caption="水平页面" />
+        <Control Name="Label3" Caption="如果转换 pdf 文件失败可使用该选项" />
+        <Control Name="cbCombine" Caption="将页面合并至一个文件" />
+        <Control Name="Label2" Caption="垂直页面" />
+        <Control Name="rbAllPages" Caption="将所有页面合并至一个图像" />
+        <Control Name="rbPagesByHeight" Caption="放置" />
+        <Control Name="cbSedPDF" Caption="使用其他输出方法" />
+    </Form>
+    <Form Name="XLSListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="包含子文件夹" />
+        <Control Name="miCheck" Caption="选中" />
+        <Control Name="miUncheck" Caption="取消选中" />
+        <Control Name="miCheckAll" Caption="全部选中" />
+        <Control Name="miUncheckAll" Caption="全部取消选中" />
+        <Control Name="miCheckByMask" Caption="用掩码选中..." />
+        <Control Name="miRestoreLast" Caption="还原上一选择" />
+        <Control Name="miMoveUp" Caption="上移" />
+        <Control Name="miMoveDown" Caption="下移" />
+    </Form>
+    <Form Name="XLSViewFrame" >
+        <Control Name="miLanguage" Caption="语言" />
+    </Form>
+    <Form Name="XLSWizardFileFrame" >
+        <Control Name="Label1" Caption="新建文件名" />
+        <Control Name="Label2" Caption="文件名：" />
+        <Control Name="edFileName" Caption="" />
+        <Control Name="bnSetDefault" Caption="设为默认路径" />
+    </Form>
+    <Form Name="XLSWizardPaperProp" />
+    <Form Name="XLSWizardTextPropFrame" >
+        <Control Name="Label1" Caption="选择文本选项" />
+        <Control Name="rgTextDelimiter" Caption="文本分隔符" >
+            <Item>无</Item>
+            <Item>Tab</Item>
+            <Item>空格</Item>
+            <Item>CSV</Item>
+            <Item>其他</Item>
+        </Control>
+    </Form>
+</Forms>

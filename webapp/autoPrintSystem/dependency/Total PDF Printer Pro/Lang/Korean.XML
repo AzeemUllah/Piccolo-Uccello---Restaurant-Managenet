@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="windows-949" ?>
+    <Messages>
+        <Item Name="Header" value="머리글" />
+        <Item Name="Footer" value="바닥글" />
+        <Item Name="Font" value="글골" />
+        <Item Name="Margin" value="여백" />
+        <Item Name="liCombineTo" value="결합할 목적지:" />
+        <Item Name="liSplitTo" value="분할 목적지:" />
+        <Item Name="miCmdParams" value="명령행 파라미터" />
+        <Item Name="msgSomeFilesFiltered" value="&lt;일부 파일이 필터되었습니다. 보시기 위해서는 더블 클릭하세요&gt;" />
+        <Item Name="attrName" value="이름" />
+        <Item Name="attrSize" value="크기" />
+        <Item Name="attrType" value="형식" />
+        <Item Name="attrModified" value="수정" />
+        <Item Name="attrAttributes" value="속성" />
+        <Item Name="Resize" value="크기 조정" />
+        <Item Name="Crop" value="자르기" />
+        <Item Name="Rotate" value="회전" />
+        <Item Name="Transform" value="변환" />
+        <Item Name="Watermark" value="양수표" />
+        <Item Name="Logo" value="로고" />
+        <Item Name="Comments" value="설명문" />
+        <Item Name="Frame" value="프레임" />
+        <Item Name="Colors" value="색상" />
+        <Item Name="Icon colors" value="아이콘 색" />
+        <Item Name="Icon Sizes" value="아이콘 크기" />
+        <Item Name="Transparency" value="투명도" />
+        <Item Name="JPEG2000 Compression" value="JPEG2000 압축" />
+        <Item Name="JPEG Quality" value="JPEG 압축률" />
+        <Item Name="Format" value="서식" />
+        <Item Name="RAW Format" value="열 서식" />
+        <Item Name="Color space" value="색 공간" />
+        <Item Name="Compression" value="압축" />
+        <Item Name="Paper" value="종이" />
+        <Item Name="Properties" value="속성" />
+        <Item Name="Details" value="상세" />
+        <Item Name="Template" value="템플릿" />
+        <Item Name="Thumbnails" value="섬브네일" />
+        <Item Name="msgNoFileSelected" value="선택된 파일이 없습니다." />
+        <Item Name="Document" value="문서" />
+        <Item Name="Render" value="렌더" />
+        <Item Name="Image format" value="이미지 포맷" />
+        <Item Name="Background" value="배경" />
+        <Item Name="Items" value="항목" />
+        <Item Name="Encryption" value="암호화" />
+        <Item Name="PDF Options" value="PDF 옵션" />
+        <Item Name="Page Processing" value="페이지 처리" />
+        <Item Name="File name template" value="파일 이름 템플릿" />
+        <Item Name="Image DPI" value="이미지 해상도" />
+        <Item Name="Extract pages" value="페이지 추출" />
+        <Item Name="Combine" value="결합" />
+        <Item Name="attrTitle" value="표제" />
+        <Item Name="descDestination" value="목적지" />
+        <Item Name="liConvertTo" value="liConvertTo" />
+        <Item Name="attrOrderID" value="OrderID" />
+        <Item Name="attrAuthor" value="저자" />
+        <Item Name="attrSubject" value="대상" />
+        <Item Name="attrPageSize" value="페이지 " />
+        <Item Name="attrPageCount" value="페이지 수" />
+        <Item Name="Pixel format" value="픽셀 포맷" />
+        <Item Name="mitbDevice" value="장치" />
+        <Item Name="msgWizardCaption_TiffPaging" value="이미지 변환" />
+        <Item Name="Photometric" value="광도계" />
+        <Item Name="Rip CD" value="CD 리프" />
+        <Item Name="YouTube" value="유투브" />
+        <Item Name="Write CD" value="CD 쓰기" />
+        <Item Name="attrDuration" value="지속" />
+        <Item Name="attrChannels" value="통로" />
+        <Item Name="attrSampleRate" value="샘플 레이트" />
+        <Item Name="attrBitrate" value="비트 레이트" />
+        <Item Name="attrAlbum" value="앨범" />
+        <Item Name="attrArtist" value="저자" />
+        <Item Name="attrYear" value="년" />
+        <Item Name="attrGenre" value="성별" />
+        <Item Name="attrComment" value="설명문" />
+        <Item Name="attrTrack" value="추적" />
+        <Item Name="infoUnknown" value="&lt;미 확정&gt;" />
+        <Item Name="miCoolUtils" value="CoolUtils" />
+        <Item Name="msgWizardCaption_TotalAudioConverter" value="음악 변환" />
+        <Item Name="to" value="대상" />
+        <Item Name="boxSelectDestination" value="목적지 선택" />
+        <Item Name="boxCombine" value="결합" />
+        <Item Name="boxSamplerate" value="샘플 레이트" />
+        <Item Name="boxChannels" value="통로" />
+        <Item Name="boxBitrate" value="비트 레이트" />
+        <Item Name="boxFinishConversion" value="대화 시작" />
+        <Item Name="boxConvertTo" value="변환 목적지" />
+        <Item Name="msgWizardCaption_TiffPaging" value="이미지 변환" />
+        <Item Name="msgWizardCaption_TotalMailConverter" value="메일 메시지 변환" />
+        <Item Name="boxMailFields" value="필드" />
+        <Item Name="Appearance" value="외관" />
+        <Item Name="boxMailAttachments" value="첨부 " />
+        <Item Name="Display" value="표시" />
+        <Item Name="msgWizardCaption_TotalCADConverter" value="변환" />
+        <Item Name="Orientation" value="방향" />
+        <Item Name="TIFF Compression" value="TIFF 압축" />
+        <Item Name="msgWizardCaption_TotalExcelConverter" value="XLS 변환" />
+        <Item Name="Text Options" value="텍스트 옵션" />
+        <Item Name="msgWizardCaption_TotalPDFConverter" value="PDF 문서 변경" />
+        <Item Name="msgWizardCaption_PDFCombine" value="PDF로 변환" />
+        <Item Name="Range" value="범위" />
+        <Item Name="Unicode Text" value="유니코드 텍스트" />
+    </Messages>
+<Forms>	
+    <Form Name="MainForm" >
+        <Control Name="miFile" Caption="파일" />
+        <Control Name="miRefresh" Caption="리프레쉬" />
+        <Control Name="miPrint" Caption="인쇄" />
+        <Control Name="miExit" Caption="종표" />
+        <Control Name="miView" Caption="&amp;보기" />
+        <Control Name="miEdit" Caption="&amp;편집" />
+        <Control Name="miConvert" Caption="&amp;변경" />
+        <Control Name="miHelp" Caption="&amp;도움말" />
+        <Control Name="miWantMore" Caption="&amp;Want more" />
+        <Control Name="lbFilterCaption" Caption="필터:" />
+        <Control Name="bnDefineAction" Caption="액션 정의" />
+        <Control Name="boxConvertTo" Caption="변환 목적지" />
+        <Control Name="miSkins" Caption="스킨" />
+        <Control Name="mitbOther" Caption="기타" />
+    </Form>
+    <!-- Doc Converter -->
+    <Form name="DocBrowseFrame" source="ListBrowseFrame" section="DocConverter" />
+    <Form name="DocWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="DocWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="DocWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Converter -->
+    <Form name="PDFListFrame" source="ListBrowseFrame" section="PDFConverter" />
+    <Form name="PDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFConverter" />
+    <Form name="PDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFConverter" />
+    <Form name="PDFWizardForm" source="CustomWizard" section="PDFConverter" />
+    <!-- HTML Converter -->
+    <Form name="HTMListFrame" source="ListBrowseFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFileFrame" source="CommonWizardFileFrame" section="HTMLConverter" />
+    <Form name="HTMWizardFolderFrame" source="CommonWizardFolderFrame" section="HTMLConverter" />
+    <Form name="HTMWizardForm" source="CustomWizard" section="HTMLConverter" />
+    <!-- Image Converter -->
+    <Form name="ImagesListFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImagesThumbnailFrame" source="ListBrowseFrame" section="ImageConverter" />
+    <Form name="ImageWizardFileFrame" source="CommonWizardFileFrame" section="ImageConverter" />
+    <Form name="ImageWizardFolderFrame" source="CommonWizardFolderFrame" section="ImageConverter" />
+    <Form name="ImageWizardForm" source="CustomWizard" section="ImageConverter" />
+    <!-- AudioConverter -->
+    <Form name="MP3WizardFileFrame" source="CommonWizardFileFrame" />
+    <Form name="MP3WizardFolderFrame" source="CommonWizardFolderFrame" />
+    <Form name="Mp3WizardForm" source="CustomWizard" section="AudioConverter" />
+    <Form name="MP3ListFrame" source="ListBrowseFrame" section="AudioConverter" />
+    <!-- XLS Converter -->
+    <Form name="XLSListBrowseFrame" source="ListBrowseFrame" section="ExcelConverter" />
+    <Form name="XLSWizardFileFrame" source="CommonWizardFileFrame" section="DocConverter" />
+    <Form name="XLSWizardFolderFrame" source="CommonWizardFolderFrame" section="DocConverter" />
+    <Form name="XLSWizardForm" source="CustomWizard" section="DocConverter" />
+    <!-- PDF Combine -->
+    <Form name="ToPDFBrowseFrame" source="ListBrowseFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFileFrame" source="CommonWizardFileFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardFolderFrame" source="CommonWizardFolderFrame" section="PDFCombine" />
+    <Form name="ToPDFWizardForm" source="CustomWizard" section="PDFCombine" />
+    <!-- Mail Converter -->
+    <Form name="MailListBrowseFrame" source="ListBrowseFrame" section="MailConverter" />
+    <Form name="MailWizardFileFrame" source="CommonWizardFileFrame" section="MailConverter" />
+    <Form name="MailWizardFolderFrame" source="CommonWizardFolderFrame" section="MailConverter" />
+    <Form name="MailWizardForm" source="CustomWizard" section="MailConverter" />
+    <!-- Tiff Pagging -->
+    <Form name="ImageWizardFileTemplateFrame" source="PDFWizardFileTemplateFrame" section="ImageConverter" />
+    <!-- CAD Converter -->
+    <Form name="CADWizardRotateFrame" source="ImageWizardRotateFrame" />
+    <Form name="CADWizardForm" source="CustomWizard" />
+    <!-- Common Form -->
+    <Form Name="ListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="하위 폴더 포함" />
+        <Control Name="miCheck" Caption="검사" />
+        <Control Name="miUncheck" Caption="검사하지 않음" />
+        <Control Name="miCheckAll" Caption="모두 검사" />
+        <Control Name="miUncheckAll" Caption="모두 검사하지 않음" />
+        <Control Name="miCheckByMask" Caption="마스크로 검사.." />
+        <Control Name="miRestoreLast" Caption="마지막 선택 회복" />
+        <Control Name="miMoveUp" Caption="위로 이동" />
+        <Control Name="miMoveDown" Caption="아래로 이동" />
+    </Form>
+    <Form Name="DocViewFrame" >
+        <Control Name="miLanguage" Caption="언어" />
+        <Control Name="\orm" Caption="DataModuleHelp" />
+        <Control Name="miHelp" Caption="도움말" />
+        <Control Name="miLang" Caption="언어" />
+        <Control Name="miRegister" Caption="등록코드 입력.." />
+        <Control Name="miOrder" Caption="구입 방법" />
+        <Control Name="miHotOffer" Caption="핫 오퍼!" />
+        <Control Name="miBuyCoolUtils" Caption="$99로 CoolUtils PRO 구입!" />
+        <Control Name="miLearnCoolUtils" Caption="상세 정보..." />
+        <Control Name="miWriteUs" Caption="연계처" />
+        <Control Name="miWebSite" Caption="웹사이트" />
+        <Control Name="miAbout" Caption="개요" />
+    </Form>
+    <Form Name="CustomWizard" >
+        <Control Name="bnBack" Caption="&lt;&lt; 뒤로(&amp;B)" />
+        <Control Name="bnNext" Caption="다음(&amp;N) &gt;&gt;" />
+        <Control Name="bnCancel" Caption="취소(&amp;)" />
+        <Control Name="bnFinish" Caption="시작(&amp;S)!" />
+    </Form>
+    <Form Name="CommonWizardFileFrame" >
+        <Control Name="Label1" Caption="새파일 이름 설정" />
+        <Control Name="Label2" Caption="파일 이름:" />
+        <Control Name="edFileName" Caption="파일 이름 편집" />
+        <Control Name="bnSetDefault" Caption="이 경로를 기본값으로 설정" />
+    </Form>
+    <Form Name="FontDocWizardFrame" >
+        <Control Name="Label1" Caption="텍스트 파일의 기본 글꼴 설정" />
+        <Control Name="lbl2" Caption="글꼴 크기" />
+        <Control Name="lbl1" Caption="글꼴 이름" />
+        <Control Name="cbBold" Caption="강조체" />
+        <Control Name="cbWordWrap" Caption="WordWrap" />
+        <Control Name="cbEnable" Caption="사용가능" />
+    </Form>
+    <Form Name="WizardFinishFrame" >
+        <Control Name="Label1" Caption="마법사가 변경하여야 할 모든 정보가 수집되었습니다." />
+        <Control Name="lbFinishCaption" Caption="변경하시려면 '시작'을 누르세요" />
+        <Control Name="lbViewCaption" Caption="아래의 옵션으로 변경할 준비가 되었습니다:" />
+        <Control Name="cbOpenDestination" Caption="변환후 목적 폴더 열기" />
+        <Control Name="cbDeleteOriginals" Caption="원본 지우기" />
+        <Control Name="lbDiscount" Caption="&lt;a href=discount&gt;할인!&lt;/a&gt;" />
+    </Form>
+    <Form Name="DocWizardPaperFrame" >
+        <Control Name="Label1" Caption="종이 방향 정의" />
+        <Control Name="lblWidth" Caption="너비:" />
+        <Control Name="lblWInch" Caption="인치" />
+        <Control Name="lblHInch" Caption="인치" />
+        <Control Name="lbl1" Caption="종이 크기" />
+        <Control Name="lblHeight" Caption="높이:" />
+        <Control Name="rgOrientation" Caption="종이 방향" >
+            <Item>세로</Item>
+            <Item>가로</Item>
+        </Control>
+        <Control Name="cbSeparate" Caption="매 페이지를 파일로 분할" />
+        <Control Name="rbCommon" Caption="일반" />
+        <Control Name="rbCustom" Caption="고객" />
+    </Form>
+    <Form Name="DocWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="Adobe PDF 파일 여백 정의 (mm)" />
+        <Control Name="Label2" Caption="위쪽" />
+        <Control Name="Label3" Caption="아래쪽" />
+        <Control Name="Label4" Caption="왼쪽" />
+        <Control Name="lbRight" Caption="오른쪽" />
+    </Form>
+    <Form Name="DocPDFPropWizardFrame" >
+        <Control Name="Label1" Caption="문서 정보" />
+        <Control Name="Label2" Caption="저자:" />
+        <Control Name="Label3" Caption="작성자:" />
+        <Control Name="Label4" Caption="건반:" />
+        <Control Name="Label5" Caption="제목:" />
+        <Control Name="Label6" Caption="표제:" />
+    </Form>
+    <Form Name="DocWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="PDF 문서에 추가된 이미지 압축률" />
+        <Control Name="ElGroupBox1" Caption="압축률" />
+        <Control Name="Label5" Caption="Better (최대 크기)" />
+        <Control Name="Label6" Caption="더 작게 (최소 크기)" />
+    </Form>
+    <Form Name="ImagesThumbnailFrame" >
+        <Control Name="miCheck" Caption="검사" />
+        <Control Name="miUncheck" Caption="검사하지 않음" />
+        <Control Name="miCheckAll" Caption="모두 검사" />
+        <Control Name="miUncheckAll" Caption="모두 검사하지 않음" />
+    </Form>
+    <Form Name="ImagesListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="하위 폴더 포함" />
+        <Control Name="miCheck" Caption="검사" />
+        <Control Name="miUncheck" Caption="검사하지 않음" />
+        <Control Name="miCheckAll" Caption="모두 검사" />
+        <Control Name="miUncheckAll" Caption="모두 검사하지 않음" />
+        <Control Name="miCheckByMask" Caption="마스크로 검사.." />
+        <Control Name="miRestoreLast" Caption="마지막 선택 회복" />
+        <Control Name="miMoveUp" Caption="위로 이동" />
+        <Control Name="miMoveDown" Caption="아래로 이동" />
+    </Form>
+    <Form Name="ImageBrowseToolbarFrame" >
+        <Control Name="miRotate" Caption="회전" />
+        <Control Name="miResize" Caption="크기 조절" />
+        <Control Name="miCrop" Caption="자르기" />
+        <Control Name="Watermark" Caption="양수표" />
+        <Control Name="miFrame" Caption="프레임" />
+        <Control Name="miEMail" Caption="이메일로 보내기" />
+    </Form>
+    <Form Name="ImageInfoFrame" >
+        <Control Name="ElLabel2" Caption="크기:" />
+        <Control Name="lblWidth" Caption="너비:" />
+        <Control Name="lblHeight" Caption="높이:" />
+        <Control Name="ElLabel4" Caption="색상:" />
+        <Control Name="ElLabel5" Caption="프레임:" />
+        <Control Name="ElLabel6" Caption="날짜:" />
+        <Control Name="ElLabel7" Caption="방향:" />
+        <Control Name="ElLabel8" Caption="모델:" />
+        <Control Name="ElLabel9" Caption="파일 형식:" />
+        <Control Name="miRotateLeft" Caption="왼쪽으로 회전" />
+        <Control Name="miRotateRight" Caption="오른쪽으로 회전" />
+        <Control Name="miRotate180" Caption="180도 회전" />
+        <Control Name="miSetWallpaper" Caption="배경화면 설정" />
+        <Control Name="miLanguage" Caption="언어" />
+    </Form>
+    <Form Name="ImageWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; 뒤로(&amp;B)" />
+        <Control Name="bnNext" Caption="다음(&amp;N) &gt;&gt;" />
+        <Control Name="bnCancel" Caption="취소(&amp;)" />
+        <Control Name="bnFinish" Caption="시작(&amp;S)!" />
+    </Form>
+    <Form Name="ImageWizardFileFrame" >
+        <Control Name="Label1" Caption="새파일 이름 설정" />
+        <Control Name="Label2" Caption="파일 이름:" />
+        <Control Name="edFileName" Caption="파일 이름 편집" />
+        <Control Name="bnSetDefault" Caption="이 경로를 기본값으로 설정" />
+    </Form>
+    <Form Name="ImageWizardCropFrame" >
+        <Control Name="Label1" Caption="이미지를 잘라 불필요한 부분을 제거할수 있습니다." />
+        <Control Name="Label2" Caption="왼쪽 자르기:" />
+        <Control Name="Label3" Caption="아래쪽 자르기:" />
+        <Control Name="Label4" Caption="오른쪽 자르기:" />
+        <Control Name="Label5" Caption="윗쪽 자르기:" />
+        <Control Name="bnSelect" Caption="선택..." />
+        <Control Name="lblWidth" Caption="너비:" />
+        <Control Name="lblHeight" Caption="높이:" />
+    </Form>
+    <Form Name="ImageWizardRotateFrame" >
+        <Control Name="Label1" Caption="편안하게 보기위해 이미지 회전" />
+        <Control Name="gbOrientation" Caption="현재 이미지 방향" />
+        <Control Name="ElRadioButton1" Caption="위쪽/ 왼쪽 면" />
+        <Control Name="ElRadioButton2" Caption="위쪽 / 오른쪽 면  &lt;ind width=110 pos=abs&gt; &lt;img src=3&gt; 수평으로 뒤집기" />
+        <Control Name="ElRadioButton3" Caption="아래쪽 / 오른쪽 면 &lt;ind width=110 pos=abs&gt; &lt;img src=2&gt; 180" />
+        <Control Name="ElRadioButton3" Caption="아래쪽 / 오른쪽 면 &lt; &lt;ind width=110 pos=abs&gt; &lt;img src=4&gt; 수직으로 뒤집기" />
+        <Control Name="ElRadioButton5" Caption="왼쪽 면 / 위쪽" />
+        <Control Name="ElRadioButton3" Caption="아래쪽 / 오른쪽 면 &lt;ind width=110 pos=abs&gt; &lt;img src=1&gt; 90 CW" />
+        <Control Name="ElRadioButton7" Caption="오른쪽 면 / 아래쪽" />
+        <Control Name="ElRadioButton3" Caption="아래쪽 / 오른쪽 면 &lt;ind width=110 pos=abs&gt; &lt;img src=0&gt; 90 CCW" />
+        <Control Name="ElRadioButton9" Caption="EXIF 태그로부터 방향 얻기" />
+    </Form>
+    <Form Name="ImageWizardResizeFrame" >
+        <Control Name="Label1" Caption="대화시 이미지 크기를 조절할 수 있습니다." />
+        <Control Name="lbWidth" Caption="너비:" />
+        <Control Name="lblHeight" Caption="높이:" />
+        <Control Name="cbConstrain" Caption="제한 비율" />
+        <Control Name="rbNoResize" Caption="이미지 크기를 조절하지 마세요" />
+        <Control Name="rbResize" Caption="정의된 크기로 이미지 크기를 조절" />
+    </Form>
+    <Form Name="ImageWizardRemoveTransparencyFrame" >
+        <Control Name="Label1" Caption="이미지를 투명하게 하기 위한 배경을 선택" />
+        <Control Name="Label2" Caption="배경:" />
+    </Form>
+    <Form Name="ImageWizardJPEGColorSpaceFrame" >
+        <Control Name="Label1" Caption="Jpeg의 원하는 색을 정의하세요" />
+    </Form>
+    <Form Name="ImageWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="JPEG 이미지를 위해 압축률과 평활도를 정의 할 수 있습니다." />
+        <Control Name="gbQuality" Caption="압축률" />
+        <Control Name="Label5" Caption="더 좋게 (최대 크기)" />
+        <Control Name="Label6" Caption="더 작게 (최소 크기)" />
+        <Control Name="gbSmoothing" Caption="평활화" />
+        <Control Name="cbLossless" Caption=" 가능하면 변경을 손실하지 않도록/n JPEG 이미지를 위해 소스파일로 부터 정보를 사용하세요" />
+    </Form>
+    <Form Name="ImageWizardWatermarkFrame" >
+        <Control Name="Label1" Caption="이미지에 투명한 로고를 적용하세요" />
+        <Control Name="Label2" Caption="로고:" />
+        <Control Name="gbTransparency" Caption="투명도:" />
+        <Control Name="Label4" Caption="없음" />
+        <Control Name="Label3" Caption="최대" />
+        <Control Name="bnEffects" Caption="&lt;효과 &gt;" />
+        <Control Name="ElGroupBox2" Caption="위치" />
+        <Control Name="Label6" Caption="공간:" />
+        <Control Name="cbAddLogo" Caption="로고를 이미지에 추가" />
+    </Form>
+    <Form Name="ImageWizardMaskFrame" >
+        <Control Name="Label1" Caption="프레임을 사진에 추가" />
+        <Control Name="Label2" Caption="프레임:" />
+        <Control Name="lbSpace" Caption="공간:" />
+        <Control Name="rbNoFrame" Caption="프레임 없음" />
+        <Control Name="rbFrameIndex" Caption="프레임 색인:" />
+        <Control Name="rbFrameFile" Caption="파일로 프레임 일기:" />
+        <Control Name="cbInsideImage" Caption="내부 이미지" />
+    </Form>
+    <Form Name="ImageWizardCommentFrame" >
+        <Control Name="Label1" Caption="설명을 이미지 속성을 기바으로 하여/n사진에 추가하실 수 있습니다. " />
+        <Control Name="lbComment" Caption="설명:" />
+        <Control Name="gbPos" Caption="위치" />
+        <Control Name="Label6" Caption="공간:" />
+        <Control Name="gbFont" Caption="글꼴" />
+        <Control Name="Label3" Caption="이름:" />
+        <Control Name="Label4" Caption="크기:" />
+        <Control Name="Label5" Caption="색갈:" />
+        <Control Name="cbSoftShadow" Caption="부드러운 그림자 추가" />
+        <Control Name="gbExample" Caption="실예" />
+        <Control Name="cbAddComment" Caption="이미지에 설명문을 추가" />
+    </Form>
+    <Form Name="PDFListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="하위 폴더 포함" />
+        <Control Name="miCheck" Caption="검사" />
+        <Control Name="miUncheck" Caption="검사하지 않음" />
+        <Control Name="miCheckAll" Caption="모두 검사" />
+        <Control Name="miUncheckAll" Caption="모두 검사하지 않음" />
+        <Control Name="miCheckByMask" Caption="마스크로 검사.." />
+        <Control Name="miRestoreLast" Caption="마지막 선택 회복" />
+        <Control Name="miMoveUp" Caption="위로 이동" />
+        <Control Name="miMoveDown" Caption="아래로 이동" />
+        <Control Name="miLanguage" Caption="언어" />
+    </Form>
+    <Form Name="PDFWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; 뒤로(&amp;B)" />
+        <Control Name="bnNext" Caption="다음(&amp;N) &gt;&gt;" />
+        <Control Name="bnCancel" Caption="취소(&amp;)" />
+        <Control Name="bnFinish" Caption="시작(&amp;S)!" />
+    </Form>
+    <Form Name="PDFWizardFileFrame" >
+        <Control Name="Label1" Caption="새파일 이름 설정" />
+        <Control Name="Label2" Caption="파일 이름:" />
+        <Control Name="edFileName" Caption="파일 이름 편집" />
+        <Control Name="bnSetDefault" Caption="이 경로를 기본값으로 설정" />
+    </Form>
+    <Form Name="PDFWizardExtractPagesFrame" >
+        <Control Name="Label1" Caption="선택된 페이지를 pdf 문서에서 추출하세요" />
+        <Control Name="Label2" Caption="실예 10,15,18-20,25-35" />
+        <Control Name="lbBookmarkCaption" Caption="새로운 파일을 다음의 수준에서 모두 표지:" />
+        <Control Name="rbAllPages" Caption="모든 페이지 (&amp;A) 추출" />
+        <Control Name="rbSelectedPages" Caption="&amp;선택된 페이지만 추출" />
+        <Control Name="rbBookmarks" Caption="북마크로 분할" />
+        <Control Name="rbBlanks" Caption="빈 페이지로 분할" />
+    </Form>
+    <Form Name="PDFWizardBlankToleranceFrame" />
+    <Form Name="PDFWizardUniteFrame" >
+        <Control Name="Label1" Caption="분할된 페이지를 새로운 문서에 결합할 수 있습니다." />
+        <Control Name="gbCombine" Caption="페이지 결합" />
+        <Control Name="Label2" Caption="새로운 문서 만들기" />
+        <Control Name="Label3" Caption="페이지" />
+    </Form>
+    <Form Name="PDFWizardFileTemplateFrame" >
+        <Control Name="rbFileCount" Caption="목적 폴더 기초한 파일 개수" />
+        <Control Name="rbCounter" Caption="숫자 세기 시작:" />
+        <Control Name="Label1" Caption="메 페이지에 해당한 파일을 생성하기 위한 템플릿을 입력하세요./n  # 기호는 페이지 번호로 교체할 수 있습니다." />
+        <Control Name="Label2" Caption="템플릿" />
+        <Control Name="edTemplate" Caption="" />
+        <Control Name="[Name].페이지#.txt|" Caption="" />
+    </Form>
+    <Form Name="PDFWizardPDFOptionsFrame" >
+        <Control Name="Label1" Caption="PDF에 고급 옵션을 설정할 수있습니다./n" />
+        <Control Name="Label2" Caption="PDF 버전:" />
+        <Control Name="lbCompressionLevel" Caption="압축 레벨:" />
+        <Control Name="cbCompression" Caption="압축 활성화" />
+    </Form>
+    <Form Name="PDFWizardHeaderFrame" >
+        <Control Name="cbNumber" Caption="이전 문서로부터 계속" />
+        <Control Name="lbl1" Caption="[page] - 페이지 번호/n [date] - 현재 날짜" />
+        <Control Name="elgr" Caption="시작:" />
+        <Control Name="Label2" Caption="길이:" />
+        <Control Name="cbComment" Caption="머리부" />
+        <Control Name="grPosition" Caption="위치" />
+        <Control Name="btnPosLeft" Caption="왼쪽" />
+        <Control Name="btnPosCenter" Caption="중심" />
+        <Control Name="btnPosRight" Caption="오른쪽" />
+        <Control Name="Label1" Caption="페이지 머리를를 맞추세요" />
+    </Form>
+    <Form Name="PDFWizardFooterFrame" >
+        <Control Name="btnPosRight" Caption="오른쪽" />
+        <Control Name="cbNumber" Caption="이전 문서로 계속" />
+        <Control Name="Label1" Caption="페이지 바닥글 조절" />
+        <Control Name="lbl1" Caption="[page] - 페이지 번호/n [date] - 현재 날짜" />
+        <Control Name="elgr" Caption="시작 페이지" />
+        <Control Name="Label2" Caption="길이:" />
+        <Control Name="cbComment" Caption="바닥글:" />
+    </Form>
+    <Form Name="ToPDFBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="하위 폴더 포함" />
+        <Control Name="miCheck" Caption="검사" />
+        <Control Name="miUncheck" Caption="검사하지 않음" />
+        <Control Name="miCheckAll" Caption="모두 검사" />
+        <Control Name="miUncheckAll" Caption="모두 검사하지 않음" />
+        <Control Name="miCheckByMask" Caption="마스크로 검사.." />
+        <Control Name="miRestoreLast" Caption="마지막 선택 회복" />
+        <Control Name="miMoveUp" Caption="위로 이동" />
+        <Control Name="miMoveDown" Caption="아래로 이동" />
+        <Control Name="miLanguage" Caption="언어" />
+    </Form>
+    <Form Name="ToPDFWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; 뒤로(&amp;B)" />
+        <Control Name="bnNext" Caption="다음(&amp;N) &gt;&gt;" />
+        <Control Name="bnCancel" Caption="취소(&amp;)" />
+        <Control Name="bnFinish" Caption="시작(&amp;S)!" />
+    </Form>
+    <Form Name="ToPDFWizardCombiDestinationFrame" >
+        <Control Name="rbCombine" Caption="모든 문서를 하나의 문서로 결합" />
+        <Control Name="rbSeparateFolder" Caption="파일을 폴더로 분할" />
+        <Control Name="rbSeparateNamePart" Caption="일반 이름 부분으로 분할" />
+    </Form>
+    <Form Name="ToPDFWizardNamePartFrame" />
+    <Form Name="ToPDFWizardHeaderFrame" >
+        <Control Name="Label1" Caption="페이지 머리부를 조절" />
+        <Control Name="Label2" Caption="길이:" />
+        <Control Name="lbl1" Caption="[page] - 페이지 번호/n [date] - 현재 날짜" />
+        <Control Name="elgr" Caption="시작:" />
+        <Control Name="cbComment" Caption="머리부" />
+        <Control Name="cbNumber" Caption="이전 문서로 계속" />
+    </Form>
+    <Form Name="ToPDFWizardFooterFrame" >
+        <Control Name="Label1" Caption="페이지 바닥글 조절" />
+        <Control Name="cbNumber" Caption="이전 문서로 계속" />
+        <Control Name="Label2" Caption="길이:" />
+        <Control Name="lbl1" Caption="[page] - 페이지 번호/n [date] - 현재 날짜" />
+        <Control Name="elgr" Caption="시작 페이지:" />
+        <Control Name="cbComment" Caption="바닥글:" />
+    </Form>
+    <Form Name="MailListBrowseFrame" >
+        <Control Name="miLanguage" Caption="언어" />
+        <Control Name="miIncludeSubfolders" Caption="하위 폴더 포함" />
+        <Control Name="miCheck" Caption="검사" />
+        <Control Name="miUncheck" Caption="검사하지 않음" />
+        <Control Name="miCheckAll" Caption="모두 검사" />
+        <Control Name="miUncheckAll" Caption="모두 검사하지 않음" />
+        <Control Name="miCheckByMask" Caption="마스크로 검사.." />
+        <Control Name="miRestoreLast" Caption="마지막 선택 회복" />
+        <Control Name="miMoveUp" Caption="위로 이동" />
+        <Control Name="miMoveDown" Caption="아래로 이동" />
+    </Form>
+    <Form Name="MailWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; 뒤로(&amp;B)" />
+        <Control Name="bnNext" Caption="다음(&amp;N) &gt;&gt;" />
+        <Control Name="bnCancel" Caption="취소(&amp;)" />
+        <Control Name="bnFinish" Caption="시작(&amp;S)!" />
+    </Form>
+    <Form Name="MailWizardFileFrame" >
+        <Control Name="Label1" Caption="새파일 이름 설정" />
+        <Control Name="Label2" Caption="파일 이름:" />
+        <Control Name="edFileName" Caption="파일 이름 편집" />
+        <Control Name="bnSetDefault" Caption="이 경로를 기본값으로 설정" />
+    </Form>
+    <Form Name="MailWizardTemplateFrame" >
+        <Control Name="Label1" Caption="새 목적 파일 이름 템플릿" />
+        <Control Name="lblHelp" Caption="사용가능한 마크로:/n /n    [name] - 소스 파일 이름/n    [subject] - 메일 제목/n    [sender] - 메일 송신자/n    [recipient] - 첫 메일 수신/n    [date:&lt;format&gt;] - 메일 날짜" />
+        <Control Name="lblTemplate" Caption="템플릿:" />
+    </Form>
+    <Form Name="MailWizardItemsFrame" >
+        <Control Name="Label1" Caption="보내려고 하는 필드 선택" />
+        <Control Name="cgItems" Caption="보내려는 필드" >
+            <Item>전송자</Item>
+            <Item>수신자</Item>
+            <Item>CC (참조 복사)</Item>
+            <Item>BCC (숨은 참조)</Item>
+            <Item>날자</Item>
+            <Item>제목</Item>
+            <Item>본문</Item>
+        </Control>
+        <Control Name="cbDisableInet" Caption="이미지를 위해 인터넷을 접속하지 마세요" />
+        <Control Name="cbDateUTC" Caption="UTC로 날자 표시" />
+    </Form>
+    <Form Name="MailWizardCSSFrame" >
+        <Control Name="rbInternal" Caption="내부 스키마를 사용" />
+        <Control Name="rbExternal" Caption="외부 CSS 파일 사용" />
+        <Control Name="Label1" Caption="출력 문서 모양을 조절" />
+        <Control Name="bnTune" Caption="조절" />
+    </Form>
+    <Form Name="MailWizardAttachmentsFrame" >
+        <Control Name="Label1" Caption="무엇을 첨부하려고 하십니까??" />
+        <Control Name="grAttach" Caption="첨부" />
+        <Control Name="cbSaveAttachments" Caption="첨부 문서 정보" />
+        <Control Name="cbAttachUnpack" Caption="압축된 첨부파일 풀기" />
+        <Control Name="cbSeparateAttachMsg" Caption="분할 문서로 보관" />
+        <Control Name="cbIncludeImages" Caption="첨부 이미지를 문서에 포함" />
+        <Control Name="cbMsgConvert" Caption="첨부 메시지를 변환" />
+        <Control Name="cbSeparateAttach" Caption="각 폴더의 첨부파일" />
+    </Form>
+    <Form Name="HTMWizardPdfDocInfoFrame" >
+        <Control Name="Label1" Caption="문서 정보" />
+        <Control Name="Label2" Caption="저자:" />
+        <Control Name="Label3" Caption="작성자:" />
+        <Control Name="Label4" Caption="건반:" />
+        <Control Name="Label5" Caption="제목:" />
+        <Control Name="Label6" Caption="표제:" />
+    </Form>
+    <Form Name="HTMWizardPDFCompressionFrame" >
+        <Control Name="Label1" Caption="문서 압축 수준을 선택" />
+        <Control Name="rgCompression" Caption="압축 수준" >
+            <Item>빠른</Item>
+            <Item>일반</Item>
+            <Item>최대</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardPDFEncyptionFrame" >
+        <Control Name="Label1" Caption="PDF 문서를 보호할 수 있습니다." />
+        <Control Name="gbEncryption" Caption="문서 암호화" />
+        <Control Name="Label2" Caption="사용자 암호:" />
+        <Control Name="Label3" Caption="확인:" />
+        <Control Name="Label4" Caption="사용자 암호:" />
+        <Control Name="Label5" Caption="확인:" />
+        <Control Name="cgPermissions" Caption="사용자 허가" >
+            <Item>복사</Item>
+            <Item>수정</Item>
+            <Item>인쇄</Item>
+            <Item>양식</Item>
+            <Item>작성</Item>
+            <Item>해석</Item>
+            <Item>접근성</Item>
+            <Item>문서 조합</Item>
+            <Item>고해상도 인쇄</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMPaperSizeFrame" >
+        <Control Name="Label1" Caption="Adobe PDF 파일 페이지 크기 정의" />
+        <Control Name="rbCommon" Caption="일반" />
+        <Control Name="rbCustom" Caption="고객" />
+        <Control Name="rgOrientation" Caption="종이 방향" >
+            <Item>세로</Item>
+            <Item>가로</Item>
+        </Control>
+        <Control Name="lbWidth" Caption="너비:" />
+        <Control Name="lbWInch" Caption="인치" />
+        <Control Name="lbHInch" Caption="인치" />
+        <Control Name="lbHeight" Caption="높이:" />
+        <Control Name="Label2" Caption="종이 크기" />
+        <Control Name="cbFitPage" Caption="페이지에 맞추기" />
+    </Form>
+    <Form Name="HTMWizardPDFMarginFrame" >
+        <Control Name="Label1" Caption="출력 파일을 위한 여백 정의" />
+        <Control Name="Label2" Caption="윗쪽" />
+        <Control Name="Label3" Caption="아래쪽" />
+        <Control Name="Label4" Caption="왼쪽" />
+        <Control Name="lbRight" Caption="오른쪽" />
+    </Form>
+    <Form Name="MailWizardCombiDestinationFrame" >
+        <Control Name="Label1" Caption="결과 파일을 하나의 문서로 작성하거나 매 메일 파일을 독립적인 문서로 작성하시겠습니까?" />
+        <Control Name="lbFileName" Caption="파일 이름:" />
+        <Control Name="lbFolderName" Caption="폴더 이름:" />
+        <Control Name="rbCombine" Caption="모든 문서를 하나의 파일로 결합" />
+        <Control Name="rbSeparate" Caption="매 메일을 독립 파일로" />
+    </Form>
+    <Form Name="CommonWizardFolderFrame" >
+        <Control Name="Label1" Caption="목적 폴더 선택" />
+        <Control Name="Label2" Caption="폴더 이름:" />
+        <Control Name="cbKeepStructure" Caption="폴더 구조 보관" />
+        <Control Name="bnSetDefault" Caption="이 경로를 기본값으로 설정" />
+    </Form>
+    <Form Name="HTMListFrame" >
+        <Control Name="miIncludeSubfolders" Caption="하위 폴더 포함" />
+        <Control Name="miCheck" Caption="검사" />
+        <Control Name="miUncheck" Caption="검사하지 않음" />
+        <Control Name="miCheckAll" Caption="모두 검사" />
+        <Control Name="miUncheckAll" Caption="모두 검사하지 않음" />
+        <Control Name="miCheckByMask" Caption="마스크로 검사.." />
+        <Control Name="miRestoreLast" Caption="마지막 선택 회복" />
+        <Control Name="miMoveUp" Caption="위로 이동" />
+        <Control Name="miMoveDown" Caption="아래로 이동" />
+    </Form>
+    <Form Name="HTMViewFrame" >
+        <Control Name="miLanguage" Caption="언어" />
+    </Form>
+    <Form Name="HTMWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; 뒤로(&amp;B)" />
+        <Control Name="bnNext" Caption="다음(&amp;N) &gt;&gt;" />
+        <Control Name="bnCancel" Caption="취소(&amp;)" />
+        <Control Name="bnFinish" Caption="시작(&amp;S)!" />
+    </Form>
+    <Form Name="HTMWizardFileFrame" >
+        <Control Name="Label1" Caption="새파일 이름 설정" />
+        <Control Name="Label2" Caption="파일 이름:" />
+        <Control Name="edFileName" Caption="파일 이름 편집" />
+        <Control Name="bnSetDefault" Caption="이 경로를 기본값으로 설정" />
+        <Control Name="cbSingleImage" Caption="하나의 페이지로 변환" />
+    </Form>
+    <Form Name="HTMWizardHeaderFrame" >
+        <Control Name="Label1" Caption="머리글과 바닥글Set the header and footer for the output document" />
+        <Control Name="gbHeader" Caption="머리글" />
+        <Control Name="Label4" Caption="IE'의 머리글과 바닥글은 지원됩니다./n 실예:  (&amp;&amp;w&amp;&amp;bPage &amp;&amp;p of &amp;&amp;P) /n   페이지 번호 추가 (&quot;Page 1 of 10&quot;)" />
+        <Control Name="Label2" Caption="머리글 html 파일:" />
+    </Form>
+    <Form Name="HTMWizardFooterFrame" >
+        <Control Name="Label1" Caption="출력 문서를 위한 바닥글 설정" />
+        <Control Name="gbFooter" Caption="바닥글" />
+        <Control Name="Label4" Caption="IE'의 머리글과 바닥글은 지원됩니다./n 실예:  (&amp;&amp;u&amp;&amp;b&amp;&amp;d)/n   파일 이름과 날자를 추가 (&quot;Page 1 of 10&quot;)" />
+        <Control Name="Label2" Caption="바닥글 html 파일:" />
+    </Form>
+    <Form Name="HTMWizardPDFWatermarkFrame" >
+        <Control Name="Label1" Caption="결과 문서에/ 양수표 선택n " />
+        <Control Name="lbComment" Caption="텍스트 양수표:" />
+        <Control Name="Label2" Caption="페이지 번호 (1-5,10)" />
+        <Control Name="gbFont" Caption="글꼴" />
+        <Control Name="Label3" Caption="이름:" />
+        <Control Name="Label4" Caption="크기:" />
+        <Control Name="Label5" Caption="색갈:" />
+        <Control Name="gbPos" Caption="위치" />
+    </Form>
+    <Form Name="HTMWizardPDFRenderFrame" >
+        <Control Name="Label1" Caption="결과 문서에 포함시키려는 /n 요소를 선택 " />
+        <Control Name="cgItems" Caption="레더 하려는 항목" >
+            <Item>텍스트</Item>
+            <Item>모양</Item>
+            <Item>이미지</Item>
+        </Control>
+        <Control Name="rgEncodeType" Caption="사용된 투르 타입 글꼴 내장" >
+            <Item>없음</Item>
+            <Item>전체</Item>
+            <Item>하위 집합</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardImageFormatFrame" >
+        <Control Name="Label1" Caption="출력 HTML 렌더링을 위한/n  출력 이미지 선택" />
+        <Control Name="Label2" Caption="소스 DPI:" />
+        <Control Name="rgImageFormat" Caption="출력 이미지 포맷" >
+            <Item>BMP - 낮은 압축률</Item>
+            <Item>JPEG - 사진을 위한 가장 좋은</Item>
+            <Item>CCITT3 - 팍스 압축, b/w</Item>
+            <Item>CCITT4 - 팍스 압축, b/w</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardJpegQualityFrame" >
+        <Control Name="Label1" Caption="JPEG 이미지를 위한 압축률을 정의할 수 있습니다." />
+        <Control Name="ElGroupBox1" Caption="압축률" />
+        <Control Name="Label5" Caption="Better (최대 크기)" />
+        <Control Name="Label6" Caption="더 작게 (최소 크기)" />
+    </Form>
+    <Form Name="HTMWizardBmpPixelFormatFrame" >
+        <Control Name="Label1" Caption="이미지 표시 방법을 정의하기 위한 /n비트멥 이미지를 위한 비트 포맷을 표시 /n" />
+        <Control Name="rgPixelFormat" Caption="이미지 픽셀 포맷" >
+            <Item>1 비트 - 픽셀당 한 비트 (흑백색 팔레트 )</Item>
+            <Item>4 bit - 16-색 팔레트.</Item>
+            <Item>8 비트 - 256-색 팔레트</Item>
+            <Item>15 bit - 투르 컬러 비트 맵, RGB 압축</Item>
+            <Item>16 비트 - 투르 컬러 비트맵, 비트필드 압축</Item>
+            <Item>24 비트 - 투르 컬러 비트맵, 픽셀당 24 비트</Item>
+            <Item>32 bit - 투르 컬러 비트맵, 픽셀당 32 비트</Item>
+        </Control>
+    </Form>
+    <Form Name="HTMWizardBkgndFrame" >
+        <Control Name="Label1" Caption="배경 이미지를 선택하시거나/n 사용자 정의 배경 색깔을 사용할 수 있습니다." />
+        <Control Name="rbColor" Caption="배경 색 사용" />
+    </Form>
+    <Form Name="HTMWizardPdfSignInfoFrame" >
+        <Control Name="Label1" Caption="출력 문서에 수자식 수표를 추가하실 수 있습니다 ." />
+        <Control Name="Label2" Caption="위치" />
+        <Control Name="Label5" Caption="연계:" />
+        <Control Name="Label6" Caption="원인:" />
+        <Control Name="Label3" Caption="PFX 파일:" />
+        <Control Name="Label4" Caption="암호:" />
+    </Form>
+    <Form Name="ImageWizardJP2KRateFrame" >
+        <Control Name="Label1" Caption="JPEG 2000 포맷을 위한 압축 율을 정의할 수 있습니다." />
+        <Control Name="ElGroupBox1" Caption="비율" />
+        <Control Name="Label5" Caption="Better (최대 크기)" />
+        <Control Name="Label6" Caption="더 작게 (최소 크기)" />
+    </Form>
+    <Form Name="CADViewFrame" >
+        <Control Name="miLanguage" Caption="언어" />
+    </Form>
+    <Form Name="ImageWizardIcoSizeFrame" >
+        <Control Name="Label1" Caption="최종 이미지에 포함하고 싶은 아이콘 크기를 검사하세요(하나의 아이콘은 각이한 크기의 여러 이미지를 포함할 수 있습니다.)" />
+        <Control Name="cbSelectBest" Caption="가장 좋은 해상도를 선택할 수 있습니다." />
+        <Control Name="cbStandard" Caption="모든 표준 해상도" />
+    </Form>
+    <Form Name="ImageWizardIcoColorsFrame" >
+        <Control Name="Label1" Caption="ICO 포맷은 파일의 일부 컬러를 지원합니다./n 포함하려는 색깔을 선택하시오" />
+        <Control Name="cgColors" Caption="" >
+            <Item>16 colors</Item>
+            <Item>256 색깔</Item>
+            <Item>투르 컬러</Item>
+            <Item>WindowsXP  아이콘</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTransparencyFrame" >
+        <Control Name="Label1" Caption="투명도를 위한 색깔을 선택하세요" />
+        <Control Name="ElGroupBox1" Caption="투명 색" />
+        <Control Name="lbBkgnd" Caption="배경:" />
+        <Control Name="bnSelectColors" Caption="색갈 선택..." />
+        <Control Name="rbNoTransparency" Caption="투명하지 않음" />
+        <Control Name="rbSourceFile" Caption="소스파일로부터 투명도를 이용하세요" />
+        <Control Name="rbUseColors" Caption="투명도를 위해 이 컬러를 설정하세요" />
+        <Control Name="cbTransparencyMethod" Caption="" >
+            <Item>알파 채널</Item>
+            <Item>왼쪽 위 픽셀l</Item>
+            <Item>아래 왼쪽 픽셀l</Item>
+            <Item>오른족 위 픽셀</Item>
+            <Item>오른쪽 아래 픽셀</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardTiffCompressionFrame" >
+        <Control Name="Label1" Caption="최종 TIFF 문서 압축 선택" />
+        <Control Name="rgCompression" Caption="" >
+            <Item>압축하지 않음</Item>
+            <Item>LZW 압축</Item>
+            <Item>RLE 압축 (packbits)</Item>
+            <Item>JPEG 압축</Item>
+            <Item>2수준 Huffman 압축 (CCITT1D)</Item>
+            <Item>Bilevel 그룹 3 CCITT 압축, 1차원 (G3FAX1D)</Item>
+            <Item>2수준 그룹 3 CCITT 압축, 2차원 (G3FAX2D)</Item>
+            <Item>Bilevel Group 4 CCITT compression, 2차원 (G4FAX)</Item>
+            <Item>ZIP 압축 (비표준)</Item>
+            <Item>비손실 압축 (Adobe zip 압축, 비표준)</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardPhotometInterpretFrame" >
+        <Control Name="rgColorSpace" Caption="" >
+            <Item>흰색 0</Item>
+            <Item>검은색 0</Item>
+            <Item>RGB</Item>
+            <Item>RGB 팰리트</Item>
+            <Item>투명도 </Item>
+        </Control>
+        <Control Name="마스크|CMYK|YCBCR|CIELAB|" Caption="" />
+    </Form>
+    <Form Name="ImageWizardTIFFColorSpaceFrame" >
+        <Control Name="Label1" Caption=" TIFF의 파일에 포함된 Jpeg의 원하는 색을 정의하세요" />
+        <Control Name="rgColorSpace" Caption="JPEG 색 공간" >
+            <Item>RGB</Item>
+            <Item>GRAYLEV</Item>
+            <Item>YCbCr</Item>
+            <Item>CMYK</Item>
+            <Item>YCbCrK</Item>
+        </Control>
+    </Form>
+    <Form Name="SimpleImageWizardForm" />
+    <Form Name="ImageWizardColorsFrame" >
+        <Control Name="Label1" Caption="목적 이미지에서 색깔 수 선택" />
+        <Control Name="rgColors" Caption="색상" >
+            <Item>검은색 &amp;&amp; 흔식</Item>
+            <Item>그레이스케일</Item>
+            <Item>16 색</Item>
+            <Item>256 색</Item>
+            <Item>투르 컬러 (24bit)</Item>
+        </Control>
+    </Form>
+    <Form Name="ImageWizardBWFrame" />
+    <Form Name="PDFWizardJpegQualityFrame" />
+    <Form Name="PDFWizardDPIFrame" >
+        <Control Name="Label1" Caption="생성된 이미지의 압축률과 크기를 선택하세요" />
+        <Control Name="Label2" Caption="페이지 크기" />
+        <Control Name="rb75" Caption="75 DPI (스크린 해상도)" />
+        <Control Name="rb150" Caption="150 DPI (초안 인쇄 해상도)" />
+        <Control Name="rb300" Caption="300 DPI (색갈 인쇄 해상도)" />
+        <Control Name="rbCustom" Caption="고객" />
+        <Control Name="cbOriginal" Caption="원본" />
+    </Form>
+    <Form Name="PDFWizardImageCombineFrame" >
+        <Control Name="Label1" Caption="매 페이지를 개개 파일에 쓸 수 있거나./n 하나의 큰 파일로 결할할 수 있습니다." />
+        <Control Name="lbSet" Caption="장소" />
+        <Control Name="lbPages" Caption="너비에 의한 페이지" />
+        <Control Name="Label3" Caption="pdf 파일 변환을 성공적으로 하지 못하였다면 이 옵션을 사용하세요" />
+        <Control Name="cbCombine" Caption="페이지를 하나의 파일로 결합" />
+        <Control Name="Label2" Caption="높이에 의한 페이지" />
+        <Control Name="rbAllPages" Caption="모든 페이지를 하나의 이미지로" />
+        <Control Name="rbPagesByHeight" Caption="장소" />
+        <Control Name="cbSedPDF" Caption="대체 출력 방법 사용" />
+    </Form>
+    <Form Name="XLSListBrowseFrame" >
+        <Control Name="miIncludeSubfolders" Caption="하위 폴더 포함" />
+        <Control Name="miCheck" Caption="검사" />
+        <Control Name="miUncheck" Caption="검사하지 않음" />
+        <Control Name="miCheckAll" Caption="모두 검사" />
+        <Control Name="miUncheckAll" Caption="모두 검사하지 않음" />
+        <Control Name="miCheckByMask" Caption="마스크로 검사.." />
+        <Control Name="miRestoreLast" Caption="마지막 선택 회복" />
+        <Control Name="miMoveUp" Caption="위로 이동" />
+        <Control Name="miMoveDown" Caption="아래로 이동" />
+    </Form>
+    <Form Name="XLSViewFrame" >
+        <Control Name="miLanguage" Caption="언어" />
+    </Form>
+    <Form Name="XLSWizardForm" >
+        <Control Name="bnBack" Caption="&lt;&lt; 뒤로(&amp;B)" />
+        <Control Name="bnNext" Caption="다음(&amp;N) &gt;&gt;" />
+        <Control Name="bnCancel" Caption="취소(&amp;)" />
+        <Control Name="bnFinish" Caption="시작(&amp;S)!" />
+    </Form>
+    <Form Name="XLSWizardFileFrame" >
+        <Control Name="Label1" Caption="새파일 이름 설정" />
+        <Control Name="Label2" Caption="파일 이름:" />
+        <Control Name="edFileName" Caption="파일 이름 편집" />
+        <Control Name="bnSetDefault" Caption="이 경로를 기본값으로 설정" />
+    </Form>
+    <Form Name="XLSWizardPaperProp" />
+    <Form Name="XLSWizardTextPropFrame" >
+        <Control Name="Label1" Caption="텍스트 옵션 선택" />
+        <Control Name="rgTextDelimiter" Caption="텍스트 구분기호" >
+            <Item>없음</Item>
+            <Item>탭</Item>
+            <Item>공간</Item>
+            <Item>CSV</Item>
+            <Item>기타</Item>
+        </Control>
+    </Form>
+</Forms>

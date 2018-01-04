@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73c9a60e-45ea-4493-922c-11758d4a33de" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="autoPrintSystem.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/autoPrintSystem/autoPrintSystem.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="68" column="71" lean-forward="false" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
+              <folding>
+                <marker date="1504782655000" expanded="true" signature="3620:3832" ph="SELECT oi.*,... order_items" />
+                <marker date="1504782655000" expanded="true" signature="5154:5362" ph="SELECT oi.*,... order_items" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recipt-preview-print.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recipt-preview-print.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+              <folding>
+                <marker date="1504709711000" expanded="true" signature="338:369" ph="select * fro... order" />
+                <marker date="1504709711000" expanded="true" signature="1227:1270" ph="select disco... bill" />
+                <marker date="1504709711000" expanded="true" signature="1646:1693" ph="select name table_status" />
+                <marker date="1504709711000" expanded="true" signature="2107:2169" ph="select sales... accounts_setting" />
+                <marker date="1504709711000" expanded="true" signature="5964:6117" ph="select oi.id... order_items" />
+                <marker date="1504709711000" expanded="true" signature="6312:6513" ph="..." />
+                <marker date="1504709711000" expanded="true" signature="6352:6371" ph="..." />
+                <marker date="1504709711000" expanded="true" signature="6438:6453" ph="..." />
+                <marker date="1504709711000" expanded="true" signature="6454:6513" ph="..." />
+                <marker date="1504709711000" expanded="true" signature="6883:6902" ph="..." />
+                <marker date="1504709711000" expanded="true" signature="6903:6946" ph="..." />
+                <marker date="1504709711000" expanded="true" signature="7081:7204" ph="SELECT a.nam... order_items_addon" />
+                <marker date="1504709711000" expanded="true" signature="7438:7476" ph="..." />
+                <marker date="1504709711000" expanded="true" signature="7477:7947" ph="..." />
+                <marker date="1504709711000" expanded="true" signature="7550:7608" ph="..." />
+                <marker date="1504709711000" expanded="false" signature="7687:7725" ph="..." />
+                <marker date="1504709711000" expanded="false" signature="7822:7880" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&amp;&amp; $_SESSION['type'] == &quot;admin&quot;</find>
+      <find>active</find>
+      <find>&lt;li class=&quot;active&quot;&gt;</find>
+      <find>discountModal</find>
+      <find>NULL AUTO_INCREMENT</find>
+      <find>tags</find>
+      <find>function fetch</find>
+      <find>Azeem Ullah</find>
+      <find>&lt;link href=&quot;http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;</find>
+      <find>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons&quot; /&gt;</find>
+      <find>font</find>
+      <find>complemen</find>
+      <find>pay</find>
+      <find>subTotal</find>
+      <find>updatePa</find>
+      <find>UPDATE</find>
+      <find>discount</find>
+      <find>paidBillModal</find>
+      <find>$total_cost_calculated</find>
+      <find>$conn73</find>
+      <find>paid</find>
+      <find>button</find>
+      <find>updatePayment</find>
+      <find>initFormExtendedDatetimepickers</find>
+      <find>printBill</find>
+      <find>accounts</find>
+      <find>fetch</find>
+      <find>print to</find>
+      <find>love</find>
+      <find>print</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>assets/</replace>
+      <replace>data-toggle=&quot;collapse&quot;</replace>
+      <replace>./api/api-logout.php</replace>
+      <replace>logout</replace>
+      <replace>Logout</replace>
+      <replace>Piccolo Uccello</replace>
+      <replace>#c71f26</replace>
+      <replace>red</replace>
+      <replace>c71f26</replace>
+      <replace>int(11) NULL</replace>
+      <replace />
+      <replace>&lt;li&gt;</replace>
+      <replace>int(11) NOT NULL DEFAULT '0'</replace>
+      <replace>4Slash</replace>
+      <replace>&lt;link href=&quot;assets/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot;&gt;</replace>
+      <replace>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;assets/css/material-icons.css&quot; /&gt;</replace>
+      <replace>&amp;hearts;</replace>
+    </replaceStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/api-insertProcurement.php" />
+        <option value="$PROJECT_DIR$/api/api-insertDish.php" />
+        <option value="$PROJECT_DIR$/../picollo/api/addOrder.php" />
+        <option value="$PROJECT_DIR$/kitchen_home.php" />
+        <option value="$PROJECT_DIR$/../picollo/table.php" />
+        <option value="$PROJECT_DIR$/../picollo/list.php" />
+        <option value="$USER_HOME$/Desktop/Azeem Ullah's Files/Azeem Ullah - Sprout ERP Files/Sprout Backups/21 August 2017 Workstation/sprout.sql" />
+        <option value="$PROJECT_DIR$/api/api-cancelDish.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/recipt.php" />
+        <option value="$PROJECT_DIR$/recipt-kitchen.php" />
+        <option value="$PROJECT_DIR$/assets/css/font-awesome.min.css" />
+        <option value="$PROJECT_DIR$/api/api-complementryDish.php" />
+        <option value="$PROJECT_DIR$/api/api-orderDetailsApplyDiscount.php" />
+        <option value="$PROJECT_DIR$/api/api-updateOrderPayment.php" />
+        <option value="$PROJECT_DIR$/api/api-fetchOrder.php" />
+        <option value="$PROJECT_DIR$/assets/js/demo.js" />
+        <option value="$PROJECT_DIR$/api/api-fetchOrderCustomized.php" />
+        <option value="$PROJECT_DIR$/api/api-fetchBillCustomized.php" />
+        <option value="$PROJECT_DIR$/api/api-fetchBillCustomized2.php" />
+        <option value="$PROJECT_DIR$/recipt-preview.php" />
+        <option value="$PROJECT_DIR$/../../etc/php.ini" />
+        <option value="$PROJECT_DIR$/api/api-fetchOrderDetails.php" />
+        <option value="$PROJECT_DIR$/accountsSummry.php" />
+        <option value="$PROJECT_DIR$/bill.php" />
+        <option value="$PROJECT_DIR$/cosine.php" />
+        <option value="$PROJECT_DIR$/dashboard.php" />
+        <option value="$PROJECT_DIR$/dish.php" />
+        <option value="$PROJECT_DIR$/dishType.php" />
+        <option value="$PROJECT_DIR$/edit-cuisine.php" />
+        <option value="$PROJECT_DIR$/edit-dish.php" />
+        <option value="$PROJECT_DIR$/edit-dishType.php" />
+        <option value="$PROJECT_DIR$/edit-table.php" />
+        <option value="$PROJECT_DIR$/inventory.php" />
+        <option value="$PROJECT_DIR$/inventory-edit.php" />
+        <option value="$PROJECT_DIR$/order.php" />
+        <option value="$PROJECT_DIR$/procurement.php" />
+        <option value="$PROJECT_DIR$/procurement-edit.php" />
+        <option value="$PROJECT_DIR$/table.php" />
+        <option value="$PROJECT_DIR$/template - Copy.php" />
+        <option value="$PROJECT_DIR$/users.php" />
+        <option value="$PROJECT_DIR$/wastage.php" />
+        <option value="$PROJECT_DIR$/summry-report-preview.php" />
+        <option value="$PROJECT_DIR$/recipt-kitchen-print.php" />
+        <option value="$PROJECT_DIR$/recipt-print-bar.php" />
+        <option value="$USER_HOME$/Desktop/untitled folder/htdocs/htdocs/restuarant/autoPrintSystem/test1.php" />
+        <option value="$PROJECT_DIR$/autoPrintSystem/test1.php" />
+        <option value="$PROJECT_DIR$/order-details.php" />
+        <option value="$USER_HOME$/Desktop/sprout_erp-masterMinifiedandFinalMerged/src/components/Pages/Contacts/index.jade" />
+        <option value="$PROJECT_DIR$/recipt-preview-print.php" />
+        <option value="$PROJECT_DIR$/autoPrintSystem/autoPrintSystem.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="66" />
+    <option name="y" value="65" />
+    <option name="width" value="2192" />
+    <option name="height" value="1268" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="restuarant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restuarant" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restuarant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restuarant" type="462c0819:PsiDirectoryNode" />
+              <item name="autoPrintSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Videos/sprout_erp-master" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://A:/Workstation/htdocs/restuarant/assets/js/demo.js" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\restuarant" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73c9a60e-45ea-4493-922c-11758d4a33de" name="Default" comment="" />
+      <created>1500979389030</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500979389030</updated>
+      <workItem from="1500979390202" duration="23241000" />
+      <workItem from="1501063898358" duration="1507000" />
+      <workItem from="1501073715382" duration="16356000" />
+      <workItem from="1501148984207" duration="10877000" />
+      <workItem from="1501164303525" duration="5219000" />
+      <workItem from="1501352208113" duration="626000" />
+      <workItem from="1501574791296" duration="601000" />
+      <workItem from="1501575420103" duration="5740000" />
+      <workItem from="1501587327290" duration="18080000" />
+      <workItem from="1501611990937" duration="7410000" />
+      <workItem from="1502375679600" duration="2944000" />
+      <workItem from="1502457364439" duration="938000" />
+      <workItem from="1502461243056" duration="1489000" />
+      <workItem from="1502532348830" duration="209000" />
+      <workItem from="1502536242151" duration="11782000" />
+      <workItem from="1502561166928" duration="2296000" />
+      <workItem from="1502606514943" duration="2252000" />
+      <workItem from="1502614426267" duration="3953000" />
+      <workItem from="1502621261812" duration="5025000" />
+      <workItem from="1502629410231" duration="11269000" />
+      <workItem from="1503301519342" duration="82000" />
+      <workItem from="1503309725160" duration="1337000" />
+      <workItem from="1503314330850" duration="627000" />
+      <workItem from="1503315149006" duration="38000" />
+      <workItem from="1503315203990" duration="5425000" />
+      <workItem from="1503480904883" duration="10476000" />
+      <workItem from="1503568052977" duration="14414000" />
+      <workItem from="1503653048716" duration="12446000" />
+      <workItem from="1503736113107" duration="5947000" />
+      <workItem from="1503920580604" duration="3170000" />
+      <workItem from="1504601914067" duration="7897000" />
+      <workItem from="1504687892186" duration="752000" />
+      <workItem from="1504689376343" duration="33000" />
+      <workItem from="1504693301740" duration="3904000" />
+      <workItem from="1504705394430" duration="705000" />
+      <workItem from="1504782262899" duration="614000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="199681000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="66" y="65" width="2192" height="1268" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2617057" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20711678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="3" column="2163" lean-forward="true" selection-start-line="3" selection-start-column="2163" selection-end-line="3" selection-end-column="2163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-putToWastage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-orderDetailsApplyDiscount.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-updateOrderPayment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery.datatables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="247" column="20" lean-forward="true" selection-start-line="247" selection-start-column="20" selection-end-line="247" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-fetchBillCustomized2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-fetchBillCustomized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="112" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-putToWastageCustomized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="44" lean-forward="false" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-fetchOrderCustomized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../etc/php.ini" />
+    <entry file="file://$PROJECT_DIR$/api/api-fetchOrder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-cancelDish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-complementryDish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="121" lean-forward="true" selection-start-line="38" selection-start-column="121" selection-end-line="38" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/api-fetchOrderDetails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountsSummry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="392" column="26" lean-forward="true" selection-start-line="392" selection-start-column="26" selection-end-line="392" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bill.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="539" column="62" lean-forward="false" selection-start-line="539" selection-start-column="62" selection-end-line="539" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4518">
+          <caret line="496" column="62" lean-forward="false" selection-start-line="496" selection-start-column="62" selection-end-line="496" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3015">
+          <caret line="294" column="62" lean-forward="false" selection-start-line="294" selection-start-column="62" selection-end-line="294" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6080">
+          <caret line="632" column="58" lean-forward="false" selection-start-line="632" selection-start-column="58" selection-end-line="632" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dishType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4430">
+          <caret line="498" column="62" lean-forward="false" selection-start-line="498" selection-start-column="62" selection-end-line="498" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit-cuisine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4559">
+          <caret line="531" column="58" lean-forward="false" selection-start-line="531" selection-start-column="58" selection-end-line="531" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit-dish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7336">
+          <caret line="1094" column="58" lean-forward="false" selection-start-line="1094" selection-start-column="58" selection-end-line="1094" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit-dishType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4449">
+          <caret line="524" column="58" lean-forward="false" selection-start-line="524" selection-start-column="58" selection-end-line="524" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit-table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3817">
+          <caret line="428" column="58" lean-forward="false" selection-start-line="428" selection-start-column="58" selection-end-line="428" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5842">
+          <caret line="512" column="62" lean-forward="false" selection-start-line="512" selection-start-column="62" selection-end-line="512" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inventory-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4990">
+          <caret line="486" column="62" lean-forward="false" selection-start-line="486" selection-start-column="62" selection-end-line="486" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kitchen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kitchen_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="65" column="47" lean-forward="false" selection-start-line="65" selection-start-column="47" selection-end-line="65" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7500">
+          <caret line="596" column="62" lean-forward="false" selection-start-line="596" selection-start-column="62" selection-end-line="596" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/procurement.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5890">
+          <caret line="600" column="62" lean-forward="false" selection-start-line="600" selection-start-column="62" selection-end-line="600" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/procurement-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5222">
+          <caret line="526" column="62" lean-forward="false" selection-start-line="526" selection-start-column="62" selection-end-line="526" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="107" column="4" lean-forward="false" selection-start-line="107" selection-start-column="4" selection-end-line="109" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipt-preview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="333" column="0" lean-forward="true" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4219">
+          <caret line="412" column="62" lean-forward="false" selection-start-line="412" selection-start-column="62" selection-end-line="412" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template - Copy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3573">
+          <caret line="242" column="62" lean-forward="false" selection-start-line="242" selection-start-column="62" selection-end-line="242" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4511">
+          <caret line="475" column="62" lean-forward="false" selection-start-line="475" selection-start-column="62" selection-end-line="475" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wastage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="166" column="6" lean-forward="false" selection-start-line="166" selection-start-column="6" selection-end-line="166" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/untitled folder/htdocs/htdocs/restuarant/recipt-preview-print.php" />
+    <entry file="file://$PROJECT_DIR$/recipt-kitchen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="977">
+          <caret line="86" column="5" lean-forward="false" selection-start-line="78" selection-start-column="4" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipt-bar-print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2865">
+          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summry-report-preview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/untitled folder/htdocs/htdocs/restuarant/autoPrintSystem/test1.php" />
+    <entry file="file://$PROJECT_DIR$/recipt-kitchen-print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="173" column="37" lean-forward="false" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order-details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="421" column="8" lean-forward="false" selection-start-line="421" selection-start-column="8" selection-end-line="434" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Volumes/AZEEM ULLAH/sprout_erp-master/src/components/partials/Modal/index.jade" />
+    <entry file="file://$USER_HOME$/Desktop/sprout_erp-masterMinifiedandFinalMerged/src/components/Pages/Contacts/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/sprout_erp-masterMinifiedandFinalMerged/src/Pages/Contact/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recipt-preview-print.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="119" column="35" lean-forward="false" selection-start-line="119" selection-start-column="35" selection-end-line="119" selection-end-column="35" />
+          <folding>
+            <marker date="1504709711000" expanded="true" signature="338:369" ph="select * fro... order" />
+            <marker date="1504709711000" expanded="true" signature="1227:1270" ph="select disco... bill" />
+            <marker date="1504709711000" expanded="true" signature="1646:1693" ph="select name table_status" />
+            <marker date="1504709711000" expanded="true" signature="2107:2169" ph="select sales... accounts_setting" />
+            <marker date="1504709711000" expanded="true" signature="5964:6117" ph="select oi.id... order_items" />
+            <marker date="1504709711000" expanded="true" signature="6312:6513" ph="..." />
+            <marker date="1504709711000" expanded="true" signature="6352:6371" ph="..." />
+            <marker date="1504709711000" expanded="true" signature="6438:6453" ph="..." />
+            <marker date="1504709711000" expanded="true" signature="6454:6513" ph="..." />
+            <marker date="1504709711000" expanded="true" signature="6883:6902" ph="..." />
+            <marker date="1504709711000" expanded="true" signature="6903:6946" ph="..." />
+            <marker date="1504709711000" expanded="true" signature="7081:7204" ph="SELECT a.nam... order_items_addon" />
+            <marker date="1504709711000" expanded="true" signature="7438:7476" ph="..." />
+            <marker date="1504709711000" expanded="true" signature="7477:7947" ph="..." />
+            <marker date="1504709711000" expanded="true" signature="7550:7608" ph="..." />
+            <marker date="1504709711000" expanded="false" signature="7687:7725" ph="..." />
+            <marker date="1504709711000" expanded="false" signature="7822:7880" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoPrintSystem/autoPrintSystem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="68" column="71" lean-forward="false" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
+          <folding>
+            <marker date="1504782655000" expanded="true" signature="3620:3832" ph="SELECT oi.*,... order_items" />
+            <marker date="1504782655000" expanded="true" signature="5154:5362" ph="SELECT oi.*,... order_items" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
